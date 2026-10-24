@@ -30,9 +30,9 @@ Pure white background, each element isolated with no overlap and no background b
 ## Planche 2 — Marco, poses d'action (2 × 2)
 
 ```
-Create a square 2048x2048 character sheet with 4 separate elements in a 2 by 2 grid, all of the SAME character Marco from the reference image. Keep the face, hair, proportions and outfit identical to the reference. Marco is a friendly Italian truck driver: round face, big dark eyes with white highlights, thick dark-brown eyebrows, round nose, olive skin, short wavy dark-brown hair, dark teal work jacket with two orange reflective stripes on each sleeve, grey t-shirt, blue jeans, brown work boots. He wears exactly the same outfit in every case and only ages. Soft 3D claymation style, handmade plasticine clay look, matte clay material with subtle fingerprint texture, soft rounded edges, chunky simplified proportions, big expressive eyes with white highlights, stop-motion animated film feel, soft warm studio lighting, premium 3D animated feature quality, highly detailed.
+Create a square 2048x2048 character sheet with 4 separate elements in a 2 by 2 grid, all of the SAME character Marco from the reference image. Keep the face, hair, proportions, skin tone and outfit EXACTLY identical to the reference sheet: light olive skin (not tan), short wavy (not curly) dark-brown hair, same nose and eyebrows. Marco is a friendly Italian truck driver: round face, big dark eyes with white highlights, thick dark-brown eyebrows, round nose, olive skin, short wavy dark-brown hair, dark teal work jacket with two orange reflective stripes on each sleeve, grey t-shirt, blue jeans, brown work boots. He wears exactly the same outfit in every case and only ages. Soft 3D claymation style, handmade plasticine clay look, matte clay material with subtle fingerprint texture, soft rounded edges, chunky simplified proportions, big expressive eyes with white highlights, stop-motion animated film feel, soft warm studio lighting, premium 3D animated feature quality, highly detailed.
 
-Top left: Marco at age 23, clean-shaven, full body, holding a small calculator in one hand and looking at it with a worried expression, one eyebrow raised.
+Top left: Marco at age 23, clean-shaven, full body, holding a small grey desktop calculator (a flat rectangle with a blank screen and a grid of plain buttons, clearly not a phone) in one hand and looking at it with a worried expression, one eyebrow raised.
 Top right: Marco at age 33, short trimmed dark beard, small belly, full body, sitting alone on a small folding camping chair next to a little glowing camping lantern, head slightly down, tired and lonely expression.
 Bottom left: Marco at age 33, short trimmed dark beard, upper body view, holding a smartphone in front of him with both hands, looking at the screen with a soft emotional smile. The phone screen is a plain softly glowing blank rectangle.
 Bottom right: Marco at age 38, grey-white salt-and-pepper beard, grey temples, heavy eye bags, round belly, upper body three-quarter view, sitting tired with one hand on his forehead, shoulders slumped, sad and thoughtful expression.
@@ -45,7 +45,7 @@ Pure white background, each element isolated with no overlap and no background b
 ## Planche 3 — Camion (2 × 2)
 
 ```
-Create a square 2048x2048 sheet with 4 separate elements in a 2 by 2 grid, all showing the SAME truck model: a red cab-over European semi truck with a white trailer, round headlights, grey bumper, no logos, no text, no readable license plate. Soft 3D claymation style, handmade plasticine clay look, matte clay material with subtle fingerprint texture, soft rounded edges, chunky simplified proportions, big expressive eyes with white highlights, stop-motion animated film feel, soft warm studio lighting, premium 3D animated feature quality, highly detailed.
+Create a square 2048x2048 sheet with 4 separate elements in a 2 by 2 grid, all showing the SAME truck model: a red cab-over European articulated tractor unit pulling a long white semi-trailer (a tractor and a separate full-length trailer, NOT a box truck), three axles, round headlights, grey bumper. The truck is a plain vehicle with NO face, NO eyes, NO mouth, NO cartoon expression; the windshield is a plain blue-grey glass. No logos, no text, no readable license plate. Soft 3D claymation style, handmade plasticine clay look, matte clay material with subtle fingerprint texture, soft rounded edges, chunky simplified proportions, stop-motion animated film feel, soft warm studio lighting, premium 3D animated feature quality, highly detailed.
 
 Top left: the truck new and clean, three-quarter front view, polished.
 Top right: the same truck slightly worn, three-quarter front view, small scratches and mud on the lower body, dusty windshield.
@@ -60,7 +60,7 @@ Pure white background, each element isolated with no overlap and no background b
 ## Planche 4 — Objets — documents et appareils (3 × 2)
 
 ```
-Create a square 2048x2048 sheet with 6 separate objects in a 3 by 2 grid. Soft 3D claymation style, handmade plasticine clay look, matte clay material with subtle fingerprint texture, soft rounded edges, chunky simplified proportions, big expressive eyes with white highlights, stop-motion animated film feel, soft warm studio lighting, premium 3D animated feature quality, highly detailed.
+Create a square 2048x2048 sheet with EXACTLY 6 separate objects in a 3 by 2 grid (3 on top, 3 on the bottom, no more and no duplicates). The objects are plain inanimate props: NO faces, NO eyes, NO mouths, NO cheeks, NO cartoon expressions on any object. Soft 3D claymation style, handmade plasticine clay look, matte clay material with subtle fingerprint texture, soft rounded edges, chunky simplified proportions, stop-motion animated film feel, soft warm studio lighting, premium 3D animated feature quality, highly detailed.
 
 Top left: a rounded pink Italian driver's license card with a plain blank photo area and plain blank lines, a tiny steering wheel icon, floating at a slight angle.
 Top middle: a rigid yellow-and-blue professional driver qualification card with a plain blank photo area and a small truck pictogram, floating at a slight angle.
@@ -77,7 +77,7 @@ Pure white background, each element isolated with no overlap and no background b
 ## Planche 5 — Objets — coûts et décisions (3 × 2)
 
 ```
-Create a square 2048x2048 sheet with 6 separate objects in a 3 by 2 grid. Soft 3D claymation style, handmade plasticine clay look, matte clay material with subtle fingerprint texture, soft rounded edges, chunky simplified proportions, big expressive eyes with white highlights, stop-motion animated film feel, soft warm studio lighting, premium 3D animated feature quality, highly detailed.
+Create a square 2048x2048 sheet with EXACTLY 6 separate objects in a 3 by 2 grid (3 on top, 3 on the bottom, no more and no duplicates). The objects are plain inanimate props: NO faces, NO eyes, NO mouths, NO cheeks, NO cartoon expressions on any object. Soft 3D claymation style, handmade plasticine clay look, matte clay material with subtle fingerprint texture, soft rounded edges, chunky simplified proportions, stop-motion animated film feel, soft warm studio lighting, premium 3D animated feature quality, highly detailed.
 
 Top left: an open brown leather wallet with just one small coin inside, front view.
 Top middle: a diesel pump from a gas station, green and white body, a round blank gauge on the front, a black nozzle hanging on the side, three-quarter view.
@@ -94,7 +94,7 @@ Pure white background, each element isolated with no overlap and no background b
 ## Planche 6 — Fils, argent, téléphone, abonnement (2 × 2)
 
 ```
-Create a square 2048x2048 sheet with 4 separate elements in a 2 by 2 grid. Soft 3D claymation style, handmade plasticine clay look, matte clay material with subtle fingerprint texture, soft rounded edges, chunky simplified proportions, big expressive eyes with white highlights, stop-motion animated film feel, soft warm studio lighting, premium 3D animated feature quality, highly detailed.
+Create a square 2048x2048 sheet with EXACTLY 4 separate elements in a 2 by 2 grid. Only the boy has a face; the other three are plain props with NO faces and NO eyes. Soft 3D claymation style, handmade plasticine clay look, matte clay material with subtle fingerprint texture, soft rounded edges, chunky simplified proportions, stop-motion animated film feel, soft warm studio lighting, premium 3D animated feature quality, highly detailed.
 
 Top left: a cute 7-year-old Italian boy, round face, big dark eyes with white highlights, short wavy dark-brown hair, blue t-shirt, waving happily, upper body view.
 Top right: a modern smartphone, front view, the screen is a plain softly glowing blue rectangle with no icons.
