@@ -1,0 +1,138 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; font-family:'Montserrat',sans-serif; color:#ffffff; }
+  .abs { position:absolute; }
+  .item { position:absolute; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+  .item img.pic { width:100%; height:100%; object-fit:contain; display:block; filter:drop-shadow(0 16px 23px rgba(0,0,0,.45)); }
+  .item img.pic.fade { -webkit-mask-image:linear-gradient(to bottom,#000 78%,transparent 100%); mask-image:linear-gradient(to bottom,#000 78%,transparent 100%); }
+  .num { font-weight:900; line-height:1; letter-spacing:-.02em; text-align:center; white-space:nowrap; text-shadow:0 0 36px rgba(255,255,255,.18); }
+  .sub { font-weight:800; letter-spacing:.08em; text-align:center; color:#cdd3ff; margin-top:7px; }
+  .col1 { display:flex; flex-direction:column; align-items:center; justify-content:center; }
+  .stamp { border:9px solid; border-radius:16px; padding:9px 27px; font-weight:900; letter-spacing:.04em; text-align:center; background:rgba(11,11,46,.55); white-space:nowrap; }
+  .pill { background:#2a2f7a; border:4px solid #6f7bff; border-radius:999px; padding:13px 36px; font-weight:900; letter-spacing:.06em; white-space:nowrap; color:#fff; box-shadow:0 0 36px rgba(111,123,255,.45); }
+  .pill.red { background:#5a1530; border-color:#ff4d6d; box-shadow:0 0 36px rgba(255,77,109,.45); }
+  .old { font-weight:900; font-size:70px; color:#8d92c9; text-decoration:line-through; text-decoration-thickness:6px; }
+  .arrow { font-weight:900; font-size:108px; color:#3ddc97; text-shadow:0 0 32px rgba(61,220,151,.6); }
+  .chip { font-weight:900; font-size:49px; letter-spacing:.14em; padding:11px 40px; border-radius:999px; background:#ff4d6d; color:#fff; box-shadow:0 0 41px rgba(255,77,109,.55); white-space:nowrap; }
+  .ring { position:relative; width:100%; height:100%; }
+  .ring svg { width:100%; height:100%; }
+  .ring-bg { fill:none; stroke:#2a2f7a; stroke-width:16; }
+  .ring-fg { fill:none; stroke:#ffd166; stroke-width:16; stroke-linecap:round; stroke-dasharray:540.4; stroke-dashoffset:540.4; }
+  .ringtxt { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+  .spark { font-size:117px; color:#ffd166; text-shadow:0 0 36px rgba(255,209,102,.8); line-height:1; }
+  .spark.s2 { font-size:86px; }
+  .paper { width:100%; height:100%; background:#f4ecd8; border-radius:20px; padding:40px 47px; box-shadow:0 22px 45px rgba(0,0,0,.5); color:#3b3328; transform-origin:center; }
+  .paper .ph { font-weight:900; font-size:47px; letter-spacing:.12em; margin-bottom:31px; color:#5a4a33; }
+  .paper .pl { height:20px; border-radius:99px; background:#d8cdb2; margin:23px 0; width:100%; }
+  .paper .pl.s { width:68%; }
+  .paper .hl { display:flex; justify-content:space-between; align-items:center; margin:31px 0; padding:18px 23px; border:6px solid #ff4d6d; border-radius:18px; font-weight:800; font-size:36px; }
+  .paper .hl b { font-size:59px; color:#ff4d6d; }
+  .bar { width:100%; height:100%; background:#2a2f7a; border-radius:99px; overflow:hidden; border:4px solid #6f7bff; }
+  .barfill { width:100%; height:100%; background:linear-gradient(90deg,#ffd166,#ff8a4d); transform-origin:left center; }
+  .phone { width:100%; height:100%; background:#1b1d4a; border:13px solid #9aa0c8; border-radius:50px; overflow:hidden; display:flex; align-items:flex-end; justify-content:center; box-shadow:0 0 54px rgba(100,160,255,.45); }
+  .phone .kid { width:132%; max-width:none; margin-bottom:-4%; }
+  .opt { width:100%; height:100%; border-radius:31px; background:rgba(42,47,122,.78); border:5px solid #6f7bff; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:9px; }
+  .opt.gold { background:rgba(90,64,12,.7); border-color:#ffd166; }
+  .opt .otitle { font-weight:900; font-size:56px; letter-spacing:.08em; }
+  .opt img { height:189px; }
+  .opt img.keys { height:198px; }
+  .or { font-weight:900; font-size:49px; letter-spacing:.2em; color:#cdd3ff; text-align:center; }
+  .chart { width:100%; height:100%; display:flex; align-items:flex-end; justify-content:space-around; gap:54px; padding-bottom:9px; }
+  .chart .col { flex:1; height:100%; display:flex; flex-direction:column; justify-content:flex-end; align-items:center; }
+  .chart .b { width:80%; border-radius:23px 23px 0 0; transform-origin:bottom center; }
+  .chart .gr { height:100%; background:linear-gradient(180deg,#5af0b0,#1fa974); }
+  .chart .rd { height:22%; background:linear-gradient(180deg,#ff7a93,#d62d52); }
+  .chart .lbl { margin-top:20px; font-weight:900; font-size:43px; letter-spacing:.08em; }
+  .roadbox { overflow:hidden; }
+  .road { position:absolute; left:0; right:0; top:27px; bottom:27px; background:#14163f; border-top:5px solid #3a3f95; border-bottom:5px solid #3a3f95; }
+  .dash { position:absolute; left:-30%; right:-30%; top:50%; height:9px; background:repeating-linear-gradient(90deg,#ffd166 0 63px,transparent 63px 126px); }
+  .cta { font-weight:900; letter-spacing:.06em; color:#fff; text-shadow:0 4px 9px rgba(120,40,0,.6); text-align:center; white-space:nowrap; }
+  .cap { position:absolute; left:210px; width:1500px; text-align:center; font-weight:900; font-size:58px; line-height:1.18; text-transform:uppercase; letter-spacing:.01em; text-shadow:0 5px 16px rgba(0,0,0,.65); }
+  .cap .k { color:#ff4d6d; }
+</style>
+  <div id="root" data-composition-id="c3" data-width="1920" data-height="1080">
+        <div class="abs clip" id="c3-chip" data-start="0" data-duration="19.34" data-track-index="9" style="left:0;width:1920px;top:42px;height:81px;display:flex;justify-content:center;z-index:20"><div class="chip">ANNO 5</div></div>
+    <div class="item clip " id="c3-b9-i0" data-start="0.0" data-duration="3.42" data-track-index="1" style="left:444px;top:164px;width:307px;height:671px;z-index:2"><img class="pic" id="c3-b9-i0-p" src="assets/img/marco28_full.png" alt=""></div>
+    <div class="item clip " id="c3-b9-i1" data-start="0.0" data-duration="3.42" data-track-index="2" style="left:1136px;top:164px;width:345px;height:270px;z-index:2"><img class="pic" id="c3-b9-i1-p" src="assets/img/patenteCE.png" alt=""></div>
+    <div class="item clip " id="c3-b9-i2" data-start="0.0" data-duration="3.42" data-track-index="3" style="left:987px;top:441px;width:504px;height:394px;z-index:2"><img class="pic" id="c3-b9-i2-p" src="assets/img/truck_new.png" alt=""></div>
+    <div class="cap clip" id="c3-cap9" data-start="0.0" data-duration="3.42" data-track-index="10" style="top:844px;z-index:30">Anno <b class="k">cinque</b>. Patente CE, tratte lunghe.</div>
+    <div class="item clip " id="c3-b10-i0" data-start="3.42" data-duration="3.2" data-track-index="1" style="left:351px;top:164px;width:296px;height:648px;z-index:2"><img class="pic" id="c3-b10-i0-p" src="assets/img/marco28_full.png" alt=""></div>
+    <div class="item clip " id="c3-b10-i1" data-start="3.42" data-duration="3.2" data-track-index="2" style="left:987px;top:196px;width:504px;height:108px;z-index:3"><div class="old">1.500 €</div></div>
+    <div class="item clip " id="c3-b10-i2" data-start="3.42" data-duration="3.2" data-track-index="3" style="left:951px;top:254px;width:576px;height:297px;z-index:3"><div class="num" style="font-size:96px;color:#3ddc97">≈ 2.000 €</div><div class="sub" style="font-size:47px">LORDI AL MESE</div></div>
+    <div class="item clip " id="c3-b10-i3" data-start="3.42" data-duration="3.2" data-track-index="4" style="left:1149px;top:529px;width:180px;height:144px;z-index:3"><div class="arrow">▲</div></div>
+    <div class="cap clip" id="c3-cap10" data-start="3.42" data-duration="3.2" data-track-index="10" style="top:844px;z-index:30;font-size:47px">Il minimo contrattuale sale a circa <b class="k">duemila euro</b> lordi.</div>
+    <div class="item clip " id="c3-b11-i0" data-start="6.62" data-duration="3.72" data-track-index="1" style="left:555px;top:164px;width:810px;height:324px;z-index:3"><div class="num" style="font-size:111px;color:#ffd166">fino a 46 €</div><div class="sub" style="font-size:47px">AL GIORNO · DIARIA</div></div>
+    <div class="item clip " id="c3-b11-i1" data-start="6.62" data-duration="3.72" data-track-index="2" style="left:718px;top:475px;width:485px;height:360px;z-index:2"><img class="pic" id="c3-b11-i1-p" src="assets/img/soldi.png" alt=""></div>
+    <div class="cap clip" id="c3-cap11" data-start="6.62" data-duration="3.72" data-track-index="10" style="top:844px;z-index:30;font-size:47px">Poi arriva la <b class="k">diaria</b>, fino a <b class="k">quarantasei euro</b> al giorno.</div>
+    <div class="item clip " id="c3-b12-i0" data-start="10.34" data-duration="3.3" data-track-index="1" style="left:600px;top:188px;width:720px;height:429px;z-index:2"><img class="pic" id="c3-b12-i0-p" src="assets/img/portafoglio.png" alt=""></div>
+    <div class="item clip " id="c3-b12-i1" data-start="10.34" data-duration="3.3" data-track-index="2" style="left:573px;top:552px;width:774px;height:135px;z-index:3"><div class="stamp" style="font-size:61px;color:#ff4d6d;border-color:#ff4d6d">NON È STIPENDIO</div></div>
+    <div class="cap clip" id="c3-cap12" data-start="10.34" data-duration="3.3" data-track-index="10" style="top:844px;z-index:30"><b class="k">Non è stipendio.</b> Ma ti fa arrivare a fine mese.</div>
+    <div class="item clip " id="c3-b13-i0" data-start="13.64" data-duration="1.72" data-track-index="1" style="left:555px;top:172px;width:810px;height:516px;z-index:2"><img class="pic" id="c3-b13-i0-p" src="assets/img/tachigrafo.png" alt=""></div>
+    <div class="cap clip" id="c3-cap13" data-start="13.64" data-duration="1.72" data-track-index="10" style="top:844px;z-index:30">Impari il <b class="k">tachigrafo</b>.</div>
+    <div class="item clip " id="c3-b14-i0" data-start="15.36" data-duration="2.16" data-track-index="1" style="left:672px;top:164px;width:576px;height:576px;z-index:3"><div class="ring"><svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="86" class="ring-bg"/><circle id="ringfill" cx="100" cy="100" r="86" class="ring-fg" transform="rotate(-90 100 100)"/></svg><div class="ringtxt"><span class="num" style="font-size:189px;color:#ffd166">9</span><span class="sub" style="font-size:54px">ORE</span></div></div></div>
+    <div class="cap clip" id="c3-cap14" data-start="15.36" data-duration="2.16" data-track-index="10" style="top:844px;z-index:30"><b class="k">Nove ore</b> di guida, non una di più.</div>
+    <div class="item clip " id="c3-b15-i0" data-start="17.52" data-duration="1.82" data-track-index="1" style="left:663px;top:164px;width:594px;height:612px;z-index:2"><img class="pic" id="c3-b15-i0-p" src="assets/img/multa.png" alt=""></div>
+    <div class="item clip " id="c3-b15-i1" data-start="17.52" data-duration="1.82" data-track-index="2" style="left:921px;top:588px;width:468px;height:135px;z-index:3"><div class="stamp" style="font-size:72px;color:#ff4d6d;border-color:#ff4d6d">MULTA</div></div>
+    <div class="cap clip" id="c3-cap15" data-start="17.52" data-duration="1.82" data-track-index="10" style="top:844px;z-index:30">Se sgarri, la <b class="k">multa</b> arriva.</div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+        tl.fromTo("#c3-chip",{opacity:0,y:-60},{opacity:1,y:0,duration:.4,ease:"back.out(1.6)"},0);
+    tl.to("#c3-chip",{opacity:0,duration:.2,ease:"power2.in"},19.12);
+    tl.fromTo("#c3-b9-i0",{opacity:0,x:-420,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.42,ease:"power3.out"},0.0);
+    tl.to("#c3-b9-i0",{opacity:0,scale:.94,duration:.16,ease:"power2.in"},3.240);
+    tl.fromTo("#c3-b9-i0-p",{scale:1},{scale:1.05,duration:3.42,ease:"none"},0.0);
+    tl.fromTo("#c3-b9-i1",{opacity:0,x:420,rotation:7},{opacity:1,scale:1,x:0,y:0,rotation:7,duration:.42,ease:"power3.out"},0.0);
+    tl.to("#c3-b9-i1",{opacity:0,scale:.94,duration:.16,ease:"power2.in"},3.240);
+    tl.fromTo("#c3-b9-i1-p",{scale:1},{scale:1.05,duration:3.42,ease:"none"},0.0);
+    tl.fromTo("#c3-b9-i2",{opacity:0,x:420,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.42,ease:"power3.out"},0.2);
+    tl.to("#c3-b9-i2",{opacity:0,scale:.94,duration:.16,ease:"power2.in"},3.240);
+    tl.fromTo("#c3-b9-i2-p",{scale:1},{scale:1.05,duration:3.42,ease:"none"},0.0);
+    tl.fromTo("#c3-cap9",{opacity:0,y:34},{opacity:1,y:0,duration:.22,ease:"power3.out"},0.0);
+    tl.to("#c3-cap9",{opacity:0,duration:.12,ease:"power2.in"},3.280);
+    tl.fromTo("#c3-b10-i0",{opacity:0,x:-420,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.42,ease:"power3.out"},3.42);
+    tl.to("#c3-b10-i0",{opacity:0,scale:.94,duration:.16,ease:"power2.in"},6.440);
+    tl.fromTo("#c3-b10-i0-p",{scale:1},{scale:1.05,duration:3.2,ease:"none"},3.42);
+    tl.fromTo("#c3-b10-i1",{opacity:0,y:-300,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.42,ease:"back.out(1.6)"},3.42);
+    tl.to("#c3-b10-i1",{opacity:0,scale:.94,duration:.16,ease:"power2.in"},6.440);
+    tl.fromTo("#c3-b10-i2",{opacity:0,scale:.55,y:40,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.42,ease:"back.out(1.6)"},3.62);
+    tl.to("#c3-b10-i2",{opacity:0,scale:.94,duration:.16,ease:"power2.in"},6.440);
+    tl.fromTo("#c3-b10-i3",{opacity:0,y:320,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.42,ease:"power3.out"},3.77);
+    tl.to("#c3-b10-i3",{opacity:0,scale:.94,duration:.16,ease:"power2.in"},6.440);
+    tl.fromTo("#c3-cap10",{opacity:0,y:34},{opacity:1,y:0,duration:.22,ease:"power3.out"},3.42);
+    tl.to("#c3-cap10",{opacity:0,duration:.12,ease:"power2.in"},6.480);
+    tl.fromTo("#c3-b11-i0",{opacity:0,scale:.55,y:40,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.42,ease:"back.out(1.6)"},6.62);
+    tl.to("#c3-b11-i0",{opacity:0,scale:.94,duration:.16,ease:"power2.in"},10.160);
+    tl.fromTo("#c3-b11-i1",{opacity:0,y:320,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.42,ease:"power3.out"},6.82);
+    tl.to("#c3-b11-i1",{opacity:0,scale:.94,duration:.16,ease:"power2.in"},10.160);
+    tl.fromTo("#c3-b11-i1-p",{scale:1},{scale:1.05,duration:3.72,ease:"none"},6.62);
+    tl.fromTo("#c3-cap11",{opacity:0,y:34},{opacity:1,y:0,duration:.22,ease:"power3.out"},6.62);
+    tl.to("#c3-cap11",{opacity:0,duration:.12,ease:"power2.in"},10.200);
+    tl.fromTo("#c3-b12-i0",{opacity:0,y:320,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.42,ease:"power3.out"},10.34);
+    tl.to("#c3-b12-i0",{opacity:0,scale:.94,duration:.16,ease:"power2.in"},13.460);
+    tl.fromTo("#c3-b12-i0-p",{scale:1},{scale:1.05,duration:3.3,ease:"none"},10.34);
+    tl.fromTo("#c3-b12-i1",{opacity:0,scale:.55,y:40,rotation:-6},{opacity:1,scale:1,x:0,y:0,rotation:-6,duration:.42,ease:"back.out(1.6)"},10.64);
+    tl.to("#c3-b12-i1",{opacity:0,scale:.94,duration:.16,ease:"power2.in"},13.460);
+    tl.fromTo("#c3-cap12",{opacity:0,y:34},{opacity:1,y:0,duration:.22,ease:"power3.out"},10.34);
+    tl.to("#c3-cap12",{opacity:0,duration:.12,ease:"power2.in"},13.500);
+    tl.fromTo("#c3-b13-i0",{opacity:0,scale:.55,y:40,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.42,ease:"back.out(1.6)"},13.64);
+    tl.to("#c3-b13-i0",{opacity:0,scale:.94,duration:.16,ease:"power2.in"},15.180);
+    tl.fromTo("#c3-b13-i0-p",{scale:1},{scale:1.06,duration:1.72,ease:"none"},13.64);
+    tl.fromTo("#c3-cap13",{opacity:0,y:34},{opacity:1,y:0,duration:.22,ease:"power3.out"},13.64);
+    tl.to("#c3-cap13",{opacity:0,duration:.12,ease:"power2.in"},15.220);
+    tl.fromTo("#c3-b14-i0",{opacity:0,scale:.55,y:40,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.42,ease:"back.out(1.6)"},15.36);
+    tl.to("#c3-b14-i0",{opacity:0,scale:.94,duration:.16,ease:"power2.in"},17.340);
+    tl.fromTo("#c3-cap14",{opacity:0,y:34},{opacity:1,y:0,duration:.22,ease:"power3.out"},15.36);
+    tl.to("#c3-cap14",{opacity:0,duration:.12,ease:"power2.in"},17.380);
+    tl.to("#ringfill",{strokeDashoffset:0,duration:1.66,ease:"power2.out"},15.66);
+    tl.fromTo("#c3-b15-i0",{opacity:0,scale:.5,y:60,rotation:-6},{opacity:1,scale:1,x:0,y:0,rotation:-6,duration:.42,ease:"back.out(1.6)"},17.52);
+    tl.to("#c3-b15-i0",{rotation:-1,duration:.07,yoyo:true,repeat:3,ease:"sine.inOut"},17.970);
+    tl.to("#c3-b15-i0",{opacity:0,scale:.94,duration:.16,ease:"power2.in"},19.160);
+    tl.fromTo("#c3-b15-i0-p",{scale:1},{scale:1.05,duration:1.82,ease:"none"},17.52);
+    tl.fromTo("#c3-b15-i1",{opacity:0,scale:.55,y:40,rotation:-10},{opacity:1,scale:1,x:0,y:0,rotation:-10,duration:.42,ease:"back.out(1.6)"},17.87);
+    tl.to("#c3-b15-i1",{opacity:0,scale:.94,duration:.16,ease:"power2.in"},19.160);
+    tl.fromTo("#c3-cap15",{opacity:0,y:34},{opacity:1,y:0,duration:.22,ease:"power3.out"},17.52);
+    tl.to("#c3-cap15",{opacity:0,duration:.12,ease:"power2.in"},19.200);
+    window.__timelines["c3"] = tl;
+  </script>
+</template>
