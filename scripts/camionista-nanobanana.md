@@ -3,7 +3,7 @@
 Copie-colle chaque bloc **tel quel** dans Nano Banana (image carrée 2048 × 2048). Rien à remplacer.
 
 **Ordre :**
-1. Génère la **planche 1** et vérifie que Marco a bien le même visage dans les 6 cases.
+1. Génère la **planche 1** (version validée : la 2ᵉ, peau olive et cheveux très foncés) et vérifie que Marco a bien le même visage dans les 6 cases.
 2. Pour les planches **2 à 6** : joins la planche 1 comme **image de référence** (surtout la 2, où Marco apparaît).
 3. Si un élément est raté, regénère la planche entière (ne change pas le bloc de style).
 4. Envoie-moi les 6 images ; je les découpe et je les détoure.
@@ -30,7 +30,7 @@ Pure white background, each element isolated with no overlap and no background b
 ## Planche 2 — Marco, poses d'action (2 × 2)
 
 ```
-Create a square 2048x2048 character sheet with 4 separate elements in a 2 by 2 grid, all of the SAME character Marco from the reference image. Keep the face, hair, proportions, skin tone and outfit EXACTLY identical to the reference sheet: light olive skin (not tan), short wavy (not curly) dark-brown hair, same nose and eyebrows. Marco is a friendly Italian truck driver: round face, big dark eyes with white highlights, thick dark-brown eyebrows, round nose, olive skin, short wavy dark-brown hair, dark teal work jacket with two orange reflective stripes on each sleeve, grey t-shirt, blue jeans, brown work boots. He wears exactly the same outfit in every case and only ages. Soft 3D claymation style, handmade plasticine clay look, matte clay material with subtle fingerprint texture, soft rounded edges, chunky simplified proportions, big expressive eyes with white highlights, stop-motion animated film feel, soft warm studio lighting, premium 3D animated feature quality, highly detailed.
+Create a square 2048x2048 character sheet with 4 separate elements in a 2 by 2 grid, all of the SAME character Marco from the reference image. Keep the face, hair, proportions, skin tone and outfit EXACTLY identical to the reference sheet: warm olive skin exactly like the reference, very dark brown short WAVY hair (not curly), same nose, same thick eyebrows, same round face. Marco is a friendly Italian truck driver: round face, big dark eyes with white highlights, thick dark-brown eyebrows, round nose, olive skin, short wavy dark-brown hair, dark teal work jacket with two orange reflective stripes on each sleeve, grey t-shirt, blue jeans, brown work boots. He wears exactly the same outfit in every case and only ages. Soft 3D claymation style, handmade plasticine clay look, matte clay material with subtle fingerprint texture, soft rounded edges, chunky simplified proportions, big expressive eyes with white highlights, stop-motion animated film feel, soft warm studio lighting, premium 3D animated feature quality, highly detailed.
 
 Top left: Marco at age 23, clean-shaven, full body, holding a small grey desktop calculator (a flat rectangle with a blank screen and a grid of plain buttons, clearly not a phone) in one hand and looking at it with a worried expression, one eyebrow raised.
 Top right: Marco at age 33, short trimmed dark beard, small belly, full body, sitting alone on a small folding camping chair next to a little glowing camping lantern, head slightly down, tired and lonely expression.
