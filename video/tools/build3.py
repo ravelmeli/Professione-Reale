@@ -487,7 +487,7 @@ def build_stage(S, prev_end_overlap=True):
     html, js = [], []
     sid = S.id
     html.append(f'<div class="stage clip" id="{sid}-stage" data-start="0" data-duration="{dur}" data-track-index="1"><div class="stage" id="{sid}-cam">')
-    js.append(f'tl.fromTo("#{sid}-cam",{{scale:1,y:0}},{{scale:1.035,y:-12,duration:{dur},ease:"none"}},0);')
+    js.append(f'tl.fromTo("#{sid}-cam",{{scale:1,y:0}},{{scale:1.09,y:-34,duration:{dur},ease:"none"}},0);')
     # connecteurs
     if S.paths:
         html.append(f'<svg class="conn clip" id="{sid}-svg" data-start="0" data-duration="{dur}" data-track-index="2" viewBox="0 0 1080 1920">')
@@ -542,6 +542,16 @@ def build_stage(S, prev_end_overlap=True):
             js.append(f'tl.to("#{iid}",{{opacity:0,scale:.88,filter:"blur(10px)",duration:.28,ease:"power2.in"}},{end_rel - .3:.3f});')
         if it['k'] == 'img' and it['drift']:
             js.append(f'tl.fromTo("#{iid}-p",{{scale:1}},{{scale:{1 + it["drift"]},duration:{d},ease:"none"}},{rel:.3f});')
+        if it['k'] in ('img', 'box') and e != 'none' or it['k'] == 'img':
+            # flottement doux et continu (personnages : respiration ; objets : lévitation)
+            ch = it['k'] == 'img' and it['name'].startswith('marco')
+            per = 2.4 if ch else 3.0 + (__import__("zlib").crc32(iid.encode()) % 7) * .2
+            amp = 10 if ch else 16
+            rot = 1.4 if ch else 3.0
+            tgt = f'#{iid}-p' if it['k'] == 'img' else f'#{iid}'
+            nrep = int(d / per) + 1
+            if it['k'] == 'img':
+                js.append(f'tl.fromTo("{tgt}",{{y:0,rotation:{-rot / 2}}},{{y:{-amp},rotation:{rot / 2},duration:{per:.2f},ease:"sine.inOut",yoyo:true,repeat:{nrep}}},{rel + .45:.3f});')
         # sons et éclats
         snd = it['snd']
         if snd == 'impact': impact_sfx(it['at'])
@@ -714,6 +724,8 @@ stars = ''.join(
 twink = ''.join(f'tl.fromTo("#stars i:nth-child({3 + 7 * j})",{{opacity:.15}},{{opacity:.95,duration:{1.3 + (j % 4) * .45:.2f},yoyo:true,repeat:{int(TOTAL // (1.3 + (j % 4) * .45)) | 1},ease:"sine.inOut"}},{(j * .37) % 2:.2f});\n      '
                 for j in range(14))
 
+pdots = ''.join(f'<i style="left:{(i * 83) % 100}%;top:{20 + (i * 47) % 70}%;width:{6 + i % 4 * 3}px;height:{6 + i % 4 * 3}px"></i>' for i in range(26))
+parts = ''.join(f'tl.fromTo("#parts i:nth-child({k + 1})",{{y:60,opacity:0}},{{y:-{260 + (k % 5) * 70},opacity:{.35 + (k % 3) * .15:.2f},duration:{5 + (k % 6) * .9:.1f},ease:"sine.inOut",yoyo:true,repeat:{int(TOTAL // (5 + (k % 6) * .9)) + 1}}},{(k * .41) % 3:.2f});\n      ' for k in range(26))
 index = f"""<!doctype html>
 <html lang="it">
   <head>
@@ -733,6 +745,8 @@ index = f"""<!doctype html>
         background-size:90px 90px; -webkit-mask-image:linear-gradient(180deg,transparent 4%,#000 38%,#000 76%,transparent 100%); mask-image:linear-gradient(180deg,transparent 4%,#000 38%,#000 76%,transparent 100%); }}
       #stars {{ position:absolute; inset:0; }}
       #stars i {{ position:absolute; border-radius:50%; background:#fff; }}
+      #parts {{ position:absolute; inset:0; }}
+      #parts i {{ position:absolute; border-radius:50%; background:radial-gradient(circle,rgba(190,200,255,.95),rgba(120,140,255,0) 70%); }}
       #vig {{ position:absolute; inset:0; background:radial-gradient(ellipse 85% 70% at 50% 45%, transparent 55%, rgba(4,4,24,.55) 100%); }}
     </style>
   </head>
@@ -742,6 +756,7 @@ index = f"""<!doctype html>
       <div id="b1" class="blob"></div><div id="b2" class="blob"></div><div id="b3" class="blob"></div>
       <div id="grid"></div>
       <div id="stars">{stars}</div>
+      <div id="parts">{pdots}</div>
       <div id="vig"></div>
 {chr(10).join(hosts)}
       <audio id="voce" src="assets/voce.wav" data-start="0" data-duration="{TOTAL}" data-track-index="0" data-volume="1"></audio>
@@ -750,10 +765,11 @@ index = f"""<!doctype html>
     </div>
     <script>
       const tl = gsap.timeline({{ paused: true }});
-      tl.fromTo("#b1", {{ x: 0, y: 0, scale: 1 }}, {{ x: 190, y: 140, scale: 1.12, duration: {TOTAL}, ease: "sine.inOut" }}, 0);
-      tl.fromTo("#b2", {{ x: 0, y: 0, scale: 1 }}, {{ x: -170, y: -90, scale: 1.1, duration: {TOTAL}, ease: "sine.inOut" }}, 0);
-      tl.fromTo("#b3", {{ x: 0, y: 0 }}, {{ x: -220, y: 160, duration: {TOTAL}, ease: "sine.inOut" }}, 0);
-      tl.fromTo("#grid", {{ y: 0 }}, {{ y: 90, duration: {TOTAL}, ease: "none" }}, 0);
+      tl.fromTo("#b1", {{ x: -120, y: -60, scale: 1 }}, {{ x: 230, y: 190, scale: 1.18, duration: 5.2, ease: "sine.inOut", yoyo: true, repeat: 19 }}, 0);
+      tl.fromTo("#b2", {{ x: 140, y: 70, scale: 1 }}, {{ x: -260, y: -150, scale: 1.16, duration: 6.4, ease: "sine.inOut", yoyo: true, repeat: 15 }}, 0);
+      tl.fromTo("#b3", {{ x: 160, y: -120 }}, {{ x: -300, y: 230, duration: 7.3, ease: "sine.inOut", yoyo: true, repeat: 13 }}, 0);
+      tl.fromTo("#grid", {{ y: 0 }}, {{ y: 90, duration: 4, ease: "none", repeat: 24 }}, 0);
+      {parts}
       {twink}
       window.__timelines["main"] = tl;
     </script>

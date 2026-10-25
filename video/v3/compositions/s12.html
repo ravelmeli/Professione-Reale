@@ -94,16 +94,18 @@
   </div>
   <script>
     const tl = gsap.timeline({ paused: true });
-        tl.fromTo("#s12-cam",{scale:1,y:0},{scale:1.035,y:-12,duration:6.64,ease:"none"},0);
+        tl.fromTo("#s12-cam",{scale:1,y:0},{scale:1.09,y:-34,duration:6.64,ease:"none"},0);
     tl.fromTo("#s12-c4-d",{opacity:0,scale:.2,transformOrigin:"50% 50%"},{opacity:1,scale:1,duration:.25,ease:"back.out(2)"},3.580);
     tl.fromTo("#s12-c4",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.55,ease:"power2.inOut"},3.080);
     tl.fromTo("#s12-c8-d",{opacity:0,scale:.2,transformOrigin:"50% 50%"},{opacity:1,scale:1,duration:.25,ease:"back.out(2)"},5.960);
     tl.fromTo("#s12-c8",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.55,ease:"power2.inOut"},5.460);
     tl.fromTo("#s12-i1",{opacity:0,x:-340,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"expo.out"},0.000);
     tl.fromTo("#s12-i1-p",{scale:1},{scale:1.03,duration:6.64,ease:"none"},0.000);
+    tl.fromTo("#s12-i1-p",{y:0,rotation:-0.7},{y:-10,rotation:0.7,duration:2.40,ease:"sine.inOut",yoyo:true,repeat:3},0.450);
     tl.fromTo("#s12-i2",{opacity:0,x:340,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"expo.out"},1.720);
     tl.to("#s12-i2",{opacity:0,scale:.88,filter:"blur(10px)",duration:.28,ease:"power2.in"},2.400);
     tl.fromTo("#s12-i2-p",{scale:1},{scale:1.03,duration:0.98,ease:"none"},1.720);
+    tl.fromTo("#s12-i2-p",{y:0,rotation:-1.5},{y:-16,rotation:1.5,duration:4.00,ease:"sine.inOut",yoyo:true,repeat:1},2.170);
     tl.fromTo("#s12-b3",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},3.280);
     tl.fromTo("#s12-b5",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},3.780);
     tl.fromTo("#s12-b6",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},4.220);

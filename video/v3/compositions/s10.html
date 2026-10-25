@@ -90,7 +90,7 @@
   </div>
   <script>
     const tl = gsap.timeline({ paused: true });
-        tl.fromTo("#s10-cam",{scale:1,y:0},{scale:1.035,y:-12,duration:8.94,ease:"none"},0);
+        tl.fromTo("#s10-cam",{scale:1,y:0},{scale:1.09,y:-34,duration:8.94,ease:"none"},0);
     tl.fromTo("#s10-b1",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},0.000);
     tl.to("#s10-b1",{opacity:0,scale:.88,filter:"blur(10px)",duration:.28,ease:"power2.in"},3.400);
     tl.fromTo("#s10-n2",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},1.340);
@@ -99,9 +99,11 @@
     tl.to("#s10-b3",{opacity:0,scale:.88,filter:"blur(10px)",duration:.28,ease:"power2.in"},3.400);
     tl.fromTo("#s10-i4",{opacity:0,y:280,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"expo.out"},3.700);
     tl.fromTo("#s10-i4-p",{scale:1},{scale:1.03,duration:5.24,ease:"none"},3.700);
+    tl.fromTo("#s10-i4-p",{y:0,rotation:-0.7},{y:-10,rotation:0.7,duration:2.40,ease:"sine.inOut",yoyo:true,repeat:3},4.150);
     tl.fromTo("#s10-n5",{opacity:0,x:-340,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"expo.out"},4.440);
     tl.fromTo("#s10-i6",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},6.300);
     tl.fromTo("#s10-i6-p",{scale:1},{scale:1.03,duration:2.64,ease:"none"},6.300);
+    tl.fromTo("#s10-i6-p",{y:0,rotation:-1.5},{y:-16,rotation:1.5,duration:4.20,ease:"sine.inOut",yoyo:true,repeat:1},6.750);
     tl.fromTo("#s10-b7",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},6.500);
     tl.fromTo("#s10-b8",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},7.680);
     tl.fromTo("#s10-fl6055",{opacity:.8,scale:.4},{opacity:0,scale:1.6,duration:.55,ease:"expo.out"},6.620);

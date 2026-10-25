@@ -89,10 +89,11 @@
   </div>
   <script>
     const tl = gsap.timeline({ paused: true });
-        tl.fromTo("#s7-cam",{scale:1,y:0},{scale:1.035,y:-12,duration:6.02,ease:"none"},0);
+        tl.fromTo("#s7-cam",{scale:1,y:0},{scale:1.09,y:-34,duration:6.02,ease:"none"},0);
     tl.fromTo("#s7-i1",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},0.000);
     tl.to("#s7-i1",{opacity:0,scale:.88,filter:"blur(10px)",duration:.28,ease:"power2.in"},1.720);
     tl.fromTo("#s7-i1-p",{scale:1},{scale:1.05,duration:2.02,ease:"none"},0.000);
+    tl.fromTo("#s7-i1-p",{y:0,rotation:-1.5},{y:-16,rotation:1.5,duration:3.00,ease:"sine.inOut",yoyo:true,repeat:1},0.450);
     tl.fromTo("#s7-b2",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},0.960);
     tl.to("#s7-b2",{opacity:0,scale:.88,filter:"blur(10px)",duration:.28,ease:"power2.in"},1.720);
     tl.fromTo("#s7-b3",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},2.020);
@@ -102,6 +103,7 @@
     tl.fromTo("#s7-i5",{opacity:0,scale:.5,y:60,rotation:-6},{opacity:1,scale:1,x:0,y:0,rotation:-6,duration:.5,ease:"back.out(1.5)"},5.160);
     tl.to("#s7-i5",{rotation:-1,duration:.07,yoyo:true,repeat:3,ease:"sine.inOut"},5.660);
     tl.fromTo("#s7-i5-p",{scale:1},{scale:1.03,duration:0.86,ease:"none"},5.160);
+    tl.fromTo("#s7-i5-p",{y:0,rotation:-1.5},{y:-16,rotation:1.5,duration:3.20,ease:"sine.inOut",yoyo:true,repeat:1},5.610);
     tl.fromTo("#s7-b6",{opacity:0,scale:.55,y:34,rotation:-10},{opacity:1,scale:1,x:0,y:0,rotation:-10,duration:.5,ease:"back.out(1.5)"},5.440);
     tl.fromTo("#s7-fl4126",{opacity:.8,scale:.4},{opacity:0,scale:1.6,duration:.55,ease:"expo.out"},5.560);
     (function(){var o={v:0},el=document.getElementById("s7-ringnum");tl.fromTo(o,{v:0},{v:9,duration:1.4,ease:"power2.out",onUpdate:function(){var n=Math.round(o.v),s=String(n).replace(/\B(?=(\d{3})+(?!\d))/g,".");el.textContent='{n}'.replace("{n}",s);}},2.120);})();

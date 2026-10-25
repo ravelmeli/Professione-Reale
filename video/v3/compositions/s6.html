@@ -90,9 +90,10 @@
   </div>
   <script>
     const tl = gsap.timeline({ paused: true });
-        tl.fromTo("#s6-cam",{scale:1,y:0},{scale:1.035,y:-12,duration:7.34,ease:"none"},0);
+        tl.fromTo("#s6-cam",{scale:1,y:0},{scale:1.09,y:-34,duration:7.34,ease:"none"},0);
     tl.set("#s6-i1",{rotation:0},0.000);
     tl.fromTo("#s6-i1-p",{scale:1},{scale:1.03,duration:7.34,ease:"none"},0.000);
+    tl.fromTo("#s6-i1-p",{y:0,rotation:-0.7},{y:-10,rotation:0.7,duration:2.40,ease:"sine.inOut",yoyo:true,repeat:4},0.450);
     tl.fromTo("#s6-b2",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},0.000);
     tl.to("#s6-b2",{opacity:0,scale:.88,filter:"blur(10px)",duration:.28,ease:"power2.in"},3.820);
     tl.fromTo("#s6-p3",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},0.520);
@@ -100,8 +101,10 @@
     tl.fromTo("#s6-i4",{opacity:0,y:280,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"expo.out"},1.820);
     tl.to("#s6-i4",{opacity:0,scale:.88,filter:"blur(10px)",duration:.28,ease:"power2.in"},3.820);
     tl.fromTo("#s6-i4-p",{scale:1},{scale:1.03,duration:2.3,ease:"none"},1.820);
+    tl.fromTo("#s6-i4-p",{y:0,rotation:-1.5},{y:-16,rotation:1.5,duration:3.60,ease:"sine.inOut",yoyo:true,repeat:1},2.270);
     tl.fromTo("#s6-i5",{opacity:0,y:280,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"expo.out"},4.120);
     tl.fromTo("#s6-i5-p",{scale:1},{scale:1.03,duration:3.22,ease:"none"},4.120);
+    tl.fromTo("#s6-i5-p",{y:0,rotation:-1.5},{y:-16,rotation:1.5,duration:3.20,ease:"sine.inOut",yoyo:true,repeat:2},4.570);
     tl.fromTo("#s6-b6",{opacity:0,scale:.55,y:34,rotation:-6},{opacity:1,scale:1,x:0,y:0,rotation:-6,duration:.5,ease:"back.out(1.5)"},4.460);
     tl.fromTo("#s6-b7",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},4.760);
     tl.fromTo("#s6-fl3326",{opacity:.8,scale:.4},{opacity:0,scale:1.6,duration:.55,ease:"expo.out"},4.580);

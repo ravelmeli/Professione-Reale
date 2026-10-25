@@ -92,19 +92,22 @@
   </div>
   <script>
     const tl = gsap.timeline({ paused: true });
-        tl.fromTo("#s5-cam",{scale:1,y:0},{scale:1.035,y:-12,duration:6.94,ease:"none"},0);
+        tl.fromTo("#s5-cam",{scale:1,y:0},{scale:1.09,y:-34,duration:6.94,ease:"none"},0);
     tl.fromTo("#s5-c3-d",{opacity:0,scale:.2,transformOrigin:"50% 50%"},{opacity:1,scale:1,duration:.25,ease:"back.out(2)"},2.960);
     tl.fromTo("#s5-c3",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.55,ease:"power2.inOut"},2.460);
     tl.to("#s5-c3",{opacity:0,duration:.28,ease:"power2.in"},3.820);
     tl.to("#s5-c3-d",{opacity:0,duration:.28,ease:"power2.in"},3.820);
     tl.fromTo("#s5-i1",{opacity:0,x:-340,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"expo.out"},0.000);
     tl.fromTo("#s5-i1-p",{scale:1},{scale:1.03,duration:6.94,ease:"none"},0.000);
+    tl.fromTo("#s5-i1-p",{y:0,rotation:-0.7},{y:-10,rotation:0.7,duration:2.40,ease:"sine.inOut",yoyo:true,repeat:3},0.450);
     tl.fromTo("#s5-i2",{opacity:0,x:340,rotation:6},{opacity:1,scale:1,x:0,y:0,rotation:6,duration:.5,ease:"expo.out"},2.260);
     tl.to("#s5-i2",{opacity:0,scale:.88,filter:"blur(10px)",duration:.28,ease:"power2.in"},3.820);
     tl.fromTo("#s5-i2-p",{scale:1},{scale:1.03,duration:1.86,ease:"none"},2.260);
+    tl.fromTo("#s5-i2-p",{y:0,rotation:-1.5},{y:-16,rotation:1.5,duration:3.40,ease:"sine.inOut",yoyo:true,repeat:1},2.710);
     tl.fromTo("#s5-i4",{opacity:0,x:340,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"expo.out"},2.540);
     tl.to("#s5-i4",{opacity:0,scale:.88,filter:"blur(10px)",duration:.28,ease:"power2.in"},3.820);
     tl.fromTo("#s5-i4-p",{scale:1},{scale:1.03,duration:1.58,ease:"none"},2.540);
+    tl.fromTo("#s5-i4-p",{y:0,rotation:-1.5},{y:-16,rotation:1.5,duration:3.00,ease:"sine.inOut",yoyo:true,repeat:1},2.990);
     tl.fromTo("#s5-p5",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},4.120);
     tl.fromTo("#s5-b6",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},6.560);
     tl.fromTo("#s5-b7",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},6.560);
