@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * { margin:0; padding:0; box-sizing:border-box; }
+      html, body { width:1080px; height:1920px; overflow:hidden; background:#080826; }
+      #bg { position:absolute; inset:0; background:linear-gradient(180deg,#0b0a33 0%,#12104d 50%,#08183f 100%); }
+      .blob { position:absolute; border-radius:50%; }
+      #b1 { left:-420px; top:-300px; width:1300px; height:1300px; background:radial-gradient(circle,rgba(130,70,210,.48),transparent 66%); }
+      #b2 { left:-200px; top:1020px; width:1500px; height:1100px; background:radial-gradient(circle,rgba(20,205,185,.48),transparent 66%); }
+      #b3 { left:520px; top:520px; width:1000px; height:1000px; background:radial-gradient(circle,rgba(60,90,230,.38),transparent 66%); }
+      #grid { position:absolute; inset:0; opacity:.5;
+        background-image:linear-gradient(rgba(140,150,255,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(140,150,255,.07) 1px,transparent 1px);
+        background-size:90px 90px; -webkit-mask-image:linear-gradient(180deg,transparent 5%,#000 40%,#000 75%,transparent 100%); mask-image:linear-gradient(180deg,transparent 5%,#000 40%,#000 75%,transparent 100%); }
+      #stars { position:absolute; inset:0; }
+      #stars i { position:absolute; border-radius:50%; background:#fff; }
+      #vig { position:absolute; inset:0; background:radial-gradient(ellipse 85% 70% at 50% 45%, transparent 55%, rgba(4,4,24,.55) 100%); }
+    </style>
+  </head>
+  <body>
+    <div id="main" data-composition-id="main" data-start="0" data-duration="98.7" data-width="1080" data-height="1920" style="position:absolute;inset:0;font-family:Montserrat,sans-serif">
+      <div id="bg"></div>
+      <div id="b1" class="blob"></div><div id="b2" class="blob"></div><div id="b3" class="blob"></div>
+      <div id="grid"></div>
+      <div id="stars"><i style="left:0%;top:0%;width:2px;height:2px;opacity:0.25"></i><i style="left:37%;top:71%;width:3px;height:3px;opacity:0.35"></i><i style="left:74%;top:42%;width:4px;height:4px;opacity:0.45"></i><i style="left:11%;top:13%;width:2px;height:2px;opacity:0.55"></i><i style="left:48%;top:84%;width:3px;height:3px;opacity:0.65"></i><i style="left:85%;top:55%;width:4px;height:4px;opacity:0.25"></i><i style="left:22%;top:26%;width:2px;height:2px;opacity:0.35"></i><i style="left:59%;top:97%;width:3px;height:3px;opacity:0.45"></i><i style="left:96%;top:68%;width:4px;height:4px;opacity:0.55"></i><i style="left:33%;top:39%;width:2px;height:2px;opacity:0.65"></i><i style="left:70%;top:10%;width:3px;height:3px;opacity:0.25"></i><i style="left:7%;top:81%;width:4px;height:4px;opacity:0.35"></i><i style="left:44%;top:52%;width:2px;height:2px;opacity:0.45"></i><i style="left:81%;top:23%;width:3px;height:3px;opacity:0.55"></i><i style="left:18%;top:94%;width:4px;height:4px;opacity:0.65"></i><i style="left:55%;top:65%;width:2px;height:2px;opacity:0.25"></i><i style="left:92%;top:36%;width:3px;height:3px;opacity:0.35"></i><i style="left:29%;top:7%;width:4px;height:4px;opacity:0.45"></i><i style="left:66%;top:78%;width:2px;height:2px;opacity:0.55"></i><i style="left:3%;top:49%;width:3px;height:3px;opacity:0.65"></i><i style="left:40%;top:20%;width:4px;height:4px;opacity:0.25"></i><i style="left:77%;top:91%;width:2px;height:2px;opacity:0.35"></i><i style="left:14%;top:62%;width:3px;height:3px;opacity:0.45"></i><i style="left:51%;top:33%;width:4px;height:4px;opacity:0.55"></i><i style="left:88%;top:4%;width:2px;height:2px;opacity:0.65"></i><i style="left:25%;top:75%;width:3px;height:3px;opacity:0.25"></i><i style="left:62%;top:46%;width:4px;height:4px;opacity:0.35"></i><i style="left:99%;top:17%;width:2px;height:2px;opacity:0.45"></i><i style="left:36%;top:88%;width:3px;height:3px;opacity:0.55"></i><i style="left:73%;top:59%;width:4px;height:4px;opacity:0.65"></i><i style="left:10%;top:30%;width:2px;height:2px;opacity:0.25"></i><i style="left:47%;top:1%;width:3px;height:3px;opacity:0.35"></i><i style="left:84%;top:72%;width:4px;height:4px;opacity:0.45"></i><i style="left:21%;top:43%;width:2px;height:2px;opacity:0.55"></i><i style="left:58%;top:14%;width:3px;height:3px;opacity:0.65"></i><i style="left:95%;top:85%;width:4px;height:4px;opacity:0.25"></i><i style="left:32%;top:56%;width:2px;height:2px;opacity:0.35"></i><i style="left:69%;top:27%;width:3px;height:3px;opacity:0.45"></i><i style="left:6%;top:98%;width:4px;height:4px;opacity:0.55"></i><i style="left:43%;top:69%;width:2px;height:2px;opacity:0.65"></i><i style="left:80%;top:40%;width:3px;height:3px;opacity:0.25"></i><i style="left:17%;top:11%;width:4px;height:4px;opacity:0.35"></i><i style="left:54%;top:82%;width:2px;height:2px;opacity:0.45"></i><i style="left:91%;top:53%;width:3px;height:3px;opacity:0.55"></i><i style="left:28%;top:24%;width:4px;height:4px;opacity:0.65"></i><i style="left:65%;top:95%;width:2px;height:2px;opacity:0.25"></i><i style="left:2%;top:66%;width:3px;height:3px;opacity:0.35"></i><i style="left:39%;top:37%;width:4px;height:4px;opacity:0.45"></i><i style="left:76%;top:8%;width:2px;height:2px;opacity:0.55"></i><i style="left:13%;top:79%;width:3px;height:3px;opacity:0.65"></i><i style="left:50%;top:50%;width:4px;height:4px;opacity:0.25"></i><i style="left:87%;top:21%;width:2px;height:2px;opacity:0.35"></i><i style="left:24%;top:92%;width:3px;height:3px;opacity:0.45"></i><i style="left:61%;top:63%;width:4px;height:4px;opacity:0.55"></i><i style="left:98%;top:34%;width:2px;height:2px;opacity:0.65"></i><i style="left:35%;top:5%;width:3px;height:3px;opacity:0.25"></i><i style="left:72%;top:76%;width:4px;height:4px;opacity:0.35"></i><i style="left:9%;top:47%;width:2px;height:2px;opacity:0.45"></i><i style="left:46%;top:18%;width:3px;height:3px;opacity:0.55"></i><i style="left:83%;top:89%;width:4px;height:4px;opacity:0.65"></i><i style="left:20%;top:60%;width:2px;height:2px;opacity:0.25"></i><i style="left:57%;top:31%;width:3px;height:3px;opacity:0.35"></i><i style="left:94%;top:2%;width:4px;height:4px;opacity:0.45"></i><i style="left:31%;top:73%;width:2px;height:2px;opacity:0.55"></i><i style="left:68%;top:44%;width:3px;height:3px;opacity:0.65"></i><i style="left:5%;top:15%;width:4px;height:4px;opacity:0.25"></i><i style="left:42%;top:86%;width:2px;height:2px;opacity:0.35"></i><i style="left:79%;top:57%;width:3px;height:3px;opacity:0.45"></i><i style="left:16%;top:28%;width:4px;height:4px;opacity:0.55"></i><i style="left:53%;top:99%;width:2px;height:2px;opacity:0.65"></i><i style="left:90%;top:70%;width:3px;height:3px;opacity:0.25"></i><i style="left:27%;top:41%;width:4px;height:4px;opacity:0.35"></i><i style="left:64%;top:12%;width:2px;height:2px;opacity:0.45"></i><i style="left:1%;top:83%;width:3px;height:3px;opacity:0.55"></i><i style="left:38%;top:54%;width:4px;height:4px;opacity:0.65"></i><i style="left:75%;top:25%;width:2px;height:2px;opacity:0.25"></i><i style="left:12%;top:96%;width:3px;height:3px;opacity:0.35"></i><i style="left:49%;top:67%;width:4px;height:4px;opacity:0.45"></i><i style="left:86%;top:38%;width:2px;height:2px;opacity:0.55"></i><i style="left:23%;top:9%;width:3px;height:3px;opacity:0.65"></i><i style="left:60%;top:80%;width:4px;height:4px;opacity:0.25"></i><i style="left:97%;top:51%;width:2px;height:2px;opacity:0.35"></i><i style="left:34%;top:22%;width:3px;height:3px;opacity:0.45"></i><i style="left:71%;top:93%;width:4px;height:4px;opacity:0.55"></i><i style="left:8%;top:64%;width:2px;height:2px;opacity:0.65"></i><i style="left:45%;top:35%;width:3px;height:3px;opacity:0.25"></i><i style="left:82%;top:6%;width:4px;height:4px;opacity:0.35"></i><i style="left:19%;top:77%;width:2px;height:2px;opacity:0.45"></i><i style="left:56%;top:48%;width:3px;height:3px;opacity:0.55"></i><i style="left:93%;top:19%;width:4px;height:4px;opacity:0.65"></i></div>
+      <div id="vig"></div>
+    <div id="c1" class="clip" data-composition-id="c1" data-composition-src="compositions/c1.html" data-start="0.000" data-duration="10.54" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+    <div id="c2" class="clip" data-composition-id="c2" data-composition-src="compositions/c2.html" data-start="10.540" data-duration="11.52" data-track-index="3" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+    <div id="c3" class="clip" data-composition-id="c3" data-composition-src="compositions/c3.html" data-start="22.060" data-duration="19.34" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+    <div id="c4" class="clip" data-composition-id="c4" data-composition-src="compositions/c4.html" data-start="41.400" data-duration="23.66" data-track-index="3" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+    <div id="c5" class="clip" data-composition-id="c5" data-composition-src="compositions/c5.html" data-start="65.060" data-duration="19.6" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+    <div id="c6" class="clip" data-composition-id="c6" data-composition-src="compositions/c6.html" data-start="84.660" data-duration="13.86" data-track-index="3" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <audio id="voce" src="assets/voce.wav" data-start="0" data-duration="98.7" data-track-index="0" data-volume="1"></audio>
+      <audio id="sfx0" src="assets/sfx/whoosh-short.mp3" data-start="1.620" data-duration="0.57" data-track-index="20" data-volume="0.33"></audio>
+      <audio id="sfx1" src="assets/sfx/pop.mp3" data-start="2.000" data-duration="0.72" data-track-index="21" data-volume="0.33"></audio>
+      <audio id="sfx2" src="assets/sfx/whoosh-short.mp3" data-start="4.260" data-duration="0.57" data-track-index="22" data-volume="0.33"></audio>
+      <audio id="sfx3" src="assets/sfx/whoosh.mp3" data-start="5.260" data-duration="0.57" data-track-index="23" data-volume="0.33"></audio>
+      <audio id="sfx4" src="assets/sfx/pop.mp3" data-start="7.880" data-duration="0.72" data-track-index="20" data-volume="0.33"></audio>
+      <audio id="sfx5" src="assets/sfx/whoosh-short.mp3" data-start="7.880" data-duration="0.57" data-track-index="21" data-volume="0.33"></audio>
+      <audio id="sfx6" src="assets/sfx/whoosh-short.mp3" data-start="9.300" data-duration="0.57" data-track-index="22" data-volume="0.33"></audio>
+      <audio id="sfx7" src="assets/sfx/pop.mp3" data-start="9.580" data-duration="0.72" data-track-index="23" data-volume="0.33"></audio>
+      <audio id="sfx8" src="assets/sfx/whoosh-short.mp3" data-start="10.520" data-duration="0.57" data-track-index="20" data-volume="0.33"></audio>
+      <audio id="sfx9" src="assets/sfx/pop.mp3" data-start="10.560" data-duration="0.72" data-track-index="21" data-volume="0.35"></audio>
+      <audio id="sfx10" src="assets/sfx/pop.mp3" data-start="14.220" data-duration="0.72" data-track-index="22" data-volume="0.33"></audio>
+      <audio id="sfx11" src="assets/sfx/pop.mp3" data-start="15.120" data-duration="0.72" data-track-index="23" data-volume="0.33"></audio>
+      <audio id="sfx12" src="assets/sfx/whoosh-short.mp3" data-start="16.560" data-duration="0.57" data-track-index="20" data-volume="0.33"></audio>
+      <audio id="sfx13" src="assets/sfx/pop.mp3" data-start="17.900" data-duration="0.72" data-track-index="21" data-volume="0.33"></audio>
+      <audio id="sfx14" src="assets/sfx/click-soft.mp3" data-start="18.560" data-duration="0.37" data-track-index="22" data-volume="0.33"></audio>
+      <audio id="sfx15" src="assets/sfx/pop.mp3" data-start="18.560" data-duration="0.72" data-track-index="23" data-volume="0.33"></audio>
+      <audio id="sfx16" src="assets/sfx/pop.mp3" data-start="20.200" data-duration="0.72" data-track-index="20" data-volume="0.33"></audio>
+      <audio id="sfx17" src="assets/sfx/whoosh-short.mp3" data-start="22.040" data-duration="0.57" data-track-index="21" data-volume="0.33"></audio>
+      <audio id="sfx18" src="assets/sfx/pop.mp3" data-start="22.080" data-duration="0.72" data-track-index="22" data-volume="0.35"></audio>
+      <audio id="sfx19" src="assets/sfx/whoosh-short.mp3" data-start="24.300" data-duration="0.57" data-track-index="23" data-volume="0.33"></audio>
+      <audio id="sfx20" src="assets/sfx/whoosh.mp3" data-start="24.580" data-duration="0.57" data-track-index="20" data-volume="0.33"></audio>
+      <audio id="sfx21" src="assets/sfx/pop.mp3" data-start="26.540" data-duration="0.72" data-track-index="21" data-volume="0.33"></audio>
+      <audio id="sfx22" src="assets/sfx/pop.mp3" data-start="28.660" data-duration="0.72" data-track-index="22" data-volume="0.33"></audio>
+      <audio id="sfx23" src="assets/sfx/pop.mp3" data-start="29.400" data-duration="0.72" data-track-index="23" data-volume="0.33"></audio>
+      <audio id="sfx24" src="assets/sfx/pop.mp3" data-start="30.480" data-duration="0.72" data-track-index="20" data-volume="0.33"></audio>
+      <audio id="sfx25" src="assets/sfx/impact-bass-1.mp3" data-start="33.120" data-duration="2.12" data-track-index="21" data-volume="0.5"></audio>
+      <audio id="sfx26" src="assets/sfx/pop.mp3" data-start="36.600" data-duration="0.72" data-track-index="22" data-volume="0.33"></audio>
+      <audio id="sfx27" src="assets/sfx/pop.mp3" data-start="37.400" data-duration="0.72" data-track-index="23" data-volume="0.33"></audio>
+      <audio id="sfx28" src="assets/sfx/pop.mp3" data-start="37.700" data-duration="0.72" data-track-index="20" data-volume="0.33"></audio>
+      <audio id="sfx29" src="assets/sfx/error.mp3" data-start="39.560" data-duration="1.62" data-track-index="21" data-volume="0.4"></audio>
+      <audio id="sfx30" src="assets/sfx/impact-bass-1.mp3" data-start="40.580" data-duration="2.12" data-track-index="22" data-volume="0.5"></audio>
+      <audio id="sfx31" src="assets/sfx/whoosh-short.mp3" data-start="41.380" data-duration="0.57" data-track-index="23" data-volume="0.33"></audio>
+      <audio id="sfx32" src="assets/sfx/pop.mp3" data-start="41.420" data-duration="0.72" data-track-index="20" data-volume="0.35"></audio>
+      <audio id="sfx33" src="assets/sfx/pop.mp3" data-start="44.840" data-duration="0.72" data-track-index="21" data-volume="0.33"></audio>
+      <audio id="sfx34" src="assets/sfx/pop.mp3" data-start="48.160" data-duration="0.72" data-track-index="22" data-volume="0.33"></audio>
+      <audio id="sfx35" src="assets/sfx/pop.mp3" data-start="48.540" data-duration="0.72" data-track-index="23" data-volume="0.33"></audio>
+      <audio id="sfx36" src="assets/sfx/pop.mp3" data-start="49.340" data-duration="0.72" data-track-index="20" data-volume="0.33"></audio>
+      <audio id="sfx37" src="assets/sfx/sparkle.mp3" data-start="50.780" data-duration="1.8" data-track-index="21" data-volume="0.33"></audio>
+      <audio id="sfx38" src="assets/sfx/whoosh-short.mp3" data-start="51.580" data-duration="0.57" data-track-index="22" data-volume="0.33"></audio>
+      <audio id="sfx39" src="assets/sfx/pop.mp3" data-start="53.920" data-duration="0.72" data-track-index="23" data-volume="0.33"></audio>
+      <audio id="sfx40" src="assets/sfx/pop.mp3" data-start="55.260" data-duration="0.72" data-track-index="20" data-volume="0.33"></audio>
+      <audio id="sfx41" src="assets/sfx/pop.mp3" data-start="58.360" data-duration="0.72" data-track-index="21" data-volume="0.33"></audio>
+      <audio id="sfx42" src="assets/sfx/pop.mp3" data-start="60.140" data-duration="0.72" data-track-index="22" data-volume="0.33"></audio>
+      <audio id="sfx43" src="assets/sfx/pop.mp3" data-start="61.600" data-duration="0.72" data-track-index="23" data-volume="0.33"></audio>
+      <audio id="sfx44" src="assets/sfx/whoosh-short.mp3" data-start="62.540" data-duration="0.57" data-track-index="20" data-volume="0.33"></audio>
+      <audio id="sfx45" src="assets/sfx/notification.mp3" data-start="63.240" data-duration="2.46" data-track-index="21" data-volume="0.4"></audio>
+      <audio id="sfx46" src="assets/sfx/pop.mp3" data-start="64.040" data-duration="0.72" data-track-index="22" data-volume="0.33"></audio>
+      <audio id="sfx47" src="assets/sfx/whoosh-short.mp3" data-start="65.040" data-duration="0.57" data-track-index="23" data-volume="0.33"></audio>
+      <audio id="sfx48" src="assets/sfx/pop.mp3" data-start="65.080" data-duration="0.72" data-track-index="20" data-volume="0.35"></audio>
+      <audio id="sfx49" src="assets/sfx/pop.mp3" data-start="66.660" data-duration="0.72" data-track-index="21" data-volume="0.33"></audio>
+      <audio id="sfx50" src="assets/sfx/whoosh-short.mp3" data-start="67.460" data-duration="0.57" data-track-index="22" data-volume="0.33"></audio>
+      <audio id="sfx51" src="assets/sfx/pop.mp3" data-start="69.260" data-duration="0.72" data-track-index="23" data-volume="0.33"></audio>
+      <audio id="sfx52" src="assets/sfx/whoosh-short.mp3" data-start="70.560" data-duration="0.57" data-track-index="20" data-volume="0.33"></audio>
+      <audio id="sfx53" src="assets/sfx/whoosh-short.mp3" data-start="71.360" data-duration="0.57" data-track-index="21" data-volume="0.33"></audio>
+      <audio id="sfx54" src="assets/sfx/pop.mp3" data-start="75.200" data-duration="0.72" data-track-index="22" data-volume="0.33"></audio>
+      <audio id="sfx55" src="assets/sfx/pop.mp3" data-start="76.800" data-duration="0.72" data-track-index="23" data-volume="0.33"></audio>
+      <audio id="sfx56" src="assets/sfx/impact-bass-1.mp3" data-start="78.120" data-duration="2.12" data-track-index="20" data-volume="0.5"></audio>
+      <audio id="sfx57" src="assets/sfx/impact-bass-1.mp3" data-start="78.660" data-duration="2.12" data-track-index="21" data-volume="0.5"></audio>
+      <audio id="sfx58" src="assets/sfx/pop.mp3" data-start="79.780" data-duration="0.72" data-track-index="22" data-volume="0.33"></audio>
+      <audio id="sfx59" src="assets/sfx/pop.mp3" data-start="80.300" data-duration="0.72" data-track-index="23" data-volume="0.33"></audio>
+      <audio id="sfx60" src="assets/sfx/pop.mp3" data-start="81.140" data-duration="0.72" data-track-index="20" data-volume="0.33"></audio>
+      <audio id="sfx61" src="assets/sfx/impact-bass-1.mp3" data-start="81.940" data-duration="2.12" data-track-index="21" data-volume="0.5"></audio>
+      <audio id="sfx62" src="assets/sfx/pop.mp3" data-start="83.420" data-duration="0.72" data-track-index="22" data-volume="0.33"></audio>
+      <audio id="sfx63" src="assets/sfx/whoosh-short.mp3" data-start="84.640" data-duration="0.57" data-track-index="23" data-volume="0.33"></audio>
+      <audio id="sfx64" src="assets/sfx/whoosh-short.mp3" data-start="86.080" data-duration="0.57" data-track-index="20" data-volume="0.33"></audio>
+      <audio id="sfx65" src="assets/sfx/pop.mp3" data-start="88.280" data-duration="0.72" data-track-index="21" data-volume="0.33"></audio>
+      <audio id="sfx66" src="assets/sfx/whoosh-short.mp3" data-start="89.080" data-duration="0.57" data-track-index="22" data-volume="0.33"></audio>
+      <audio id="sfx67" src="assets/sfx/whoosh-short.mp3" data-start="90.960" data-duration="0.57" data-track-index="23" data-volume="0.33"></audio>
+      <audio id="sfx68" src="assets/sfx/pop.mp3" data-start="92.100" data-duration="0.72" data-track-index="20" data-volume="0.33"></audio>
+      <audio id="sfx69" src="assets/sfx/impact-bass-1.mp3" data-start="94.660" data-duration="2.12" data-track-index="21" data-volume="0.5"></audio>
+      <audio id="sfx70" src="assets/sfx/notification.mp3" data-start="96.100" data-duration="2.46" data-track-index="22" data-volume="0.4"></audio>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#b1", { x: 0, y: 0 }, { x: 150, y: 110, duration: 98.7, ease: "sine.inOut" }, 0);
+      tl.fromTo("#b2", { x: 0, y: 0 }, { x: -130, y: -70, duration: 98.7, ease: "sine.inOut" }, 0);
+      tl.fromTo("#b3", { x: 0, y: 0 }, { x: -170, y: 120, duration: 98.7, ease: "sine.inOut" }, 0);
+      tl.fromTo("#stars i:nth-child(3)",{opacity:.15},{opacity:.95,duration:1.30,yoyo:true,repeat:75,ease:"sine.inOut"},0.00);
+      tl.fromTo("#stars i:nth-child(10)",{opacity:.15},{opacity:.95,duration:1.75,yoyo:true,repeat:57,ease:"sine.inOut"},0.37);
+      tl.fromTo("#stars i:nth-child(17)",{opacity:.15},{opacity:.95,duration:2.20,yoyo:true,repeat:45,ease:"sine.inOut"},0.74);
+      tl.fromTo("#stars i:nth-child(24)",{opacity:.15},{opacity:.95,duration:2.65,yoyo:true,repeat:37,ease:"sine.inOut"},1.11);
+      tl.fromTo("#stars i:nth-child(31)",{opacity:.15},{opacity:.95,duration:1.30,yoyo:true,repeat:75,ease:"sine.inOut"},1.48);
+      tl.fromTo("#stars i:nth-child(38)",{opacity:.15},{opacity:.95,duration:1.75,yoyo:true,repeat:57,ease:"sine.inOut"},1.85);
+      tl.fromTo("#stars i:nth-child(45)",{opacity:.15},{opacity:.95,duration:2.20,yoyo:true,repeat:45,ease:"sine.inOut"},0.22);
+      tl.fromTo("#stars i:nth-child(52)",{opacity:.15},{opacity:.95,duration:2.65,yoyo:true,repeat:37,ease:"sine.inOut"},0.59);
+      tl.fromTo("#stars i:nth-child(59)",{opacity:.15},{opacity:.95,duration:1.30,yoyo:true,repeat:75,ease:"sine.inOut"},0.96);
+      tl.fromTo("#stars i:nth-child(66)",{opacity:.15},{opacity:.95,duration:1.75,yoyo:true,repeat:57,ease:"sine.inOut"},1.33);
+      tl.fromTo("#stars i:nth-child(73)",{opacity:.15},{opacity:.95,duration:2.20,yoyo:true,repeat:45,ease:"sine.inOut"},1.70);
+      tl.fromTo("#stars i:nth-child(80)",{opacity:.15},{opacity:.95,duration:2.65,yoyo:true,repeat:37,ease:"sine.inOut"},0.07);
+      
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

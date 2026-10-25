@@ -15,7 +15,7 @@ SHEETS = {
 }
 OUT='assets/cut'; os.makedirs(OUT,exist_ok=True)
 
-def cutout(cell,band=0.0):
+def cutout(cell,band=0.0,name=''):
     a=np.asarray(cell.convert('RGB')).astype(np.int16)
     mn=a.min(axis=2); mx=a.max(axis=2)
     near_white=mn>=240
@@ -45,6 +45,28 @@ def cutout(cell,band=0.0):
         lab2,_=ndi.label(smooth)
         seeds=set(np.unique(lab2[smooth&outside]))-{0}
         keep&=~np.isin(lab2,list(seeds))
+    lum_all=a.mean(axis=2)
+    if name.startswith(('truck','cab_','marco','campanella','soldi','pompa','chiavi')) and not name.endswith('_head'):
+        # ligne de sol : tout ce qui se trouve sous le dernier pixel sombre ou coloré est de l'ombre
+        solid=keep&((lum_all<110)|((mx-mn)>(125 if name=='cab_interior' else 85)))
+        if name=='cab_interior': solid=keep&(a[...,0]>170)&(a[...,1]<80)&(a[...,2]<80)
+        rows=np.where(solid.sum(axis=1)>=(25 if name=='cab_interior' else 4))[0]
+        if len(rows):
+            y_g=rows.max(); keep[y_g+6:,:]=False
+            if name.startswith('truck'):   # reste d'ombre sur les côtés des roues
+                h_=y_g-rows.min(); pale=keep&(mn>205)&((mx-mn)<30)
+                pale[:y_g-int(0.09*h_),:]=False
+                keep&=~pale
+    if name.startswith('marco') and not name.endswith('_head'):
+        # espace blanc entre les jambes : zones quasi blanches dans la moitié basse
+        ys=np.where(keep.any(axis=1))[0]; ylow=ys.min()+int(0.55*(ys.max()-ys.min()))
+        white=(mn>=236)&((mx-mn)<16)
+        white[:ylow,:]=False
+        lab3,n3=ndi.label(white&keep|(white&~keep&ndi.binary_dilation(keep,iterations=2)))
+        for i in range(1,n3+1):
+            m=lab3==i
+            if m.sum()>=120: keep&=~m
+        keep=ndi.binary_fill_holes(keep) if False else keep
     keep=ndi.binary_erosion(keep,iterations=1)
     alpha=ndi.gaussian_filter(keep.astype(np.float32),0.9)
     alpha=np.clip((alpha-0.15)/0.7,0,1)
@@ -62,6 +84,6 @@ for name,(cols,rows,names) in SHEETS.items():
         band={'sheet-marco':0.07,'sheet-poses':0.07,'sheet-camion':0.10}.get(name,0.0)
         if n in ('campanella','soldi','cab_interior','tachigrafo','chiavi','portafoglio','bivio'): band=2
         if n=='figlio': band=0
-        out=cutout(cell,band)
+        out=cutout(cell,band,n)
         out.save(f'{OUT}/{n}.png')
         print(n,out.size)

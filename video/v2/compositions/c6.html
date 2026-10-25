@@ -1,0 +1,164 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; font-family:'Montserrat',sans-serif; color:#fff; }
+  .abs { position:absolute; }
+  .item { position:absolute; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+  .item img.pic { width:100%; height:100%; object-fit:contain; display:block; filter:drop-shadow(0 18px 26px rgba(0,0,0,.45)); }
+  .item img.pic.fade { -webkit-mask-image:linear-gradient(to bottom,#000 78%,transparent 100%); mask-image:linear-gradient(to bottom,#000 78%,transparent 100%); }
+  .halo { width:100%; height:100%; border-radius:50%; }
+  .num { font-weight:900; line-height:1; letter-spacing:-.02em; text-align:center; white-space:nowrap; text-shadow:0 0 40px rgba(255,255,255,.18); }
+  .sub { font-weight:800; letter-spacing:.08em; text-align:center; color:#cdd3ff; margin-top:8px; }
+  .stamp { border:10px solid; border-radius:18px; padding:10px 30px; font-weight:900; letter-spacing:.04em; text-align:center; background:rgba(11,11,46,.55); white-space:nowrap; }
+  .gtag { display:inline-flex; align-items:center; gap:14px; padding:16px 34px; border-radius:999px; font-weight:800; font-size:40px; letter-spacing:.01em; white-space:nowrap;
+          background:rgba(40,44,120,.62); border:3px solid rgba(150,160,255,.55); box-shadow:0 0 40px rgba(111,123,255,.35); color:#fff; }
+  .gtag.red { background:rgba(90,22,52,.66); border-color:rgba(255,77,109,.7); box-shadow:0 0 40px rgba(255,77,109,.35); }
+  .gtag.gold { background:rgba(84,60,10,.66); border-color:rgba(255,209,102,.75); box-shadow:0 0 40px rgba(255,209,102,.3); }
+  .gtag.small { font-size:30px; padding:10px 26px; align-self:flex-start; margin-bottom:6px; }
+  .gtag .dot { width:16px; height:16px; border-radius:50%; background:#ff4d6d; box-shadow:0 0 14px #ff4d6d; flex:none; }
+  .item:has(> .gtag) { flex-direction:row; }
+  .glass { width:100%; height:100%; border-radius:40px; padding:28px 34px; background:linear-gradient(180deg,rgba(60,64,160,.52),rgba(24,26,92,.62));
+           border:3px solid rgba(150,160,255,.45); box-shadow:0 30px 60px rgba(0,0,0,.45), inset 0 0 50px rgba(120,130,255,.14); display:flex; flex-direction:column; }
+  .glass .row { display:flex; justify-content:space-between; align-items:center; padding:14px 22px; margin-top:10px; border-radius:22px; background:rgba(14,16,70,.55); border:2px solid rgba(150,160,255,.18); height:104px; }
+  .glass .rl { font-weight:800; font-size:28px; letter-spacing:.1em; color:#b8bdf0; }
+  .glass .rv { font-weight:900; font-size:56px; white-space:nowrap; }
+  .glass .rv.strike { text-decoration:line-through; text-decoration-thickness:6px; }
+  .tiles { display:flex; gap:14px; justify-content:center; width:100%; }
+  .tile { width:104px; height:116px; border-radius:24px; background:linear-gradient(180deg,#ffe28a,#f2b83c); display:flex; align-items:center; justify-content:center; box-shadow:0 10px 24px rgba(0,0,0,.4); }
+  .tile b { font-weight:900; font-size:56px; color:#2a2308; }
+  .cross { font-weight:900; font-size:150px; color:#ff4d6d; text-shadow:0 0 40px rgba(255,77,109,.7); line-height:1; }
+  .ring { position:relative; width:100%; height:100%; }
+  .ring svg { width:100%; height:100%; }
+  .ring-bg { fill:none; stroke:#2a2f7a; stroke-width:16; }
+  .ring-fg { fill:none; stroke:#ffd166; stroke-width:16; stroke-linecap:round; stroke-dasharray:540.4; stroke-dashoffset:540.4; }
+  .ringtxt { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+  .spark { font-size:130px; color:#ffd166; text-shadow:0 0 40px rgba(255,209,102,.8); line-height:1; }
+  .spark.s2 { font-size:96px; }
+  .paper { width:100%; height:100%; background:#f4ecd8; border-radius:22px; padding:44px 52px; box-shadow:0 24px 50px rgba(0,0,0,.5); color:#3b3328; }
+  .paper .ph { font-weight:900; font-size:52px; letter-spacing:.12em; margin-bottom:34px; color:#5a4a33; }
+  .paper .pl { height:22px; border-radius:99px; background:#d8cdb2; margin:26px 0; width:100%; }
+  .paper .pl.s { width:68%; }
+  .paper .hl { display:flex; justify-content:space-between; align-items:center; margin:34px 0; padding:20px 26px; border:7px solid #ff4d6d; border-radius:20px; font-weight:800; font-size:36px; }
+  .paper .hl b { font-size:56px; color:#ff4d6d; white-space:nowrap; }
+  .bar { width:100%; height:100%; background:#2a2f7a; border-radius:99px; overflow:hidden; border:5px solid #6f7bff; }
+  .barfill { width:100%; height:100%; background:linear-gradient(90deg,#ffd166,#ff8a4d); transform-origin:left center; }
+  .phone { width:100%; height:100%; background:#1b1d4a; border:14px solid #9aa0c8; border-radius:56px; overflow:hidden; display:flex; align-items:flex-end; justify-content:center; box-shadow:0 0 60px rgba(100,160,255,.45); }
+  .phone .kid { width:132%; max-width:none; margin-bottom:-4%; }
+  .opt { width:100%; height:100%; border-radius:34px; background:rgba(42,47,122,.78); border:6px solid #6f7bff; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px; }
+  .opt.gold { background:rgba(90,64,12,.7); border-color:#ffd166; }
+  .opt .otitle { font-weight:900; font-size:62px; letter-spacing:.08em; }
+  .opt img { height:190px; }
+  .opt img.keys { height:200px; }
+  .or { font-weight:900; font-size:54px; letter-spacing:.2em; color:#cdd3ff; text-align:center; }
+  .chart { width:100%; height:100%; display:flex; align-items:flex-end; justify-content:space-around; gap:60px; padding-bottom:10px; }
+  .chart .col { flex:1; height:100%; display:flex; flex-direction:column; justify-content:flex-end; align-items:center; }
+  .chart .b { width:80%; border-radius:26px 26px 0 0; transform-origin:bottom center; }
+  .chart .gr { height:100%; background:linear-gradient(180deg,#5af0b0,#1fa974); }
+  .chart .rd { height:22%; background:linear-gradient(180deg,#ff7a93,#d62d52); }
+  .chart .lbl { margin-top:22px; font-weight:900; font-size:48px; letter-spacing:.08em; }
+  .roadbox { overflow:hidden; }
+  .road { position:absolute; left:0; right:0; top:30px; bottom:30px; background:#14163f; border-top:6px solid #3a3f95; border-bottom:6px solid #3a3f95; }
+  .dash { position:absolute; left:-30%; right:-30%; top:50%; height:10px; background:repeating-linear-gradient(90deg,#ffd166 0 70px,transparent 70px 140px); }
+  .cta { font-weight:900; font-size:58px; letter-spacing:.06em; color:#fff; text-shadow:0 4px 10px rgba(120,40,0,.6); text-align:center; white-space:nowrap; }
+  .chip { position:absolute; left:0; width:1080px; top:150px; display:flex; justify-content:center; z-index:20; }
+  .cap { position:absolute; left:0; width:1080px; text-align:center; font-weight:800; font-size:58px; line-height:1.15; text-transform:uppercase; letter-spacing:.01em; white-space:nowrap; text-shadow:0 5px 16px rgba(0,0,0,.7); z-index:30; }
+  .cap .k { color:#ff4d6d; font-weight:900; }
+</style>
+  <div id="root" data-composition-id="c6" data-width="1080" data-height="1920">
+        <div class="item clip " id="c6-b32-i0" data-start="0.0" data-duration="2.24" data-track-index="1" style="left:100px;top:400px;width:340px;height:760px;z-index:2"><img class="pic" id="c6-b32-i0-p" src="assets/img/marco38_full.png" alt=""></div>
+    <div class="item clip " id="c6-b32-i1" data-start="0.0" data-duration="2.24" data-track-index="2" style="left:465px;top:674px;width:560px;height:431px;z-index:2"><img class="pic" id="c6-b32-i1-p" src="assets/img/truck_worn.png" alt=""></div>
+    <div class="cap clip" id="c6-cap32-0" data-start="0.0" data-duration="1.54" data-track-index="10" style="top:1264px">La strada ti ha dato un</div>
+    <div class="cap clip" id="c6-cap32-1" data-start="1.5" data-duration="0.74" data-track-index="10" style="top:1264px"><b class="k">lavoro</b> <b class="k">sicuro.</b></div>
+    <div class="item clip " id="c6-b33-i0" data-start="2.24" data-duration="2.2" data-track-index="1" style="left:262px;top:415px;width:637px;height:800px;z-index:2"><img class="pic" id="c6-b33-i0-p" src="assets/img/marco38_tired.png" alt=""></div>
+    <div class="item clip " id="c6-b33-i1" data-start="2.24" data-duration="2.2" data-track-index="2" style="left:81px;top:315px;width:317px;height:330px;z-index:2"><img class="pic" id="c6-b33-i1-p" src="assets/img/calendario.png" alt=""></div>
+    <div class="cap clip" id="c6-cap33-0" data-start="2.24" data-duration="1.4" data-track-index="10" style="top:1264px">E in cambio,</div>
+    <div class="cap clip" id="c6-cap33-1" data-start="3.6" data-duration="0.84" data-track-index="10" style="top:1264px">ti ha preso <b class="k">gli</b> <b class="k">anni.</b></div>
+    <div class="item clip " id="c6-b34-i0" data-start="4.44" data-duration="3.02" data-track-index="1" style="left:152px;top:390px;width:275px;height:780px;z-index:2"><img class="pic" id="c6-b34-i0-p" src="assets/img/marco23_full.png" alt=""></div>
+    <div class="item clip " id="c6-b34-i1" data-start="4.44" data-duration="3.02" data-track-index="2" style="left:475px;top:775px;width:560px;height:431px;z-index:2"><img class="pic" id="c6-b34-i1-p" src="assets/img/truck_new.png" alt=""></div>
+    <div class="cap clip" id="c6-cap34-0" data-start="4.44" data-duration="1.74" data-track-index="10" style="top:1264px">Hai <b class="k">ventitré</b> anni.</div>
+    <div class="cap clip" id="c6-cap34-1" data-start="6.14" data-duration="0.76" data-track-index="10" style="top:1264px">Un camion.</div>
+    <div class="cap clip" id="c6-cap34-2" data-start="6.86" data-duration="0.6" data-track-index="10" style="top:1264px">Una strada.</div>
+    <div class="item clip " id="c6-b35-i0" data-start="7.46" data-duration="2.56" data-track-index="1" style="left:115px;top:390px;width:349px;height:780px;z-index:2"><img class="pic" id="c6-b35-i0-p" src="assets/img/marco38_full.png" alt=""></div>
+    <div class="item clip " id="c6-b35-i1" data-start="7.46" data-duration="2.56" data-track-index="2" style="left:475px;top:774px;width:560px;height:431px;z-index:2"><img class="pic" id="c6-b35-i1-p" src="assets/img/truck_worn.png" alt=""></div>
+    <div class="cap clip" id="c6-cap35-0" data-start="7.46" data-duration="0.92" data-track-index="10" style="top:1264px">A <b class="k">trentotto,</b></div>
+    <div class="cap clip" id="c6-cap35-1" data-start="8.34" data-duration="1.68" data-track-index="10" style="top:1264px">la strada è ancora lì.</div>
+    <div class="item clip " id="c6-b36-i0" data-start="10.02" data-duration="1.44" data-track-index="1" style="left:218px;top:290px;width:643px;height:900px;z-index:2"><img class="pic fade" id="c6-b36-i0-p" src="assets/img/marco38_head.png" alt=""></div>
+    <div class="cap clip" id="c6-cap36-0" data-start="10.02" data-duration="1.44" data-track-index="10" style="top:1264px">Tu, un po' <b class="k">meno.</b></div>
+    <div class="item clip " id="c6-b37-i0" data-start="11.46" data-duration="2.4" data-track-index="1" style="left:90px;top:502px;width:900px;height:556px;z-index:2"><img class="pic" id="c6-b37-i0-p" src="assets/img/campanella.png" alt=""></div>
+    <div class="item clip " id="c6-b37-i1" data-start="11.46" data-duration="2.4" data-track-index="2" style="left:530px;top:695px;width:400px;height:110px;z-index:5"><div class="cta">ISCRIVITI</div></div>
+    <div class="cap clip" id="c6-cap37-0" data-start="11.46" data-duration="0.8" data-track-index="10" style="top:1264px"><b class="k">Iscriviti,</b></div>
+    <div class="cap clip" id="c6-cap37-1" data-start="12.22" data-duration="1.0" data-track-index="10" style="top:1264px">se vuoi sapere cosa</div>
+    <div class="cap clip" id="c6-cap37-2" data-start="13.18" data-duration="0.68" data-track-index="10" style="top:1264px">serve davvero.</div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+        tl.fromTo("#c6-b32-i0",{opacity:0},{opacity:0,duration:.01},0.0);
+    tl.fromTo("#c6-b32-i0",{opacity:0,x:-380,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"expo.out"},0.0);
+    tl.to("#c6-b32-i0",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},2.050);
+    tl.fromTo("#c6-b32-i0-p",{scale:1},{scale:1.03,duration:2.24,ease:"none"},0.0);
+    tl.fromTo("#c6-b32-i1",{opacity:0},{opacity:0,duration:.01},0.0);
+    tl.fromTo("#c6-b32-i1",{opacity:0,x:380,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"expo.out"},1.4400000000000002);
+    tl.to("#c6-b32-i1",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},2.050);
+    tl.fromTo("#c6-b32-i1-p",{scale:1},{scale:1.03,duration:2.24,ease:"none"},0.0);
+    tl.fromTo("#c6-cap32-0",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},0.0);
+    tl.to("#c6-cap32-0",{opacity:0,duration:.07,ease:"none"},1.46);
+    tl.fromTo("#c6-cap32-1",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},1.5);
+    tl.to("#c6-cap32-1",{opacity:0,duration:.07,ease:"none"},2.16);
+    tl.fromTo("#c6-b33-i0",{opacity:0},{opacity:0,duration:.01},2.24);
+    tl.fromTo("#c6-b33-i0",{opacity:0,y:300,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"expo.out"},2.24);
+    tl.to("#c6-b33-i0",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},4.250);
+    tl.fromTo("#c6-b33-i0-p",{scale:1},{scale:1.03,duration:2.2,ease:"none"},2.24);
+    tl.fromTo("#c6-b33-i1",{opacity:0},{opacity:0,duration:.01},2.24);
+    tl.fromTo("#c6-b33-i1",{opacity:0,y:-280,rotation:-8},{opacity:1,scale:1,x:0,y:0,rotation:-8,duration:0.5,ease:"back.out(1.5)"},3.6400000000000006);
+    tl.to("#c6-b33-i1",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},4.250);
+    tl.fromTo("#c6-b33-i1-p",{scale:1},{scale:1.03,duration:2.2,ease:"none"},2.24);
+    tl.fromTo("#c6-cap33-0",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},2.24);
+    tl.to("#c6-cap33-0",{opacity:0,duration:.07,ease:"none"},3.56);
+    tl.fromTo("#c6-cap33-1",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},3.6);
+    tl.to("#c6-cap33-1",{opacity:0,duration:.07,ease:"none"},4.36);
+    tl.fromTo("#c6-b34-i0",{opacity:0},{opacity:0,duration:.01},4.44);
+    tl.fromTo("#c6-b34-i0",{opacity:0,x:-380,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"expo.out"},4.44);
+    tl.to("#c6-b34-i0",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},7.270);
+    tl.fromTo("#c6-b34-i0-p",{scale:1},{scale:1.03,duration:3.02,ease:"none"},4.44);
+    tl.fromTo("#c6-b34-i1",{opacity:0},{opacity:0,duration:.01},4.44);
+    tl.fromTo("#c6-b34-i1",{opacity:0,x:380,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"expo.out"},6.32);
+    tl.to("#c6-b34-i1",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},7.270);
+    tl.fromTo("#c6-b34-i1-p",{scale:1},{scale:1.03,duration:3.02,ease:"none"},4.44);
+    tl.fromTo("#c6-cap34-0",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},4.44);
+    tl.to("#c6-cap34-0",{opacity:0,duration:.07,ease:"none"},6.1);
+    tl.fromTo("#c6-cap34-1",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},6.14);
+    tl.to("#c6-cap34-1",{opacity:0,duration:.07,ease:"none"},6.82);
+    tl.fromTo("#c6-cap34-2",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},6.86);
+    tl.to("#c6-cap34-2",{opacity:0,duration:.07,ease:"none"},7.38);
+    tl.fromTo("#c6-b35-i0",{opacity:0},{opacity:0,duration:.01},7.46);
+    tl.fromTo("#c6-b35-i0",{opacity:0,scale:.6,y:36,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"back.out(1.5)"},7.46);
+    tl.to("#c6-b35-i0",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},9.830);
+    tl.fromTo("#c6-b35-i0-p",{scale:1},{scale:1.03,duration:2.56,ease:"none"},7.46);
+    tl.set("#c6-b35-i1",{rotation:0},7.46);
+    tl.to("#c6-b35-i1",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},9.830);
+    tl.fromTo("#c6-b35-i1-p",{scale:1},{scale:1.03,duration:2.56,ease:"none"},7.46);
+    tl.fromTo("#c6-cap35-0",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},7.46);
+    tl.to("#c6-cap35-0",{opacity:0,duration:.07,ease:"none"},8.3);
+    tl.fromTo("#c6-cap35-1",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},8.34);
+    tl.to("#c6-cap35-1",{opacity:0,duration:.07,ease:"none"},9.94);
+    tl.fromTo("#c6-b36-i0",{opacity:0},{opacity:0,duration:.01},10.02);
+    tl.fromTo("#c6-b36-i0",{opacity:0,scale:.6,y:36,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"back.out(1.5)"},10.02);
+    tl.to("#c6-b36-i0",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},11.270);
+    tl.fromTo("#c6-b36-i0-p",{scale:1},{scale:1.08,duration:1.44,ease:"none"},10.02);
+    tl.fromTo("#c6-cap36-0",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},10.02);
+    tl.to("#c6-cap36-0",{opacity:0,duration:.07,ease:"none"},11.38);
+    tl.fromTo("#c6-b37-i0",{opacity:0},{opacity:0,duration:.01},11.46);
+    tl.fromTo("#c6-b37-i0",{opacity:0,scale:.6,y:36,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"back.out(1.5)"},11.46);
+    tl.to("#c6-b37-i0",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},13.670);
+    tl.fromTo("#c6-b37-i1",{opacity:0},{opacity:0,duration:.01},11.46);
+    tl.fromTo("#c6-b37-i1",{opacity:0,scale:.6,y:36,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"back.out(1.5)"},11.66);
+    tl.to("#c6-b37-i1",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},13.670);
+    tl.fromTo("#c6-cap37-0",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},11.46);
+    tl.to("#c6-cap37-0",{opacity:0,duration:.07,ease:"none"},12.18);
+    tl.fromTo("#c6-cap37-1",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},12.22);
+    tl.to("#c6-cap37-1",{opacity:0,duration:.07,ease:"none"},13.14);
+    tl.fromTo("#c6-cap37-2",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},13.18);
+    tl.to("#c6-cap37-2",{opacity:0,duration:.07,ease:"none"},13.78);
+    tl.fromTo("#c6-b37-i0-p",{rotation:0},{rotation:7,duration:.09,yoyo:true,repeat:7,ease:"sine.inOut"},11.96);
+    window.__timelines["c6"] = tl;
+  </script>
+</template>

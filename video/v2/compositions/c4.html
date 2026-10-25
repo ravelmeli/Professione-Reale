@@ -1,0 +1,234 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; font-family:'Montserrat',sans-serif; color:#fff; }
+  .abs { position:absolute; }
+  .item { position:absolute; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+  .item img.pic { width:100%; height:100%; object-fit:contain; display:block; filter:drop-shadow(0 18px 26px rgba(0,0,0,.45)); }
+  .item img.pic.fade { -webkit-mask-image:linear-gradient(to bottom,#000 78%,transparent 100%); mask-image:linear-gradient(to bottom,#000 78%,transparent 100%); }
+  .halo { width:100%; height:100%; border-radius:50%; }
+  .num { font-weight:900; line-height:1; letter-spacing:-.02em; text-align:center; white-space:nowrap; text-shadow:0 0 40px rgba(255,255,255,.18); }
+  .sub { font-weight:800; letter-spacing:.08em; text-align:center; color:#cdd3ff; margin-top:8px; }
+  .stamp { border:10px solid; border-radius:18px; padding:10px 30px; font-weight:900; letter-spacing:.04em; text-align:center; background:rgba(11,11,46,.55); white-space:nowrap; }
+  .gtag { display:inline-flex; align-items:center; gap:14px; padding:16px 34px; border-radius:999px; font-weight:800; font-size:40px; letter-spacing:.01em; white-space:nowrap;
+          background:rgba(40,44,120,.62); border:3px solid rgba(150,160,255,.55); box-shadow:0 0 40px rgba(111,123,255,.35); color:#fff; }
+  .gtag.red { background:rgba(90,22,52,.66); border-color:rgba(255,77,109,.7); box-shadow:0 0 40px rgba(255,77,109,.35); }
+  .gtag.gold { background:rgba(84,60,10,.66); border-color:rgba(255,209,102,.75); box-shadow:0 0 40px rgba(255,209,102,.3); }
+  .gtag.small { font-size:30px; padding:10px 26px; align-self:flex-start; margin-bottom:6px; }
+  .gtag .dot { width:16px; height:16px; border-radius:50%; background:#ff4d6d; box-shadow:0 0 14px #ff4d6d; flex:none; }
+  .item:has(> .gtag) { flex-direction:row; }
+  .glass { width:100%; height:100%; border-radius:40px; padding:28px 34px; background:linear-gradient(180deg,rgba(60,64,160,.52),rgba(24,26,92,.62));
+           border:3px solid rgba(150,160,255,.45); box-shadow:0 30px 60px rgba(0,0,0,.45), inset 0 0 50px rgba(120,130,255,.14); display:flex; flex-direction:column; }
+  .glass .row { display:flex; justify-content:space-between; align-items:center; padding:14px 22px; margin-top:10px; border-radius:22px; background:rgba(14,16,70,.55); border:2px solid rgba(150,160,255,.18); height:104px; }
+  .glass .rl { font-weight:800; font-size:28px; letter-spacing:.1em; color:#b8bdf0; }
+  .glass .rv { font-weight:900; font-size:56px; white-space:nowrap; }
+  .glass .rv.strike { text-decoration:line-through; text-decoration-thickness:6px; }
+  .tiles { display:flex; gap:14px; justify-content:center; width:100%; }
+  .tile { width:104px; height:116px; border-radius:24px; background:linear-gradient(180deg,#ffe28a,#f2b83c); display:flex; align-items:center; justify-content:center; box-shadow:0 10px 24px rgba(0,0,0,.4); }
+  .tile b { font-weight:900; font-size:56px; color:#2a2308; }
+  .cross { font-weight:900; font-size:150px; color:#ff4d6d; text-shadow:0 0 40px rgba(255,77,109,.7); line-height:1; }
+  .ring { position:relative; width:100%; height:100%; }
+  .ring svg { width:100%; height:100%; }
+  .ring-bg { fill:none; stroke:#2a2f7a; stroke-width:16; }
+  .ring-fg { fill:none; stroke:#ffd166; stroke-width:16; stroke-linecap:round; stroke-dasharray:540.4; stroke-dashoffset:540.4; }
+  .ringtxt { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+  .spark { font-size:130px; color:#ffd166; text-shadow:0 0 40px rgba(255,209,102,.8); line-height:1; }
+  .spark.s2 { font-size:96px; }
+  .paper { width:100%; height:100%; background:#f4ecd8; border-radius:22px; padding:44px 52px; box-shadow:0 24px 50px rgba(0,0,0,.5); color:#3b3328; }
+  .paper .ph { font-weight:900; font-size:52px; letter-spacing:.12em; margin-bottom:34px; color:#5a4a33; }
+  .paper .pl { height:22px; border-radius:99px; background:#d8cdb2; margin:26px 0; width:100%; }
+  .paper .pl.s { width:68%; }
+  .paper .hl { display:flex; justify-content:space-between; align-items:center; margin:34px 0; padding:20px 26px; border:7px solid #ff4d6d; border-radius:20px; font-weight:800; font-size:36px; }
+  .paper .hl b { font-size:56px; color:#ff4d6d; white-space:nowrap; }
+  .bar { width:100%; height:100%; background:#2a2f7a; border-radius:99px; overflow:hidden; border:5px solid #6f7bff; }
+  .barfill { width:100%; height:100%; background:linear-gradient(90deg,#ffd166,#ff8a4d); transform-origin:left center; }
+  .phone { width:100%; height:100%; background:#1b1d4a; border:14px solid #9aa0c8; border-radius:56px; overflow:hidden; display:flex; align-items:flex-end; justify-content:center; box-shadow:0 0 60px rgba(100,160,255,.45); }
+  .phone .kid { width:132%; max-width:none; margin-bottom:-4%; }
+  .opt { width:100%; height:100%; border-radius:34px; background:rgba(42,47,122,.78); border:6px solid #6f7bff; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px; }
+  .opt.gold { background:rgba(90,64,12,.7); border-color:#ffd166; }
+  .opt .otitle { font-weight:900; font-size:62px; letter-spacing:.08em; }
+  .opt img { height:190px; }
+  .opt img.keys { height:200px; }
+  .or { font-weight:900; font-size:54px; letter-spacing:.2em; color:#cdd3ff; text-align:center; }
+  .chart { width:100%; height:100%; display:flex; align-items:flex-end; justify-content:space-around; gap:60px; padding-bottom:10px; }
+  .chart .col { flex:1; height:100%; display:flex; flex-direction:column; justify-content:flex-end; align-items:center; }
+  .chart .b { width:80%; border-radius:26px 26px 0 0; transform-origin:bottom center; }
+  .chart .gr { height:100%; background:linear-gradient(180deg,#5af0b0,#1fa974); }
+  .chart .rd { height:22%; background:linear-gradient(180deg,#ff7a93,#d62d52); }
+  .chart .lbl { margin-top:22px; font-weight:900; font-size:48px; letter-spacing:.08em; }
+  .roadbox { overflow:hidden; }
+  .road { position:absolute; left:0; right:0; top:30px; bottom:30px; background:#14163f; border-top:6px solid #3a3f95; border-bottom:6px solid #3a3f95; }
+  .dash { position:absolute; left:-30%; right:-30%; top:50%; height:10px; background:repeating-linear-gradient(90deg,#ffd166 0 70px,transparent 70px 140px); }
+  .cta { font-weight:900; font-size:58px; letter-spacing:.06em; color:#fff; text-shadow:0 4px 10px rgba(120,40,0,.6); text-align:center; white-space:nowrap; }
+  .chip { position:absolute; left:0; width:1080px; top:150px; display:flex; justify-content:center; z-index:20; }
+  .cap { position:absolute; left:0; width:1080px; text-align:center; font-weight:800; font-size:58px; line-height:1.15; text-transform:uppercase; letter-spacing:.01em; white-space:nowrap; text-shadow:0 5px 16px rgba(0,0,0,.7); z-index:30; }
+  .cap .k { color:#ff4d6d; font-weight:900; }
+</style>
+  <div id="root" data-composition-id="c4" data-width="1080" data-height="1920">
+        <div class="chip clip" id="c4-chip" data-start="0" data-duration="23.66" data-track-index="9"><div class="gtag red"><i class="dot"></i>anno 10</div></div>
+    <div class="item clip " id="c4-b16-i0" data-start="0.0" data-duration="2.84" data-track-index="1" style="left:160px;top:455px;width:760px;height:760px;z-index:1"><div class="halo" style="background:radial-gradient(circle,rgba(120,90,255,.45) 0%,transparent 68%)"></div></div>
+    <div class="item clip " id="c4-b16-i1" data-start="0.0" data-duration="2.84" data-track-index="2" style="left:400px;top:390px;width:280px;height:780px;z-index:2"><img class="pic" id="c4-b16-i1-p" src="assets/img/marco33_full.png" alt=""></div>
+    <div class="cap clip" id="c4-cap16-0" data-start="0.0" data-duration="1.76" data-track-index="10" style="top:1264px">Anno <b class="k">dieci.</b></div>
+    <div class="cap clip" id="c4-cap16-1" data-start="1.72" data-duration="1.12" data-track-index="10" style="top:1264px">Sei un veterano.</div>
+    <div class="item clip " id="c4-b17-i0" data-start="2.84" data-duration="3.94" data-track-index="1" style="left:95px;top:470px;width:251px;height:700px;z-index:2"><img class="pic" id="c4-b17-i0-p" src="assets/img/marco33_full.png" alt=""></div>
+    <div class="item clip " id="c4-b17-i1" data-start="2.84" data-duration="3.94" data-track-index="2" style="left:420px;top:561px;width:620px;height:278px;z-index:3"><div class="glass"><div class="gtag blue small"><i class="dot"></i>scatti di anzianità</div><div class="row"><span class="rl">AL MESE</span><span class="rv" style="color:#3ddc97">+25–30 €</span></div></div></div>
+    <div class="cap clip" id="c4-cap17-0" data-start="2.84" data-duration="1.46" data-track-index="10" style="top:1264px">Gli scatti di anzianità</div>
+    <div class="cap clip" id="c4-cap17-1" data-start="4.26" data-duration="1.2" data-track-index="10" style="top:1264px">valgono <b class="k">venticinque,</b></div>
+    <div class="cap clip" id="c4-cap17-2" data-start="5.42" data-duration="1.36" data-track-index="10" style="top:1264px"><b class="k">trenta</b> <b class="k">euro</b> al mese.</div>
+    <div class="item clip " id="c4-b18-i0" data-start="6.78" data-duration="1.18" data-track-index="1" style="left:232px;top:430px;width:615px;height:640px;z-index:2"><img class="pic" id="c4-b18-i0-p" src="assets/img/calendario.png" alt=""></div>
+    <div class="item clip " id="c4-b18-i1" data-start="6.78" data-duration="1.18" data-track-index="2" style="left:280px;top:1072px;width:520px;height:96px;z-index:3"><div class="gtag red"><i class="dot"></i>ogni 2 anni</div></div>
+    <div class="cap clip" id="c4-cap18-0" data-start="6.78" data-duration="1.18" data-track-index="10" style="top:1264px">Ogni <b class="k">due</b> <b class="k">anni.</b></div>
+    <div class="item clip " id="c4-b19-i0" data-start="7.96" data-duration="2.24" data-track-index="1" style="left:160px;top:455px;width:760px;height:760px;z-index:1"><div class="halo" style="background:radial-gradient(circle,rgba(255,209,102,.35) 0%,transparent 68%)"></div></div>
+    <div class="item clip " id="c4-b19-i1" data-start="7.96" data-duration="2.24" data-track-index="2" style="left:400px;top:390px;width:280px;height:780px;z-index:2"><img class="pic" id="c4-b19-i1-p" src="assets/img/marco33_full.png" alt=""></div>
+    <div class="item clip " id="c4-b19-i2" data-start="7.96" data-duration="2.24" data-track-index="3" style="left:220px;top:460px;width:140px;height:140px;z-index:3"><div class="spark">★</div></div>
+    <div class="item clip " id="c4-b19-i3" data-start="7.96" data-duration="2.24" data-track-index="4" style="left:755px;top:605px;width:110px;height:110px;z-index:3"><div class="spark s2">★</div></div>
+    <div class="item clip " id="c4-b19-i4" data-start="7.96" data-duration="2.24" data-track-index="5" style="left:725px;top:995px;width:90px;height:90px;z-index:3"><div class="spark">★</div></div>
+    <div class="cap clip" id="c4-cap19-0" data-start="7.96" data-duration="1.6" data-track-index="10" style="top:1264px">Dopo dieci anni sei</div>
+    <div class="cap clip" id="c4-cap19-1" data-start="9.52" data-duration="0.68" data-track-index="10" style="top:1264px"><b class="k">bravissimo.</b></div>
+    <div class="item clip " id="c4-b20-i0" data-start="10.2" data-duration="2.34" data-track-index="1" style="left:160px;top:400px;width:760px;height:700px;z-index:3"><div class="paper"><div class="ph">BUSTA PAGA</div><div class="pl"></div><div class="pl s"></div><div class="pl"></div><div class="pl s"></div><div class="hl"><span>aumento anzianità</span><b>+ 30 €</b></div><div class="pl"></div></div></div>
+    <div class="cap clip" id="c4-cap20-0" data-start="10.2" data-duration="1.24" data-track-index="10" style="top:1264px">In busta paga,</div>
+    <div class="cap clip" id="c4-cap20-1" data-start="11.4" data-duration="1.14" data-track-index="10" style="top:1264px"><b class="k">quasi</b> <b class="k">non</b> <b class="k">si</b> <b class="k">vede.</b></div>
+    <div class="item clip " id="c4-b21-i0" data-start="12.54" data-duration="3.36" data-track-index="1" style="left:270px;top:402px;width:540px;height:96px;z-index:3"><div class="gtag red"><i class="dot"></i>limite massimo</div></div>
+    <div class="item clip " id="c4-b21-i1" data-start="12.54" data-duration="3.36" data-track-index="2" style="left:90px;top:460px;width:900px;height:420px;z-index:3"><div class="num" style="font-size:230px;color:#ffd166">90 h</div><div class="sub" style="font-size:44px">OGNI 2 SETTIMANE</div></div>
+    <div class="item clip " id="c4-b21-i2" data-start="12.54" data-duration="3.36" data-track-index="3" style="left:110px;top:935px;width:860px;height:70px;z-index:3"><div class="bar"><div id="barfill" class="barfill"></div></div></div>
+    <div class="cap clip" id="c4-cap21-0" data-start="12.54" data-duration="1.34" data-track-index="10" style="top:1264px">Ogni <b class="k">due</b> <b class="k">settimane,</b></div>
+    <div class="cap clip" id="c4-cap21-1" data-start="13.84" data-duration="1.32" data-track-index="10" style="top:1264px">novanta ore di guida al</div>
+    <div class="cap clip" id="c4-cap21-2" data-start="15.12" data-duration="0.78" data-track-index="10" style="top:1264px">massimo.</div>
+    <div class="item clip " id="c4-b22-i0" data-start="15.9" data-duration="3.66" data-track-index="1" style="left:440px;top:500px;width:481px;height:700px;z-index:2"><img class="pic" id="c4-b22-i0-p" src="assets/img/marco33_chair.png" alt=""></div>
+    <div class="item clip " id="c4-b22-i1" data-start="15.9" data-duration="3.66" data-track-index="2" style="left:-10px;top:350px;width:520px;height:360px;z-index:3"><div class="num" style="font-size:170px;color:#3ddc97">45 h</div><div class="sub" style="font-size:44px">DI RIPOSO</div></div>
+    <div class="item clip " id="c4-b22-i2" data-start="15.9" data-duration="3.66" data-track-index="3" style="left:100px;top:824px;width:380px;height:292px;z-index:2"><img class="pic" id="c4-b22-i2-p" src="assets/img/truck_new.png" alt=""></div>
+    <div class="item clip " id="c4-b22-i3" data-start="15.9" data-duration="3.66" data-track-index="4" style="left:215px;top:895px;width:150px;height:150px;z-index:6"><div class="cross">✕</div></div>
+    <div class="cap clip" id="c4-cap22-0" data-start="15.9" data-duration="1.08" data-track-index="10" style="top:1264px">Il riposo lungo,</div>
+    <div class="cap clip" id="c4-cap22-1" data-start="16.94" data-duration="1.06" data-track-index="10" style="top:1264px"><b class="k">quarantacinque</b> <b class="k">ore,</b></div>
+    <div class="cap clip" id="c4-cap22-2" data-start="17.96" data-duration="1.6" data-track-index="10" style="top:1264px">lo fai fuori dal camion.</div>
+    <div class="item clip " id="c4-b23-i0" data-start="19.56" data-duration="1.6" data-track-index="1" style="left:320px;top:550px;width:439px;height:640px;z-index:2"><img class="pic" id="c4-b23-i0-p" src="assets/img/marco33_chair.png" alt=""></div>
+    <div class="item clip " id="c4-b23-i1" data-start="19.56" data-duration="1.6" data-track-index="2" style="left:190px;top:402px;width:700px;height:96px;z-index:3"><div class="gtag red"><i class="dot"></i>lontano da casa</div></div>
+    <div class="cap clip" id="c4-cap23-0" data-start="19.56" data-duration="1.6" data-track-index="10" style="top:1264px">Spesso, <b class="k">lontano</b> <b class="k">da</b> <b class="k">casa.</b></div>
+    <div class="item clip " id="c4-b24-i0" data-start="21.16" data-duration="2.5" data-track-index="1" style="left:76px;top:530px;width:447px;height:620px;z-index:2"><img class="pic" id="c4-b24-i0-p" src="assets/img/marco33_phone.png" alt=""></div>
+    <div class="item clip " id="c4-b24-i1" data-start="21.16" data-duration="2.5" data-track-index="2" style="left:645px;top:450px;width:330px;height:600px;z-index:3"><div class="phone"><img class="kid" src="assets/img/figlio.png"></div></div>
+    <div class="item clip " id="c4-b24-i2" data-start="21.16" data-duration="2.5" data-track-index="3" style="left:550px;top:332px;width:520px;height:96px;z-index:3"><div class="gtag blue"><i class="dot"></i>videochiamata</div></div>
+    <div class="cap clip" id="c4-cap24-0" data-start="21.16" data-duration="1.5" data-track-index="10" style="top:1264px">Tuo figlio cresce nelle</div>
+    <div class="cap clip" id="c4-cap24-1" data-start="22.62" data-duration="1.04" data-track-index="10" style="top:1264px"><b class="k">videochiamate.</b></div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+        tl.fromTo("#c4-chip",{opacity:0,y:-40,scale:.9},{opacity:1,y:0,scale:1,duration:.4,ease:"expo.out"},0);
+    tl.to("#c4-chip",{opacity:0,duration:.2,ease:"power2.in"},23.44);
+    tl.set("#c4-b16-i0",{rotation:0},0.0);
+    tl.to("#c4-b16-i0",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},2.650);
+    tl.fromTo("#c4-b16-i1",{opacity:0},{opacity:0,duration:.01},0.0);
+    tl.fromTo("#c4-b16-i1",{opacity:0,y:300,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"expo.out"},0.0);
+    tl.to("#c4-b16-i1",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},2.650);
+    tl.fromTo("#c4-b16-i1-p",{scale:1},{scale:1.03,duration:2.84,ease:"none"},0.0);
+    tl.fromTo("#c4-cap16-0",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},0.0);
+    tl.to("#c4-cap16-0",{opacity:0,duration:.07,ease:"none"},1.68);
+    tl.fromTo("#c4-cap16-1",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},1.72);
+    tl.to("#c4-cap16-1",{opacity:0,duration:.07,ease:"none"},2.76);
+    tl.fromTo("#c4-b17-i0",{opacity:0},{opacity:0,duration:.01},2.84);
+    tl.fromTo("#c4-b17-i0",{opacity:0,x:-380,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"expo.out"},2.84);
+    tl.to("#c4-b17-i0",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},6.590);
+    tl.fromTo("#c4-b17-i0-p",{scale:1},{scale:1.03,duration:3.94,ease:"none"},2.84);
+    tl.fromTo("#c4-b17-i1",{opacity:0},{opacity:0,duration:.01},2.84);
+    tl.fromTo("#c4-b17-i1",{opacity:0,scale:.6,y:36,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"back.out(1.5)"},3.46);
+    tl.to("#c4-b17-i1",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},6.590);
+    tl.fromTo("#c4-cap17-0",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},2.84);
+    tl.to("#c4-cap17-0",{opacity:0,duration:.07,ease:"none"},4.22);
+    tl.fromTo("#c4-cap17-1",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},4.26);
+    tl.to("#c4-cap17-1",{opacity:0,duration:.07,ease:"none"},5.38);
+    tl.fromTo("#c4-cap17-2",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},5.42);
+    tl.to("#c4-cap17-2",{opacity:0,duration:.07,ease:"none"},6.7);
+    tl.fromTo("#c4-b18-i0",{opacity:0},{opacity:0,duration:.01},6.78);
+    tl.fromTo("#c4-b18-i0",{opacity:0,scale:.6,y:36,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"back.out(1.5)"},6.78);
+    tl.to("#c4-b18-i0",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},7.770);
+    tl.fromTo("#c4-b18-i0-p",{scale:1},{scale:1.03,duration:1.18,ease:"none"},6.78);
+    tl.fromTo("#c4-b18-i1",{opacity:0},{opacity:0,duration:.01},6.78);
+    tl.fromTo("#c4-b18-i1",{opacity:0,scale:.6,y:36,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"back.out(1.5)"},7.16);
+    tl.to("#c4-b18-i1",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},7.770);
+    tl.fromTo("#c4-cap18-0",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},6.78);
+    tl.to("#c4-cap18-0",{opacity:0,duration:.07,ease:"none"},7.88);
+    tl.set("#c4-b19-i0",{rotation:0},7.96);
+    tl.to("#c4-b19-i0",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},10.010);
+    tl.fromTo("#c4-b19-i1",{opacity:0},{opacity:0,duration:.01},7.96);
+    tl.fromTo("#c4-b19-i1",{opacity:0,scale:.6,y:36,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"back.out(1.5)"},7.96);
+    tl.to("#c4-b19-i1",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},10.010);
+    tl.fromTo("#c4-b19-i1-p",{scale:1},{scale:1.03,duration:2.24,ease:"none"},7.96);
+    tl.fromTo("#c4-b19-i2",{opacity:0},{opacity:0,duration:.01},7.96);
+    tl.fromTo("#c4-b19-i2",{opacity:0,scale:.6,y:36,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"back.out(1.5)"},9.399999999999999);
+    tl.to("#c4-b19-i2",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},10.010);
+    tl.fromTo("#c4-b19-i3",{opacity:0},{opacity:0,duration:.01},7.96);
+    tl.fromTo("#c4-b19-i3",{opacity:0,scale:.6,y:36,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"back.out(1.5)"},9.399999999999999);
+    tl.to("#c4-b19-i3",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},10.010);
+    tl.fromTo("#c4-b19-i4",{opacity:0},{opacity:0,duration:.01},7.96);
+    tl.fromTo("#c4-b19-i4",{opacity:0,scale:.6,y:36,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"back.out(1.5)"},9.399999999999999);
+    tl.to("#c4-b19-i4",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},10.010);
+    tl.fromTo("#c4-cap19-0",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},7.96);
+    tl.to("#c4-cap19-0",{opacity:0,duration:.07,ease:"none"},9.48);
+    tl.fromTo("#c4-cap19-1",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},9.52);
+    tl.to("#c4-cap19-1",{opacity:0,duration:.07,ease:"none"},10.12);
+    tl.fromTo("#c4-b20-i0",{opacity:0},{opacity:0,duration:.01},10.2);
+    tl.fromTo("#c4-b20-i0",{opacity:0,y:300,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"expo.out"},10.2);
+    tl.to("#c4-b20-i0",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},12.350);
+    tl.fromTo("#c4-cap20-0",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},10.2);
+    tl.to("#c4-cap20-0",{opacity:0,duration:.07,ease:"none"},11.36);
+    tl.fromTo("#c4-cap20-1",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},11.4);
+    tl.to("#c4-cap20-1",{opacity:0,duration:.07,ease:"none"},12.46);
+    tl.fromTo("#c4-b21-i0",{opacity:0},{opacity:0,duration:.01},12.54);
+    tl.fromTo("#c4-b21-i0",{opacity:0,scale:.6,y:36,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"back.out(1.5)"},12.54);
+    tl.to("#c4-b21-i0",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},15.710);
+    tl.fromTo("#c4-b21-i1",{opacity:0},{opacity:0,duration:.01},12.54);
+    tl.fromTo("#c4-b21-i1",{opacity:0,scale:.6,y:36,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"back.out(1.5)"},13.88);
+    tl.to("#c4-b21-i1",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},15.710);
+    tl.fromTo("#c4-b21-i2",{opacity:0},{opacity:0,duration:.01},12.54);
+    tl.fromTo("#c4-b21-i2",{opacity:0,y:300,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"expo.out"},14.08);
+    tl.to("#c4-b21-i2",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},15.710);
+    tl.fromTo("#c4-cap21-0",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},12.54);
+    tl.to("#c4-cap21-0",{opacity:0,duration:.07,ease:"none"},13.8);
+    tl.fromTo("#c4-cap21-1",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},13.84);
+    tl.to("#c4-cap21-1",{opacity:0,duration:.07,ease:"none"},15.08);
+    tl.fromTo("#c4-cap21-2",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},15.12);
+    tl.to("#c4-cap21-2",{opacity:0,duration:.07,ease:"none"},15.82);
+    tl.fromTo("#barfill",{scaleX:0},{scaleX:1,duration:1.42,ease:"power2.out"},14.08);
+    tl.fromTo("#c4-b22-i0",{opacity:0},{opacity:0,duration:.01},15.9);
+    tl.fromTo("#c4-b22-i0",{opacity:0,y:300,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"expo.out"},15.9);
+    tl.to("#c4-b22-i0",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},19.370);
+    tl.fromTo("#c4-b22-i0-p",{scale:1},{scale:1.03,duration:3.66,ease:"none"},15.9);
+    tl.fromTo("#c4-b22-i1",{opacity:0},{opacity:0,duration:.01},15.9);
+    tl.fromTo("#c4-b22-i1",{opacity:0,x:-380,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"expo.out"},16.98);
+    tl.to("#c4-b22-i1",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},19.370);
+    tl.fromTo("#c4-b22-i2",{opacity:0},{opacity:0,duration:.01},15.9);
+    tl.fromTo("#c4-b22-i2",{opacity:0,scale:.6,y:36,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"back.out(1.5)"},18.759999999999998);
+    tl.to("#c4-b22-i2",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},19.370);
+    tl.fromTo("#c4-b22-i2-p",{scale:1},{scale:1.03,duration:3.66,ease:"none"},15.9);
+    tl.fromTo("#c4-b22-i3",{opacity:0},{opacity:0,duration:.01},15.9);
+    tl.fromTo("#c4-b22-i3",{opacity:0,scale:.6,y:36,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"back.out(1.5)"},18.759999999999998);
+    tl.to("#c4-b22-i3",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},19.370);
+    tl.fromTo("#c4-cap22-0",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},15.9);
+    tl.to("#c4-cap22-0",{opacity:0,duration:.07,ease:"none"},16.9);
+    tl.fromTo("#c4-cap22-1",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},16.94);
+    tl.to("#c4-cap22-1",{opacity:0,duration:.07,ease:"none"},17.92);
+    tl.fromTo("#c4-cap22-2",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},17.96);
+    tl.to("#c4-cap22-2",{opacity:0,duration:.07,ease:"none"},19.48);
+    tl.set("#c4-b23-i0",{rotation:0},19.56);
+    tl.to("#c4-b23-i0",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},20.970);
+    tl.fromTo("#c4-b23-i0-p",{scale:1},{scale:1.03,duration:1.6,ease:"none"},19.56);
+    tl.fromTo("#c4-b23-i1",{opacity:0},{opacity:0,duration:.01},19.56);
+    tl.fromTo("#c4-b23-i1",{opacity:0,scale:.6,y:36,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"back.out(1.5)"},20.22);
+    tl.to("#c4-b23-i1",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},20.970);
+    tl.fromTo("#c4-cap23-0",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},19.56);
+    tl.to("#c4-cap23-0",{opacity:0,duration:.07,ease:"none"},21.08);
+    tl.fromTo("#c4-b24-i0",{opacity:0},{opacity:0,duration:.01},21.16);
+    tl.fromTo("#c4-b24-i0",{opacity:0,x:-380,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"expo.out"},21.16);
+    tl.to("#c4-b24-i0",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},23.470);
+    tl.fromTo("#c4-b24-i0-p",{scale:1},{scale:1.03,duration:2.5,ease:"none"},21.16);
+    tl.fromTo("#c4-b24-i1",{opacity:0},{opacity:0,duration:.01},21.16);
+    tl.fromTo("#c4-b24-i1",{opacity:0,x:380,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"expo.out"},21.86);
+    tl.to("#c4-b24-i1",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},23.470);
+    tl.fromTo("#c4-b24-i2",{opacity:0},{opacity:0,duration:.01},21.16);
+    tl.fromTo("#c4-b24-i2",{opacity:0,scale:.6,y:36,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.5,ease:"back.out(1.5)"},22.66);
+    tl.to("#c4-b24-i2",{opacity:0,scale:.95,filter:"blur(8px)",duration:.17,ease:"power2.in"},23.470);
+    tl.fromTo("#c4-cap24-0",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},21.16);
+    tl.to("#c4-cap24-0",{opacity:0,duration:.07,ease:"none"},22.58);
+    tl.fromTo("#c4-cap24-1",{opacity:0,y:16,scale:.97},{opacity:1,y:0,scale:1,duration:.14,ease:"power3.out"},22.62);
+    tl.to("#c4-cap24-1",{opacity:0,duration:.07,ease:"none"},23.58);
+    window.__timelines["c4"] = tl;
+  </script>
+</template>
