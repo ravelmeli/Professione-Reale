@@ -1,0 +1,143 @@
+1
+00:00:00,000 --> 00:00:01,740
+Circa trentamila
+
+2
+00:00:01,740 --> 00:00:03,420
+euro lordi l'anno.
+
+3
+00:00:03,420 --> 00:00:06,540
+Così inizia un analista di cybersecurity.
+
+4
+00:00:06,540 --> 00:00:10,440
+Il suo primo anno? Eccolo, mese per mese.
+
+5
+00:00:10,440 --> 00:00:12,980
+Mese uno. Non hackeri niente.
+
+6
+00:00:12,980 --> 00:00:15,420
+Impari gli strumenti dell'azienda.
+
+7
+00:00:15,420 --> 00:00:18,690
+E leggi i log: le tracce dei sistemi.
+
+8
+00:00:18,690 --> 00:00:21,200
+Lordi vuol dire prima delle tasse.
+
+9
+00:00:21,200 --> 00:00:22,200
+Un junior parte tra
+
+10
+00:00:22,200 --> 00:00:24,220
+ventotto e trentasei mila.
+
+11
+00:00:24,220 --> 00:00:27,420
+Mese tre. Arriva il tuo primo allarme.
+
+12
+00:00:27,420 --> 00:00:29,800
+Un software segnala qualcosa di strano.
+
+13
+00:00:29,800 --> 00:00:32,780
+Tocca a te: attacco vero o falso allarme?
+
+14
+00:00:32,780 --> 00:00:35,760
+Molti allarmi sono falsi, ma controlli tutti.
+
+15
+00:00:35,760 --> 00:00:38,900
+Ogni controllo lascia una nota per chi viene dopo.
+
+16
+00:00:38,900 --> 00:00:41,420
+Mese sei. Entri nei turni.
+
+17
+00:00:41,420 --> 00:00:44,080
+Molti centri di sicurezza lavorano anche di notte.
+
+18
+00:00:44,080 --> 00:00:46,460
+Se sbagli, un attacco può passare.
+
+19
+00:00:46,460 --> 00:00:49,520
+Intanto scrivi report che altri leggeranno.
+
+20
+00:00:49,520 --> 00:00:51,180
+Mese nove. Inizi a
+
+21
+00:00:51,180 --> 00:00:53,100
+studiare per una certificazione.
+
+22
+00:00:53,100 --> 00:00:54,540
+L'esame costa circa quattrocento
+
+23
+00:00:54,540 --> 00:00:56,280
+dollari, negli Stati Uniti.
+
+24
+00:00:56,280 --> 00:00:58,820
+E non sempre lo paga l'azienda.
+
+25
+00:00:58,820 --> 00:01:01,480
+Mese dodici. Sei meno junior.
+
+26
+00:01:01,480 --> 00:01:02,220
+Dopo tre, cinque
+
+27
+00:01:02,220 --> 00:01:04,700
+anni: oltre trentottomila lordi.
+
+28
+00:01:04,700 --> 00:01:06,740
+Ma sono stime, non cifre fisse.
+
+29
+00:01:06,740 --> 00:01:10,100
+Contano città, azienda, turni e certificazioni.
+
+30
+00:01:10,100 --> 00:01:12,280
+Il costo nascosto non è in busta paga.
+
+31
+00:01:12,280 --> 00:01:15,140
+È stare attento, sempre, per ore.
+
+32
+00:01:15,140 --> 00:01:17,900
+Quando fai bene il tuo lavoro, non succede niente.
+
+33
+00:01:17,900 --> 00:01:20,560
+E nessuno sa che c'eri tu.
+
+34
+00:01:20,560 --> 00:01:23,160
+All'inizio, trentamila euro e uno schermo.
+
+35
+00:01:23,160 --> 00:01:26,020
+Dopo un anno, sai ciò che nessuno vede.
+
+36
+00:01:26,020 --> 00:01:28,370
+Iscriviti, se vuoi sapere cosa serve davvero.
