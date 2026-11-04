@@ -10,9 +10,11 @@ Mese tre. Arriva il tuo primo allarme.
 Un software segnala qualcosa di strano.
 Tocca a te: attacco vero o falso allarme?
 Molti allarmi sono falsi, ma controlli tutti.
+Ogni controllo lascia una nota per chi viene dopo.
 Mese sei. Entri nei turni.
 Molti centri di sicurezza lavorano anche di notte.
 Se sbagli, un attacco può passare.
+Intanto scrivi report che altri leggeranno.
 Mese nove. Inizi a studiare per una certificazione.
 L'esame costa circa quattrocento dollari, negli Stati Uniti.
 E non sempre lo paga l'azienda.
