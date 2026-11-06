@@ -88,7 +88,7 @@ Rhythm rule: every level gets a different emphasis. One level leads with danger,
 
 * Primarily second person (**"tu"**). The viewer lives the career through concrete scenes, not abstract explanations.
 * **Opening (first 90 words):** drop into one specific moment of a young person entering the profession. Include an age, a place, a professional object or machine, a sensory detail, an emotional tension and a sharp contrast with the future (authority, responsibility, achievement or income). No greeting, no "in questo video".
-* After the opening, state the promise of the documentary in one or two lines, then add one short, natural invitation to subscribe.
+* After the opening, state the promise of the documentary in one or two lines, then add one short, natural invitation to subscribe. Add a **second subscribe invitation at about two thirds of the narration** (right after a hook, before the last levels, es. "Se ti sta piacendo, iscriviti: mancano i due livelli più duri."). Every call to action is one short line (≤ 14 words), natural, never begging.
 * Alternate throughout: story → explanation → technical detail → financial reality → personal consequence → story.
 * Use open loops, mini-cliffhangers, unexpected costs, salary contrasts, callbacks and profession-specific revelations. Place a hook line at roughly every 45–60 seconds of spoken text.
 * Avoid repetitive transitions, generic motivation, exaggerated tragedy, clichés ("sudore e sacrificio"), and empty phrases.
@@ -110,7 +110,7 @@ Rhythm rule: every level gets a different emphasis. One level leads with danger,
 
 ## STEP 5 — ENDING
 
-Return to the opening beginner, or to the same first-day object, place or sound. Contrast what the career gave (income, authority, expertise, security, independence) with what it demanded (time, health, relationships, freedom, peace, identity). Finish on one original, memorable contrast that belongs only to this profession. No generic moral, no call to action after the last line.
+Return to the opening beginner, or to the same first-day object, place or sound. Contrast what the career gave (income, authority, expertise, security, independence) with what it demanded (time, health, relationships, freedom, peace, identity). Finish on one original, memorable contrast that belongs only to this profession. No generic moral. After the final contrast, add 2–3 closing lines: an invitation to subscribe, and one specific question for the comments tied to the profession (es. "Lavori nel settore? A che livello sei?"), optionally asking which profession to cover next.
 
 ---
 
@@ -148,6 +148,7 @@ STOP. WAIT FOR THE SRT FILE.
 * Real insider terms used and explained through context.
 * No invented source, quote or statistic; uncertain numbers are flagged.
 * The text reads aloud naturally in Italian; numbers written for speaking.
+* Subscribe invitation in the opening, a second one at about 2/3 of the narration, and a final subscribe + comment question after the last contrast.
 * The ending returns to the opening image and lands one contrast specific to this profession.
 * Word count 810–990 (target 900), estimated 5:30–6:30.
 * Every line is one spoken idea of 4–14 words, so it can be a subtitle and a visual change every 3–4 seconds (16:9).
