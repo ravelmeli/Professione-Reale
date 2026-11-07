@@ -2,3 +2,6 @@
 video/export/work-*/
 video/export/.*hf-transaction*/
 __pycache__/
+
+video/vhvac/assets/audio/*_long.wav
+video/assets/audio/*_long.wav

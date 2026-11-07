@@ -1,0 +1,411 @@
+1
+00:00:00,000 --> 00:00:03,184
+Hai diciannove anni e sei su un tetto, a luglio.
+
+2
+00:00:03,184 --> 00:00:05,420
+Il catrame scotta sotto le suole.
+
+3
+00:00:05,420 --> 00:00:08,405
+L'aria odora di rame, di stagno e di caldo.
+
+4
+00:00:08,405 --> 00:00:12,140
+Davanti a te, un'unità esterna ancora chiusa nel cartone.
+
+5
+00:00:12,140 --> 00:00:14,313
+Il tuo capo ti passa una chiave inglese.
+
+6
+00:00:14,313 --> 00:00:15,603
+Tieni ferma questa, dice.
+
+7
+00:00:15,603 --> 00:00:18,616
+Non sai ancora cosa c'è dentro quei tubi di rame.
+
+8
+00:00:18,616 --> 00:00:21,839
+Tra dieci anni, sarai tu a firmare che tutto funziona.
+
+9
+00:00:21,839 --> 00:00:24,112
+E se sbagli, non succede niente subito.
+
+10
+00:00:24,112 --> 00:00:28,480
+Succede dopo, in un'estate lontana, quando una casa resta senza aria.
+
+11
+00:00:28,480 --> 00:00:31,225
+Ecco la prima cosa che nessuno ti dice.
+
+12
+00:00:31,225 --> 00:00:35,901
+Un impianto fatto male si sente subito: rumore, gocce, poca aria fredda.
+
+13
+00:00:35,901 --> 00:00:38,792
+Questa è la vita di un tecnico HVAC, a ogni livello.
+
+14
+00:00:38,792 --> 00:00:44,078
+In italiano, un frigorista: chi installa e ripara riscaldamento e climatizzazione.
+
+15
+00:00:44,078 --> 00:00:46,822
+Iscriviti, se vuoi sapere quanto guadagna davvero.
+
+16
+00:00:46,822 --> 00:00:48,877
+Livello uno. Sei apprendista.
+
+17
+00:00:48,877 --> 00:00:53,110
+Hai diciotto, vent'anni, e porti scale, trapani e bobine di tubo.
+
+18
+00:00:53,110 --> 00:00:56,695
+Il tuo stipendio è una percentuale del livello del contratto.
+
+19
+00:00:56,695 --> 00:00:57,797
+Quindi parti basso, e lo sai.
+
+20
+00:00:57,797 --> 00:00:59,899
+Intanto guardi, impari, e ti scotti.
+
+21
+00:00:59,899 --> 00:01:04,881
+Impari i nomi: unità esterna, unità interna, split, condotto.
+
+22
+00:01:04,881 --> 00:01:08,874
+Lavori su tetti, balconi, cantine e controsoffitti.
+
+23
+00:01:08,874 --> 00:01:12,399
+Il caldo di un sottotetto, ad agosto, ti toglie il fiato.
+
+24
+00:01:12,399 --> 00:01:15,846
+Se pieghi male un tubo di rame, lo butti, e il capo se ne accorge.
+
+25
+00:01:15,846 --> 00:01:18,095
+Ma non tocchi ancora il circuito del gas.
+
+26
+00:01:18,095 --> 00:01:22,546
+Nelle prime settimane, nessuno ti affida gli strumenti più delicati.
+
+27
+00:01:22,546 --> 00:01:24,991
+Quello è un confine che nessuno ti lascia superare.
+
+28
+00:01:24,991 --> 00:01:27,353
+Perché dentro quei tubi c'è un fluido refrigerante.
+
+29
+00:01:27,353 --> 00:01:29,547
+Ed è vietato disperderlo nell'aria.
+
+30
+00:01:29,547 --> 00:01:34,570
+Livello due. Operaio specializzato, cioè installatore.
+
+31
+00:01:34,570 --> 00:01:37,593
+Dopo qualche anno, lavori da solo su impianti veri.
+
+32
+00:01:37,593 --> 00:01:40,341
+Monti l'unità interna e tiri le linee, passando nel muro.
+
+33
+00:01:40,341 --> 00:01:45,067
+Cartelli i tubi, cioè allarghi l'estremità per un collegamento perfetto.
+
+34
+00:01:45,067 --> 00:01:48,417
+Poi fai il vuoto, con una pompa, per togliere aria e umidità.
+
+35
+00:01:48,417 --> 00:01:52,788
+Un cantiere lo capisci dal ritmo: il tuo capo parla poco, e controlla tutto.
+
+36
+00:01:52,788 --> 00:02:01,249
+Il minimo del contratto, dal primo marzo duemilaventisei, è circa milleseicentocinquanta euro lordi al mese.
+
+37
+00:02:01,249 --> 00:02:05,810
+Lordi vuol dire prima delle tasse, per tredici mensilità.
+
+38
+00:02:05,810 --> 00:02:09,452
+Scatti di anzianità e superminimi si aggiungono.
+
+39
+00:02:09,452 --> 00:02:12,978
+Ma quel numero è un minimo, non quello che leggi in busta paga.
+
+40
+00:02:12,978 --> 00:02:15,735
+E il tuo capo ti ripete sempre la stessa frase.
+
+41
+00:02:15,735 --> 00:02:18,744
+Se non sei certificato, non puoi toccare il gas.
+
+42
+00:02:18,744 --> 00:02:22,154
+Livello tre. Il patentino F-gas.
+
+43
+00:02:22,154 --> 00:02:26,274
+Il suo nome ufficiale è certificazione per i gas fluorurati.
+
+44
+00:02:26,274 --> 00:02:30,812
+Serve a installare, riparare e smantellare impianti con refrigerante.
+
+45
+00:02:30,812 --> 00:02:38,642
+Un corso con esame costa da quattrocentocinquanta a seicentosessantacinque euro, più IVA.
+
+46
+00:02:38,642 --> 00:02:42,025
+Poi paghi una piccola quota di mantenimento ogni anno.
+
+47
+00:02:42,025 --> 00:02:47,269
+L'esame ha anche prove pratiche: ricerca perdite, recupero del gas, saldatura.
+
+48
+00:02:47,269 --> 00:02:50,853
+E ti iscrivi al registro telematico delle persone certificate.
+
+49
+00:02:50,853 --> 00:02:53,655
+Da quel giorno, il tuo nome è in una banca dati pubblica.
+
+50
+00:02:53,655 --> 00:02:56,058
+Chiunque può controllare se sei in regola.
+
+51
+00:02:56,058 --> 00:02:59,609
+Ora puoi fare una prova di tenuta, e cercare le perdite.
+
+52
+00:02:59,609 --> 00:03:02,769
+E se sbagli, lo scopre qualcuno.
+
+53
+00:03:02,769 --> 00:03:05,321
+Livello quattro. Tecnico specializzato.
+
+54
+00:03:05,321 --> 00:03:07,277
+Non monti più solo split.
+
+55
+00:03:07,277 --> 00:03:11,667
+D'estate raffreddi, d'inverno scaldi: una pompa di calore fa tutte e due.
+
+56
+00:03:11,667 --> 00:03:16,135
+Lavori su pompe di calore, impianti più grandi e interventi dopo un guasto.
+
+57
+00:03:16,135 --> 00:03:20,117
+Cerchi una perdita invisibile, con strumenti che misurano la pressione.
+
+58
+00:03:20,117 --> 00:03:24,612
+Ogni intervento sul gas va documentato, sul registro dell'impianto.
+
+59
+00:03:24,612 --> 00:03:30,399
+Il minimo del contratto sale: circa millesettecentocinquanta euro lordi.
+
+60
+00:03:30,399 --> 00:03:33,825
+Perché ora guidi e controlli i lavori con autonomia.
+
+61
+00:03:33,825 --> 00:03:36,911
+Ma quando fa caldo, il telefono non smette di suonare.
+
+62
+00:03:36,911 --> 00:03:41,357
+Una famiglia senza aria condizionata, a ferragosto, non aspetta.
+
+63
+00:03:41,357 --> 00:03:45,066
+E tu lavori di sera, nei weekend, anche sotto il sole.
+
+64
+00:03:45,066 --> 00:03:49,915
+Se ti sta piacendo, iscriviti: mancano i due livelli più duri.
+
+65
+00:03:49,915 --> 00:03:53,009
+Livello cinque. Responsabile tecnico.
+
+66
+00:03:53,009 --> 00:03:56,023
+Qui il lavoro cambia: non basta più saper fare.
+
+67
+00:03:56,023 --> 00:04:01,781
+Servono studi tecnici e anni di esperienza, oppure un diploma e pratica.
+
+68
+00:04:01,781 --> 00:04:02,794
+Qui devi poter firmare.
+
+69
+00:04:02,794 --> 00:04:07,158
+La legge dice che solo chi ha i requisiti rilascia la dichiarazione di conformità.
+
+70
+00:04:07,158 --> 00:04:10,274
+Quel foglio dice: questo impianto è fatto bene.
+
+71
+00:04:10,274 --> 00:04:12,895
+La tua firma resta lì per anni.
+
+72
+00:04:12,895 --> 00:04:16,620
+Ora guidi una squadra, e rispondi anche di chi lavora con te.
+
+73
+00:04:16,620 --> 00:04:19,506
+Un errore di un collega diventa un problema tuo.
+
+74
+00:04:19,506 --> 00:04:23,908
+E devi tenere aggiornati formazione, certificati e registri.
+
+75
+00:04:23,908 --> 00:04:28,177
+Lo scopri presto: la carta pesa quanto il rame.
+
+76
+00:04:28,177 --> 00:04:30,244
+Livello sei. Apri la tua ditta.
+
+77
+00:04:30,244 --> 00:04:33,575
+Niente più contratto: ora contano i clienti.
+
+78
+00:04:33,575 --> 00:04:37,700
+Un cliente ti giudica da una cosa sola: quanto è fresca la casa.
+
+79
+00:04:37,700 --> 00:04:42,583
+Le tariffe, in media, vanno da venticinque a sessanta euro l'ora.
+
+80
+00:04:42,583 --> 00:04:46,961
+Il diritto di chiamata, da trenta a ottanta euro.
+
+81
+00:04:46,961 --> 00:04:48,657
+Sono stime, non cifre fisse.
+
+82
+00:04:48,657 --> 00:04:51,831
+Ma il fatturato non è quello che ti resta.
+
+83
+00:04:51,831 --> 00:04:55,466
+Da lì tolgono furgone, attrezzi, assicurazione e certificazioni.
+
+84
+00:04:55,466 --> 00:04:59,389
+Tolgono gli strumenti da rinnovare, e le ferie che non fai.
+
+85
+00:04:59,389 --> 00:05:01,945
+Il costo nascosto non è in busta paga.
+
+86
+00:05:01,945 --> 00:05:04,239
+È la stagionalità del mestiere.
+
+87
+00:05:04,239 --> 00:05:07,224
+In estate sei il re del condominio.
+
+88
+00:05:07,224 --> 00:05:09,432
+D'inverno, forse, resti ad aspettare.
+
+89
+00:05:09,432 --> 00:05:12,252
+Guadagni tanto quando tutti hanno caldo.
+
+90
+00:05:12,252 --> 00:05:15,657
+Poi arriva il freddo, e devi sopravvivere ai mesi calmi.
+
+91
+00:05:15,657 --> 00:05:18,944
+E ogni intervento porta la tua firma.
+
+92
+00:05:18,944 --> 00:05:20,561
+Torna al tetto, a luglio.
+
+93
+00:05:20,561 --> 00:05:23,965
+Il ragazzo con la chiave inglese non sa ancora tutto questo.
+
+94
+00:05:23,965 --> 00:05:26,627
+Non sa che il suo lavoro sarà invisibile.
+
+95
+00:05:26,627 --> 00:05:28,869
+Se fa bene, nessuno ci pensa.
+
+96
+00:05:28,869 --> 00:05:32,164
+Se sbaglia, un'estate intera ricorderà il suo nome.
+
+97
+00:05:32,164 --> 00:05:36,073
+Dal primo stipendio da apprendista alla tua ditta, passano anni.
+
+98
+00:05:36,073 --> 00:05:38,414
+Ha scelto un mestiere che vende aria fresca.
+
+99
+00:05:38,414 --> 00:05:41,479
+Un mestiere che nessuno nota, finché funziona.
+
+100
+00:05:41,479 --> 00:05:44,226
+E in cambio, paga con il caldo.
+
+101
+00:05:44,226 --> 00:05:47,096
+Se questo video ti è piaciuto, iscriviti al canale.
+
+102
+00:05:47,096 --> 00:05:51,227
+E scrivi nei commenti: lavori nel settore? A che livello sei?
+
+103
+00:05:51,227 --> 00:05:53,820
+Oppure dimmi quale mestiere vuoi vedere dopo.
