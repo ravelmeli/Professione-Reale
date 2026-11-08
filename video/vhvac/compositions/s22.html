@@ -85,11 +85,11 @@
   <div id="root" data-composition-id="s22" data-width="1920" data-height="1080">
         <svg width="0" height="0" style="position:absolute"><filter id="boil-s22" x="-3%" y="-3%" width="106%" height="106%"><feTurbulence id="boilt-s22" type="fractalNoise" baseFrequency="0.018 0.022" numOctaves="2" seed="1" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="3.4"/></filter></svg>
     <div class="stage clip" data-layout-allow-occlusion id="s22-stage" data-start="0" data-duration="8.12" data-track-index="1"><div class="stage" id="s22-pun"><div class="stage" id="s22-cam">
-    <img class="bgimg" data-layout-allow-occlusion src="assets/img/bg-officina.jpg" alt=""><div class="bgshade"></div>
-    <div class="item clip " id="s22-i1" data-start="0.0" data-duration="8.12" data-track-index="4" style="left:267px;top:205px;width:346px;height:660px;z-index:3"><img class="pic" id="s22-i1-p" src="assets/img/and_32.png" alt=""></div>
-    <div class="item clip " id="s22-p2" data-start="0.16" data-duration="7.96" data-track-index="4" style="left:950px;top:243px;width:680px;height:314px;z-index:4"><div class="bx" style="width:680px;height:314px;transform:scale(1.0)"><div class="glass"><div class="gtag blue small"><i class="dot"></i>minimo contrattuale</div><div class="row" id="s22-p2-r0"><span class="rl">LIV. 2</span><span class="rv strike" id="s22-p2-r0-v" style="color:#9aa0d8">1.650 €</span></div><div class="row" id="s22-p2-r1"><span class="rl">LIV. 4</span><span class="rv" id="s22-p2-r1-v" style="color:#3ddc97">≈ 1.650 €</span></div></div></div></div>
-    <div class="item clip " id="s22-b3" data-start="2.96" data-duration="5.16" data-track-index="4" style="left:1210px;top:610px;width:160px;height:140px;z-index:4"><div class="bx" style="width:160px;height:140px;transform:scale(1.0)"><div class="arrow">▲</div></div></div>
-    <div class="item clip " id="s22-b4" data-start="6.62" data-duration="1.5" data-track-index="4" style="left:1120px;top:796px;width:340px;height:84px;z-index:4"><div class="bx" style="width:340px;height:84px;transform:scale(1.0)"><div class="gtag gold"><i class="dot"></i>autonomia</div></div></div>
+    <div class="item clip " id="s22-b1" data-start="0.0" data-duration="8.12" data-track-index="4" style="left:102px;top:205px;width:675px;height:675px;z-index:1"><div class="bx" style="width:726px;height:726px;transform:scale(1.0)"><div class="halo" style="background:radial-gradient(circle,rgba(120,90,255,.40) 0%,transparent 68%)"></div></div></div>
+    <div class="item clip " id="s22-i2" data-start="0.0" data-duration="8.12" data-track-index="4" style="left:267px;top:205px;width:346px;height:660px;z-index:3"><img class="pic" id="s22-i2-p" src="assets/img/and_32.png" alt=""></div>
+    <div class="item clip " id="s22-p3" data-start="0.16" data-duration="7.96" data-track-index="4" style="left:950px;top:243px;width:680px;height:314px;z-index:4"><div class="bx" style="width:680px;height:314px;transform:scale(1.0)"><div class="glass"><div class="gtag blue small"><i class="dot"></i>minimo contrattuale</div><div class="row" id="s22-p3-r0"><span class="rl">LIV. 2</span><span class="rv strike" id="s22-p3-r0-v" style="color:#9aa0d8">1.650 €</span></div><div class="row" id="s22-p3-r1"><span class="rl">LIV. 4</span><span class="rv" id="s22-p3-r1-v" style="color:#3ddc97">≈ 1.650 €</span></div></div></div></div>
+    <div class="item clip " id="s22-b4" data-start="2.96" data-duration="5.16" data-track-index="4" style="left:1210px;top:610px;width:160px;height:140px;z-index:4"><div class="bx" style="width:160px;height:140px;transform:scale(1.0)"><div class="arrow">▲</div></div></div>
+    <div class="item clip " id="s22-b5" data-start="6.62" data-duration="1.5" data-track-index="4" style="left:1120px;top:796px;width:340px;height:84px;z-index:4"><div class="bx" style="width:340px;height:84px;transform:scale(1.0)"><div class="gtag gold"><i class="dot"></i>autonomia</div></div></div>
     </div></div></div>
   </div>
   <script>
@@ -98,14 +98,15 @@
     tl.to("#s22-pun",{scale:1.1,duration:.08,ease:"power3.out"},2.060);
     tl.to("#s22-pun",{scale:1,duration:.45,ease:"expo.out"},2.140);
     tl.fromTo("#s22-cam",{scale:1,y:0},{scale:1.06,y:-24,duration:8.12,ease:"none"},0);
-    tl.fromTo("#s22-i1",{opacity:0,x:-340,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"expo.out"},0.000);
-    tl.fromTo("#s22-i1-p",{scale:1},{scale:1.03,duration:8.12,ease:"none"},0.000);
-    tl.fromTo("#s22-i1-p",{y:0,rotation:-0.7},{y:-10,rotation:0.7,duration:2.40,ease:"sine.inOut",yoyo:true,repeat:4},0.450);
-    tl.fromTo("#s22-p2",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},0.160);
-    tl.fromTo("#s22-b3",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},2.960);
-    tl.fromTo("#s22-b4",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},6.620);
-    (function(){var o={v:1650},el=document.getElementById("s22-p2-r1-v");tl.fromTo(o,{v:1650},{v:1750,duration:0.9,ease:"power2.out",onUpdate:function(){var n=Math.round(o.v),s=String(n).replace(/\B(?=(\d{3})+(?!\d))/g,".");el.textContent='≈ {n} €'.replace("{n}",s);}},2.160);})();
-    tl.fromTo("#s22-p2-r1",{opacity:.0,x:40},{opacity:1,x:0,duration:.35,ease:"expo.out"},2.060);
+    tl.fromTo("#s22-b1",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},0.000);
+    tl.fromTo("#s22-i2",{opacity:0,x:-340,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"expo.out"},0.000);
+    tl.fromTo("#s22-i2-p",{scale:1},{scale:1.03,duration:8.12,ease:"none"},0.000);
+    tl.fromTo("#s22-i2-p",{y:0,rotation:-0.7},{y:-10,rotation:0.7,duration:2.40,ease:"sine.inOut",yoyo:true,repeat:4},0.450);
+    tl.fromTo("#s22-p3",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},0.160);
+    tl.fromTo("#s22-b4",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},2.960);
+    tl.fromTo("#s22-b5",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},6.620);
+    (function(){var o={v:1650},el=document.getElementById("s22-p3-r1-v");tl.fromTo(o,{v:1650},{v:1750,duration:0.9,ease:"power2.out",onUpdate:function(){var n=Math.round(o.v),s=String(n).replace(/\B(?=(\d{3})+(?!\d))/g,".");el.textContent='≈ {n} €'.replace("{n}",s);}},2.160);})();
+    tl.fromTo("#s22-p3-r1",{opacity:.0,x:40},{opacity:1,x:0,duration:.35,ease:"expo.out"},2.060);
     tl.to("#s22-stage",{opacity:0,scale:.9,filter:"blur(14px)",duration:0.34,ease:"power2.in"},7.760);
     window.__timelines["s22"] = tl;
   </script>

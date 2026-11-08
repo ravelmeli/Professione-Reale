@@ -85,11 +85,11 @@
   <div id="root" data-composition-id="s3" data-width="1920" data-height="1080">
         <svg width="0" height="0" style="position:absolute"><filter id="boil-s3" x="-3%" y="-3%" width="106%" height="106%"><feTurbulence id="boilt-s3" type="fractalNoise" baseFrequency="0.018 0.022" numOctaves="2" seed="1" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="3.4"/></filter></svg>
     <div class="stage clip" data-layout-allow-occlusion id="s3-stage" data-start="0" data-duration="5.94" data-track-index="1"><div class="stage" id="s3-pun"><div class="stage" id="s3-cam">
-    <img class="bgimg" data-layout-allow-occlusion src="assets/img/bg-tetto.jpg" alt=""><div class="bgshade"></div>
-    <div class="item clip " id="s3-i1" data-start="0.0" data-duration="5.94" data-track-index="4" style="left:300px;top:205px;width:281px;height:660px;z-index:3"><img class="pic" id="s3-i1-p" src="assets/img/and_37.png" alt=""></div>
-    <div class="item clip " id="s3-i2" data-start="1.52" data-duration="4.42" data-track-index="4" style="left:1083px;top:260px;width:415px;height:420px;z-index:3"><img class="pic" id="s3-i2-p" src="assets/img/foglio_timbro.png" alt=""></div>
-    <div class="item clip " id="s3-b3" data-start="0.26" data-duration="5.68" data-track-index="4" style="left:1070px;top:738px;width:440px;height:84px;z-index:4"><div class="bx" style="width:440px;height:84px;transform:scale(1.0)"><div class="gtag blue"><i class="dot"></i>tra dieci anni</div></div></div>
-    <div class="item clip " id="s3-b4" data-start="3.58" data-duration="2.36" data-track-index="4" style="left:1050px;top:759px;width:480px;height:121px;z-index:4"><div class="bx" style="width:480px;height:121px;transform:scale(1.0)"><div class="stamp" style="font-size:64px;color:#ff4d6d;border-color:#ff4d6d">SE SBAGLI</div></div></div>
+    <div class="item clip " id="s3-b1" data-start="0.0" data-duration="5.94" data-track-index="4" style="left:102px;top:205px;width:675px;height:675px;z-index:1"><div class="bx" style="width:726px;height:726px;transform:scale(1.0)"><div class="halo" style="background:radial-gradient(circle,rgba(120,90,255,.40) 0%,transparent 68%)"></div></div></div>
+    <div class="item clip " id="s3-i2" data-start="0.0" data-duration="5.94" data-track-index="4" style="left:300px;top:205px;width:281px;height:660px;z-index:3"><img class="pic" id="s3-i2-p" src="assets/img/and_37.png" alt=""></div>
+    <div class="item clip " id="s3-i3" data-start="1.52" data-duration="4.42" data-track-index="4" style="left:1083px;top:260px;width:415px;height:420px;z-index:3"><img class="pic" id="s3-i3-p" src="assets/img/foglio_timbro.png" alt=""></div>
+    <div class="item clip " id="s3-b4" data-start="0.26" data-duration="5.68" data-track-index="4" style="left:1070px;top:738px;width:440px;height:84px;z-index:4"><div class="bx" style="width:440px;height:84px;transform:scale(1.0)"><div class="gtag blue"><i class="dot"></i>tra dieci anni</div></div></div>
+    <div class="item clip " id="s3-b5" data-start="3.58" data-duration="2.36" data-track-index="4" style="left:1050px;top:759px;width:480px;height:121px;z-index:4"><div class="bx" style="width:480px;height:121px;transform:scale(1.0)"><div class="stamp" style="font-size:64px;color:#ff4d6d;border-color:#ff4d6d">SE SBAGLI</div></div></div>
     <div class="item clip" id="s3-fl2340" data-start="3.7" data-duration="0.7" data-track-index="3" style="left:1130px;top:660px;width:320px;height:320px;z-index:9"><div class="flash" style="border-color:rgba(255,255,255,.7)"></div></div>
     </div></div></div>
   </div>
@@ -105,14 +105,15 @@
     tl.to("#s3-pun",{x:6,y:-4,rotation:0.2,duration:.045,ease:"none"},3.755);
     tl.to("#s3-pun",{x:0,y:0,rotation:0,duration:.045,ease:"none"},3.800);
     tl.fromTo("#s3-cam",{scale:1,y:0},{scale:1.06,y:-24,duration:5.94,ease:"none"},0);
-    tl.fromTo("#s3-i1",{opacity:0,x:-340,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"expo.out"},0.000);
-    tl.fromTo("#s3-i1-p",{scale:1},{scale:1.03,duration:5.94,ease:"none"},0.000);
-    tl.fromTo("#s3-i1-p",{y:0,rotation:-0.7},{y:-10,rotation:0.7,duration:2.40,ease:"sine.inOut",yoyo:true,repeat:3},0.450);
-    tl.fromTo("#s3-i2",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},1.520);
-    tl.fromTo("#s3-i2-p",{scale:1},{scale:1.03,duration:4.42,ease:"none"},1.520);
-    tl.fromTo("#s3-i2-p",{y:0,rotation:-1.5},{y:-16,rotation:1.5,duration:3.20,ease:"sine.inOut",yoyo:true,repeat:2},1.970);
-    tl.fromTo("#s3-b3",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},0.260);
-    tl.fromTo("#s3-b4",{opacity:0,scale:.55,y:34,rotation:-6},{opacity:1,scale:1,x:0,y:0,rotation:-6,duration:.5,ease:"back.out(1.5)"},3.580);
+    tl.fromTo("#s3-b1",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},0.000);
+    tl.fromTo("#s3-i2",{opacity:0,x:-340,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"expo.out"},0.000);
+    tl.fromTo("#s3-i2-p",{scale:1},{scale:1.03,duration:5.94,ease:"none"},0.000);
+    tl.fromTo("#s3-i2-p",{y:0,rotation:-0.7},{y:-10,rotation:0.7,duration:2.40,ease:"sine.inOut",yoyo:true,repeat:3},0.450);
+    tl.fromTo("#s3-i3",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},1.520);
+    tl.fromTo("#s3-i3-p",{scale:1},{scale:1.03,duration:4.42,ease:"none"},1.520);
+    tl.fromTo("#s3-i3-p",{y:0,rotation:-1.5},{y:-16,rotation:1.5,duration:3.00,ease:"sine.inOut",yoyo:true,repeat:2},1.970);
+    tl.fromTo("#s3-b4",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},0.260);
+    tl.fromTo("#s3-b5",{opacity:0,scale:.55,y:34,rotation:-6},{opacity:1,scale:1,x:0,y:0,rotation:-6,duration:.5,ease:"back.out(1.5)"},3.580);
     tl.fromTo("#s3-fl2340",{opacity:.8,scale:.4},{opacity:0,scale:1.6,duration:.55,ease:"expo.out"},3.700);
     tl.to("#s3-stage",{opacity:0,scale:.9,filter:"blur(14px)",duration:0.34,ease:"power2.in"},5.580);
     window.__timelines["s3"] = tl;

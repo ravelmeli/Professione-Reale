@@ -85,10 +85,10 @@
   <div id="root" data-composition-id="s32" data-width="1920" data-height="1080">
         <svg width="0" height="0" style="position:absolute"><filter id="boil-s32" x="-3%" y="-3%" width="106%" height="106%"><feTurbulence id="boilt-s32" type="fractalNoise" baseFrequency="0.018 0.022" numOctaves="2" seed="1" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="3.4"/></filter></svg>
     <div class="stage clip" data-layout-allow-occlusion id="s32-stage" data-start="0" data-duration="3.33" data-track-index="1"><div class="stage" id="s32-pun"><div class="stage" id="s32-cam">
-    <img class="bgimg" data-layout-allow-occlusion src="assets/img/bg-notte.jpg" alt=""><div class="bgshade"></div>
-    <div class="item clip " id="s32-i1" data-start="0.0" data-duration="3.33" data-track-index="4" style="left:574px;top:270px;width:572px;height:500px;z-index:3"><img class="pic" id="s32-i1-p" src="assets/img/pose_sofa.png" alt=""></div>
-    <div class="item clip " id="s32-i2" data-start="1.29" data-duration="2.04" data-track-index="4" style="left:1387px;top:250px;width:266px;height:300px;z-index:3"><img class="pic" id="s32-i2-p" src="assets/img/fiocco.png" alt=""></div>
-    <div class="item clip " id="s32-b3" data-start="1.29" data-duration="2.04" data-track-index="4" style="left:580px;top:778px;width:560px;height:84px;z-index:4"><div class="bx" style="width:560px;height:84px;transform:scale(1.0)"><div class="gtag blue"><i class="dot"></i>d'inverno: aspetti</div></div></div>
+    <div class="item clip " id="s32-b1" data-start="0.0" data-duration="3.33" data-track-index="4" style="left:585px;top:245px;width:550px;height:550px;z-index:1"><div class="bx" style="width:550px;height:550px;transform:scale(1.0)"><div class="halo" style="background:radial-gradient(circle,rgba(120,90,255,.40) 0%,transparent 68%)"></div></div></div>
+    <div class="item clip " id="s32-i2" data-start="0.0" data-duration="3.33" data-track-index="4" style="left:574px;top:270px;width:572px;height:500px;z-index:3"><img class="pic" id="s32-i2-p" src="assets/img/pose_sofa.png" alt=""></div>
+    <div class="item clip " id="s32-i3" data-start="1.29" data-duration="2.04" data-track-index="4" style="left:1387px;top:250px;width:266px;height:300px;z-index:3"><img class="pic" id="s32-i3-p" src="assets/img/fiocco.png" alt=""></div>
+    <div class="item clip " id="s32-b4" data-start="1.29" data-duration="2.04" data-track-index="4" style="left:580px;top:778px;width:560px;height:84px;z-index:4"><div class="bx" style="width:560px;height:84px;transform:scale(1.0)"><div class="gtag blue"><i class="dot"></i>d'inverno: aspetti</div></div></div>
     </div></div></div>
   </div>
   <script>
@@ -97,13 +97,14 @@
     tl.to("#s32-pun",{scale:1.1,duration:.08,ease:"power3.out"},1.290);
     tl.to("#s32-pun",{scale:1,duration:.45,ease:"expo.out"},1.370);
     tl.fromTo("#s32-cam",{scale:1,y:0},{scale:1.06,y:-24,duration:3.33,ease:"none"},0);
-    tl.fromTo("#s32-i1",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},0.000);
-    tl.fromTo("#s32-i1-p",{scale:1},{scale:1.03,duration:3.33,ease:"none"},0.000);
-    tl.fromTo("#s32-i1-p",{y:0,rotation:-0.7},{y:-10,rotation:0.7,duration:2.40,ease:"sine.inOut",yoyo:true,repeat:2},0.450);
-    tl.fromTo("#s32-i2",{opacity:0,x:340,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"expo.out"},1.290);
-    tl.fromTo("#s32-i2-p",{scale:1},{scale:1.03,duration:2.04,ease:"none"},1.290);
-    tl.fromTo("#s32-i2-p",{y:0,rotation:-1.5},{y:-16,rotation:1.5,duration:4.20,ease:"sine.inOut",yoyo:true,repeat:1},1.740);
-    tl.fromTo("#s32-b3",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},1.290);
+    tl.fromTo("#s32-b1",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},0.000);
+    tl.fromTo("#s32-i2",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},0.000);
+    tl.fromTo("#s32-i2-p",{scale:1},{scale:1.03,duration:3.33,ease:"none"},0.000);
+    tl.fromTo("#s32-i2-p",{y:0,rotation:-0.7},{y:-10,rotation:0.7,duration:2.40,ease:"sine.inOut",yoyo:true,repeat:2},0.450);
+    tl.fromTo("#s32-i3",{opacity:0,x:340,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"expo.out"},1.290);
+    tl.fromTo("#s32-i3-p",{scale:1},{scale:1.03,duration:2.04,ease:"none"},1.290);
+    tl.fromTo("#s32-i3-p",{y:0,rotation:-1.5},{y:-16,rotation:1.5,duration:3.20,ease:"sine.inOut",yoyo:true,repeat:1},1.740);
+    tl.fromTo("#s32-b4",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},1.290);
     tl.to("#s32-stage",{opacity:0,scale:.9,filter:"blur(14px)",duration:0.34,ease:"power2.in"},2.970);
     window.__timelines["s32"] = tl;
   </script>

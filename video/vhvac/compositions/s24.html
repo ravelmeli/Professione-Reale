@@ -85,11 +85,11 @@
   <div id="root" data-composition-id="s24" data-width="1920" data-height="1080">
         <svg width="0" height="0" style="position:absolute"><filter id="boil-s24" x="-3%" y="-3%" width="106%" height="106%"><feTurbulence id="boilt-s24" type="fractalNoise" baseFrequency="0.018 0.022" numOctaves="2" seed="1" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="3.4"/></filter></svg>
     <div class="stage clip" data-layout-allow-occlusion id="s24-stage" data-start="0" data-duration="4.78" data-track-index="1"><div class="stage" id="s24-pun"><div class="stage" id="s24-cam">
-    <img class="bgimg" data-layout-allow-occlusion src="assets/img/bg-officina.jpg" alt=""><div class="bgshade"></div>
-    <div class="item clip " id="s24-i1" data-start="0.0" data-duration="4.78" data-track-index="4" style="left:267px;top:205px;width:346px;height:660px;z-index:3"><img class="pic" id="s24-i1-p" src="assets/img/and_32.png" alt=""></div>
-    <div class="item clip " id="s24-i2" data-start="1.18" data-duration="3.6" data-track-index="4" style="left:950px;top:270px;width:680px;height:420px;z-index:3"><img class="pic" id="s24-i2-p" src="assets/img/campanella.png" alt=""></div>
-    <div class="item clip " id="s24-b3" data-start="1.28" data-duration="3.5" data-track-index="4" style="left:1125px;top:738px;width:330px;height:84px;z-index:4"><div class="bx" style="width:330px;height:84px;transform:scale(1.0)"><div class="gtag red"><i class="dot"></i>iscriviti</div></div></div>
-    <div class="item clip " id="s24-b4" data-start="2.06" data-duration="2.72" data-track-index="4" style="left:1060px;top:796px;width:460px;height:84px;z-index:4"><div class="bx" style="width:460px;height:84px;transform:scale(1.0)"><div class="gtag gold"><i class="dot"></i>mancano 2 livelli</div></div></div>
+    <div class="item clip " id="s24-b1" data-start="0.0" data-duration="4.78" data-track-index="4" style="left:102px;top:205px;width:675px;height:675px;z-index:1"><div class="bx" style="width:726px;height:726px;transform:scale(1.0)"><div class="halo" style="background:radial-gradient(circle,rgba(120,90,255,.40) 0%,transparent 68%)"></div></div></div>
+    <div class="item clip " id="s24-i2" data-start="0.0" data-duration="4.78" data-track-index="4" style="left:267px;top:205px;width:346px;height:660px;z-index:3"><img class="pic" id="s24-i2-p" src="assets/img/and_32.png" alt=""></div>
+    <div class="item clip " id="s24-i3" data-start="1.18" data-duration="3.6" data-track-index="4" style="left:950px;top:270px;width:680px;height:420px;z-index:3"><img class="pic" id="s24-i3-p" src="assets/img/campanella.png" alt=""></div>
+    <div class="item clip " id="s24-b4" data-start="1.28" data-duration="3.5" data-track-index="4" style="left:1125px;top:738px;width:330px;height:84px;z-index:4"><div class="bx" style="width:330px;height:84px;transform:scale(1.0)"><div class="gtag red"><i class="dot"></i>iscriviti</div></div></div>
+    <div class="item clip " id="s24-b5" data-start="2.06" data-duration="2.72" data-track-index="4" style="left:1060px;top:796px;width:460px;height:84px;z-index:4"><div class="bx" style="width:460px;height:84px;transform:scale(1.0)"><div class="gtag gold"><i class="dot"></i>mancano 2 livelli</div></div></div>
     </div></div></div>
   </div>
   <script>
@@ -98,14 +98,15 @@
     tl.to("#s24-pun",{scale:1.1,duration:.08,ease:"power3.out"},1.180);
     tl.to("#s24-pun",{scale:1,duration:.45,ease:"expo.out"},1.260);
     tl.fromTo("#s24-cam",{scale:1,y:0},{scale:1.06,y:-24,duration:4.78,ease:"none"},0);
-    tl.fromTo("#s24-i1",{opacity:0,x:-340,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"expo.out"},0.000);
-    tl.fromTo("#s24-i1-p",{scale:1},{scale:1.03,duration:4.78,ease:"none"},0.000);
-    tl.fromTo("#s24-i1-p",{y:0,rotation:-0.7},{y:-10,rotation:0.7,duration:2.40,ease:"sine.inOut",yoyo:true,repeat:2},0.450);
-    tl.fromTo("#s24-i2",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},1.180);
-    tl.fromTo("#s24-i2-p",{scale:1},{scale:1.03,duration:3.6,ease:"none"},1.180);
-    tl.fromTo("#s24-i2-p",{y:0,rotation:-1.5},{y:-16,rotation:1.5,duration:3.60,ease:"sine.inOut",yoyo:true,repeat:2},1.630);
-    tl.fromTo("#s24-b3",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},1.280);
-    tl.fromTo("#s24-b4",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},2.060);
+    tl.fromTo("#s24-b1",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},0.000);
+    tl.fromTo("#s24-i2",{opacity:0,x:-340,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"expo.out"},0.000);
+    tl.fromTo("#s24-i2-p",{scale:1},{scale:1.03,duration:4.78,ease:"none"},0.000);
+    tl.fromTo("#s24-i2-p",{y:0,rotation:-0.7},{y:-10,rotation:0.7,duration:2.40,ease:"sine.inOut",yoyo:true,repeat:2},0.450);
+    tl.fromTo("#s24-i3",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},1.180);
+    tl.fromTo("#s24-i3-p",{scale:1},{scale:1.03,duration:3.6,ease:"none"},1.180);
+    tl.fromTo("#s24-i3-p",{y:0,rotation:-1.5},{y:-16,rotation:1.5,duration:4.00,ease:"sine.inOut",yoyo:true,repeat:1},1.630);
+    tl.fromTo("#s24-b4",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},1.280);
+    tl.fromTo("#s24-b5",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},2.060);
     tl.to("#s24-stage",{opacity:0,scale:.9,filter:"blur(14px)",duration:0.34,ease:"power2.in"},4.420);
     window.__timelines["s24"] = tl;
   </script>

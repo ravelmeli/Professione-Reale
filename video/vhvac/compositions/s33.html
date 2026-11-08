@@ -85,11 +85,11 @@
   <div id="root" data-composition-id="s33" data-width="1920" data-height="1080">
         <svg width="0" height="0" style="position:absolute"><filter id="boil-s33" x="-3%" y="-3%" width="106%" height="106%"><feTurbulence id="boilt-s33" type="fractalNoise" baseFrequency="0.018 0.022" numOctaves="2" seed="1" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="3.4"/></filter></svg>
     <div class="stage clip" data-layout-allow-occlusion id="s33-stage" data-start="0" data-duration="2.82" data-track-index="1"><div class="stage" id="s33-pun"><div class="stage" id="s33-cam">
-    <img class="bgimg" data-layout-allow-occlusion src="assets/img/bg-tetto.jpg" alt=""><div class="bgshade"></div>
-    <div class="item clip " id="s33-i1" data-start="0.0" data-duration="2.82" data-track-index="4" style="left:205px;top:210px;width:629px;height:620px;z-index:3"><img class="pic" id="s33-i1-p" src="assets/img/and_42.png" alt=""></div>
-    <div class="item clip " id="s33-i2" data-start="1.64" data-duration="1.18" data-track-index="4" style="left:1070px;top:300px;width:321px;height:320px;z-index:3"><img class="pic" id="s33-i2-p" src="assets/img/sole.png" alt=""></div>
-    <div class="item clip " id="s33-b3" data-start="0.48" data-duration="2.34" data-track-index="4" style="left:1450px;top:380px;width:200px;height:180px;z-index:4"><div class="bx" style="width:200px;height:180px;transform:scale(1.0)"><div class="arrow">▲</div></div></div>
-    <div class="item clip " id="s33-i4" data-start="0.0" data-duration="2.82" data-track-index="4" style="left:1051px;top:660px;width:358px;height:200px;z-index:3"><img class="pic" id="s33-i4-p" src="assets/img/soldi.png" alt=""></div>
+    <div class="item clip " id="s33-b1" data-start="0.0" data-duration="2.82" data-track-index="4" style="left:182px;top:205px;width:675px;height:675px;z-index:1"><div class="bx" style="width:682px;height:682px;transform:scale(1.0)"><div class="halo" style="background:radial-gradient(circle,rgba(120,90,255,.40) 0%,transparent 68%)"></div></div></div>
+    <div class="item clip " id="s33-i2" data-start="0.0" data-duration="2.82" data-track-index="4" style="left:205px;top:210px;width:629px;height:620px;z-index:3"><img class="pic" id="s33-i2-p" src="assets/img/and_42.png" alt=""></div>
+    <div class="item clip " id="s33-i3" data-start="1.64" data-duration="1.18" data-track-index="4" style="left:1070px;top:300px;width:321px;height:320px;z-index:3"><img class="pic" id="s33-i3-p" src="assets/img/sole.png" alt=""></div>
+    <div class="item clip " id="s33-b4" data-start="0.48" data-duration="2.34" data-track-index="4" style="left:1450px;top:380px;width:200px;height:180px;z-index:4"><div class="bx" style="width:200px;height:180px;transform:scale(1.0)"><div class="arrow">▲</div></div></div>
+    <div class="item clip " id="s33-i5" data-start="0.0" data-duration="2.82" data-track-index="4" style="left:1051px;top:660px;width:358px;height:200px;z-index:3"><img class="pic" id="s33-i5-p" src="assets/img/soldi.png" alt=""></div>
     </div></div></div>
   </div>
   <script>
@@ -98,16 +98,17 @@
     tl.to("#s33-pun",{scale:1.1,duration:.08,ease:"power3.out"},1.640);
     tl.to("#s33-pun",{scale:1,duration:.45,ease:"expo.out"},1.720);
     tl.fromTo("#s33-cam",{scale:1,y:0},{scale:1.06,y:-24,duration:2.82,ease:"none"},0);
-    tl.fromTo("#s33-i1",{opacity:0,x:-340,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"expo.out"},0.000);
-    tl.fromTo("#s33-i1-p",{scale:1},{scale:1.03,duration:2.82,ease:"none"},0.000);
-    tl.fromTo("#s33-i1-p",{y:0,rotation:-0.7},{y:-10,rotation:0.7,duration:2.40,ease:"sine.inOut",yoyo:true,repeat:2},0.450);
-    tl.fromTo("#s33-i2",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},1.640);
-    tl.fromTo("#s33-i2-p",{scale:1},{scale:1.03,duration:1.18,ease:"none"},1.640);
-    tl.fromTo("#s33-i2-p",{y:0,rotation:-1.5},{y:-16,rotation:1.5,duration:4.00,ease:"sine.inOut",yoyo:true,repeat:1},2.090);
-    tl.fromTo("#s33-b3",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},0.480);
-    tl.fromTo("#s33-i4",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},0.000);
-    tl.fromTo("#s33-i4-p",{scale:1},{scale:1.03,duration:2.82,ease:"none"},0.000);
-    tl.fromTo("#s33-i4-p",{y:0,rotation:-1.5},{y:-16,rotation:1.5,duration:4.20,ease:"sine.inOut",yoyo:true,repeat:1},0.450);
+    tl.fromTo("#s33-b1",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},0.000);
+    tl.fromTo("#s33-i2",{opacity:0,x:-340,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"expo.out"},0.000);
+    tl.fromTo("#s33-i2-p",{scale:1},{scale:1.03,duration:2.82,ease:"none"},0.000);
+    tl.fromTo("#s33-i2-p",{y:0,rotation:-0.7},{y:-10,rotation:0.7,duration:2.40,ease:"sine.inOut",yoyo:true,repeat:2},0.450);
+    tl.fromTo("#s33-i3",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},1.640);
+    tl.fromTo("#s33-i3-p",{scale:1},{scale:1.03,duration:1.18,ease:"none"},1.640);
+    tl.fromTo("#s33-i3-p",{y:0,rotation:-1.5},{y:-16,rotation:1.5,duration:4.00,ease:"sine.inOut",yoyo:true,repeat:1},2.090);
+    tl.fromTo("#s33-b4",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},0.480);
+    tl.fromTo("#s33-i5",{opacity:0,scale:.55,y:34,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:.5,ease:"back.out(1.5)"},0.000);
+    tl.fromTo("#s33-i5-p",{scale:1},{scale:1.03,duration:2.82,ease:"none"},0.000);
+    tl.fromTo("#s33-i5-p",{y:0,rotation:-1.5},{y:-16,rotation:1.5,duration:3.40,ease:"sine.inOut",yoyo:true,repeat:1},0.450);
     tl.to("#s33-stage",{opacity:0,scale:.9,filter:"blur(14px)",duration:0.34,ease:"power2.in"},2.460);
     window.__timelines["s33"] = tl;
   </script>

@@ -156,9 +156,12 @@ class Stage:
         self.n += 1
         return f'{self.id}-{p}{self.n}'
     def bg(self, name):
-        self.bgname = name
+        pass   # fond identique aux shorts (aurore + grille), les décors photo sont désactivés
     # --- éléments
     def img(self, name, cx, cy, h=None, w=None, enter='pop', at=None, until=None, rot=0, z=3, drift=0.03, flash=False, snd=True, dim=None):
+        if name.startswith(('and_', 'head_', 'pose_')) and enter != 'none':
+            hs = int((h or (w or 500) * .85) * 1.1)
+            self.box('<div class="halo" style="background:radial-gradient(circle,rgba(120,90,255,.40) 0%,transparent 68%)"></div>', cx, cy, hs, hs, enter='pop', at=at, until=until, z=1, snd=None)
         self.items.append(dict(k='img', id=self._id('i'), name=name, cx=cx, cy=cy, h=h, w=w, enter=enter,
                                at=self.t0 if at is None else at, until=until, rot=rot, z=z, drift=drift, flash=flash, snd=snd, dim=dim))
     def box(self, html, cx, cy, w, h, enter='pop', at=None, until=None, rot=0, z=4, flash=False, snd='pop', cls='', dim=None):
@@ -1028,9 +1031,9 @@ index = f"""<!doctype html>
       html, body {{ width:{W}px; height:{H}px; overflow:hidden; background:#080826; }}
       #bg {{ position:absolute; inset:0; background:linear-gradient(180deg,#0b0a33 0%,#12104d 50%,#08183f 100%); }}
       .blob {{ position:absolute; border-radius:50%; }}
-      #b1 {{ left:-420px; top:-300px; width:1300px; height:1300px; background:radial-gradient(circle,rgba(130,70,210,.5),transparent 66%); }}
-      #b2 {{ left:-200px; top:1020px; width:1500px; height:1100px; background:radial-gradient(circle,rgba(20,205,185,.5),transparent 66%); }}
-      #b3 {{ left:520px; top:520px; width:1000px; height:1000px; background:radial-gradient(circle,rgba(60,90,230,.4),transparent 66%); }}
+      #b1 {{ left:-350px; top:-450px; width:1500px; height:1300px; background:radial-gradient(circle,rgba(130,70,210,.5),transparent 66%); }}
+      #b2 {{ left:850px; top:300px; width:1500px; height:1100px; background:radial-gradient(circle,rgba(20,205,185,.5),transparent 66%); }}
+      #b3 {{ left:350px; top:-250px; width:1100px; height:1000px; background:radial-gradient(circle,rgba(60,90,230,.4),transparent 66%); }}
       #grid {{ position:absolute; inset:-90px; opacity:.55;
         background-image:linear-gradient(rgba(140,150,255,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(140,150,255,.08) 1px,transparent 1px);
         background-size:90px 90px; -webkit-mask-image:linear-gradient(180deg,transparent 4%,#000 38%,#000 76%,transparent 100%); mask-image:linear-gradient(180deg,transparent 4%,#000 38%,#000 76%,transparent 100%); }}
