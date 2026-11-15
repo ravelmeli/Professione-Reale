@@ -1,9 +1,10 @@
-.hyperframes/
-video/export/work-*/
-video/export/.*hf-transaction*/
-__pycache__/
 
-video/vhvac/assets/audio/*_long.wav
+.hyperframes/
+__pycache__/
 video/assets/audio/*_long.wav
+video/export/.*hf-transaction*/
 video/export/hvac_6min_16x9_v1.mp4
 video/export/hvac_6min_16x9_v2.mp4
+video/export/pilota_5min_16x9_v1.mp4
+video/export/work-*/
+video/vhvac/assets/audio/*_long.wav

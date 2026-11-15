@@ -1,0 +1,63 @@
+<template>
+  <style>
+  #root { position:absolute; inset:0; font-family:'Montserrat',sans-serif; color:#fff; }
+  .stage { position:absolute; inset:0; }
+  .item { position:absolute; display:flex; align-items:center; justify-content:center; }
+  .item.ipic img { filter:drop-shadow(0 18px 22px rgba(0,0,0,.42)); }
+  .item.walker { overflow:visible; } .item.walker img { filter:drop-shadow(0 16px 18px rgba(0,0,0,.4)); }
+  .chip { display:inline-block; padding:.22em .8em; border:3px solid; border-radius:999px; font-weight:800; white-space:nowrap; letter-spacing:.01em; box-shadow:0 8px 20px rgba(0,0,0,.28); }
+  .stamp { font-family:'Playfair Display',serif; border:8px solid; border-radius:16px; padding:6px 24px; font-weight:900; letter-spacing:.07em; text-align:center; background:rgba(11,16,60,.55); white-space:nowrap; }
+  .badge { width:100%; height:100%; border-radius:50%; display:flex; align-items:center; justify-content:center; border:5px solid rgba(255,255,255,.9); }
+  .badge span { font-weight:900; color:#fff; line-height:1; }
+  .card { width:100%; height:100%; box-sizing:border-box; border-radius:34px; background:linear-gradient(180deg,rgba(66,76,160,.97),rgba(38,44,118,.97));
+          border:3px solid rgba(130,146,255,.38); box-shadow:0 30px 60px rgba(0,0,0,.45), inset 0 0 40px rgba(130,146,255,.10); display:flex; flex-direction:column; }
+  .ctitle { font-weight:800; font-size:38px; color:#c9d0ff; letter-spacing:.04em; margin-bottom:16px; display:flex; align-items:center; gap:12px; }
+  .crow { display:flex; justify-content:space-between; align-items:center; height:92px; padding:0 26px; margin-top:12px; border-radius:22px; background:rgba(14,18,72,.62); border:2px solid rgba(150,165,255,.16); }
+  .cl { font-weight:800; font-size:40px; letter-spacing:.06em; color:#c0c8f6; } .cv { font-weight:900; font-size:66px; white-space:nowrap; }
+  .tg { width:104px; height:52px; border-radius:99px; background:#3a3f8f; position:relative; } .tg i { position:absolute; left:6px; top:6px; width:40px; height:40px; border-radius:50%; background:#fff; }
+  .tgrid { display:grid; justify-content:center; } .tl { border-radius:16px; background:rgba(14,18,72,.7); border:2px solid rgba(150,165,255,.25); position:relative; display:flex; align-items:center; justify-content:center; }
+  .tl small { font-weight:800; font-size:26px; color:#aab4f5; } .tl b { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-size:42px; color:#fff; opacity:0; }
+  .num { font-weight:900; line-height:1; letter-spacing:-.02em; text-align:center; white-space:nowrap; text-shadow:0 0 40px rgba(255,255,255,.18); }
+  .sub { font-weight:800; letter-spacing:.1em; text-align:center; color:#cdd3ff; margin-top:8px; }
+  .pbar { height:44px; border-radius:99px; background:#171a63; border:3px solid #6f7bff; overflow:hidden; } .pfill { width:100%; height:100%; }
+  .plab { display:flex; justify-content:space-between; font-weight:800; font-size:38px; margin-top:16px; color:#c0c8f6; }
+  .bub { background:#fff; color:#1b2150; padding:20px 32px; border-radius:30px; text-align:center; box-shadow:0 18px 36px rgba(0,0,0,.4); position:relative; width:100%; height:100%; box-sizing:border-box; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+  .bub .who { font-size:22px; letter-spacing:.14em; font-weight:800; color:#3d46a0; margin-bottom:4px; }
+  .arrow { font-weight:900; line-height:1; }
+  .ecg { display:block; }
+  .phone { width:100%; height:100%; box-sizing:border-box; border-radius:56px; background:#fff; color:#1b2150; padding:36px 32px; text-align:center; box-shadow:0 30px 60px rgba(0,0,0,.5); border:10px solid #c9cee8; }
+  .phone .pn { font-size:22px; font-weight:800; color:#8a90b8; text-align:left; }
+  .phone .av { width:150px; height:150px; border-radius:50%; margin:14px auto 12px; background:#eef0ff; overflow:hidden; display:flex; align-items:flex-end; justify-content:center; }
+  .phone .av img { width:150%; margin-bottom:-18%; }
+  .phone .pt { font-weight:900; font-size:40px; line-height:1.15; } .phone .ps { font-size:24px; color:#6a73c8; font-weight:700; margin:8px 0 22px; }
+  .phone .pbtn { display:inline-block; background:#FFC93C; color:#1b2150; font-weight:900; font-size:34px; padding:14px 46px; border-radius:99px; }
+  .phone .pth { display:flex; gap:14px; justify-content:center; margin-top:30px; } .phone .tn { width:140px; height:190px; border-radius:20px; background:linear-gradient(160deg,#ff8a5c,#6f7bff); display:flex; align-items:center; justify-content:center; } .phone .tn i { color:#fff; font-style:normal; font-size:34px; }
+  .ttl { width:100%; text-align:center; } .t1 { font-weight:800; font-size:44px; color:#fff; letter-spacing:.62em; padding-left:.62em; } .t2 { font-weight:900; font-size:112px; color:#E8B828; letter-spacing:.02em; margin-top:18px; text-shadow:0 0 50px rgba(232,184,40,.55); white-space:nowrap; }
+  .cap { position:absolute; left:0; width:1920px; text-align:center; font-weight:800; font-size:76px; line-height:1.1; text-transform:uppercase; white-space:nowrap; text-shadow:0 6px 18px rgba(0,0,0,.6); z-index:30; letter-spacing:.005em; }
+  .cap b.k { font-weight:800; color:#F84858; }
+</style>
+  <div id="root" data-composition-id="s25" data-width="1920" data-height="1080">
+        <div class="stage clip" data-layout-allow-occlusion id="s25-stage" data-start="0" data-duration="11.5" data-track-index="1">
+    <div class="item clip ipic" id="s25-x1" data-start="0.0" data-duration="11.5" data-track-index="4" style="left:218px;top:220px;width:583px;height:560px;z-index:3"><img class="pic" src="assets/img/pose_visita.png" alt="" style="width:100%;height:100%;object-fit:contain"></div>
+    <div class="item clip " id="s25-x3" data-start="0.76" data-duration="10.74" data-track-index="4" style="left:1010px;top:255px;width:700px;height:330px;z-index:4"><div style="width:100%;height:100%;transform:scale(1.22);transform-origin:50% 50%;display:flex;align-items:center;justify-content:center"><div class="card " style="padding:30px"><div class="ctitle">♥ Visita medica · ogni anno</div><svg viewBox="0 0 540 210" class="ecg" style="width:100%;height:170px"><path id="s25-e2-p" d="M0 120 L70 120 L95 120 L115 60 L135 190 L155 20 L180 150 L205 120 L300 120 L325 120 L345 60 L365 190 L385 20 L410 150 L435 120 L540 120" pathLength="1" fill="none" stroke="#28C868" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" style="stroke-dasharray:1;stroke-dashoffset:1;filter:drop-shadow(0 0 8px #28C868)"/></svg><div class="chip" id="s25-e2-s" style="font-size:30px;background:rgba(232,184,40,.2);border-color:#E8B828;color:#FFE08A;margin:6px auto 0">In corso…</div></div></div></div>
+    <div class="item clip " id="s25-x4" data-start="4.35" data-duration="0.79" data-track-index="4" style="left:1104px;top:707px;width:511px;height:106px;z-index:6"><div class="chip" style="font-size:56px;background:rgba(232,184,40,.20);border-color:#E8B828;color:#FFE08A">un'influenza</div></div>
+    <div class="item clip " id="s25-x5" data-start="5.14" data-duration="1.04" data-track-index="4" style="left:983px;top:707px;width:754px;height:106px;z-index:6"><div class="chip" style="font-size:56px;background:rgba(248,72,88,.22);border-color:#F84858;color:#FF9AA6">un valore sbagliato</div></div>
+    <div class="item clip " id="s25-x6" data-start="6.58" data-duration="4.92" data-track-index="4" style="left:1087px;top:747px;width:546px;height:106px;z-index:6"><div class="chip" style="font-size:56px;background:rgba(248,72,88,.22);border-color:#F84858;color:#FF9AA6">resti a terra</div></div>
+    <div class="item clip " id="s25-x7" data-start="8.34" data-duration="3.16" data-track-index="4" style="left:918px;top:646px;width:884px;height:68px;z-index:8"><div style="width:100%;height:100%;transform:scale(1.2);transform-origin:50% 50%;display:flex;align-items:center;justify-content:center"><div class="stamp" style="font-size:36px;color:#F84858;border-color:#F84858">IDONEITÀ PERSA = LAVORO PERSO</div></div></div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+        tl.fromTo("#s25-stage",{x:1920},{x:0,y:0,duration:.34,ease:"power3.out"},0);
+    tl.to("#s25-stage",{x:-1920,duration:.34,ease:"power2.in"},11.160);
+    tl.fromTo("#s25-x1",{opacity:0,x:-260,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.42,ease:"expo.out"},0.000);
+    tl.fromTo("#s25-x3",{opacity:0,scale:.6,y:30,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.42,ease:"back.out(1.6)"},0.760);
+    tl.fromTo("#s25-x4",{opacity:0,scale:.6,y:30,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.42,ease:"back.out(1.6)"},4.350);
+    tl.fromTo("#s25-x5",{opacity:0,scale:.6,y:30,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.42,ease:"back.out(1.6)"},5.140);
+    tl.fromTo("#s25-x6",{opacity:0,scale:.6,y:30,rotation:0},{opacity:1,scale:1,x:0,y:0,rotation:0,duration:0.42,ease:"back.out(1.6)"},6.580);
+    tl.fromTo("#s25-x7",{opacity:0,scale:1.9,rotation:-4},{opacity:1,scale:1,x:0,y:0,rotation:-4,duration:0.18,ease:"power4.in"},8.340);
+    tl.fromTo("#s25-e2-p",{strokeDashoffset:1},{strokeDashoffset:0,duration:1.4,ease:"none",repeat:5,repeatDelay:.3},0.960);
+    (function(){var e=document.getElementById("s25-e2-s");tl.call(function(){e.textContent="Non idoneo";e.style.background="rgba(248,72,88,.25)";e.style.borderColor="#F84858";e.style.color="#FF9AA6";},null,5.140);tl.fromTo(e,{scale:1},{scale:1.2,duration:.12,yoyo:true,repeat:1},5.140);})();
+    window.__timelines["s25"] = tl;
+  </script>
+</template>
