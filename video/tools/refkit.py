@@ -75,7 +75,12 @@ def T(beat, word=None, off=0.0):
             if norm(part).startswith(k) and len(k) >= 2: return round(max(b.s, t0) + off, 3)
     raise SystemExit(f'mot introuvable: {word!r} dans le plan {beat}: {b.text}')
 
-def sfx(t, name, vol=.3): SFXLOG.append((round(t, 3), name, vol))
+PING_K = 0.72      # niveau relatif des pings d'interface
+def sfx(t, name, vol=.3):
+    SFXLOG.append((round(t, 3), name, vol if name.startswith('R_') else round(vol * PING_K, 3)))
+def real(t, name, vol=.22):
+    """son réel de la bibliothèque (shorts / vidéo HVAC), en renfort à volume bas"""
+    sfx(t, 'R_' + name, vol)
 _rot = {'pop': 0}
 def pop_sfx(t, vol=.28):
     seq = ['ping_a', 'ping_b', 'ping_c', 'tick']; sfx(t, seq[_rot['pop'] % 4], vol); _rot['pop'] += 1
@@ -103,9 +108,10 @@ class Stage:
         else: ww, hh = w, w * ih / iw
         html = f'<img class="pic" src="assets/img/{name}.png" alt="" style="width:100%;height:100%;object-fit:contain">'
         iid = self.item(html, cx, cy, ww, hh, at, until, enter, z, rot, snd, 'ipic')
-        if breathe:
+        if breathe or re.match(r'(rocco|elia|pose|walk)_', name):
             a = self.t0 if at is None else at
-            self.J(a + .5, f'tl.fromTo("#{iid}",{{scaleY:1}},{{scaleY:1.018,duration:1.7,ease:"sine.inOut",yoyo:true,repeat:{int(((until or self.t1 + OVER) - a) / 1.7) + 1}}},{self.rel(a + .5):.3f});') if False else None
+            span = (until or self.t1 + OVER) - a
+            self.J(a + .45, f'tl.fromTo("#{iid} img",{{scaleY:1,transformOrigin:"50% 100%"}},{{scaleY:1.016,duration:1.5,ease:"sine.inOut",yoyo:true,repeat:{int(span / 1.5) + 1}}},{self.rel(a + .45):.3f});')
         return iid
     def pose(self, seq, cx, cy, h, at=None, until=None, enter='left'):
         """poses successives (coupe franche) : seq = [(nom, instant), ...]"""
@@ -138,7 +144,7 @@ class Stage:
         html = f'<div class="stamp" style="font-size:{size}px;color:{color};border-color:{color}">{text}</div>'
         iid = self.item(html, cx, cy, w, int(size * 1.9), at, until, 'stamp', z, rot, None, k=1.2)
         a = self.t0 if at is None else at
-        sfx(a, 'ding', .3); return iid
+        sfx(a, 'ding', .3); real(a, 'stamp', .26); return iid
     def badge(self, kind, cx, cy, at, size=96, until=None, z=9):
         sym, col = ('✓', GREEN) if kind == 'ok' else ('✕', RED)
         html = f'<div class="badge" style="background:{col};box-shadow:0 0 26px {col}"><span style="font-size:{int(size * .56)}px;color:{'#08301A' if kind == 'ok' else '#fff'}">{sym}</span></div>'
@@ -160,6 +166,7 @@ class Stage:
         self.J(t, f'(function(){{var o={{v:{frm}}},el=document.getElementById("{el}");tl.fromTo(o,{{v:{frm}}},{{v:{to},duration:{dur},ease:"power2.out",onUpdate:function(){{'
                   f'var n=Math.round(o.v),s=String(n).replace(/\\B(?=(\\d{{3}})+(?!\\d))/g,".");el.textContent=\'{f}\'.replace("{{n}}",s);}}}},{self.rel(t):.3f});}})();')
         d = min((0.8, 1.1, 1.4), key=lambda x: abs(x - dur)); sfx(t, f'count_{d}', .22); sfx(t + dur, 'ding', .26)
+        if '€' in fmt: real(t + dur - .1, 'cash-register', .2); real(t + .05, 'coins-drop', .12)
     def range_card(self, title, rows, cx, cy, w=640, at=None, until=None, icon=None):
         """rows = [dict(label, frm, to, fmt, color, at, dur)] ; ligne = libellé + valeur qui compte"""
         rh = 116; h = 140 + rh * len(rows)
@@ -191,7 +198,7 @@ class Stage:
                       f'tl.to("#{pid}-k{j}",{{x:{44 if st == "on" else 0},duration:.2,ease:"back.out(2)"}},{self.rel(t):.3f});')
             sfx(t, 'ping_b' if st == 'on' else 'no', .26)
         return pid
-    def tiles(self, n, cols, cx, cy, size, gap, at, times, labels=None, until=None, title=None, color=GREEN):
+    def tiles(self, n, cols, cx, cy, size, gap, at, times, labels=None, until=None, title=None, color=GREEN, final=None):
         """grille de n cases qui se cochent aux instants `times`"""
         rows = (n + cols - 1) // cols
         gw, gh = cols * size + (cols - 1) * gap, rows * size + (rows - 1) * gap
@@ -208,6 +215,11 @@ class Stage:
                       f'tl.to("#{pid}-c{i} small",{{opacity:0,duration:.15}},{self.rel(t):.3f});'
                       f'tl.to("#{pid}-c{i}",{{backgroundColor:"{color}",duration:.2}},{self.rel(t):.3f});')
             sfx(t, 'tick' if i % 2 else 'ping_b', .22)
+        if final:
+            tf, colf = final
+            for i in range(n):
+                self.J(tf, f'tl.to("#{pid}-c{i}",{{backgroundColor:"{colf}",duration:.25}},{self.rel(tf):.3f});')
+            sfx(tf, 'no', .3)
         return pid
     def progress(self, title, cx, cy, w, frm, to, at, dur, left='', right='', color=GOLD, until=None, fmt='{n}', unit='', suffix_marks=None, bigcount=True):
         pid = self._id('p')
@@ -226,14 +238,15 @@ class Stage:
                  f'style="stroke-dasharray:1;stroke-dashoffset:1;filter:drop-shadow(0 0 8px {GREEN})"/></svg>'
                  f'<div class="chip" id="{pid}-s" style="font-size:30px;background:rgba(232,184,40,.2);border-color:{GOLD};color:#FFE08A;margin:6px auto 0">In corso…</div>')
         self.card(cx, cy, w, hh, inner, at, until)
-        a = at + .2; dur = (until or self.t1) - a
+        a = at + .2; dur = (until or self.t1) - a; real(a, 'heartbeat', .22)
         reps = max(1, int(dur / 1.8))
         self.J(a, f'tl.fromTo("#{pid}-p",{{strokeDashoffset:1}},{{strokeDashoffset:0,duration:1.4,ease:"none",repeat:{reps},repeatDelay:.3}},{self.rel(a):.3f});')
         if status:
             t, txt, col = status
-            self.J(t, f'(function(){{var e=document.getElementById("{pid}-s");tl.call(function(){{e.textContent="{txt}";e.style.background="rgba(248,72,88,.25)";e.style.borderColor="{RED}";e.style.color="#FF9AA6";}},null,{self.rel(t):.3f});'
+            bgc, fgc = ('rgba(40,200,104,.25)', '#9BF0BD') if col == GREEN else ('rgba(248,72,88,.25)', '#FF9AA6')
+            self.J(t, f'(function(){{var e=document.getElementById("{pid}-s");tl.call(function(){{e.textContent="{txt}";e.style.background="{bgc}";e.style.borderColor="{col}";e.style.color="{fgc}";}},null,{self.rel(t):.3f});'
                       f'tl.fromTo(e,{{scale:1}},{{scale:1.2,duration:.12,yoyo:true,repeat:1}},{self.rel(t):.3f});}})();')
-            sfx(t, 'no', .3)
+            sfx(t, 'no' if col != GREEN else 'ping_b', .3)
         return pid
     def bubble(self, text, cx, cy, at, until=None, size=40, dots=False, who='', tail='down'):
         w = int(max(len(text), 6) * size * .56 + 90)
@@ -253,33 +266,113 @@ class Stage:
                         f'tl.call(function(){{document.getElementById("{pid}-b").textContent="✓ Iscritto";}},null,{self.rel(t_click + .12):.3f});')
         for k in range(3):
             self.J(t_click + .45 + k * .18, f'tl.to("#{pid}-t{k}",{{opacity:1,y:0,duration:.3,ease:"back.out(1.8)"}},{self.rel(t_click + .45 + k * .18):.3f});')
-        sfx(t_click, 'subscribe', .32)
+        sfx(t_click, 'subscribe', .32); real(t_click, 'notif', .22)
     def title(self, line1, line2, at, until=None, cy=470):
         iid = self._id('ti')
         html = (f'<div class="ttl"><div class="t1" id="{iid}-a">{line1}</div><div class="t2" id="{iid}-b">{line2}</div></div>')
         self.item(html, W // 2, cy, 1500, 330, at, until, 'none', 8)
         self.J(at, f'tl.fromTo("#{iid}-a",{{opacity:0,scaleX:1.35,filter:"blur(8px)"}},{{opacity:1,scaleX:1,filter:"blur(0px)",duration:.9,ease:"power2.out"}},{self.rel(at):.3f});'
                    f'tl.fromTo("#{iid}-b",{{opacity:0,scale:.82,filter:"blur(12px)"}},{{opacity:1,scale:1,filter:"blur(0px)",duration:.7,ease:"back.out(1.6)"}},{self.rel(at + .45):.3f});')
-        sfx(at, 'title_sweep', .3)
+        sfx(at, 'title_sweep', .3); real(at, 'whoosh-deep', .2)
     def plane(self, name, y0, y1, at, dur, h=260, until=None):
         iw, ih = SIZE[name]; ww = h * iw / ih
         iid = self.item(f'<img src="assets/img/{name}.png" style="width:100%;height:100%;object-fit:contain">', -ww / 2, y0, ww, h, at, until or at + dur + .3, 'none', 2)
         self.J(at, f'tl.fromTo("#{iid}",{{x:0,y:0}},{{x:{W + ww},y:{y1 - y0},duration:{dur},ease:"power1.inOut"}},{self.rel(at):.3f});')
-        sfx(at, 'push', .12)
+        sfx(at, 'push', .12); real(at, 'whoosh-deep', .12)
     def arrow(self, cx, cy, at, up=True, size=130, until=None):
         col = GREEN if up else RED
         self.item(f'<div class="arrow" style="font-size:{size}px;color:{col};text-shadow:0 0 28px {col}">{"▲" if up else "▼"}</div>', cx, cy, size * 1.3, size * 1.3, at, until, 'pop', 6)
         sfx(at, 'ping_a' if up else 'no', .26)
 
+
+    # ================= v2 : composants supplémentaires =================
+    def wiggle(self, iid, t, amp=6, n=5):
+        self.J(t, f'tl.to("#{iid}",{{rotation:{amp},duration:.06,yoyo:true,repeat:{n},ease:"sine.inOut"}},{self.rel(t):.3f});')
+    def connect(self, x1, y1, x2, y2, at, until=None, color='rgba(190,200,255,.55)', dur=.4, width=3, dot=True):
+        iid = self._id('ln')
+        svg = (f'<svg width="{W}" height="{H}" viewBox="0 0 {W} {H}" style="position:absolute;left:0;top:0;overflow:visible">'
+               f'<path id="{iid}-p" d="M{x1} {y1} L{x2} {y2}" pathLength="1" stroke="{color}" stroke-width="{width}" stroke-linecap="round" fill="none" style="stroke-dasharray:1;stroke-dashoffset:1"/>'
+               + (f'<circle id="{iid}-d" cx="{x2}" cy="{y2}" r="7" fill="#fff" opacity="0"/>' if dot else '') + '</svg>')
+        self.items.append(dict(id=iid, html=svg, cx=W / 2, cy=H / 2, w=W, h=H, at=self.t0 if at is None else at, until=until, enter='none', z=2, rot=0, snd=None, cls='lines', k=1.0))
+        self.J(at, f'tl.fromTo("#{iid}-p",{{strokeDashoffset:1}},{{strokeDashoffset:0,duration:{dur},ease:"power2.out"}},{self.rel(at):.3f});')
+        if dot: self.J(at + dur - .05, f'tl.to("#{iid}-d",{{opacity:1,duration:.12}},{self.rel(at + dur - .05):.3f});')
+    def radial(self, cx, cy, nodes, at, until=None, color='slate', size=30):
+        """nœuds reliés à un centre par un trait fin : nodes = [(libellé, dx, dy, instant, couleur)]"""
+        for (lab, dx, dy, t, col) in nodes:
+            self.connect(cx, cy, cx + dx, cy + dy, t - .05, until, dur=.35)
+            self.chip(lab, cx + dx, cy + dy, t, until, color=col or color, size=size)
+    def typed(self, cx, cy, w, h, title, kicker, b0, b1, at, until=None, paper=True, hl=(), size=40, signature=None):
+        """document dont le texte se tape mot par mot, calé sur la voix ; hl = mots surlignés en jaune"""
+        pid = self._id('d')
+        words = [x for b in range(b0, b1 + 1) for x in BEATS[b - 1].words]
+        spans = ''
+        for j, (wd, t0, t1) in enumerate(words):
+            cls = 'dw hl' if norm(wd) in {norm(x) for x in hl} else 'dw'
+            spans += f'<span class="{cls}" id="{pid}-w{j}">{wd} </span>'
+        cls = 'paper' if paper else 'mail'
+        inner = (f'<div class="{cls}"><div class="dk">{kicker}</div><div class="dt">{title}</div>'
+                 f'<div class="dbody" style="font-size:{size}px">{spans}</div>' + (f'<div class="dsig">{signature}</div>' if signature else '') + '</div>')
+        self.item(inner, cx, cy, w, h, at, until, 'pop', 5, 0, 'R_paper-slide', 'doc')
+        self.js.insert(0, (0, f'tl.set("#{pid} .dw",{{opacity:0}},0);'))
+        for j, (wd, t0, t1) in enumerate(words):
+            self.J(t0, f'tl.set("#{pid}-w{j}",{{opacity:1}},{self.rel(t0):.3f});')
+            if j % 3 == 0: sfx(t0, 'tick', .12)
+        sfx(at, 'ping_b', .2)
+        return pid
+    def chart(self, cx, cy, w, h, title, pts, at, until=None, labels=None, fmt='{n} €'):
+        """courbe qui se trace ; pts = [(instant, valeur)] ; valeurs normalisées sur le max"""
+        pid = self._id('c'); pw, ph = 500, 250
+        vmax = max(v for _, v in pts); t0, t1 = pts[0][0], pts[-1][0]
+        xs = [(t - t0) / max(t1 - t0, .01) * (pw - 60) + 30 for t, _ in pts]; ys = [ph - 30 - v / vmax * (ph - 70) for _, v in pts]
+        d = 'M' + ' L'.join(f'{x:.0f} {y:.0f}' for x, y in zip(xs, ys))
+        grid = ''.join(f'<line x1="30" y1="{ph - 30 - k * (ph - 70) / 3:.0f}" x2="{pw - 20}" y2="{ph - 30 - k * (ph - 70) / 3:.0f}" stroke="rgba(150,165,255,.18)" stroke-width="2"/>' for k in range(4))
+        dots = ''.join(f'<circle id="{pid}-p{i}" cx="{x:.0f}" cy="{y:.0f}" r="9" fill="{GOLD}" opacity="0"/>' for i, (x, y) in enumerate(zip(xs, ys)))
+        svg = (f'<svg viewBox="0 0 {pw} {ph}" style="width:100%;height:{h - 150}px">{grid}<path id="{pid}-l" d="{d}" pathLength="1" fill="none" stroke="url(#g{pid})" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" style="stroke-dasharray:1;stroke-dashoffset:1;filter:drop-shadow(0 0 8px {GOLD})"/>'
+               f'<defs><linearGradient id="g{pid}" x1="0" x2="1"><stop offset="0" stop-color="#ffd166"/><stop offset="1" stop-color="#ff8a5c"/></linearGradient></defs>{dots}</svg>')
+        inner = f'<div class="ctitle">{title}</div>{svg}<div class="cv" id="{pid}-v" style="color:{GOLD};text-align:right;font-size:60px">{fmt.replace("{n}", fmtn(pts[0][1]))}</div>'
+        self.card(cx, cy, w, h, inner, at, until)
+        self.J(t0, f'tl.fromTo("#{pid}-l",{{strokeDashoffset:1}},{{strokeDashoffset:0,duration:{max(t1 - t0, .5)},ease:"none"}},{self.rel(t0):.3f});')
+        for i, (t, v) in enumerate(pts):
+            self.J(t, f'tl.to("#{pid}-p{i}",{{opacity:1,duration:.2}},{self.rel(t):.3f});')
+            self.count_js(f'{pid}-v', pts[i - 1][1] if i else v, v, fmt, t, .5) if i else None
+        return pid
+    def compare(self, cx, cy, w, left, right, imgl, imgr, at, until=None, stamp_t=None, stamp_txt='✗ Rifiutato'):
+        pid = self._id('v'); ph = 270
+        panel = lambda lab, im: (f'<div class="cp"><img src="assets/img/{im}.png"><small>{lab}</small></div>')
+        inner = f'<div class="cmp">{panel(left, imgl)}{panel(right, imgr)}</div><div class="chip" id="{pid}-s" style="opacity:0;position:absolute;left:50%;top:50%;margin-left:-150px;margin-top:-40px;font-size:40px;background:rgba(248,72,88,.9);border-color:#fff;color:#fff;transform:rotate(-9deg)">{stamp_txt}</div>'
+        self.card(cx, cy, w, ph + 130, inner, at, until)
+        if stamp_t:
+            self.J(stamp_t, f'tl.fromTo("#{pid}-s",{{opacity:0,scale:2.2}},{{opacity:1,scale:1,duration:.2,ease:"power4.in"}},{self.rel(stamp_t):.3f});')
+            real(stamp_t, 'stamp', .3)
+        return pid
+    def viewfinder(self, cx, cy, w, h, img, at, flash_t, until=None):
+        pid = self._id('f')
+        inner = (f'<div class="vf"><img src="assets/img/{img}.png"><i class="c1"></i><i class="c2"></i><i class="c3"></i><i class="c4"></i>'
+                 f'<div class="shut"></div><div class="flash" id="{pid}-f"></div></div>')
+        self.item(inner, cx, cy, w, h, at, until, 'pop', 5)
+        self.J(flash_t, f'tl.fromTo("#{pid}-f",{{opacity:0}},{{opacity:.95,duration:.06,yoyo:true,repeat:1}},{self.rel(flash_t):.3f});')
+        real(flash_t, 'camera-shutter', .3)
+    def idcard(self, cx, cy, w, name, role, avatar, at, until=None, stripes=0):
+        inner = (f'<div class="idc"><div class="ph"><img src="assets/img/{avatar}.png"></div><div class="tx"><b>{name}</b><span>{role}</span>'
+                 + ''.join('<i></i>' for _ in range(stripes)) + '</div></div>')
+        self.item(inner, cx, cy, w, int(w * .46), at, until, 'pop', 5)
+
 # ------------------------------------------------------------------ CSS
-CSS = """
-  #root { position:absolute; inset:0; font-family:'Montserrat',sans-serif; color:#fff; }
+FONTS = """
+  @font-face { font-family:'Plus Jakarta Sans'; font-weight:700; src:url('assets/fonts/PlusJakartaSans-700.ttf') format('truetype'); }
+  @font-face { font-family:'Plus Jakarta Sans'; font-weight:800; src:url('assets/fonts/PlusJakartaSans-800.ttf') format('truetype'); }
+  @font-face { font-family:'Plus Jakarta Sans'; font-weight:900; src:url('assets/fonts/PlusJakartaSans-800.ttf') format('truetype'); }
+  @font-face { font-family:'EB Garamond'; font-weight:500; src:url('assets/fonts/EBGaramond-500.ttf') format('truetype'); }
+  @font-face { font-family:'EB Garamond'; font-weight:700; src:url('assets/fonts/EBGaramond-700.ttf') format('truetype'); }
+"""
+CSS = FONTS + """
+  #root { position:absolute; inset:0; font-family:'Plus Jakarta Sans','Montserrat',sans-serif; color:#fff; }
   .stage { position:absolute; inset:0; }
   .item { position:absolute; display:flex; align-items:center; justify-content:center; }
   .item.ipic img { filter:drop-shadow(0 18px 22px rgba(0,0,0,.42)); }
   .item.walker { overflow:visible; } .item.walker img { filter:drop-shadow(0 16px 18px rgba(0,0,0,.4)); }
   .chip { display:inline-block; padding:.22em .8em; border:3px solid; border-radius:999px; font-weight:800; white-space:nowrap; letter-spacing:.01em; box-shadow:0 8px 20px rgba(0,0,0,.28); }
-  .stamp { font-family:'Playfair Display',serif; border:8px solid; border-radius:16px; padding:6px 24px; font-weight:900; letter-spacing:.07em; text-align:center; background:rgba(11,16,60,.55); white-space:nowrap; }
+  .stamp { font-family:'EB Garamond','Playfair Display',serif; border:8px solid; border-radius:16px; padding:6px 24px; font-weight:900; letter-spacing:.07em; text-align:center; background:rgba(11,16,60,.55); white-space:nowrap; }
   .badge { width:100%; height:100%; border-radius:50%; display:flex; align-items:center; justify-content:center; border:5px solid rgba(255,255,255,.9); }
   .badge span { font-weight:900; color:#fff; line-height:1; }
   .card { width:100%; height:100%; box-sizing:border-box; border-radius:34px; background:linear-gradient(180deg,rgba(66,76,160,.97),rgba(38,44,118,.97));
@@ -308,6 +401,21 @@ CSS = """
   .ttl { width:100%; text-align:center; } .t1 { font-weight:800; font-size:44px; color:#fff; letter-spacing:.62em; padding-left:.62em; } .t2 { font-weight:900; font-size:112px; color:#E8B828; letter-spacing:.02em; margin-top:18px; text-shadow:0 0 50px rgba(232,184,40,.55); white-space:nowrap; }
   .cap { position:absolute; left:0; width:1920px; text-align:center; font-weight:800; font-size:76px; line-height:1.1; text-transform:uppercase; white-space:nowrap; text-shadow:0 6px 18px rgba(0,0,0,.6); z-index:30; letter-spacing:.005em; }
   .cap b.k { font-weight:800; color:#F84858; }
+  .paper { width:100%; height:100%; box-sizing:border-box; background:#F8F5EC; color:#2a2418; border-radius:18px; padding:34px 40px; box-shadow:0 26px 54px rgba(0,0,0,.5); font-family:'EB Garamond',serif; }
+  .mail { width:100%; height:100%; box-sizing:border-box; background:linear-gradient(180deg,rgba(66,76,160,.97),rgba(38,44,118,.97)); border:3px solid rgba(130,146,255,.38); border-radius:30px; padding:30px 38px; box-shadow:0 26px 54px rgba(0,0,0,.5); }
+  .dk { font-family:'Plus Jakarta Sans',sans-serif; font-weight:800; font-size:20px; letter-spacing:.16em; color:#9a8a55; text-transform:uppercase; }
+  .mail .dk { color:#aab4f5; } .dt { font-weight:700; font-size:50px; margin:6px 0 14px; } .dbody { line-height:1.35; font-weight:500; }
+  .mail .dt, .mail .dbody { font-family:'Plus Jakarta Sans',sans-serif; } .mail .dbody { font-weight:700; }
+  .dw { transition:none; } .dw.hl { background:linear-gradient(transparent 58%, rgba(255,214,0,.65) 58%); }
+  .mail .dw.hl { background:none; color:#FFD54A; } .dsig { margin-top:14px; font-style:italic; opacity:.7; }
+  .cmp { display:flex; gap:20px; height:100%; } .cp { flex:1; border-radius:22px; background:rgba(14,18,72,.6); border:2px solid rgba(150,165,255,.2); display:flex; flex-direction:column; align-items:center; justify-content:center; padding:14px; }
+  .cp img { max-width:90%; max-height:230px; object-fit:contain; } .cp small { margin-top:10px; font-weight:800; font-size:30px; color:#c0c8f6; }
+  .vf { position:relative; width:100%; height:100%; border-radius:30px; background:#0b0e30; border:4px solid #3a3f95; overflow:hidden; display:flex; align-items:center; justify-content:center; box-shadow:0 26px 54px rgba(0,0,0,.5); }
+  .vf img { max-height:80%; max-width:80%; object-fit:contain; } .vf i { position:absolute; width:46px; height:46px; border:5px solid #fff; } .vf .c1 { left:36px; top:36px; border-right:0; border-bottom:0; } .vf .c2 { right:36px; top:36px; border-left:0; border-bottom:0; }
+  .vf .c3 { left:36px; bottom:36px; border-right:0; border-top:0; } .vf .c4 { right:36px; bottom:36px; border-left:0; border-top:0; } .vf .shut { position:absolute; bottom:18px; left:50%; width:44px; height:44px; margin-left:-22px; border-radius:50%; background:#fff; } .vf .flash { position:absolute; inset:0; background:#fff; opacity:0; }
+  .idc { width:100%; height:100%; box-sizing:border-box; background:#fff; color:#1b2150; border-radius:26px; display:flex; gap:22px; align-items:center; padding:22px 28px; box-shadow:0 26px 54px rgba(0,0,0,.5); }
+  .idc .ph { width:34%; aspect-ratio:1; border-radius:20px; background:#e8ecff; overflow:hidden; display:flex; align-items:flex-end; justify-content:center; } .idc .ph img { width:140%; margin-bottom:-14%; }
+  .idc .tx { display:flex; flex-direction:column; gap:8px; } .idc .tx b { font-size:44px; } .idc .tx span { font-size:28px; color:#6a73c8; font-weight:700; } .idc .tx i { display:inline-block; width:90px; height:12px; background:#E8B828; border-radius:3px; margin-right:6px; }
 """
 
 # ------------------------------------------------------------------ rendu d'une scène
@@ -339,15 +447,15 @@ def build_stage(S):
                     + (f'<div style="width:100%;height:100%;transform:scale({it["k"]});transform-origin:50% 50%;display:flex;align-items:center;justify-content:center">{it["html"]}</div>' if it['k'] != 1.0 else it['html']) + '</div>')
         e, r = it['enter'], it['rot']
         fr = {'pop': 'opacity:0,scale:.6,y:30', 'left': 'opacity:0,x:-260', 'right': 'opacity:0,x:260', 'drop': 'opacity:0,y:-300', 'up': 'opacity:0,y:300',
-              'stamp': 'opacity:0,scale:1.9', 'cut': 'opacity:1', 'none': 'opacity:1'}[e]
+              'stamp': 'opacity:0,scale:1.9', 'bounce': 'opacity:0,y:-520', 'cut': 'opacity:1', 'none': 'opacity:1'}[e]
         if e in ('cut', 'none'):
             js.append(f'tl.set("#{it["id"]}",{{rotation:{r}}},{rel:.3f});')
         else:
-            ease = 'back.out(1.6)' if e in ('pop', 'drop') else ('power4.in' if e == 'stamp' else 'expo.out')
-            dd = .18 if e == 'stamp' else .42
+            ease = 'back.out(1.6)' if e in ('pop', 'drop') else ('power4.in' if e == 'stamp' else ('bounce.out' if e == 'bounce' else 'expo.out'))
+            dd = .18 if e == 'stamp' else (.8 if e == 'bounce' else .42)
             js.append(f'tl.fromTo("#{it["id"]}",{{{fr},rotation:{r}}},{{opacity:1,scale:1,x:0,y:0,rotation:{r},duration:{dd},ease:"{ease}"}},{rel:.3f});')
         if it['snd'] == 'pop': pop_sfx(it['at'])
-        elif isinstance(it['snd'], str): sfx(it['at'], it['snd'], .28)
+        elif isinstance(it['snd'], str): sfx(it['at'], it['snd'], .2 if it['snd'].startswith('R_') else .28)
     # js des composants (triés)
     for t, code in sorted(S.js, key=lambda x: x[0]): js.append(code)
     html.append('</div>')
@@ -423,6 +531,7 @@ def build_captions(keys):
 """)
 
 # ------------------------------------------------------------------ projet
+RDUR = {}
 def render(keys):
     out = CFG['out']
     for d in ('assets/img', 'assets/sfx3', 'assets/audio', 'compositions'): os.makedirs(os.path.join(out, d), exist_ok=True)
@@ -434,10 +543,18 @@ def render(keys):
                 if os.path.exists(os.path.join(out, 'assets', 'img', f)) and n in DONE: continue
                 im = Image.open(os.path.join(cd, f)); im.thumbnail((1100, 1100)); im.save(os.path.join(out, 'assets', 'img', f), optimize=True); DONE.add(n)
     shutil.copy(CFG['voice'], os.path.join(out, 'assets', 'voce.wav'))
+    os.makedirs(os.path.join(out, 'assets', 'fonts'), exist_ok=True); os.makedirs(os.path.join(out, 'assets', 'sfx2'), exist_ok=True)
+    for f in os.listdir(os.path.join(ROOT, 'assets', 'fonts')): shutil.copy(os.path.join(ROOT, 'assets', 'fonts', f), os.path.join(out, 'assets', 'fonts', f))
+    s2 = os.path.join(ROOT, 'assets', 'sfx2')
+    for f in os.listdir(s2):
+        if f.endswith('.mp3'):
+            shutil.copy(os.path.join(s2, f), os.path.join(out, 'assets', 'sfx2', f))
+            RDUR['R_' + f[:-4]] = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', os.path.join(s2, f)], capture_output=True, text=True).stdout.strip())
     sfxd = os.path.join(ROOT, 'assets', 'sfx3'); DUR = {}
     for f in os.listdir(sfxd):
         shutil.copy(os.path.join(sfxd, f), os.path.join(out, 'assets', 'sfx3', f))
         DUR[f[:-4]] = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', os.path.join(sfxd, f)], capture_output=True, text=True).stdout.strip())
+    DUR.update(RDUR)
     for S in STAGES: build_stage(S)
     build_captions(keys)
     # push sfx
@@ -451,7 +568,8 @@ def render(keys):
     for n, (t, f, v) in enumerate(SFXLOG):
         if t < 0 or t > TOTAL - .3 or f not in DUR: continue
         t = min(t, TOTAL - DUR[f] - .02)
-        audio.append(f'      <audio id="sfx{n}" src="assets/sfx3/{f}.wav" data-start="{t:.3f}" data-duration="{DUR[f]:.3f}" data-track-index="{20 + n % 9}" data-volume="{v}"></audio>')
+        src = f'assets/sfx2/{f[2:]}.mp3' if f.startswith('R_') else f'assets/sfx3/{f}.wav'
+        audio.append(f'      <audio id="sfx{n}" src="{src}" data-start="{t:.3f}" data-duration="{DUR[f]:.3f}" data-track-index="{20 + n % 9}" data-volume="{v}"></audio>')
     stars = ''.join(f'<i style="left:{(i * 137 + 31) % 100}%;top:{(i * 71 + 17) % 100}%;width:{3 + i % 2}px;height:{3 + i % 2}px"></i>' for i in range(36))
     twink = ''.join(f'tl.fromTo("#stars i:nth-child({k + 1})",{{opacity:.15}},{{opacity:1,duration:{.6 + (k % 5) * .35:.2f},yoyo:true,repeat:{int(TOTAL // (.6 + (k % 5) * .35)) | 1},ease:"sine.inOut"}},{(k * .23) % 2:.2f});\n      ' for k in range(36))
     drift = f'tl.fromTo("#stars",{{x:0,y:0}},{{x:-{int(.3 * TOTAL) + 10},y:-{int(.6 * TOTAL) + 10},duration:{TOTAL},ease:"none"}},0);'
@@ -462,6 +580,7 @@ def render(keys):
     <meta name="viewport" content="width={W}, height={H}" />
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
     <style>
+      {FONTS}
       * {{ margin:0; padding:0; box-sizing:border-box; }}
       html, body {{ width:{W}px; height:{H}px; overflow:hidden; background:#0E1650; }}
       #bg {{ position:absolute; inset:0; background:radial-gradient(ellipse 90% 80% at 50% 45%, #0F184A 0%, #0D1660 55%, #0B1646 100%); }}
@@ -472,7 +591,7 @@ def render(keys):
     </style>
   </head>
   <body>
-    <div id="main" data-composition-id="main" data-start="0" data-duration="{TOTAL}" data-width="{W}" data-height="{H}" style="position:absolute;inset:0;font-family:Montserrat,sans-serif">
+    <div id="main" data-composition-id="main" data-start="0" data-duration="{TOTAL}" data-width="{W}" data-height="{H}" style="position:absolute;inset:0;font-family:'Plus Jakarta Sans',Montserrat,sans-serif">
       <div id="bg"></div><div id="gv"></div><div id="gh"></div>
       <div id="stars">{stars}</div>
 {chr(10).join(hosts)}
@@ -520,3 +639,26 @@ def audit(min_frac=.10, min_overlap=.5):
             if it['enter'] not in ('none',) and it['cls'] != 'walker' and (x0 < 20 or x1 > W - 20 or y0 < 20 or y1 > CAP_Y - 70):
                 t = re.sub('<[^>]+>', '', it['html'])[:28] or re.findall(r'img/(\w+)', it['html'])[:1]
                 print(f"  [{S.id}] hors zone x={x0:.0f}-{x1:.0f} y={y0:.0f}-{y1:.0f} : {t}")
+
+
+def estimate_mix(vol_voice=1.0):
+    """mixe voix + sons (mêmes gains que les <audio data-volume>) et mesure le niveau intégré"""
+    import numpy as np, wave, tempfile
+    sr = 48000
+    def load(path):
+        raw = subprocess.run(['ffmpeg', '-v', 'error', '-i', path, '-ac', '1', '-ar', str(sr), '-f', 'f32le', '-'], capture_output=True).stdout
+        return np.frombuffer(raw, dtype=np.float32)
+    mix = np.zeros(int(sr * TOTAL), dtype=np.float32)
+    v = load(CFG['voice']); mix[:min(len(v), len(mix))] += vol_voice * v[:len(mix)]
+    cache = {}
+    for t, f, vol in SFXLOG:
+        if t < 0 or t > TOTAL - .3: continue
+        p = os.path.join(ROOT, 'assets', 'sfx2', f[2:] + '.mp3') if f.startswith('R_') else os.path.join(ROOT, 'assets', 'sfx3', f + '.wav')
+        if p not in cache: cache[p] = load(p)
+        y = cache[p] * vol; i = int(t * sr); mix[i:i + len(y)] += y[:len(mix) - i]
+    out = os.path.join(tempfile.gettempdir(), 'mix_est.wav')
+    with wave.open(out, 'wb') as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes((np.clip(mix, -1, 1) * 32767).astype(np.int16).tobytes())
+    r = subprocess.run(['ffmpeg', '-hide_banner', '-i', out, '-af', 'ebur128=peak=true', '-f', 'null', '-'], capture_output=True, text=True).stderr
+    m = re.findall(r'I:\s+(-?[\d.]+) LUFS', r); p = re.findall(r'Peak:\s+(-?[\d.]+) dBFS', r)
+    print('mix estimé:', m[-1] if m else '?', 'LUFS ; crête', p[-1] if p else '?', 'dBFS')
