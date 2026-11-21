@@ -1,0 +1,16 @@
+{
+ "title": "Portraits",
+ "duration": 4,
+ "shots": [
+  {
+   "id": "q1",
+   "start": 0,
+   "end": 4,
+   "line": "",
+   "scene": "portraits",
+   "set": "x"
+  }
+ ],
+ "music": [],
+ "sfx": []
+}
