@@ -1,0 +1,32 @@
+{
+ "title": "Concepts",
+ "duration": 12,
+ "shots": [
+  {
+   "id": "c1",
+   "start": 0,
+   "end": 4,
+   "line": "",
+   "scene": "lineup",
+   "set": "site"
+  },
+  {
+   "id": "c2",
+   "start": 4,
+   "end": 8,
+   "line": "",
+   "scene": "chantier",
+   "set": "site"
+  },
+  {
+   "id": "c3",
+   "start": 8,
+   "end": 12,
+   "line": "",
+   "scene": "gros plan",
+   "set": "site"
+  }
+ ],
+ "music": [],
+ "sfx": []
+}
