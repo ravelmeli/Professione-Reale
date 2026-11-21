@@ -31,6 +31,13 @@ export const STYLES = {
       void: { sky: ['#03100c', '#08201a'], rim: '#7dffb0' },
     },
   },
+  toon: {
+    name: 'Toon Clean', desc: 'Flat cartoon look: neutral colour, light bloom, almost no grain. For outlined-cartoon characters.',
+    ink: '#17141f', inkFar: '#2a2634', feature: '#ffffff', rimWidth: 3,
+    ui: { ...UI, card: 'rgba(23,32,52,.96)', cardLine: 'rgba(160,190,255,.3)', text: '#cfe0ff', sub: '#8fa6cf', accent: '#ff5a4d', gold: '#ffd23f', blueprint: '#8fb8e8', bpBg: '#14202f', good: '#3ddc84' },
+    grade: { contrast: 1.03, sat: 1.06, lift: [0, 0, 0], gamma: [1, 1, 1], gain: [1, 1, 1], vignette: 0.18, grain: 0.015, bloom: 0.12 },
+    moods: {},
+  },
   ember: {
     name: 'Ember Forge', desc: 'Charcoal-black world lit by fire: crimson shadows, molten copper rim light, hot orange glows, heavy contrast.',
     ink: '#0c0606', inkFar: '#2e1614', feature: '#fff0e0', rimWidth: 4,

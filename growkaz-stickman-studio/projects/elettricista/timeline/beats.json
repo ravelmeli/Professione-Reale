@@ -1,0 +1,738 @@
+[
+ {
+  "i": 0,
+  "start": 0.0,
+  "speechStart": 0.0,
+  "speechEnd": 3.76,
+  "text": "Hai diciotto anni, e un quadro elettrico aperto davanti a te.",
+  "end": 4.17
+ },
+ {
+  "i": 1,
+  "start": 4.17,
+  "speechStart": 4.32,
+  "speechEnd": 9.44,
+  "text": "Decine di fili, di colori diversi, tutti uguali ai tuoi occhi. Il tuo capo dice:",
+  "end": 9.71
+ },
+ {
+  "i": 2,
+  "start": 9.71,
+  "speechStart": 9.86,
+  "speechEnd": 13.36,
+  "text": "questo, per ora, non lo tocchi. Non è un consiglio.",
+  "end": 13.59
+ },
+ {
+  "i": 3,
+  "start": 13.59,
+  "speechStart": 13.74,
+  "speechEnd": 15.3,
+  "text": "È la regola che ti tiene vivo.",
+  "end": 16.01
+ },
+ {
+  "i": 4,
+  "start": 16.01,
+  "speechStart": 16.16,
+  "speechEnd": 19.02,
+  "text": "Tra quindici anni, firmerai tu un impianto.",
+  "end": 19.35
+ },
+ {
+  "i": 5,
+  "start": 19.35,
+  "speechStart": 19.5,
+  "speechEnd": 22.7,
+  "text": "E se qualcosa va storto, il nome sulla carta sarà il tuo.",
+  "end": 23.19
+ },
+ {
+  "i": 6,
+  "start": 23.19,
+  "speechStart": 23.34,
+  "speechEnd": 26.7,
+  "text": "Questa è la vita di un elettricista, a ogni livello.",
+  "end": 27.01
+ },
+ {
+  "i": 7,
+  "start": 27.01,
+  "speechStart": 27.16,
+  "speechEnd": 29.52,
+  "text": "Iscriviti, se vuoi sapere quanto guadagna davvero.",
+  "end": 30.51
+ },
+ {
+  "i": 8,
+  "start": 30.51,
+  "speechStart": 30.66,
+  "speechEnd": 31.98,
+  "text": "Livello uno.",
+  "end": 31.83
+ },
+ {
+  "i": 9,
+  "start": 31.83,
+  "speechStart": 31.98,
+  "speechEnd": 33.34,
+  "text": "Apprendista elettricista.",
+  "end": 33.67
+ },
+ {
+  "i": 10,
+  "start": 33.67,
+  "speechStart": 33.82,
+  "speechEnd": 37.28,
+  "text": "Porti la scala, srotoli i cavi, passi i tubi nelle pareti.",
+  "end": 37.65
+ },
+ {
+  "i": 11,
+  "start": 37.65,
+  "speechStart": 37.8,
+  "speechEnd": 39.8,
+  "text": "Fai fatica, e fai anche molte domande.",
+  "end": 40.23
+ },
+ {
+  "i": 12,
+  "start": 40.23,
+  "speechStart": 40.38,
+  "speechEnd": 41.8,
+  "text": "Impari a distinguere i fili:",
+  "end": 42.03
+ },
+ {
+  "i": 13,
+  "start": 42.03,
+  "speechStart": 42.18,
+  "speechEnd": 43.98,
+  "text": "fase, neutro e terra.",
+  "end": 44.45
+ },
+ {
+  "i": 14,
+  "start": 44.45,
+  "speechStart": 44.6,
+  "speechEnd": 47.74,
+  "text": "Impari cosa vuol dire staccare la corrente, prima di toccare.",
+  "end": 48.03
+ },
+ {
+  "i": 15,
+  "start": 48.03,
+  "speechStart": 48.18,
+  "speechEnd": 51.12,
+  "text": "Si fa con un lucchetto e una verifica, ogni volta.",
+  "end": 51.85
+ },
+ {
+  "i": 16,
+  "start": 51.85,
+  "speechStart": 52.0,
+  "speechEnd": 54.38,
+  "text": "Il contratto dipende dall'azienda e dal settore.",
+  "end": 54.51
+ },
+ {
+  "i": 17,
+  "start": 54.51,
+  "speechStart": 54.66,
+  "speechEnd": 56.96,
+  "text": "Per un apprendista la paga è bassa, e varia molto.",
+  "end": 57.11
+ },
+ {
+  "i": 18,
+  "start": 57.11,
+  "speechStart": 57.26,
+  "speechEnd": 58.52,
+  "text": "Non esiste una cifra unica:",
+  "end": 58.61
+ },
+ {
+  "i": 19,
+  "start": 58.61,
+  "speechStart": 58.76,
+  "speechEnd": 60.48,
+  "text": "dipende dal contratto e dalla regione.",
+  "end": 60.99
+ },
+ {
+  "i": 20,
+  "start": 60.99,
+  "speechStart": 61.14,
+  "speechEnd": 63.3,
+  "text": "Lo stipendio cresce con gli anni di formazione.",
+  "end": 63.75
+ },
+ {
+  "i": 21,
+  "start": 63.75,
+  "speechStart": 63.9,
+  "speechEnd": 65.58,
+  "text": "Il corpo lavora in posizioni scomode:",
+  "end": 65.69
+ },
+ {
+  "i": 22,
+  "start": 65.69,
+  "speechStart": 65.84,
+  "speechEnd": 67.4,
+  "text": "ginocchia a terra, braccia in alto.",
+  "end": 67.81
+ },
+ {
+  "i": 23,
+  "start": 67.81,
+  "speechStart": 67.96,
+  "speechEnd": 70.64,
+  "text": "Polvere, soffitti bassi, cantieri freddi.",
+  "end": 70.97
+ },
+ {
+  "i": 24,
+  "start": 70.97,
+  "speechStart": 71.12,
+  "speechEnd": 73.62,
+  "text": "E ogni tanto, sul cavo sbagliato, senti il cuore.",
+  "end": 74.41
+ },
+ {
+  "i": 25,
+  "start": 74.41,
+  "speechStart": 74.56,
+  "speechEnd": 75.96,
+  "text": "Livello due.",
+  "end": 75.81
+ },
+ {
+  "i": 26,
+  "start": 75.81,
+  "speechStart": 75.96,
+  "speechEnd": 77.18,
+  "text": "Elettricista qualificato.",
+  "end": 77.57
+ },
+ {
+  "i": 27,
+  "start": 77.57,
+  "speechStart": 77.72,
+  "speechEnd": 80.44,
+  "text": "Dopo qualche anno, lavori da solo su un impianto semplice.",
+  "end": 80.85
+ },
+ {
+  "i": 28,
+  "start": 80.85,
+  "speechStart": 81.0,
+  "speechEnd": 83.5,
+  "text": "Tiri i cavi, colleghi le prese, monti un quadro.",
+  "end": 83.93
+ },
+ {
+  "i": 29,
+  "start": 83.93,
+  "speechStart": 84.08,
+  "speechEnd": 86.94,
+  "text": "Leggi uno schema elettrico, e lo trasformi in un impianto.",
+  "end": 87.15
+ },
+ {
+  "i": 30,
+  "start": 87.15,
+  "speechStart": 87.3,
+  "speechEnd": 90.14,
+  "text": "Sai quale sezione di cavo serve, e quale interruttore.",
+  "end": 90.63
+ },
+ {
+  "i": 31,
+  "start": 90.63,
+  "speechStart": 90.78,
+  "speechEnd": 94.38,
+  "text": "Un errore qui non si vede subito, ma può restare nascosto per anni.",
+  "end": 94.85
+ },
+ {
+  "i": 32,
+  "start": 94.85,
+  "speechStart": 95.0,
+  "speechEnd": 99.1,
+  "text": "La paga base sale, ma resta una cifra variabile da contratto a contratto.",
+  "end": 99.41
+ },
+ {
+  "i": 33,
+  "start": 99.41,
+  "speechStart": 99.56,
+  "speechEnd": 102.72,
+  "text": "Gli straordinari e le trasferte spesso fanno la differenza.",
+  "end": 103.29
+ },
+ {
+  "i": 34,
+  "start": 103.29,
+  "speechStart": 103.44,
+  "speechEnd": 106.0,
+  "text": "La sicurezza non è un corso che hai fatto una volta.",
+  "end": 106.29
+ },
+ {
+  "i": 35,
+  "start": 106.29,
+  "speechStart": 106.44,
+  "speechEnd": 108.84,
+  "text": "È un gesto che ripeti, anche quando hai fretta.",
+  "end": 109.41
+ },
+ {
+  "i": 36,
+  "start": 109.41,
+  "speechStart": 109.56,
+  "speechEnd": 110.9,
+  "text": "Livello tre.",
+  "end": 110.75
+ },
+ {
+  "i": 37,
+  "start": 110.75,
+  "speechStart": 110.9,
+  "speechEnd": 112.4,
+  "text": "Elettricista specializzato.",
+  "end": 112.81
+ },
+ {
+  "i": 38,
+  "start": 112.81,
+  "speechStart": 112.96,
+  "speechEnd": 114.24,
+  "text": "Qui entri nei sistemi:",
+  "end": 114.45
+ },
+ {
+  "i": 39,
+  "start": 114.45,
+  "speechStart": 114.6,
+  "speechEnd": 117.58,
+  "text": "impianti industriali, automazione, fotovoltaico.",
+  "end": 118.05
+ },
+ {
+  "i": 40,
+  "start": 118.05,
+  "speechStart": 118.2,
+  "speechEnd": 121.06,
+  "text": "Impari a leggere un quadro complesso, e a trovare il guasto.",
+  "end": 121.47
+ },
+ {
+  "i": 41,
+  "start": 121.47,
+  "speechStart": 121.62,
+  "speechEnd": 123.78,
+  "text": "Quando una fabbrica si ferma, chiamano te.",
+  "end": 124.17
+ },
+ {
+  "i": 42,
+  "start": 124.17,
+  "speechStart": 124.32,
+  "speechEnd": 128.12,
+  "text": "Il tempo costa soldi, e tu devi trovare il guasto subito.",
+  "end": 129.07
+ },
+ {
+  "i": 43,
+  "start": 129.07,
+  "speechStart": 129.22,
+  "speechEnd": 130.9,
+  "text": "Lavori con la corrente accanto:",
+  "end": 130.99
+ },
+ {
+  "i": 44,
+  "start": 130.99,
+  "speechStart": 131.14,
+  "speechEnd": 133.16,
+  "text": "serve attenzione, ogni secondo.",
+  "end": 133.83
+ },
+ {
+  "i": 45,
+  "start": 133.83,
+  "speechStart": 133.98,
+  "speechEnd": 139.32,
+  "text": "Per lavorare sotto tensione servono una formazione specifica e un'abilitazione.",
+  "end": 139.17
+ },
+ {
+  "i": 46,
+  "start": 139.17,
+  "speechStart": 139.32,
+  "speechEnd": 142.76,
+  "text": "Il tuo stipendio sale, ma non esiste una cifra uguale per tutti.",
+  "end": 143.03
+ },
+ {
+  "i": 47,
+  "start": 143.03,
+  "speechStart": 143.18,
+  "speechEnd": 146.48,
+  "text": "Dipende dal settore, dalla regione e dai turni di reperibilità.",
+  "end": 147.21
+ },
+ {
+  "i": 48,
+  "start": 147.21,
+  "speechStart": 147.36,
+  "speechEnd": 150.86,
+  "text": "Il tuo nome comincia a girare, tra un cliente e l'altro.",
+  "end": 150.71
+ },
+ {
+  "i": 49,
+  "start": 150.71,
+  "speechStart": 150.86,
+  "speechEnd": 152.08,
+  "text": "Livello quattro.",
+  "end": 151.93
+ },
+ {
+  "i": 50,
+  "start": 151.93,
+  "speechStart": 152.08,
+  "speechEnd": 154.04,
+  "text": "Caposquadra, responsabile tecnico.",
+  "end": 154.45
+ },
+ {
+  "i": 51,
+  "start": 154.45,
+  "speechStart": 154.6,
+  "speechEnd": 157.34,
+  "text": "Non basta più saper fare: devi organizzare gli altri.",
+  "end": 157.75
+ },
+ {
+  "i": 52,
+  "start": 157.75,
+  "speechStart": 157.9,
+  "speechEnd": 160.44,
+  "text": "Decidi chi fa cosa, e controlli il lavoro finito.",
+  "end": 160.91
+ },
+ {
+  "i": 53,
+  "start": 160.91,
+  "speechStart": 161.06,
+  "speechEnd": 163.94,
+  "text": "Se un tuo collega sbaglia, il problema è anche tuo.",
+  "end": 163.79
+ },
+ {
+  "i": 54,
+  "start": 163.79,
+  "speechStart": 163.94,
+  "speechEnd": 167.38,
+  "text": "Per firmare un impianto serve un requisito tecnico professionale.",
+  "end": 167.59
+ },
+ {
+  "i": 55,
+  "start": 167.59,
+  "speechStart": 167.74,
+  "speechEnd": 172.0,
+  "text": "Lo prevede la legge sugli impianti, il decreto numero trentasette del duemilaotto.",
+  "end": 171.85
+ },
+ {
+  "i": 56,
+  "start": 171.85,
+  "speechStart": 172.0,
+  "speechEnd": 175.78,
+  "text": "Ogni impianto chiuso ha una dichiarazione di conformità. È un foglio che dice:",
+  "end": 175.63
+ },
+ {
+  "i": 57,
+  "start": 175.63,
+  "speechStart": 175.78,
+  "speechEnd": 178.0,
+  "text": "l'ho fatto a regola d'arte, e ne rispondo io.",
+  "end": 178.47
+ },
+ {
+  "i": 58,
+  "start": 178.47,
+  "speechStart": 178.62,
+  "speechEnd": 180.18,
+  "text": "Se ti sta piacendo, iscriviti:",
+  "end": 180.15
+ },
+ {
+  "i": 59,
+  "start": 180.15,
+  "speechStart": 180.3,
+  "speechEnd": 182.08,
+  "text": "manca l'ultimo livello, il più duro.",
+  "end": 182.83
+ },
+ {
+  "i": 60,
+  "start": 182.83,
+  "speechStart": 182.98,
+  "speechEnd": 185.98,
+  "text": "Il telefono suona anche la notte, per un guasto che non può aspettare.",
+  "end": 186.49
+ },
+ {
+  "i": 61,
+  "start": 186.49,
+  "speechStart": 186.64,
+  "speechEnd": 187.96,
+  "text": "Livello cinque.",
+  "end": 187.81
+ },
+ {
+  "i": 62,
+  "start": 187.81,
+  "speechStart": 187.96,
+  "speechEnd": 189.28,
+  "text": "Titolare, o impresa tua.",
+  "end": 189.83
+ },
+ {
+  "i": 63,
+  "start": 189.83,
+  "speechStart": 189.98,
+  "speechEnd": 191.5,
+  "text": "Qui non c'è più uno stipendio fisso.",
+  "end": 191.57
+ },
+ {
+  "i": 64,
+  "start": 191.57,
+  "speechStart": 191.72,
+  "speechEnd": 194.4,
+  "text": "Il guadagno dipende dai clienti, dai prezzi e dai costi.",
+  "end": 194.65
+ },
+ {
+  "i": 65,
+  "start": 194.65,
+  "speechStart": 194.8,
+  "speechEnd": 198.58,
+  "text": "Furgone, attrezzi, assicurazione, contributi, collaboratori.",
+  "end": 199.33
+ },
+ {
+  "i": 66,
+  "start": 199.33,
+  "speechStart": 199.48,
+  "speechEnd": 202.66,
+  "text": "I clienti pagano a trenta, sessanta, a volte novanta giorni.",
+  "end": 202.77
+ },
+ {
+  "i": 67,
+  "start": 202.77,
+  "speechStart": 202.92,
+  "speechEnd": 204.86,
+  "text": "E tu, intanto, paghi i materiali e le persone.",
+  "end": 205.31
+ },
+ {
+  "i": 68,
+  "start": 205.31,
+  "speechStart": 205.46,
+  "speechEnd": 208.24,
+  "text": "Un cliente che non paga può metterti in difficoltà per mesi.",
+  "end": 208.85
+ },
+ {
+  "i": 69,
+  "start": 208.85,
+  "speechStart": 209.0,
+  "speechEnd": 212.84,
+  "text": "Se lavori nei cantieri, dal duemilaventiquattro serve anche la patente a crediti.",
+  "end": 212.95
+ },
+ {
+  "i": 70,
+  "start": 212.95,
+  "speechStart": 213.1,
+  "speechEnd": 215.46,
+  "text": "Si parte da trenta crediti, e si possono perdere.",
+  "end": 215.95
+ },
+ {
+  "i": 71,
+  "start": 215.95,
+  "speechStart": 216.1,
+  "speechEnd": 219.82,
+  "text": "Il costo nascosto non è in busta paga. È il corpo:",
+  "end": 220.21
+ },
+ {
+  "i": 72,
+  "start": 220.21,
+  "speechStart": 220.36,
+  "speechEnd": 223.94,
+  "text": "schiena, ginocchia, mani, e anni passati in piedi.",
+  "end": 224.33
+ },
+ {
+  "i": 73,
+  "start": 224.33,
+  "speechStart": 224.48,
+  "speechEnd": 227.1,
+  "text": "È la responsabilità di ogni impianto che hai firmato.",
+  "end": 227.63
+ },
+ {
+  "i": 74,
+  "start": 227.63,
+  "speechStart": 227.78,
+  "speechEnd": 229.44,
+  "text": "Un impianto fatto bene non si nota.",
+  "end": 229.75
+ },
+ {
+  "i": 75,
+  "start": 229.75,
+  "speechStart": 229.9,
+  "speechEnd": 231.24,
+  "text": "Uno fatto male può uccidere.",
+  "end": 231.97
+ },
+ {
+  "i": 76,
+  "start": 231.97,
+  "speechStart": 232.12,
+  "speechEnd": 234.26,
+  "text": "Una famiglia, a casa, sta ad aspettarti la sera.",
+  "end": 234.11
+ },
+ {
+  "i": 77,
+  "start": 234.11,
+  "speechStart": 234.26,
+  "speechEnd": 235.54,
+  "text": "E il tempo:",
+  "end": 235.87
+ },
+ {
+  "i": 78,
+  "start": 235.87,
+  "speechStart": 236.02,
+  "speechEnd": 239.48,
+  "text": "reperibilità, chiamate di notte, domeniche a fare preventivi.",
+  "end": 240.19
+ },
+ {
+  "i": 79,
+  "start": 240.19,
+  "speechStart": 240.34,
+  "speechEnd": 243.2,
+  "text": "Il tuo nome sul furgone, e il tuo nome sulla dichiarazione.",
+  "end": 244.05
+ },
+ {
+  "i": 80,
+  "start": 244.05,
+  "speechStart": 244.2,
+  "speechEnd": 246.48,
+  "text": "Torna al quadro elettrico, quando avevi diciotto anni.",
+  "end": 246.95
+ },
+ {
+  "i": 81,
+  "start": 246.95,
+  "speechStart": 247.1,
+  "speechEnd": 249.92,
+  "text": "Il ragazzo davanti ai fili non sa ancora tutto questo.",
+  "end": 250.29
+ },
+ {
+  "i": 82,
+  "start": 250.29,
+  "speechStart": 250.44,
+  "speechEnd": 253.46,
+  "text": "Non sa che il suo lavoro sarà invisibile.",
+  "end": 253.77
+ },
+ {
+  "i": 83,
+  "start": 253.77,
+  "speechStart": 253.92,
+  "speechEnd": 256.1,
+  "text": "Se la luce si accende, nessuno ci pensa.",
+  "end": 256.39
+ },
+ {
+  "i": 84,
+  "start": 256.39,
+  "speechStart": 256.54,
+  "speechEnd": 260.18,
+  "text": "Se il frigorifero funziona, nessuno ringrazia chi l'ha collegato.",
+  "end": 260.41
+ },
+ {
+  "i": 85,
+  "start": 260.41,
+  "speechStart": 260.56,
+  "speechEnd": 264.38,
+  "text": "Se qualcosa si incendia, tutti si ricordano chi l'ha fatto.",
+  "end": 264.93
+ },
+ {
+  "i": 86,
+  "start": 264.93,
+  "speechStart": 265.08,
+  "speechEnd": 268.38,
+  "text": "Ha scelto un mestiere che porta la luce nelle case degli altri.",
+  "end": 268.69
+ },
+ {
+  "i": 87,
+  "start": 268.69,
+  "speechStart": 268.84,
+  "speechEnd": 271.6,
+  "text": "E in cambio, passa la vita con la corrente accanto.",
+  "end": 272.05
+ },
+ {
+  "i": 88,
+  "start": 272.05,
+  "speechStart": 272.2,
+  "speechEnd": 275.04,
+  "text": "Se questo video ti è piaciuto, iscriviti al canale.",
+  "end": 274.89
+ },
+ {
+  "i": 89,
+  "start": 274.89,
+  "speechStart": 275.04,
+  "speechEnd": 276.68,
+  "text": "E scrivi nei commenti:",
+  "end": 276.53
+ },
+ {
+  "i": 90,
+  "start": 276.53,
+  "speechStart": 276.68,
+  "speechEnd": 279.28,
+  "text": "sei elettricista, o sogni di diventarlo?",
+  "end": 279.63
+ },
+ {
+  "i": 91,
+  "start": 279.63,
+  "speechStart": 279.78,
+  "speechEnd": 282.42,
+  "text": "Oppure dimmi quale mestiere vuoi vedere dopo.",
+  "end": 283.92
+ }
+]

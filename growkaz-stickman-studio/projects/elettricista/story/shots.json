@@ -1,0 +1,1286 @@
+{
+ "title": "La tua vita a ogni livello come elettricista",
+ "duration": 283.92,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 4.17,
+   "line": "Hai diciotto anni, e un quadro elettrico aperto davanti a te.",
+   "scene": "unit 0",
+   "set": "toon",
+   "params": {
+    "u": 0
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s002",
+   "start": 4.17,
+   "end": 8.45,
+   "line": "Decine di fili, di colori diversi, tutti uguali ai tuoi occhi.",
+   "scene": "unit 1",
+   "set": "toon",
+   "params": {
+    "u": 1
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s003",
+   "start": 8.45,
+   "end": 12.25,
+   "line": "Il tuo capo dice: questo, per ora, non lo tocchi.",
+   "scene": "unit 2",
+   "set": "toon",
+   "params": {
+    "u": 2
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s004",
+   "start": 12.25,
+   "end": 13.59,
+   "line": "Non è un consiglio.",
+   "scene": "unit 3",
+   "set": "toon",
+   "params": {
+    "u": 3
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s005",
+   "start": 13.59,
+   "end": 16.01,
+   "line": "È la regola che ti tiene vivo.",
+   "scene": "unit 4",
+   "set": "toon",
+   "params": {
+    "u": 4
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s006",
+   "start": 16.01,
+   "end": 19.35,
+   "line": "Tra quindici anni, firmerai tu un impianto.",
+   "scene": "unit 5",
+   "set": "toon",
+   "params": {
+    "u": 5
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s007",
+   "start": 19.35,
+   "end": 23.19,
+   "line": "E se qualcosa va storto, il nome sulla carta sarà il tuo.",
+   "scene": "unit 6",
+   "set": "toon",
+   "params": {
+    "u": 6
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s008",
+   "start": 23.19,
+   "end": 27.01,
+   "line": "Questa è la vita di un elettricista, a ogni livello.",
+   "scene": "unit 7",
+   "set": "toon",
+   "params": {
+    "u": 7
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s009",
+   "start": 27.01,
+   "end": 30.51,
+   "line": "Iscriviti, se vuoi sapere quanto guadagna davvero.",
+   "scene": "unit 8",
+   "set": "toon",
+   "params": {
+    "u": 8
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s010",
+   "start": 30.51,
+   "end": 33.67,
+   "line": "Livello uno. Apprendista elettricista.",
+   "scene": "unit 9",
+   "set": "toon",
+   "params": {
+    "u": 9
+   },
+   "in": {
+    "type": "whip",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "whoosh",
+     "gain": -9
+    }
+   ]
+  },
+  {
+   "id": "s011",
+   "start": 33.67,
+   "end": 37.65,
+   "line": "Porti la scala, srotoli i cavi, passi i tubi nelle pareti.",
+   "scene": "unit 10",
+   "set": "toon",
+   "params": {
+    "u": 10
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s012",
+   "start": 37.65,
+   "end": 40.23,
+   "line": "Fai fatica, e fai anche molte domande.",
+   "scene": "unit 11",
+   "set": "toon",
+   "params": {
+    "u": 11
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s013",
+   "start": 40.23,
+   "end": 44.45,
+   "line": "Impari a distinguere i fili: fase, neutro e terra.",
+   "scene": "unit 12",
+   "set": "toon",
+   "params": {
+    "u": 12
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s014",
+   "start": 44.45,
+   "end": 48.03,
+   "line": "Impari cosa vuol dire staccare la corrente, prima di toccare.",
+   "scene": "unit 13",
+   "set": "toon",
+   "params": {
+    "u": 13
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s015",
+   "start": 48.03,
+   "end": 51.85,
+   "line": "Si fa con un lucchetto e una verifica, ogni volta.",
+   "scene": "unit 14",
+   "set": "toon",
+   "params": {
+    "u": 14
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s016",
+   "start": 51.85,
+   "end": 54.51,
+   "line": "Il contratto dipende dall'azienda e dal settore.",
+   "scene": "unit 15",
+   "set": "toon",
+   "params": {
+    "u": 15
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s017",
+   "start": 54.51,
+   "end": 57.11,
+   "line": "Per un apprendista la paga è bassa, e varia molto.",
+   "scene": "unit 16",
+   "set": "toon",
+   "params": {
+    "u": 16
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s018",
+   "start": 57.11,
+   "end": 60.99,
+   "line": "Non esiste una cifra unica: dipende dal contratto e dalla regione.",
+   "scene": "unit 17",
+   "set": "toon",
+   "params": {
+    "u": 17
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s019",
+   "start": 60.99,
+   "end": 63.75,
+   "line": "Lo stipendio cresce con gli anni di formazione.",
+   "scene": "unit 18",
+   "set": "toon",
+   "params": {
+    "u": 18
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s020",
+   "start": 63.75,
+   "end": 67.81,
+   "line": "Il corpo lavora in posizioni scomode: ginocchia a terra, braccia in alto.",
+   "scene": "unit 19",
+   "set": "toon",
+   "params": {
+    "u": 19
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s021",
+   "start": 67.81,
+   "end": 70.97,
+   "line": "Polvere, soffitti bassi, cantieri freddi.",
+   "scene": "unit 20",
+   "set": "toon",
+   "params": {
+    "u": 20
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s022",
+   "start": 70.97,
+   "end": 74.41,
+   "line": "E ogni tanto, sul cavo sbagliato, senti il cuore.",
+   "scene": "unit 21",
+   "set": "toon",
+   "params": {
+    "u": 21
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s023",
+   "start": 74.41,
+   "end": 77.57,
+   "line": "Livello due. Elettricista qualificato.",
+   "scene": "unit 22",
+   "set": "toon",
+   "params": {
+    "u": 22
+   },
+   "in": {
+    "type": "whip",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "whoosh",
+     "gain": -9
+    }
+   ]
+  },
+  {
+   "id": "s024",
+   "start": 77.57,
+   "end": 80.85,
+   "line": "Dopo qualche anno, lavori da solo su un impianto semplice.",
+   "scene": "unit 23",
+   "set": "toon",
+   "params": {
+    "u": 23
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s025",
+   "start": 80.85,
+   "end": 83.93,
+   "line": "Tiri i cavi, colleghi le prese, monti un quadro.",
+   "scene": "unit 24",
+   "set": "toon",
+   "params": {
+    "u": 24
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s026",
+   "start": 83.93,
+   "end": 87.15,
+   "line": "Leggi uno schema elettrico, e lo trasformi in un impianto.",
+   "scene": "unit 25",
+   "set": "toon",
+   "params": {
+    "u": 25
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s027",
+   "start": 87.15,
+   "end": 90.63,
+   "line": "Sai quale sezione di cavo serve, e quale interruttore.",
+   "scene": "unit 26",
+   "set": "toon",
+   "params": {
+    "u": 26
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s028",
+   "start": 90.63,
+   "end": 94.85,
+   "line": "Un errore qui non si vede subito, ma può restare nascosto per anni.",
+   "scene": "unit 27",
+   "set": "toon",
+   "params": {
+    "u": 27
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s029",
+   "start": 94.85,
+   "end": 99.41,
+   "line": "La paga base sale, ma resta una cifra variabile da contratto a contratto.",
+   "scene": "unit 28",
+   "set": "toon",
+   "params": {
+    "u": 28
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s030",
+   "start": 99.41,
+   "end": 103.29,
+   "line": "Gli straordinari e le trasferte spesso fanno la differenza.",
+   "scene": "unit 29",
+   "set": "toon",
+   "params": {
+    "u": 29
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s031",
+   "start": 103.29,
+   "end": 109.41,
+   "line": "La sicurezza non è un corso che hai fatto una volta. È un gesto che ripeti, anche quando hai fretta.",
+   "scene": "unit 30",
+   "set": "toon",
+   "params": {
+    "u": 30
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s032",
+   "start": 109.41,
+   "end": 112.81,
+   "line": "Livello tre. Elettricista specializzato.",
+   "scene": "unit 31",
+   "set": "toon",
+   "params": {
+    "u": 31
+   },
+   "in": {
+    "type": "whip",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "whoosh",
+     "gain": -9
+    }
+   ]
+  },
+  {
+   "id": "s033",
+   "start": 112.81,
+   "end": 118.05,
+   "line": "Qui entri nei sistemi: impianti industriali, automazione, fotovoltaico.",
+   "scene": "unit 32",
+   "set": "toon",
+   "params": {
+    "u": 32
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s034",
+   "start": 118.05,
+   "end": 121.47,
+   "line": "Impari a leggere un quadro complesso, e a trovare il guasto.",
+   "scene": "unit 33",
+   "set": "toon",
+   "params": {
+    "u": 33
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s035",
+   "start": 121.47,
+   "end": 124.17,
+   "line": "Quando una fabbrica si ferma, chiamano te.",
+   "scene": "unit 34",
+   "set": "toon",
+   "params": {
+    "u": 34
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s036",
+   "start": 124.17,
+   "end": 129.07,
+   "line": "Il tempo costa soldi, e tu devi trovare il guasto subito.",
+   "scene": "unit 35",
+   "set": "toon",
+   "params": {
+    "u": 35
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s037",
+   "start": 129.07,
+   "end": 133.83,
+   "line": "Lavori con la corrente accanto: serve attenzione, ogni secondo.",
+   "scene": "unit 36",
+   "set": "toon",
+   "params": {
+    "u": 36
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s038",
+   "start": 133.83,
+   "end": 139.17,
+   "line": "Per lavorare sotto tensione servono una formazione specifica e un'abilitazione.",
+   "scene": "unit 37",
+   "set": "toon",
+   "params": {
+    "u": 37
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s039",
+   "start": 139.17,
+   "end": 147.21,
+   "line": "Il tuo stipendio sale, ma non esiste una cifra uguale per tutti. Dipende dal settore, dalla regione e dai turni di reperibilità.",
+   "scene": "unit 38",
+   "set": "toon",
+   "params": {
+    "u": 38
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s040",
+   "start": 147.21,
+   "end": 150.71,
+   "line": "Il tuo nome comincia a girare, tra un cliente e l'altro.",
+   "scene": "unit 39",
+   "set": "toon",
+   "params": {
+    "u": 39
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s041",
+   "start": 150.71,
+   "end": 154.45,
+   "line": "Livello quattro. Caposquadra, responsabile tecnico.",
+   "scene": "unit 40",
+   "set": "toon",
+   "params": {
+    "u": 40
+   },
+   "in": {
+    "type": "whip",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "whoosh",
+     "gain": -9
+    }
+   ]
+  },
+  {
+   "id": "s042",
+   "start": 154.45,
+   "end": 157.75,
+   "line": "Non basta più saper fare: devi organizzare gli altri.",
+   "scene": "unit 41",
+   "set": "toon",
+   "params": {
+    "u": 41
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s043",
+   "start": 157.75,
+   "end": 160.91,
+   "line": "Decidi chi fa cosa, e controlli il lavoro finito.",
+   "scene": "unit 42",
+   "set": "toon",
+   "params": {
+    "u": 42
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s044",
+   "start": 160.91,
+   "end": 163.79,
+   "line": "Se un tuo collega sbaglia, il problema è anche tuo.",
+   "scene": "unit 43",
+   "set": "toon",
+   "params": {
+    "u": 43
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s045",
+   "start": 163.79,
+   "end": 167.59,
+   "line": "Per firmare un impianto serve un requisito tecnico professionale.",
+   "scene": "unit 44",
+   "set": "toon",
+   "params": {
+    "u": 44
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s046",
+   "start": 167.59,
+   "end": 171.85,
+   "line": "Lo prevede la legge sugli impianti, il decreto numero trentasette del duemilaotto.",
+   "scene": "unit 45",
+   "set": "toon",
+   "params": {
+    "u": 45
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s047",
+   "start": 171.85,
+   "end": 174.97,
+   "line": "Ogni impianto chiuso ha una dichiarazione di conformità.",
+   "scene": "unit 46",
+   "set": "toon",
+   "params": {
+    "u": 46
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s048",
+   "start": 174.97,
+   "end": 178.47,
+   "line": "È un foglio che dice: l'ho fatto a regola d'arte, e ne rispondo io.",
+   "scene": "unit 47",
+   "set": "toon",
+   "params": {
+    "u": 47
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s049",
+   "start": 178.47,
+   "end": 182.83,
+   "line": "Se ti sta piacendo, iscriviti: manca l'ultimo livello, il più duro.",
+   "scene": "unit 48",
+   "set": "toon",
+   "params": {
+    "u": 48
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s050",
+   "start": 182.83,
+   "end": 186.49,
+   "line": "Il telefono suona anche la notte, per un guasto che non può aspettare.",
+   "scene": "unit 49",
+   "set": "toon",
+   "params": {
+    "u": 49
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s051",
+   "start": 186.49,
+   "end": 189.83,
+   "line": "Livello cinque. Titolare, o impresa tua.",
+   "scene": "unit 50",
+   "set": "toon",
+   "params": {
+    "u": 50
+   },
+   "in": {
+    "type": "whip",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "whoosh",
+     "gain": -9
+    }
+   ]
+  },
+  {
+   "id": "s052",
+   "start": 189.83,
+   "end": 191.57,
+   "line": "Qui non c'è più uno stipendio fisso.",
+   "scene": "unit 51",
+   "set": "toon",
+   "params": {
+    "u": 51
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s053",
+   "start": 191.57,
+   "end": 194.65,
+   "line": "Il guadagno dipende dai clienti, dai prezzi e dai costi.",
+   "scene": "unit 52",
+   "set": "toon",
+   "params": {
+    "u": 52
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s054",
+   "start": 194.65,
+   "end": 199.33,
+   "line": "Furgone, attrezzi, assicurazione, contributi, collaboratori.",
+   "scene": "unit 53",
+   "set": "toon",
+   "params": {
+    "u": 53
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s055",
+   "start": 199.33,
+   "end": 202.77,
+   "line": "I clienti pagano a trenta, sessanta, a volte novanta giorni.",
+   "scene": "unit 54",
+   "set": "toon",
+   "params": {
+    "u": 54
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s056",
+   "start": 202.77,
+   "end": 205.31,
+   "line": "E tu, intanto, paghi i materiali e le persone.",
+   "scene": "unit 55",
+   "set": "toon",
+   "params": {
+    "u": 55
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s057",
+   "start": 205.31,
+   "end": 208.85,
+   "line": "Un cliente che non paga può metterti in difficoltà per mesi.",
+   "scene": "unit 56",
+   "set": "toon",
+   "params": {
+    "u": 56
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s058",
+   "start": 208.85,
+   "end": 212.95,
+   "line": "Se lavori nei cantieri, dal duemilaventiquattro serve anche la patente a crediti.",
+   "scene": "unit 57",
+   "set": "toon",
+   "params": {
+    "u": 57
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s059",
+   "start": 212.95,
+   "end": 215.95,
+   "line": "Si parte da trenta crediti, e si possono perdere.",
+   "scene": "unit 58",
+   "set": "toon",
+   "params": {
+    "u": 58
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s060",
+   "start": 215.95,
+   "end": 218.57,
+   "line": "Il costo nascosto non è in busta paga.",
+   "scene": "unit 59",
+   "set": "toon",
+   "params": {
+    "u": 59
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s061",
+   "start": 218.57,
+   "end": 224.33,
+   "line": "È il corpo: schiena, ginocchia, mani, e anni passati in piedi.",
+   "scene": "unit 60",
+   "set": "toon",
+   "params": {
+    "u": 60
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s062",
+   "start": 224.33,
+   "end": 227.63,
+   "line": "È la responsabilità di ogni impianto che hai firmato.",
+   "scene": "unit 61",
+   "set": "toon",
+   "params": {
+    "u": 61
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s063",
+   "start": 227.63,
+   "end": 229.75,
+   "line": "Un impianto fatto bene non si nota.",
+   "scene": "unit 62",
+   "set": "toon",
+   "params": {
+    "u": 62
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s064",
+   "start": 229.75,
+   "end": 231.97,
+   "line": "Uno fatto male può uccidere.",
+   "scene": "unit 63",
+   "set": "toon",
+   "params": {
+    "u": 63
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s065",
+   "start": 231.97,
+   "end": 234.11,
+   "line": "Una famiglia, a casa, sta ad aspettarti la sera.",
+   "scene": "unit 64",
+   "set": "toon",
+   "params": {
+    "u": 64
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s066",
+   "start": 234.11,
+   "end": 240.19,
+   "line": "E il tempo: reperibilità, chiamate di notte, domeniche a fare preventivi.",
+   "scene": "unit 65",
+   "set": "toon",
+   "params": {
+    "u": 65
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s067",
+   "start": 240.19,
+   "end": 244.05,
+   "line": "Il tuo nome sul furgone, e il tuo nome sulla dichiarazione.",
+   "scene": "unit 66",
+   "set": "toon",
+   "params": {
+    "u": 66
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s068",
+   "start": 244.05,
+   "end": 246.95,
+   "line": "Torna al quadro elettrico, quando avevi diciotto anni.",
+   "scene": "unit 67",
+   "set": "toon",
+   "params": {
+    "u": 67
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s069",
+   "start": 246.95,
+   "end": 250.29,
+   "line": "Il ragazzo davanti ai fili non sa ancora tutto questo.",
+   "scene": "unit 68",
+   "set": "toon",
+   "params": {
+    "u": 68
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s070",
+   "start": 250.29,
+   "end": 253.77,
+   "line": "Non sa che il suo lavoro sarà invisibile.",
+   "scene": "unit 69",
+   "set": "toon",
+   "params": {
+    "u": 69
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s071",
+   "start": 253.77,
+   "end": 256.39,
+   "line": "Se la luce si accende, nessuno ci pensa.",
+   "scene": "unit 70",
+   "set": "toon",
+   "params": {
+    "u": 70
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s072",
+   "start": 256.39,
+   "end": 260.41,
+   "line": "Se il frigorifero funziona, nessuno ringrazia chi l'ha collegato.",
+   "scene": "unit 71",
+   "set": "toon",
+   "params": {
+    "u": 71
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s073",
+   "start": 260.41,
+   "end": 264.93,
+   "line": "Se qualcosa si incendia, tutti si ricordano chi l'ha fatto.",
+   "scene": "unit 72",
+   "set": "toon",
+   "params": {
+    "u": 72
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s074",
+   "start": 264.93,
+   "end": 268.69,
+   "line": "Ha scelto un mestiere che porta la luce nelle case degli altri.",
+   "scene": "unit 73",
+   "set": "toon",
+   "params": {
+    "u": 73
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s075",
+   "start": 268.69,
+   "end": 272.05,
+   "line": "E in cambio, passa la vita con la corrente accanto.",
+   "scene": "unit 74",
+   "set": "toon",
+   "params": {
+    "u": 74
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s076",
+   "start": 272.05,
+   "end": 274.89,
+   "line": "Se questo video ti è piaciuto, iscriviti al canale.",
+   "scene": "unit 75",
+   "set": "toon",
+   "params": {
+    "u": 75
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s077",
+   "start": 274.89,
+   "end": 279.63,
+   "line": "E scrivi nei commenti: sei elettricista, o sogni di diventarlo?",
+   "scene": "unit 76",
+   "set": "toon",
+   "params": {
+    "u": 76
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s078",
+   "start": 279.63,
+   "end": 283.92,
+   "line": "Oppure dimmi quale mestiere vuoi vedere dopo.",
+   "scene": "unit 77",
+   "set": "toon",
+   "params": {
+    "u": 77
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  }
+ ],
+ "music": [],
+ "sfx": []
+}

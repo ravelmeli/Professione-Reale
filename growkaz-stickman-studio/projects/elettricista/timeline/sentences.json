@@ -1,0 +1,512 @@
+[
+ {
+  "i": 0,
+  "start": 0.0,
+  "end": 3.76,
+  "text": "Hai diciotto anni, e un quadro elettrico aperto davanti a te."
+ },
+ {
+  "i": 1,
+  "start": 4.32,
+  "end": 8.06,
+  "text": "Decine di fili, di colori diversi, tutti uguali ai tuoi occhi."
+ },
+ {
+  "i": 2,
+  "start": 8.6,
+  "end": 11.74,
+  "text": "Il tuo capo dice: questo, per ora, non lo tocchi."
+ },
+ {
+  "i": 3,
+  "start": 12.4,
+  "end": 13.36,
+  "text": "Non è un consiglio."
+ },
+ {
+  "i": 4,
+  "start": 13.74,
+  "end": 15.3,
+  "text": "È la regola che ti tiene vivo."
+ },
+ {
+  "i": 5,
+  "start": 16.16,
+  "end": 19.02,
+  "text": "Tra quindici anni, firmerai tu un impianto."
+ },
+ {
+  "i": 6,
+  "start": 19.5,
+  "end": 22.7,
+  "text": "E se qualcosa va storto, il nome sulla carta sarà il tuo."
+ },
+ {
+  "i": 7,
+  "start": 23.34,
+  "end": 26.7,
+  "text": "Questa è la vita di un elettricista, a ogni livello."
+ },
+ {
+  "i": 8,
+  "start": 27.16,
+  "end": 29.52,
+  "text": "Iscriviti, se vuoi sapere quanto guadagna davvero."
+ },
+ {
+  "i": 9,
+  "start": 30.66,
+  "end": 31.98,
+  "text": "Livello uno."
+ },
+ {
+  "i": 10,
+  "start": 31.98,
+  "end": 33.34,
+  "text": "Apprendista elettricista."
+ },
+ {
+  "i": 11,
+  "start": 33.82,
+  "end": 37.28,
+  "text": "Porti la scala, srotoli i cavi, passi i tubi nelle pareti."
+ },
+ {
+  "i": 12,
+  "start": 37.8,
+  "end": 39.8,
+  "text": "Fai fatica, e fai anche molte domande."
+ },
+ {
+  "i": 13,
+  "start": 40.38,
+  "end": 43.98,
+  "text": "Impari a distinguere i fili: fase, neutro e terra."
+ },
+ {
+  "i": 14,
+  "start": 44.6,
+  "end": 47.74,
+  "text": "Impari cosa vuol dire staccare la corrente, prima di toccare."
+ },
+ {
+  "i": 15,
+  "start": 48.18,
+  "end": 51.12,
+  "text": "Si fa con un lucchetto e una verifica, ogni volta."
+ },
+ {
+  "i": 16,
+  "start": 52.0,
+  "end": 54.38,
+  "text": "Il contratto dipende dall'azienda e dal settore."
+ },
+ {
+  "i": 17,
+  "start": 54.66,
+  "end": 56.96,
+  "text": "Per un apprendista la paga è bassa, e varia molto."
+ },
+ {
+  "i": 18,
+  "start": 57.26,
+  "end": 60.48,
+  "text": "Non esiste una cifra unica: dipende dal contratto e dalla regione."
+ },
+ {
+  "i": 19,
+  "start": 61.14,
+  "end": 63.3,
+  "text": "Lo stipendio cresce con gli anni di formazione."
+ },
+ {
+  "i": 20,
+  "start": 63.9,
+  "end": 67.4,
+  "text": "Il corpo lavora in posizioni scomode: ginocchia a terra, braccia in alto."
+ },
+ {
+  "i": 21,
+  "start": 67.96,
+  "end": 70.64,
+  "text": "Polvere, soffitti bassi, cantieri freddi."
+ },
+ {
+  "i": 22,
+  "start": 71.12,
+  "end": 73.62,
+  "text": "E ogni tanto, sul cavo sbagliato, senti il cuore."
+ },
+ {
+  "i": 23,
+  "start": 74.56,
+  "end": 75.96,
+  "text": "Livello due."
+ },
+ {
+  "i": 24,
+  "start": 75.96,
+  "end": 77.18,
+  "text": "Elettricista qualificato."
+ },
+ {
+  "i": 25,
+  "start": 77.72,
+  "end": 80.44,
+  "text": "Dopo qualche anno, lavori da solo su un impianto semplice."
+ },
+ {
+  "i": 26,
+  "start": 81.0,
+  "end": 83.5,
+  "text": "Tiri i cavi, colleghi le prese, monti un quadro."
+ },
+ {
+  "i": 27,
+  "start": 84.08,
+  "end": 86.94,
+  "text": "Leggi uno schema elettrico, e lo trasformi in un impianto."
+ },
+ {
+  "i": 28,
+  "start": 87.3,
+  "end": 90.14,
+  "text": "Sai quale sezione di cavo serve, e quale interruttore."
+ },
+ {
+  "i": 29,
+  "start": 90.78,
+  "end": 94.38,
+  "text": "Un errore qui non si vede subito, ma può restare nascosto per anni."
+ },
+ {
+  "i": 30,
+  "start": 95.0,
+  "end": 99.1,
+  "text": "La paga base sale, ma resta una cifra variabile da contratto a contratto."
+ },
+ {
+  "i": 31,
+  "start": 99.56,
+  "end": 102.72,
+  "text": "Gli straordinari e le trasferte spesso fanno la differenza."
+ },
+ {
+  "i": 32,
+  "start": 103.44,
+  "end": 106.0,
+  "text": "La sicurezza non è un corso che hai fatto una volta."
+ },
+ {
+  "i": 33,
+  "start": 106.44,
+  "end": 108.84,
+  "text": "È un gesto che ripeti, anche quando hai fretta."
+ },
+ {
+  "i": 34,
+  "start": 109.56,
+  "end": 110.9,
+  "text": "Livello tre."
+ },
+ {
+  "i": 35,
+  "start": 110.9,
+  "end": 112.4,
+  "text": "Elettricista specializzato."
+ },
+ {
+  "i": 36,
+  "start": 112.96,
+  "end": 117.58,
+  "text": "Qui entri nei sistemi: impianti industriali, automazione, fotovoltaico."
+ },
+ {
+  "i": 37,
+  "start": 118.2,
+  "end": 121.06,
+  "text": "Impari a leggere un quadro complesso, e a trovare il guasto."
+ },
+ {
+  "i": 38,
+  "start": 121.62,
+  "end": 123.78,
+  "text": "Quando una fabbrica si ferma, chiamano te."
+ },
+ {
+  "i": 39,
+  "start": 124.32,
+  "end": 128.12,
+  "text": "Il tempo costa soldi, e tu devi trovare il guasto subito."
+ },
+ {
+  "i": 40,
+  "start": 129.22,
+  "end": 133.16,
+  "text": "Lavori con la corrente accanto: serve attenzione, ogni secondo."
+ },
+ {
+  "i": 41,
+  "start": 133.98,
+  "end": 139.32,
+  "text": "Per lavorare sotto tensione servono una formazione specifica e un'abilitazione."
+ },
+ {
+  "i": 42,
+  "start": 139.32,
+  "end": 142.76,
+  "text": "Il tuo stipendio sale, ma non esiste una cifra uguale per tutti."
+ },
+ {
+  "i": 43,
+  "start": 143.18,
+  "end": 146.48,
+  "text": "Dipende dal settore, dalla regione e dai turni di reperibilità."
+ },
+ {
+  "i": 44,
+  "start": 147.36,
+  "end": 150.86,
+  "text": "Il tuo nome comincia a girare, tra un cliente e l'altro."
+ },
+ {
+  "i": 45,
+  "start": 150.86,
+  "end": 152.08,
+  "text": "Livello quattro."
+ },
+ {
+  "i": 46,
+  "start": 152.08,
+  "end": 154.04,
+  "text": "Caposquadra, responsabile tecnico."
+ },
+ {
+  "i": 47,
+  "start": 154.6,
+  "end": 157.34,
+  "text": "Non basta più saper fare: devi organizzare gli altri."
+ },
+ {
+  "i": 48,
+  "start": 157.9,
+  "end": 160.44,
+  "text": "Decidi chi fa cosa, e controlli il lavoro finito."
+ },
+ {
+  "i": 49,
+  "start": 161.06,
+  "end": 163.94,
+  "text": "Se un tuo collega sbaglia, il problema è anche tuo."
+ },
+ {
+  "i": 50,
+  "start": 163.94,
+  "end": 167.38,
+  "text": "Per firmare un impianto serve un requisito tecnico professionale."
+ },
+ {
+  "i": 51,
+  "start": 167.74,
+  "end": 172.0,
+  "text": "Lo prevede la legge sugli impianti, il decreto numero trentasette del duemilaotto."
+ },
+ {
+  "i": 52,
+  "start": 172.0,
+  "end": 174.68,
+  "text": "Ogni impianto chiuso ha una dichiarazione di conformità."
+ },
+ {
+  "i": 53,
+  "start": 175.12,
+  "end": 178.0,
+  "text": "È un foglio che dice: l'ho fatto a regola d'arte, e ne rispondo io."
+ },
+ {
+  "i": 54,
+  "start": 178.62,
+  "end": 182.08,
+  "text": "Se ti sta piacendo, iscriviti: manca l'ultimo livello, il più duro."
+ },
+ {
+  "i": 55,
+  "start": 182.98,
+  "end": 185.98,
+  "text": "Il telefono suona anche la notte, per un guasto che non può aspettare."
+ },
+ {
+  "i": 56,
+  "start": 186.64,
+  "end": 187.96,
+  "text": "Livello cinque."
+ },
+ {
+  "i": 57,
+  "start": 187.96,
+  "end": 189.28,
+  "text": "Titolare, o impresa tua."
+ },
+ {
+  "i": 58,
+  "start": 189.98,
+  "end": 191.5,
+  "text": "Qui non c'è più uno stipendio fisso."
+ },
+ {
+  "i": 59,
+  "start": 191.72,
+  "end": 194.4,
+  "text": "Il guadagno dipende dai clienti, dai prezzi e dai costi."
+ },
+ {
+  "i": 60,
+  "start": 194.8,
+  "end": 198.58,
+  "text": "Furgone, attrezzi, assicurazione, contributi, collaboratori."
+ },
+ {
+  "i": 61,
+  "start": 199.48,
+  "end": 202.66,
+  "text": "I clienti pagano a trenta, sessanta, a volte novanta giorni."
+ },
+ {
+  "i": 62,
+  "start": 202.92,
+  "end": 204.86,
+  "text": "E tu, intanto, paghi i materiali e le persone."
+ },
+ {
+  "i": 63,
+  "start": 205.46,
+  "end": 208.24,
+  "text": "Un cliente che non paga può metterti in difficoltà per mesi."
+ },
+ {
+  "i": 64,
+  "start": 209.0,
+  "end": 212.84,
+  "text": "Se lavori nei cantieri, dal duemilaventiquattro serve anche la patente a crediti."
+ },
+ {
+  "i": 65,
+  "start": 213.1,
+  "end": 215.46,
+  "text": "Si parte da trenta crediti, e si possono perdere."
+ },
+ {
+  "i": 66,
+  "start": 216.1,
+  "end": 218.72,
+  "text": "Il costo nascosto non è in busta paga."
+ },
+ {
+  "i": 67,
+  "start": 218.72,
+  "end": 223.94,
+  "text": "È il corpo: schiena, ginocchia, mani, e anni passati in piedi."
+ },
+ {
+  "i": 68,
+  "start": 224.48,
+  "end": 227.1,
+  "text": "È la responsabilità di ogni impianto che hai firmato."
+ },
+ {
+  "i": 69,
+  "start": 227.78,
+  "end": 229.44,
+  "text": "Un impianto fatto bene non si nota."
+ },
+ {
+  "i": 70,
+  "start": 229.9,
+  "end": 231.24,
+  "text": "Uno fatto male può uccidere."
+ },
+ {
+  "i": 71,
+  "start": 232.12,
+  "end": 234.26,
+  "text": "Una famiglia, a casa, sta ad aspettarti la sera."
+ },
+ {
+  "i": 72,
+  "start": 234.26,
+  "end": 239.48,
+  "text": "E il tempo: reperibilità, chiamate di notte, domeniche a fare preventivi."
+ },
+ {
+  "i": 73,
+  "start": 240.34,
+  "end": 243.2,
+  "text": "Il tuo nome sul furgone, e il tuo nome sulla dichiarazione."
+ },
+ {
+  "i": 74,
+  "start": 244.2,
+  "end": 246.48,
+  "text": "Torna al quadro elettrico, quando avevi diciotto anni."
+ },
+ {
+  "i": 75,
+  "start": 247.1,
+  "end": 249.92,
+  "text": "Il ragazzo davanti ai fili non sa ancora tutto questo."
+ },
+ {
+  "i": 76,
+  "start": 250.44,
+  "end": 253.46,
+  "text": "Non sa che il suo lavoro sarà invisibile."
+ },
+ {
+  "i": 77,
+  "start": 253.92,
+  "end": 256.1,
+  "text": "Se la luce si accende, nessuno ci pensa."
+ },
+ {
+  "i": 78,
+  "start": 256.54,
+  "end": 260.18,
+  "text": "Se il frigorifero funziona, nessuno ringrazia chi l'ha collegato."
+ },
+ {
+  "i": 79,
+  "start": 260.56,
+  "end": 264.38,
+  "text": "Se qualcosa si incendia, tutti si ricordano chi l'ha fatto."
+ },
+ {
+  "i": 80,
+  "start": 265.08,
+  "end": 268.38,
+  "text": "Ha scelto un mestiere che porta la luce nelle case degli altri."
+ },
+ {
+  "i": 81,
+  "start": 268.84,
+  "end": 271.6,
+  "text": "E in cambio, passa la vita con la corrente accanto."
+ },
+ {
+  "i": 82,
+  "start": 272.2,
+  "end": 275.04,
+  "text": "Se questo video ti è piaciuto, iscriviti al canale."
+ },
+ {
+  "i": 83,
+  "start": 275.04,
+  "end": 279.28,
+  "text": "E scrivi nei commenti: sei elettricista, o sogni di diventarlo?"
+ },
+ {
+  "i": 84,
+  "start": 279.78,
+  "end": 282.42,
+  "text": "Oppure dimmi quale mestiere vuoi vedere dopo."
+ }
+]
