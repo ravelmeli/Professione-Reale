@@ -1,0 +1,24 @@
+{
+ "title": "Personnages",
+ "duration": 8,
+ "shots": [
+  {
+   "id": "p1",
+   "start": 0,
+   "end": 4,
+   "line": "",
+   "scene": "troupe",
+   "set": "site"
+  },
+  {
+   "id": "p2",
+   "start": 4,
+   "end": 8,
+   "line": "",
+   "scene": "visages",
+   "set": "site"
+  }
+ ],
+ "music": [],
+ "sfx": []
+}
