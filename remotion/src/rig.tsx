@@ -4,7 +4,7 @@ export const ACCENT = '#8FD23F';
 const SK = ['#f0c9a4', '#e0a982', '#c98c63', '#8d5a3b'];
 export type View = 'front' | 'three' | 'side' | 'back';
 export type Expr = 'smile' | 'happy' | 'surprised' | 'concerned' | 'angry' | 'sad' | 'deadpan' | 'panic';
-export type Pose = 'idle' | 'point' | 'hold' | 'cheer' | 'shrug' | 'talk' | 'cross';
+export type Pose = 'wave' | 'idle' | 'point' | 'hold' | 'cheer' | 'shrug' | 'talk' | 'cross';
 export type Outfit = { skin: string; hair?: string; hairStyle?: 'side' | 'curly' | 'bald' | 'bun' | 'short' | 'pony'; hat?: string; torso: string; trim: string; pants: string; shoes: string; kind: 'jacket' | 'hivis' | 'shirt' | 'blazer' | 'knit' | 'vest' | 'dress' | 'hoodie'; stubble?: boolean; glasses?: boolean; stache?: string; brow?: string; kid?: boolean; temples?: boolean; tie?: string };
 
 export const heroAt = (age: number): Outfit => {
@@ -35,6 +35,7 @@ const ARMS: Record<Pose, { f: number[][]; b: number[][] }> = {
   cheer: { f: [[40, -196], [74, -250], [84, -300]], b: [[-40, -196], [-74, -250], [-84, -300]] },
   shrug: { f: [[40, -192], [74, -170], [84, -206]], b: [[-40, -192], [-74, -170], [-84, -206]] },
   talk: { f: [[40, -192], [70, -170], [92, -196]], b: [[-40, -190], [-48, -150], [-46, -112]] },
+  wave: { f: [[40, -196], [74, -236], [84, -280]], b: [[-40, -190], [-48, -150], [-46, -112]] },
   cross: { f: [[40, -190], [20, -150], [-24, -168]], b: [[-40, -190], [-20, -150], [24, -164]] },
 };
 
@@ -117,7 +118,7 @@ const Arm: React.FC<{ pts: number[][]; skin: string; sleeve?: string }> = ({ pts
 );
 
 export const Char: React.FC<{ who: string; age?: number; view?: View; expr?: Expr; pose?: Pose; x?: number; y?: number; s?: number; flip?: boolean; shadow?: boolean }> = ({ who, age, view = 'front', expr = 'smile', pose = 'idle', x = 0, y = 0, s = 1, flip = false, shadow = true }) => {
-  const o = CAST[who](age); const k = o.kid ? 0.74 : 1; const a = ARMS[pose];
+  const o = CAST[who](age); const k = o.kid ? 0.74 : 1; const a = ARMS[pose] || ARMS.idle;
   const legX = view === 'side' ? [-8, 10] : view === 'three' ? [-14, 16] : [-16, 16];
   const hx = view === 'three' ? 3 : view === 'side' ? 4 : 0;
   return (
