@@ -1,0 +1,2070 @@
+{
+ "title": "La tua vita a ogni livello come camionista",
+ "duration": 552.36,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 3.35,
+   "line": "Hai ventidue anni, e sono le quattro del mattino.",
+   "scene": "unit 0",
+   "set": "toon",
+   "params": {
+    "u": 0
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s002",
+   "start": 3.35,
+   "end": 7.18,
+   "line": "Il piazzale è buio, e l'unica luce è quella del tuo camion.",
+   "scene": "unit 1",
+   "set": "toon",
+   "params": {
+    "u": 1
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s003",
+   "start": 7.18,
+   "end": 10.57,
+   "line": "Il motore è ancora freddo, il caffè è già finito.",
+   "scene": "unit 2",
+   "set": "toon",
+   "params": {
+    "u": 2
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s004",
+   "start": 10.57,
+   "end": 16.23,
+   "line": "Davanti a te, quattrocento chilometri di strada, e una consegna entro mezzogiorno.",
+   "scene": "unit 3",
+   "set": "toon",
+   "params": {
+    "u": 3
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s005",
+   "start": 16.23,
+   "end": 19.93,
+   "line": "Nessuno ti saluta. Nessuno ti chiede come stai.",
+   "scene": "unit 4",
+   "set": "toon",
+   "params": {
+    "u": 4
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s006",
+   "start": 19.93,
+   "end": 25.76,
+   "line": "Il cronotachigrafo registra tutto: ogni minuto, ogni sosta, ogni errore.",
+   "scene": "unit 5",
+   "set": "toon",
+   "params": {
+    "u": 5
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s007",
+   "start": 25.76,
+   "end": 29.3,
+   "line": "Tra vent'anni, potresti avere una flotta di camion con il tuo nome.",
+   "scene": "unit 6",
+   "set": "toon",
+   "params": {
+    "u": 6
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s008",
+   "start": 29.3,
+   "end": 34.62,
+   "line": "Oppure potresti essere ancora qui, alla stessa ora, con la stessa strada.",
+   "scene": "unit 7",
+   "set": "toon",
+   "params": {
+    "u": 7
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s009",
+   "start": 34.62,
+   "end": 38.2,
+   "line": "Questa è la vita di un camionista, a ogni livello.",
+   "scene": "unit 8",
+   "set": "toon",
+   "params": {
+    "u": 8
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s010",
+   "start": 38.2,
+   "end": 41.65,
+   "line": "Iscriviti, se vuoi sapere cosa c'è davvero dietro il volante.",
+   "scene": "unit 9",
+   "set": "toon",
+   "params": {
+    "u": 9
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s011",
+   "start": 41.65,
+   "end": 44.89,
+   "line": "Livello uno. Autista alle prime armi.",
+   "scene": "unit 10",
+   "set": "toon",
+   "params": {
+    "u": 10
+   },
+   "in": {
+    "type": "whip",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "whoosh",
+     "gain": -9
+    }
+   ]
+  },
+  {
+   "id": "s012",
+   "start": 44.89,
+   "end": 49.5,
+   "line": "Prima di partire, ti serve la patente giusta: la patente C, per i mezzi pesanti.",
+   "scene": "unit 11",
+   "set": "toon",
+   "params": {
+    "u": 11
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s013",
+   "start": 49.5,
+   "end": 54.04,
+   "line": "E ti serve la CQC, la carta di qualificazione del conducente.",
+   "scene": "unit 12",
+   "set": "toon",
+   "params": {
+    "u": 12
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s014",
+   "start": 54.04,
+   "end": 57.93,
+   "line": "Costano tempo e soldi, e sono quasi sempre a carico tuo.",
+   "scene": "unit 13",
+   "set": "toon",
+   "params": {
+    "u": 13
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s015",
+   "start": 57.93,
+   "end": 63.79,
+   "line": "Il primo lavoro, di solito, è la distribuzione: consegne locali, a breve raggio.",
+   "scene": "unit 14",
+   "set": "toon",
+   "params": {
+    "u": 14
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s016",
+   "start": 63.79,
+   "end": 67.67,
+   "line": "Un giorno scarichi per un negozio, il giorno dopo per un cantiere.",
+   "scene": "unit 15",
+   "set": "toon",
+   "params": {
+    "u": 15
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s017",
+   "start": 67.67,
+   "end": 71.82,
+   "line": "Impari a leggere i documenti di trasporto, e a farti firmare la consegna.",
+   "scene": "unit 16",
+   "set": "toon",
+   "params": {
+    "u": 16
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s018",
+   "start": 71.82,
+   "end": 76.1,
+   "line": "Impari che arrivare in orario conta quanto arrivare sano e salvo.",
+   "scene": "unit 17",
+   "set": "toon",
+   "params": {
+    "u": 17
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s019",
+   "start": 76.1,
+   "end": 79.16,
+   "line": "Il camion è più grande di quanto pensassi.",
+   "scene": "unit 18",
+   "set": "toon",
+   "params": {
+    "u": 18
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s020",
+   "start": 79.16,
+   "end": 83.22,
+   "line": "Gli specchietti sono sei, e devi guardarli tutti, ogni secondo.",
+   "scene": "unit 19",
+   "set": "toon",
+   "params": {
+    "u": 19
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s021",
+   "start": 83.22,
+   "end": 89.36,
+   "line": "L'angolo cieco non perdona: un ciclista, un pedone, un'auto troppo vicina.",
+   "scene": "unit 20",
+   "set": "toon",
+   "params": {
+    "u": 20
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s022",
+   "start": 89.36,
+   "end": 94.06,
+   "line": "Capisci presto che la responsabilità è tua, anche quando non è colpa tua.",
+   "scene": "unit 21",
+   "set": "toon",
+   "params": {
+    "u": 21
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s023",
+   "start": 94.06,
+   "end": 98.17,
+   "line": "Le manovre in retromarcia, in un vicolo stretto, ti fanno sudare.",
+   "scene": "unit 22",
+   "set": "toon",
+   "params": {
+    "u": 22
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s024",
+   "start": 98.17,
+   "end": 102.72,
+   "line": "E c'è sempre qualcuno che suona il clacson, mentre tu provi a non toccare niente.",
+   "scene": "unit 23",
+   "set": "toon",
+   "params": {
+    "u": 23
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s025",
+   "start": 102.72,
+   "end": 113.21,
+   "line": "La paga dipende dal contratto, dall'azienda e dalle ore di lavoro. Una cifra precisa non esiste: cambia da azienda ad azienda, e dalle indennità previste.",
+   "scene": "unit 24",
+   "set": "toon",
+   "params": {
+    "u": 24
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s026",
+   "start": 113.21,
+   "end": 118.38,
+   "line": "Il lavoro è faticoso: carichi, scarichi, ore in piedi, ore seduto.",
+   "scene": "unit 25",
+   "set": "toon",
+   "params": {
+    "u": 25
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s027",
+   "start": 118.38,
+   "end": 124.38,
+   "line": "Ma a casa ci torni quasi ogni sera, e questo, più avanti, lo rimpiangerai.",
+   "scene": "unit 26",
+   "set": "toon",
+   "params": {
+    "u": 26
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s028",
+   "start": 124.38,
+   "end": 131.64,
+   "line": "Livello due. Autista nazionale.",
+   "scene": "unit 27",
+   "set": "toon",
+   "params": {
+    "u": 27
+   },
+   "in": {
+    "type": "whip",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "whoosh",
+     "gain": -9
+    }
+   ]
+  },
+  {
+   "id": "s029",
+   "start": 131.64,
+   "end": 135.42,
+   "line": "Dopo qualche anno, passi ai viaggi lunghi: il trasporto nazionale.",
+   "scene": "unit 28",
+   "set": "toon",
+   "params": {
+    "u": 28
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s030",
+   "start": 135.42,
+   "end": 140.7,
+   "line": "Guidi un autoarticolato, e la patente diventa quella per i mezzi con rimorchio.",
+   "scene": "unit 29",
+   "set": "toon",
+   "params": {
+    "u": 29
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s031",
+   "start": 140.7,
+   "end": 143.28,
+   "line": "Parti il lunedì, e a volte torni il venerdì.",
+   "scene": "unit 30",
+   "set": "toon",
+   "params": {
+    "u": 30
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s032",
+   "start": 143.28,
+   "end": 147.51,
+   "line": "Dormi in cabina, mangi in un'area di servizio, ti lavi dove capita.",
+   "scene": "unit 31",
+   "set": "toon",
+   "params": {
+    "u": 31
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s033",
+   "start": 147.51,
+   "end": 151.73,
+   "line": "La cabina diventa la tua casa, e la strada diventa il tuo ufficio.",
+   "scene": "unit 32",
+   "set": "toon",
+   "params": {
+    "u": 32
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s034",
+   "start": 151.73,
+   "end": 155.37,
+   "line": "Le regole sono rigide, e le controllano davvero.",
+   "scene": "unit 33",
+   "set": "toon",
+   "params": {
+    "u": 33
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s035",
+   "start": 155.37,
+   "end": 162.58,
+   "line": "Dopo alcune ore di guida devi fermarti, e la pausa è obbligatoria. Anche se hai fretta. Anche se il cliente aspetta.",
+   "scene": "unit 34",
+   "set": "toon",
+   "params": {
+    "u": 34
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s036",
+   "start": 162.58,
+   "end": 167.75,
+   "line": "Il limite di ore c'è per un motivo: la stanchezza uccide più di qualsiasi curva.",
+   "scene": "unit 35",
+   "set": "toon",
+   "params": {
+    "u": 35
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s037",
+   "start": 167.75,
+   "end": 172.36,
+   "line": "Un autista stanco non si accorge di esserlo, finché non è troppo tardi.",
+   "scene": "unit 36",
+   "set": "toon",
+   "params": {
+    "u": 36
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s038",
+   "start": 172.36,
+   "end": 176.94,
+   "line": "Il riposo giornaliero è obbligatorio, e il cronotachigrafo non perdona.",
+   "scene": "unit 37",
+   "set": "toon",
+   "params": {
+    "u": 37
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s039",
+   "start": 176.94,
+   "end": 181.22,
+   "line": "Se sbagli, la multa arriva a te, e a volte anche all'azienda.",
+   "scene": "unit 38",
+   "set": "toon",
+   "params": {
+    "u": 38
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s040",
+   "start": 181.22,
+   "end": 183.61,
+   "line": "Il tuo tempo, però, non è tutto guida.",
+   "scene": "unit 39",
+   "set": "toon",
+   "params": {
+    "u": 39
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s041",
+   "start": 183.61,
+   "end": 188.79,
+   "line": "Ci sono le code ai caselli, le attese per scaricare, le ore ferme in un piazzale.",
+   "scene": "unit 40",
+   "set": "toon",
+   "params": {
+    "u": 40
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s042",
+   "start": 188.79,
+   "end": 195.17,
+   "line": "Ore in cui sei lì, ma il camion non si muove. E non sempre quelle ore vengono pagate come pensi.",
+   "scene": "unit 41",
+   "set": "toon",
+   "params": {
+    "u": 41
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s043",
+   "start": 195.17,
+   "end": 200.05,
+   "line": "La paga ha più voci: la base, le indennità, i giorni fuori casa.",
+   "scene": "unit 42",
+   "set": "toon",
+   "params": {
+    "u": 42
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s044",
+   "start": 200.05,
+   "end": 207.94,
+   "line": "Quanto resta davvero dipende dal contratto, e dalla busta paga. Ricorda sempre di guardare se la cifra è lorda o netta.",
+   "scene": "unit 43",
+   "set": "toon",
+   "params": {
+    "u": 43
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s045",
+   "start": 207.94,
+   "end": 211.92,
+   "line": "Il tuo corpo ne risente: schiena, spalle, sonno spezzato.",
+   "scene": "unit 44",
+   "set": "toon",
+   "params": {
+    "u": 44
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s046",
+   "start": 211.92,
+   "end": 217.44,
+   "line": "Stare seduto dieci ore al giorno rovina la schiena, e il sonno in cabina non ripara niente.",
+   "scene": "unit 45",
+   "set": "toon",
+   "params": {
+    "u": 45
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s047",
+   "start": 217.44,
+   "end": 220.92,
+   "line": "I controlli medici arrivano, e la patente va rinnovata con la visita.",
+   "scene": "unit 46",
+   "set": "toon",
+   "params": {
+    "u": 46
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s048",
+   "start": 220.92,
+   "end": 225.99,
+   "line": "Mangi male, ti muovi poco, e la solitudine pesa più di quanto ammetti.",
+   "scene": "unit 47",
+   "set": "toon",
+   "params": {
+    "u": 47
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s049",
+   "start": 225.99,
+   "end": 229.73,
+   "line": "La famiglia ti aspetta a casa, e tu aspetti solo di arrivare.",
+   "scene": "unit 48",
+   "set": "toon",
+   "params": {
+    "u": 48
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s050",
+   "start": 229.73,
+   "end": 233.29,
+   "line": "Dopo anni così, o impari a conviverci, o smetti.",
+   "scene": "unit 49",
+   "set": "toon",
+   "params": {
+    "u": 49
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s051",
+   "start": 233.29,
+   "end": 237.94,
+   "line": "Se ti sta piacendo, iscriviti: la strada si fa più lunga, e più dura.",
+   "scene": "unit 50",
+   "set": "toon",
+   "params": {
+    "u": 50
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s052",
+   "start": 237.94,
+   "end": 241.42,
+   "line": "Livello tre. Autista internazionale.",
+   "scene": "unit 51",
+   "set": "toon",
+   "params": {
+    "u": 51
+   },
+   "in": {
+    "type": "whip",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "whoosh",
+     "gain": -9
+    }
+   ]
+  },
+  {
+   "id": "s053",
+   "start": 241.42,
+   "end": 246.16,
+   "line": "Ora attraversi i confini: Francia, Germania, Spagna, Austria.",
+   "scene": "unit 52",
+   "set": "toon",
+   "params": {
+    "u": 52
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s054",
+   "start": 246.16,
+   "end": 250.02,
+   "line": "Ogni frontiera ha le sue regole, i suoi documenti, i suoi controlli.",
+   "scene": "unit 53",
+   "set": "toon",
+   "params": {
+    "u": 53
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s055",
+   "start": 250.02,
+   "end": 253.78,
+   "line": "Impari a parlare qualche parola in più, e a capire un gesto.",
+   "scene": "unit 54",
+   "set": "toon",
+   "params": {
+    "u": 54
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s056",
+   "start": 253.78,
+   "end": 256.86,
+   "line": "I viaggi durano giorni, e a volte settimane.",
+   "scene": "unit 55",
+   "set": "toon",
+   "params": {
+    "u": 55
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s057",
+   "start": 256.86,
+   "end": 261.14,
+   "line": "Le città diventano nomi sui cartelli, e le notti diventano aree di sosta.",
+   "scene": "unit 56",
+   "set": "toon",
+   "params": {
+    "u": 56
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s058",
+   "start": 261.14,
+   "end": 264.66,
+   "line": "Dormi nel parcheggio con altri autisti, di altre nazioni.",
+   "scene": "unit 57",
+   "set": "toon",
+   "params": {
+    "u": 57
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s059",
+   "start": 264.66,
+   "end": 269.45,
+   "line": "Cucini sul fornello da campo, ceni in cabina, e guardi un film sul telefono.",
+   "scene": "unit 58",
+   "set": "toon",
+   "params": {
+    "u": 58
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s060",
+   "start": 269.45,
+   "end": 273.49,
+   "line": "Se piove, o se nevica, il viaggio diventa il doppio più lungo.",
+   "scene": "unit 59",
+   "set": "toon",
+   "params": {
+    "u": 59
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s061",
+   "start": 273.49,
+   "end": 276.5,
+   "line": "Un passo di montagna chiuso può costarti un giorno intero.",
+   "scene": "unit 60",
+   "set": "toon",
+   "params": {
+    "u": 60
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s062",
+   "start": 276.5,
+   "end": 281.15,
+   "line": "C'è un rispetto silenzioso tra voi, perché tutti conoscete la stessa strada.",
+   "scene": "unit 61",
+   "set": "toon",
+   "params": {
+    "u": 61
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s063",
+   "start": 281.15,
+   "end": 286.89,
+   "line": "I documenti diventano una parte del lavoro: lettere di vettura, permessi, dichiarazioni.",
+   "scene": "unit 62",
+   "set": "toon",
+   "params": {
+    "u": 62
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s064",
+   "start": 286.89,
+   "end": 290.98,
+   "line": "Se manca un foglio, il camion resta fermo, e il tempo si perde.",
+   "scene": "unit 63",
+   "set": "toon",
+   "params": {
+    "u": 63
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s065",
+   "start": 290.98,
+   "end": 293.32,
+   "line": "Poi arrivano le merci speciali.",
+   "scene": "unit 64",
+   "set": "toon",
+   "params": {
+    "u": 64
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s066",
+   "start": 293.32,
+   "end": 296.78,
+   "line": "Gli alimenti, che devono restare al freddo per tutto il viaggio.",
+   "scene": "unit 65",
+   "set": "toon",
+   "params": {
+    "u": 65
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s067",
+   "start": 296.78,
+   "end": 301.3,
+   "line": "Le merci pericolose, che richiedono una formazione apposita, l'ADR.",
+   "scene": "unit 66",
+   "set": "toon",
+   "params": {
+    "u": 66
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s068",
+   "start": 301.3,
+   "end": 308.54,
+   "line": "Un errore, con un carico così, non è solo un ritardo. Può essere un incidente, una multa pesante, o la perdita del lavoro.",
+   "scene": "unit 67",
+   "set": "toon",
+   "params": {
+    "u": 67
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s069",
+   "start": 308.54,
+   "end": 312.08,
+   "line": "Per questo chi ha più formazione, spesso, è pagato di più.",
+   "scene": "unit 68",
+   "set": "toon",
+   "params": {
+    "u": 68
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s070",
+   "start": 312.08,
+   "end": 319.69,
+   "line": "Ma anche qui, la cifra dipende dal contratto, dalla tratta e dall'azienda. Non possiamo darti un numero, senza rischiare di inventarlo.",
+   "scene": "unit 69",
+   "set": "toon",
+   "params": {
+    "u": 69
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s071",
+   "start": 319.69,
+   "end": 322.45,
+   "line": "Il costo nascosto, però, lo conosciamo tutti.",
+   "scene": "unit 70",
+   "set": "toon",
+   "params": {
+    "u": 70
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s072",
+   "start": 322.45,
+   "end": 325.59,
+   "line": "Sono i compleanni persi, le feste lontano da casa.",
+   "scene": "unit 71",
+   "set": "toon",
+   "params": {
+    "u": 71
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s073",
+   "start": 325.59,
+   "end": 327.9,
+   "line": "Sono i figli che crescono mentre tu guidi.",
+   "scene": "unit 72",
+   "set": "toon",
+   "params": {
+    "u": 72
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s074",
+   "start": 327.9,
+   "end": 331.86,
+   "line": "Sono le videochiamate dal parcheggio, con il telefono appoggiato al volante.",
+   "scene": "unit 73",
+   "set": "toon",
+   "params": {
+    "u": 73
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s075",
+   "start": 331.86,
+   "end": 334.92,
+   "line": "Livello quattro. Capo traffico.",
+   "scene": "unit 74",
+   "set": "toon",
+   "params": {
+    "u": 74
+   },
+   "in": {
+    "type": "whip",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "whoosh",
+     "gain": -9
+    }
+   ]
+  },
+  {
+   "id": "s076",
+   "start": 334.92,
+   "end": 337.96,
+   "line": "Dopo anni di strada, qualcuno ti propone di scendere dal camion.",
+   "scene": "unit 75",
+   "set": "toon",
+   "params": {
+    "u": 75
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s077",
+   "start": 337.96,
+   "end": 342.03,
+   "line": "Ti siedi dietro una scrivania, e devi organizzare gli altri autisti.",
+   "scene": "unit 76",
+   "set": "toon",
+   "params": {
+    "u": 76
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s078",
+   "start": 342.03,
+   "end": 346.76,
+   "line": "Ora il tuo problema non è più guidare, ma decidere chi guida e dove.",
+   "scene": "unit 77",
+   "set": "toon",
+   "params": {
+    "u": 77
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s079",
+   "start": 346.76,
+   "end": 351.06,
+   "line": "Devi assegnare i viaggi, controllare i tempi, e far quadrare i turni.",
+   "scene": "unit 78",
+   "set": "toon",
+   "params": {
+    "u": 78
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s080",
+   "start": 351.06,
+   "end": 353.9,
+   "line": "Conosci la strada, e questo ti dà un vantaggio.",
+   "scene": "unit 79",
+   "set": "toon",
+   "params": {
+    "u": 79
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s081",
+   "start": 353.9,
+   "end": 358.35,
+   "line": "Sai quanto ci mette davvero un autista, e quanto ci mette solo sulla carta.",
+   "scene": "unit 80",
+   "set": "toon",
+   "params": {
+    "u": 80
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s082",
+   "start": 358.35,
+   "end": 360.46,
+   "line": "Il telefono squilla a tutte le ore.",
+   "scene": "unit 81",
+   "set": "toon",
+   "params": {
+    "u": 81
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s083",
+   "start": 360.46,
+   "end": 367.29,
+   "line": "Un camion in panne, un cliente arrabbiato, un autista che ha finito le ore. E tu devi trovare una soluzione, subito.",
+   "scene": "unit 82",
+   "set": "toon",
+   "params": {
+    "u": 82
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s084",
+   "start": 367.29,
+   "end": 370.92,
+   "line": "Lavori con i clienti, con i fornitori, con le officine.",
+   "scene": "unit 83",
+   "set": "toon",
+   "params": {
+    "u": 83
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s085",
+   "start": 370.92,
+   "end": 373.97,
+   "line": "Impari a leggere un preventivo, e a trattare una tariffa.",
+   "scene": "unit 84",
+   "set": "toon",
+   "params": {
+    "u": 84
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s086",
+   "start": 373.97,
+   "end": 379.45,
+   "line": "Impari che ogni chilometro a vuoto è un costo, e che il ritorno senza carico fa male.",
+   "scene": "unit 85",
+   "set": "toon",
+   "params": {
+    "u": 85
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s087",
+   "start": 379.45,
+   "end": 384.43,
+   "line": "Cerchi un carico di ritorno, perché un camion vuoto brucia gasolio e non porta niente.",
+   "scene": "unit 86",
+   "set": "toon",
+   "params": {
+    "u": 86
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s088",
+   "start": 384.43,
+   "end": 387.35,
+   "line": "Qui entra anche la responsabilità legale.",
+   "scene": "unit 87",
+   "set": "toon",
+   "params": {
+    "u": 87
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s089",
+   "start": 387.35,
+   "end": 391.38,
+   "line": "Se un autista supera i tempi, la colpa può ricadere sull'azienda.",
+   "scene": "unit 88",
+   "set": "toon",
+   "params": {
+    "u": 88
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s090",
+   "start": 391.38,
+   "end": 401.0,
+   "line": "Per dirigere un'impresa di trasporto, la legge chiede un'idoneità professionale. Si chiama attestato di idoneità professionale, e serve a chi gestisce i trasporti.",
+   "scene": "unit 89",
+   "set": "toon",
+   "params": {
+    "u": 89
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s091",
+   "start": 401.0,
+   "end": 404.53,
+   "line": "Il lavoro è meno fisico, ma più pesante da portare a casa.",
+   "scene": "unit 90",
+   "set": "toon",
+   "params": {
+    "u": 90
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s092",
+   "start": 404.53,
+   "end": 408.11,
+   "line": "Una decisione sbagliata costa soldi, e a volte costa di peggio.",
+   "scene": "unit 91",
+   "set": "toon",
+   "params": {
+    "u": 91
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s093",
+   "start": 408.11,
+   "end": 411.71,
+   "line": "Ma finalmente dormi nel tuo letto, e vedi i tuoi figli la sera.",
+   "scene": "unit 92",
+   "set": "toon",
+   "params": {
+    "u": 92
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s094",
+   "start": 411.71,
+   "end": 414.82,
+   "line": "Per molti, questo vale più di qualsiasi stipendio.",
+   "scene": "unit 93",
+   "set": "toon",
+   "params": {
+    "u": 93
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s095",
+   "start": 414.82,
+   "end": 419.24,
+   "line": "Ultimo livello. Livello cinque. Padroncino, o titolare.",
+   "scene": "unit 94",
+   "set": "toon",
+   "params": {
+    "u": 94
+   },
+   "in": {
+    "type": "whip",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "whoosh",
+     "gain": -9
+    }
+   ]
+  },
+  {
+   "id": "s096",
+   "start": 419.24,
+   "end": 422.44,
+   "line": "Il sogno di molti camionisti è un camion tutto loro.",
+   "scene": "unit 95",
+   "set": "toon",
+   "params": {
+    "u": 95
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s097",
+   "start": 422.44,
+   "end": 425.52,
+   "line": "Nel tuo caso, hai comprato un mezzo, hai aperto una partita IVA.",
+   "scene": "unit 96",
+   "set": "toon",
+   "params": {
+    "u": 96
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s098",
+   "start": 425.52,
+   "end": 429.65,
+   "line": "Sei il padroncino: autista, titolare e contabile, tutto insieme.",
+   "scene": "unit 97",
+   "set": "toon",
+   "params": {
+    "u": 97
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s099",
+   "start": 429.65,
+   "end": 433.19,
+   "line": "Prima il camion era dell'azienda. Ora è un debito che porti tu.",
+   "scene": "unit 98",
+   "set": "toon",
+   "params": {
+    "u": 98
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s100",
+   "start": 433.19,
+   "end": 436.32,
+   "line": "Il mezzo costa tanto, e costa anche quando sta fermo.",
+   "scene": "unit 99",
+   "set": "toon",
+   "params": {
+    "u": 99
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s101",
+   "start": 436.32,
+   "end": 439.88,
+   "line": "Un camion fermo in officina non guadagna, ma le rate non si fermano.",
+   "scene": "unit 100",
+   "set": "toon",
+   "params": {
+    "u": 100
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s102",
+   "start": 439.88,
+   "end": 442.99,
+   "line": "E se si rompe in un altro Paese, il carro attrezzi lo paghi tu.",
+   "scene": "unit 101",
+   "set": "toon",
+   "params": {
+    "u": 101
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s103",
+   "start": 442.99,
+   "end": 446.99,
+   "line": "Gomme, revisioni, assicurazione, bollo, manutenzione.",
+   "scene": "unit 102",
+   "set": "toon",
+   "params": {
+    "u": 102
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s104",
+   "start": 446.99,
+   "end": 451.13,
+   "line": "Il gasolio è una delle voci più pesanti, e il prezzo non lo decidi tu.",
+   "scene": "unit 103",
+   "set": "toon",
+   "params": {
+    "u": 103
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s105",
+   "start": 451.13,
+   "end": 457.25,
+   "line": "Poi ci sono i pedaggi, le multe, le riparazioni a sorpresa. Un guasto lungo può pesare sul mese intero.",
+   "scene": "unit 104",
+   "set": "toon",
+   "params": {
+    "u": 104
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s106",
+   "start": 457.25,
+   "end": 463.75,
+   "line": "I clienti pagano a trenta, sessanta, a volte novanta giorni. Questa è una pratica comune, non una regola fissa.",
+   "scene": "unit 105",
+   "set": "toon",
+   "params": {
+    "u": 105
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s107",
+   "start": 463.75,
+   "end": 467.82,
+   "line": "Ma intanto il gasolio lo paghi subito, e la rata del camion arriva puntuale.",
+   "scene": "unit 106",
+   "set": "toon",
+   "params": {
+    "u": 106
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s108",
+   "start": 467.82,
+   "end": 473.09,
+   "line": "Il guadagno, quindi, non è lo stipendio: è quello che resta dopo tutte le spese.",
+   "scene": "unit 107",
+   "set": "toon",
+   "params": {
+    "u": 107
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s109",
+   "start": 473.09,
+   "end": 476.8,
+   "line": "E qui cambia tutto da persona a persona, e da anno ad anno.",
+   "scene": "unit 108",
+   "set": "toon",
+   "params": {
+    "u": 108
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s110",
+   "start": 476.8,
+   "end": 480.81,
+   "line": "Se un cliente non paga, aspetti. E se non paga mai, ci rimetti.",
+   "scene": "unit 109",
+   "set": "toon",
+   "params": {
+    "u": 109
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s111",
+   "start": 480.81,
+   "end": 484.47,
+   "line": "Per questo molti padroncini lavorano per un solo grande committente.",
+   "scene": "unit 110",
+   "set": "toon",
+   "params": {
+    "u": 110
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s112",
+   "start": 484.47,
+   "end": 489.26,
+   "line": "È comodo, ma se quel cliente ti lascia, resti senza lavoro dall'oggi al domani.",
+   "scene": "unit 111",
+   "set": "toon",
+   "params": {
+    "u": 111
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s113",
+   "start": 489.26,
+   "end": 495.48,
+   "line": "Se invece ti cresce l'attività, puoi comprare un secondo mezzo. Poi un terzo, e assumere altri autisti.",
+   "scene": "unit 112",
+   "set": "toon",
+   "params": {
+    "u": 112
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s114",
+   "start": 495.48,
+   "end": 499.08,
+   "line": "Così diventi titolare di una piccola flotta.",
+   "scene": "unit 113",
+   "set": "toon",
+   "params": {
+    "u": 113
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s115",
+   "start": 499.08,
+   "end": 503.07,
+   "line": "Ora gli autisti sono dipendenti tuoi, e devi pagarli ogni mese.",
+   "scene": "unit 114",
+   "set": "toon",
+   "params": {
+    "u": 114
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s116",
+   "start": 503.07,
+   "end": 506.84,
+   "line": "Anche quando il lavoro scarseggia. Anche quando il cliente ritarda.",
+   "scene": "unit 115",
+   "set": "toon",
+   "params": {
+    "u": 115
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s117",
+   "start": 506.84,
+   "end": 512.99,
+   "line": "Rispondi di sicurezza, di tempi, di regole, di ogni mezzo che esce dal piazzale.",
+   "scene": "unit 116",
+   "set": "toon",
+   "params": {
+    "u": 116
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s118",
+   "start": 512.99,
+   "end": 516.3,
+   "line": "Il peso non è più solo il carico che trasporti.",
+   "scene": "unit 117",
+   "set": "toon",
+   "params": {
+    "u": 117
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s119",
+   "start": 516.3,
+   "end": 519.72,
+   "line": "È il peso di ogni famiglia che dipende da te.",
+   "scene": "unit 118",
+   "set": "toon",
+   "params": {
+    "u": 118
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s120",
+   "start": 519.72,
+   "end": 523.65,
+   "line": "Se ci arrivi, hai qualcosa di tuo, e nessuno ti dà ordini.",
+   "scene": "unit 119",
+   "set": "toon",
+   "params": {
+    "u": 119
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s121",
+   "start": 523.65,
+   "end": 528.87,
+   "line": "Ma non hai orari, non hai ferie sicure, e il telefono non smette mai.",
+   "scene": "unit 120",
+   "set": "toon",
+   "params": {
+    "u": 120
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s122",
+   "start": 528.87,
+   "end": 532.7,
+   "line": "Ecco quindi la vita di un camionista, a ogni livello.",
+   "scene": "unit 121",
+   "set": "toon",
+   "params": {
+    "u": 121
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s123",
+   "start": 532.7,
+   "end": 536.58,
+   "line": "Dal piazzale buio alle quattro del mattino, fino a un piazzale tuo.",
+   "scene": "unit 122",
+   "set": "toon",
+   "params": {
+    "u": 122
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s124",
+   "start": 536.58,
+   "end": 541.09,
+   "line": "Tutto passa dalla strada. E la strada non fa sconti a nessuno.",
+   "scene": "unit 123",
+   "set": "toon",
+   "params": {
+    "u": 123
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s125",
+   "start": 541.09,
+   "end": 544.61,
+   "line": "Se questo video ti è piaciuto, iscriviti al canale.",
+   "scene": "unit 124",
+   "set": "toon",
+   "params": {
+    "u": 124
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s126",
+   "start": 544.61,
+   "end": 548.47,
+   "line": "Scrivi nei commenti: qual è la cosa più dura di questo mestiere?",
+   "scene": "unit 125",
+   "set": "toon",
+   "params": {
+    "u": 125
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "s127",
+   "start": 548.47,
+   "end": 552.36,
+   "line": "E dimmi quale professione vuoi vedere nel prossimo video.",
+   "scene": "unit 126",
+   "set": "toon",
+   "params": {
+    "u": 126
+   },
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  }
+ ],
+ "music": [],
+ "sfx": []
+}
