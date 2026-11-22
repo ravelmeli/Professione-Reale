@@ -8,6 +8,8 @@
     "render": "remotion render"
   },
   "dependencies": {
+    "@fontsource/anton": "^5.0.0",
+    "@fontsource/caveat": "^5.0.0",
     "@react-three/fiber": "^8.17.10",
     "@remotion/bundler": "^4.0.250",
     "@remotion/cli": "^4.0.250",

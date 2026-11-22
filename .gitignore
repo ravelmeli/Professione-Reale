@@ -18,3 +18,5 @@ video/export/idraulico_10min_16x9_v1.mp4
 remotion/node_modules
 remotion/out
 remotion/build
+
+remotion/public/*.wav
