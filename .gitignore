@@ -14,3 +14,7 @@ growkaz-stickman-studio/projects/*/build/
 video/export/elettricista_5min_16x9_v1.mp4
 growkaz-stickman-studio/projects/*/out/
 video/export/idraulico_10min_16x9_v1.mp4
+
+remotion/node_modules
+remotion/out
+remotion/build
