@@ -1,0 +1,902 @@
+[
+ {
+  "i": 0,
+  "start": 0.0,
+  "end": 3.08,
+  "text": "Hai ventidue anni, e sono le quattro del mattino."
+ },
+ {
+  "i": 1,
+  "start": 3.62,
+  "end": 6.92,
+  "text": "Il piazzale è buio, e l'unica luce è quella del tuo camion."
+ },
+ {
+  "i": 2,
+  "start": 7.44,
+  "end": 10.18,
+  "text": "Il motore è ancora freddo, il caffè è già finito."
+ },
+ {
+  "i": 3,
+  "start": 10.96,
+  "end": 15.84,
+  "text": "Davanti a te, quattrocento chilometri di strada, e una consegna entro mezzogiorno."
+ },
+ {
+  "i": 4,
+  "start": 16.62,
+  "end": 17.46,
+  "text": "Nessuno ti saluta."
+ },
+ {
+  "i": 5,
+  "start": 18.02,
+  "end": 19.54,
+  "text": "Nessuno ti chiede come stai."
+ },
+ {
+  "i": 6,
+  "start": 20.32,
+  "end": 25.44,
+  "text": "Il cronotachigrafo registra tutto: ogni minuto, ogni sosta, ogni errore."
+ },
+ {
+  "i": 7,
+  "start": 26.08,
+  "end": 29.06,
+  "text": "Tra vent'anni, potresti avere una flotta di camion con il tuo nome."
+ },
+ {
+  "i": 8,
+  "start": 29.54,
+  "end": 34.06,
+  "text": "Oppure potresti essere ancora qui, alla stessa ora, con la stessa strada."
+ },
+ {
+  "i": 9,
+  "start": 35.18,
+  "end": 37.82,
+  "text": "Questa è la vita di un camionista, a ogni livello."
+ },
+ {
+  "i": 10,
+  "start": 38.58,
+  "end": 41.2,
+  "text": "Iscriviti, se vuoi sapere cosa c'è davvero dietro il volante."
+ },
+ {
+  "i": 11,
+  "start": 42.1,
+  "end": 42.86,
+  "text": "Livello uno."
+ },
+ {
+  "i": 12,
+  "start": 42.86,
+  "end": 44.6,
+  "text": "Autista alle prime armi."
+ },
+ {
+  "i": 13,
+  "start": 45.18,
+  "end": 49.36,
+  "text": "Prima di partire, ti serve la patente giusta: la patente C, per i mezzi pesanti."
+ },
+ {
+  "i": 14,
+  "start": 49.64,
+  "end": 53.72,
+  "text": "E ti serve la CQC, la carta di qualificazione del conducente."
+ },
+ {
+  "i": 15,
+  "start": 54.36,
+  "end": 57.38,
+  "text": "Costano tempo e soldi, e sono quasi sempre a carico tuo."
+ },
+ {
+  "i": 16,
+  "start": 58.48,
+  "end": 63.44,
+  "text": "Il primo lavoro, di solito, è la distribuzione: consegne locali, a breve raggio."
+ },
+ {
+  "i": 17,
+  "start": 64.14,
+  "end": 67.28,
+  "text": "Un giorno scarichi per un negozio, il giorno dopo per un cantiere."
+ },
+ {
+  "i": 18,
+  "start": 68.06,
+  "end": 71.5,
+  "text": "Impari a leggere i documenti di trasporto, e a farti firmare la consegna."
+ },
+ {
+  "i": 19,
+  "start": 72.14,
+  "end": 75.7,
+  "text": "Impari che arrivare in orario conta quanto arrivare sano e salvo."
+ },
+ {
+  "i": 20,
+  "start": 76.5,
+  "end": 78.82,
+  "text": "Il camion è più grande di quanto pensassi."
+ },
+ {
+  "i": 21,
+  "start": 79.5,
+  "end": 83.22,
+  "text": "Gli specchietti sono sei, e devi guardarli tutti, ogni secondo."
+ },
+ {
+  "i": 22,
+  "start": 83.22,
+  "end": 88.92,
+  "text": "L'angolo cieco non perdona: un ciclista, un pedone, un'auto troppo vicina."
+ },
+ {
+  "i": 23,
+  "start": 89.8,
+  "end": 93.48,
+  "text": "Capisci presto che la responsabilità è tua, anche quando non è colpa tua."
+ },
+ {
+  "i": 24,
+  "start": 94.64,
+  "end": 97.9,
+  "text": "Le manovre in retromarcia, in un vicolo stretto, ti fanno sudare."
+ },
+ {
+  "i": 25,
+  "start": 98.44,
+  "end": 102.16,
+  "text": "E c'è sempre qualcuno che suona il clacson, mentre tu provi a non toccare niente."
+ },
+ {
+  "i": 26,
+  "start": 103.28,
+  "end": 106.84,
+  "text": "La paga dipende dal contratto, dall'azienda e dalle ore di lavoro."
+ },
+ {
+  "i": 27,
+  "start": 107.48,
+  "end": 112.64,
+  "text": "Una cifra precisa non esiste: cambia da azienda ad azienda, e dalle indennità previste."
+ },
+ {
+  "i": 28,
+  "start": 113.78,
+  "end": 118.1,
+  "text": "Il lavoro è faticoso: carichi, scarichi, ore in piedi, ore seduto."
+ },
+ {
+  "i": 29,
+  "start": 118.66,
+  "end": 124.375,
+  "text": "Ma a casa ci torni quasi ogni sera, e questo, più avanti, lo rimpiangerai."
+ },
+ {
+  "i": 30,
+  "start": 124.375,
+  "end": 128.645,
+  "text": "Livello due."
+ },
+ {
+  "i": 31,
+  "start": 128.645,
+  "end": 131.4,
+  "text": "Autista nazionale."
+ },
+ {
+  "i": 32,
+  "start": 131.88,
+  "end": 135.42,
+  "text": "Dopo qualche anno, passi ai viaggi lunghi: il trasporto nazionale."
+ },
+ {
+  "i": 33,
+  "start": 135.42,
+  "end": 140.48,
+  "text": "Guidi un autoarticolato, e la patente diventa quella per i mezzi con rimorchio."
+ },
+ {
+  "i": 34,
+  "start": 140.92,
+  "end": 143.02,
+  "text": "Parti il lunedì, e a volte torni il venerdì."
+ },
+ {
+  "i": 35,
+  "start": 143.54,
+  "end": 147.18,
+  "text": "Dormi in cabina, mangi in un'area di servizio, ti lavi dove capita."
+ },
+ {
+  "i": 36,
+  "start": 147.84,
+  "end": 151.3,
+  "text": "La cabina diventa la tua casa, e la strada diventa il tuo ufficio."
+ },
+ {
+  "i": 37,
+  "start": 152.16,
+  "end": 155.18,
+  "text": "Le regole sono rigide, e le controllano davvero."
+ },
+ {
+  "i": 38,
+  "start": 155.56,
+  "end": 159.22,
+  "text": "Dopo alcune ore di guida devi fermarti, e la pausa è obbligatoria."
+ },
+ {
+  "i": 39,
+  "start": 159.62,
+  "end": 160.7,
+  "text": "Anche se hai fretta."
+ },
+ {
+  "i": 40,
+  "start": 160.92,
+  "end": 162.3,
+  "text": "Anche se il cliente aspetta."
+ },
+ {
+  "i": 41,
+  "start": 162.86,
+  "end": 167.48,
+  "text": "Il limite di ore c'è per un motivo: la stanchezza uccide più di qualsiasi curva."
+ },
+ {
+  "i": 42,
+  "start": 168.02,
+  "end": 172.08,
+  "text": "Un autista stanco non si accorge di esserlo, finché non è troppo tardi."
+ },
+ {
+  "i": 43,
+  "start": 172.64,
+  "end": 176.76,
+  "text": "Il riposo giornaliero è obbligatorio, e il cronotachigrafo non perdona."
+ },
+ {
+  "i": 44,
+  "start": 177.12,
+  "end": 181.22,
+  "text": "Se sbagli, la multa arriva a te, e a volte anche all'azienda."
+ },
+ {
+  "i": 45,
+  "start": 181.22,
+  "end": 183.36,
+  "text": "Il tuo tempo, però, non è tutto guida."
+ },
+ {
+  "i": 46,
+  "start": 183.86,
+  "end": 188.56,
+  "text": "Ci sono le code ai caselli, le attese per scaricare, le ore ferme in un piazzale."
+ },
+ {
+  "i": 47,
+  "start": 189.02,
+  "end": 191.74,
+  "text": "Ore in cui sei lì, ma il camion non si muove."
+ },
+ {
+  "i": 48,
+  "start": 191.74,
+  "end": 194.88,
+  "text": "E non sempre quelle ore vengono pagate come pensi."
+ },
+ {
+  "i": 49,
+  "start": 195.46,
+  "end": 199.82,
+  "text": "La paga ha più voci: la base, le indennità, i giorni fuori casa."
+ },
+ {
+  "i": 50,
+  "start": 200.28,
+  "end": 203.56,
+  "text": "Quanto resta davvero dipende dal contratto, e dalla busta paga."
+ },
+ {
+  "i": 51,
+  "start": 203.92,
+  "end": 207.94,
+  "text": "Ricorda sempre di guardare se la cifra è lorda o netta."
+ },
+ {
+  "i": 52,
+  "start": 207.94,
+  "end": 211.72,
+  "text": "Il tuo corpo ne risente: schiena, spalle, sonno spezzato."
+ },
+ {
+  "i": 53,
+  "start": 212.12,
+  "end": 217.16,
+  "text": "Stare seduto dieci ore al giorno rovina la schiena, e il sonno in cabina non ripara niente."
+ },
+ {
+  "i": 54,
+  "start": 217.72,
+  "end": 220.92,
+  "text": "I controlli medici arrivano, e la patente va rinnovata con la visita."
+ },
+ {
+  "i": 55,
+  "start": 220.92,
+  "end": 225.72,
+  "text": "Mangi male, ti muovi poco, e la solitudine pesa più di quanto ammetti."
+ },
+ {
+  "i": 56,
+  "start": 226.26,
+  "end": 229.42,
+  "text": "La famiglia ti aspetta a casa, e tu aspetti solo di arrivare."
+ },
+ {
+  "i": 57,
+  "start": 230.04,
+  "end": 232.96,
+  "text": "Dopo anni così, o impari a conviverci, o smetti."
+ },
+ {
+  "i": 58,
+  "start": 233.62,
+  "end": 237.6,
+  "text": "Se ti sta piacendo, iscriviti: la strada si fa più lunga, e più dura."
+ },
+ {
+  "i": 59,
+  "start": 238.28,
+  "end": 239.44,
+  "text": "Livello tre."
+ },
+ {
+  "i": 60,
+  "start": 239.44,
+  "end": 241.06,
+  "text": "Autista internazionale."
+ },
+ {
+  "i": 61,
+  "start": 241.78,
+  "end": 245.86,
+  "text": "Ora attraversi i confini: Francia, Germania, Spagna, Austria."
+ },
+ {
+  "i": 62,
+  "start": 246.46,
+  "end": 250.02,
+  "text": "Ogni frontiera ha le sue regole, i suoi documenti, i suoi controlli."
+ },
+ {
+  "i": 63,
+  "start": 250.02,
+  "end": 253.52,
+  "text": "Impari a parlare qualche parola in più, e a capire un gesto."
+ },
+ {
+  "i": 64,
+  "start": 254.04,
+  "end": 256.58,
+  "text": "I viaggi durano giorni, e a volte settimane."
+ },
+ {
+  "i": 65,
+  "start": 257.14,
+  "end": 260.84,
+  "text": "Le città diventano nomi sui cartelli, e le notti diventano aree di sosta."
+ },
+ {
+  "i": 66,
+  "start": 261.44,
+  "end": 264.48,
+  "text": "Dormi nel parcheggio con altri autisti, di altre nazioni."
+ },
+ {
+  "i": 67,
+  "start": 264.84,
+  "end": 269.16,
+  "text": "Cucini sul fornello da campo, ceni in cabina, e guardi un film sul telefono."
+ },
+ {
+  "i": 68,
+  "start": 269.74,
+  "end": 273.3,
+  "text": "Se piove, o se nevica, il viaggio diventa il doppio più lungo."
+ },
+ {
+  "i": 69,
+  "start": 273.68,
+  "end": 276.5,
+  "text": "Un passo di montagna chiuso può costarti un giorno intero."
+ },
+ {
+  "i": 70,
+  "start": 276.5,
+  "end": 280.82,
+  "text": "C'è un rispetto silenzioso tra voi, perché tutti conoscete la stessa strada."
+ },
+ {
+  "i": 71,
+  "start": 281.48,
+  "end": 286.64,
+  "text": "I documenti diventano una parte del lavoro: lettere di vettura, permessi, dichiarazioni."
+ },
+ {
+  "i": 72,
+  "start": 287.14,
+  "end": 290.58,
+  "text": "Se manca un foglio, il camion resta fermo, e il tempo si perde."
+ },
+ {
+  "i": 73,
+  "start": 291.38,
+  "end": 293.12,
+  "text": "Poi arrivano le merci speciali."
+ },
+ {
+  "i": 74,
+  "start": 293.52,
+  "end": 296.54,
+  "text": "Gli alimenti, che devono restare al freddo per tutto il viaggio."
+ },
+ {
+  "i": 75,
+  "start": 297.02,
+  "end": 301.3,
+  "text": "Le merci pericolose, che richiedono una formazione apposita, l'ADR."
+ },
+ {
+  "i": 76,
+  "start": 301.3,
+  "end": 304.22,
+  "text": "Un errore, con un carico così, non è solo un ritardo."
+ },
+ {
+  "i": 77,
+  "start": 304.64,
+  "end": 308.28,
+  "text": "Può essere un incidente, una multa pesante, o la perdita del lavoro."
+ },
+ {
+  "i": 78,
+  "start": 308.8,
+  "end": 311.84,
+  "text": "Per questo chi ha più formazione, spesso, è pagato di più."
+ },
+ {
+  "i": 79,
+  "start": 312.32,
+  "end": 316.76,
+  "text": "Ma anche qui, la cifra dipende dal contratto, dalla tratta e dall'azienda."
+ },
+ {
+  "i": 80,
+  "start": 316.76,
+  "end": 319.38,
+  "text": "Non possiamo darti un numero, senza rischiare di inventarlo."
+ },
+ {
+  "i": 81,
+  "start": 320.0,
+  "end": 322.24,
+  "text": "Il costo nascosto, però, lo conosciamo tutti."
+ },
+ {
+  "i": 82,
+  "start": 322.66,
+  "end": 325.4,
+  "text": "Sono i compleanni persi, le feste lontano da casa."
+ },
+ {
+  "i": 83,
+  "start": 325.78,
+  "end": 327.7,
+  "text": "Sono i figli che crescono mentre tu guidi."
+ },
+ {
+  "i": 84,
+  "start": 328.1,
+  "end": 331.48,
+  "text": "Sono le videochiamate dal parcheggio, con il telefono appoggiato al volante."
+ },
+ {
+  "i": 85,
+  "start": 332.24,
+  "end": 333.16,
+  "text": "Livello quattro."
+ },
+ {
+  "i": 86,
+  "start": 333.16,
+  "end": 334.92,
+  "text": "Capo traffico."
+ },
+ {
+  "i": 87,
+  "start": 334.92,
+  "end": 337.96,
+  "text": "Dopo anni di strada, qualcuno ti propone di scendere dal camion."
+ },
+ {
+  "i": 88,
+  "start": 337.96,
+  "end": 341.7,
+  "text": "Ti siedi dietro una scrivania, e devi organizzare gli altri autisti."
+ },
+ {
+  "i": 89,
+  "start": 342.36,
+  "end": 346.48,
+  "text": "Ora il tuo problema non è più guidare, ma decidere chi guida e dove."
+ },
+ {
+  "i": 90,
+  "start": 347.04,
+  "end": 350.76,
+  "text": "Devi assegnare i viaggi, controllare i tempi, e far quadrare i turni."
+ },
+ {
+  "i": 91,
+  "start": 351.36,
+  "end": 353.66,
+  "text": "Conosci la strada, e questo ti dà un vantaggio."
+ },
+ {
+  "i": 92,
+  "start": 354.14,
+  "end": 358.0,
+  "text": "Sai quanto ci mette davvero un autista, e quanto ci mette solo sulla carta."
+ },
+ {
+  "i": 93,
+  "start": 358.7,
+  "end": 360.32,
+  "text": "Il telefono squilla a tutte le ore."
+ },
+ {
+  "i": 94,
+  "start": 360.6,
+  "end": 364.38,
+  "text": "Un camion in panne, un cliente arrabbiato, un autista che ha finito le ore."
+ },
+ {
+  "i": 95,
+  "start": 364.38,
+  "end": 366.96,
+  "text": "E tu devi trovare una soluzione, subito."
+ },
+ {
+  "i": 96,
+  "start": 367.62,
+  "end": 370.7,
+  "text": "Lavori con i clienti, con i fornitori, con le officine."
+ },
+ {
+  "i": 97,
+  "start": 371.14,
+  "end": 373.76,
+  "text": "Impari a leggere un preventivo, e a trattare una tariffa."
+ },
+ {
+  "i": 98,
+  "start": 374.18,
+  "end": 379.22,
+  "text": "Impari che ogni chilometro a vuoto è un costo, e che il ritorno senza carico fa male."
+ },
+ {
+  "i": 99,
+  "start": 379.68,
+  "end": 384.08,
+  "text": "Cerchi un carico di ritorno, perché un camion vuoto brucia gasolio e non porta niente."
+ },
+ {
+  "i": 100,
+  "start": 384.78,
+  "end": 387.16,
+  "text": "Qui entra anche la responsabilità legale."
+ },
+ {
+  "i": 101,
+  "start": 387.54,
+  "end": 391.38,
+  "text": "Se un autista supera i tempi, la colpa può ricadere sull'azienda."
+ },
+ {
+  "i": 102,
+  "start": 391.38,
+  "end": 395.72,
+  "text": "Per dirigere un'impresa di trasporto, la legge chiede un'idoneità professionale."
+ },
+ {
+  "i": 103,
+  "start": 395.72,
+  "end": 400.68,
+  "text": "Si chiama attestato di idoneità professionale, e serve a chi gestisce i trasporti."
+ },
+ {
+  "i": 104,
+  "start": 401.32,
+  "end": 404.36,
+  "text": "Il lavoro è meno fisico, ma più pesante da portare a casa."
+ },
+ {
+  "i": 105,
+  "start": 404.7,
+  "end": 407.8,
+  "text": "Una decisione sbagliata costa soldi, e a volte costa di peggio."
+ },
+ {
+  "i": 106,
+  "start": 408.42,
+  "end": 411.46,
+  "text": "Ma finalmente dormi nel tuo letto, e vedi i tuoi figli la sera."
+ },
+ {
+  "i": 107,
+  "start": 411.96,
+  "end": 414.54,
+  "text": "Per molti, questo vale più di qualsiasi stipendio."
+ },
+ {
+  "i": 108,
+  "start": 415.1,
+  "end": 416.02,
+  "text": "Ultimo livello."
+ },
+ {
+  "i": 109,
+  "start": 416.2,
+  "end": 417.26,
+  "text": "Livello cinque."
+ },
+ {
+  "i": 110,
+  "start": 417.26,
+  "end": 418.92,
+  "text": "Padroncino, o titolare."
+ },
+ {
+  "i": 111,
+  "start": 419.56,
+  "end": 422.26,
+  "text": "Il sogno di molti camionisti è un camion tutto loro."
+ },
+ {
+  "i": 112,
+  "start": 422.62,
+  "end": 425.32,
+  "text": "Nel tuo caso, hai comprato un mezzo, hai aperto una partita IVA."
+ },
+ {
+  "i": 113,
+  "start": 425.72,
+  "end": 429.42,
+  "text": "Sei il padroncino: autista, titolare e contabile, tutto insieme."
+ },
+ {
+  "i": 114,
+  "start": 429.88,
+  "end": 431.6,
+  "text": "Prima il camion era dell'azienda."
+ },
+ {
+  "i": 115,
+  "start": 431.6,
+  "end": 432.98,
+  "text": "Ora è un debito che porti tu."
+ },
+ {
+  "i": 116,
+  "start": 433.4,
+  "end": 436.12,
+  "text": "Il mezzo costa tanto, e costa anche quando sta fermo."
+ },
+ {
+  "i": 117,
+  "start": 436.52,
+  "end": 439.72,
+  "text": "Un camion fermo in officina non guadagna, ma le rate non si fermano."
+ },
+ {
+  "i": 118,
+  "start": 440.04,
+  "end": 442.5,
+  "text": "E se si rompe in un altro Paese, il carro attrezzi lo paghi tu."
+ },
+ {
+  "i": 119,
+  "start": 443.48,
+  "end": 446.64,
+  "text": "Gomme, revisioni, assicurazione, bollo, manutenzione."
+ },
+ {
+  "i": 120,
+  "start": 447.34,
+  "end": 450.86,
+  "text": "Il gasolio è una delle voci più pesanti, e il prezzo non lo decidi tu."
+ },
+ {
+  "i": 121,
+  "start": 451.4,
+  "end": 454.52,
+  "text": "Poi ci sono i pedaggi, le multe, le riparazioni a sorpresa."
+ },
+ {
+  "i": 122,
+  "start": 454.52,
+  "end": 456.9,
+  "text": "Un guasto lungo può pesare sul mese intero."
+ },
+ {
+  "i": 123,
+  "start": 457.6,
+  "end": 461.04,
+  "text": "I clienti pagano a trenta, sessanta, a volte novanta giorni."
+ },
+ {
+  "i": 124,
+  "start": 461.36,
+  "end": 463.56,
+  "text": "Questa è una pratica comune, non una regola fissa."
+ },
+ {
+  "i": 125,
+  "start": 463.94,
+  "end": 467.46,
+  "text": "Ma intanto il gasolio lo paghi subito, e la rata del camion arriva puntuale."
+ },
+ {
+  "i": 126,
+  "start": 468.18,
+  "end": 472.82,
+  "text": "Il guadagno, quindi, non è lo stipendio: è quello che resta dopo tutte le spese."
+ },
+ {
+  "i": 127,
+  "start": 473.36,
+  "end": 476.8,
+  "text": "E qui cambia tutto da persona a persona, e da anno ad anno."
+ },
+ {
+  "i": 128,
+  "start": 476.8,
+  "end": 478.54,
+  "text": "Se un cliente non paga, aspetti."
+ },
+ {
+  "i": 129,
+  "start": 478.54,
+  "end": 480.44,
+  "text": "E se non paga mai, ci rimetti."
+ },
+ {
+  "i": 130,
+  "start": 481.18,
+  "end": 484.42,
+  "text": "Per questo molti padroncini lavorano per un solo grande committente."
+ },
+ {
+  "i": 131,
+  "start": 484.52,
+  "end": 488.9,
+  "text": "È comodo, ma se quel cliente ti lascia, resti senza lavoro dall'oggi al domani."
+ },
+ {
+  "i": 132,
+  "start": 489.62,
+  "end": 492.64,
+  "text": "Se invece ti cresce l'attività, puoi comprare un secondo mezzo."
+ },
+ {
+  "i": 133,
+  "start": 492.98,
+  "end": 495.22,
+  "text": "Poi un terzo, e assumere altri autisti."
+ },
+ {
+  "i": 134,
+  "start": 495.74,
+  "end": 498.76,
+  "text": "Così diventi titolare di una piccola flotta."
+ },
+ {
+  "i": 135,
+  "start": 499.4,
+  "end": 502.86,
+  "text": "Ora gli autisti sono dipendenti tuoi, e devi pagarli ogni mese."
+ },
+ {
+  "i": 136,
+  "start": 503.28,
+  "end": 504.84,
+  "text": "Anche quando il lavoro scarseggia."
+ },
+ {
+  "i": 137,
+  "start": 505.12,
+  "end": 506.84,
+  "text": "Anche quando il cliente ritarda."
+ },
+ {
+  "i": 138,
+  "start": 506.84,
+  "end": 512.66,
+  "text": "Rispondi di sicurezza, di tempi, di regole, di ogni mezzo che esce dal piazzale."
+ },
+ {
+  "i": 139,
+  "start": 513.32,
+  "end": 516.14,
+  "text": "Il peso non è più solo il carico che trasporti."
+ },
+ {
+  "i": 140,
+  "start": 516.46,
+  "end": 519.42,
+  "text": "È il peso di ogni famiglia che dipende da te."
+ },
+ {
+  "i": 141,
+  "start": 520.02,
+  "end": 523.46,
+  "text": "Se ci arrivi, hai qualcosa di tuo, e nessuno ti dà ordini."
+ },
+ {
+  "i": 142,
+  "start": 523.84,
+  "end": 528.46,
+  "text": "Ma non hai orari, non hai ferie sicure, e il telefono non smette mai."
+ },
+ {
+  "i": 143,
+  "start": 529.28,
+  "end": 532.5,
+  "text": "Ecco quindi la vita di un camionista, a ogni livello."
+ },
+ {
+  "i": 144,
+  "start": 532.9,
+  "end": 536.38,
+  "text": "Dal piazzale buio alle quattro del mattino, fino a un piazzale tuo."
+ },
+ {
+  "i": 145,
+  "start": 536.78,
+  "end": 538.56,
+  "text": "Tutto passa dalla strada."
+ },
+ {
+  "i": 146,
+  "start": 538.56,
+  "end": 540.72,
+  "text": "E la strada non fa sconti a nessuno."
+ },
+ {
+  "i": 147,
+  "start": 541.46,
+  "end": 544.34,
+  "text": "Se questo video ti è piaciuto, iscriviti al canale."
+ },
+ {
+  "i": 148,
+  "start": 544.88,
+  "end": 548.3,
+  "text": "Scrivi nei commenti: qual è la cosa più dura di questo mestiere?"
+ },
+ {
+  "i": 149,
+  "start": 548.64,
+  "end": 551.92,
+  "text": "E dimmi quale professione vuoi vedere nel prossimo video."
+ }
+]
