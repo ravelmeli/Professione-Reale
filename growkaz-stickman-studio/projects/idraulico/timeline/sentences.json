@@ -1,0 +1,974 @@
+[
+ {
+  "i": 0,
+  "start": 0.0,
+  "end": 3.6,
+  "text": "Hai diciotto anni, e sei in ginocchio in un bagno allagato."
+ },
+ {
+  "i": 1,
+  "start": 3.92,
+  "end": 7.64,
+  "text": "Sono le sette del mattino, e il tubo sotto il lavandino perde ancora."
+ },
+ {
+  "i": 2,
+  "start": 7.64,
+  "end": 10.62,
+  "text": "L'acqua è fredda, e ti è già arrivata alle scarpe."
+ },
+ {
+  "i": 3,
+  "start": 11.22,
+  "end": 14.64,
+  "text": "Il tuo capo ti guarda dall'alto e dice: stringi, ma piano."
+ },
+ {
+  "i": 4,
+  "start": 15.26,
+  "end": 16.0,
+  "text": "Non ti spiega dove."
+ },
+ {
+  "i": 5,
+  "start": 16.38,
+  "end": 17.42,
+  "text": "Lo devi capire da solo."
+ },
+ {
+  "i": 6,
+  "start": 18.12,
+  "end": 21.2,
+  "text": "Hai in mano una chiave inglese che pesa più di quanto pensassi."
+ },
+ {
+  "i": 7,
+  "start": 21.8,
+  "end": 24.82,
+  "text": "Dietro di te, una signora ti osserva con le braccia incrociate."
+ },
+ {
+  "i": 8,
+  "start": 25.28,
+  "end": 26.72,
+  "text": "Non le interessa la tua storia."
+ },
+ {
+  "i": 9,
+  "start": 26.72,
+  "end": 28.84,
+  "text": "Le interessa solo che smetta di perdere."
+ },
+ {
+  "i": 10,
+  "start": 28.84,
+  "end": 32.74,
+  "text": "Tra venti anni, sarai tu a dire dove passa un impianto."
+ },
+ {
+  "i": 11,
+  "start": 32.96,
+  "end": 35.82,
+  "text": "E sarai tu a rispondere, se una caldaia non funziona."
+ },
+ {
+  "i": 12,
+  "start": 36.54,
+  "end": 39.36,
+  "text": "Questa è la vita di un idraulico, a ogni livello."
+ },
+ {
+  "i": 13,
+  "start": 39.96,
+  "end": 42.24,
+  "text": "Iscriviti, se vuoi sapere quanto guadagna davvero."
+ },
+ {
+  "i": 14,
+  "start": 42.78,
+  "end": 43.34,
+  "text": "Livello uno."
+ },
+ {
+  "i": 15,
+  "start": 43.34,
+  "end": 45.08,
+  "text": "Apprendista idraulico."
+ },
+ {
+  "i": 16,
+  "start": 45.08,
+  "end": 48.7,
+  "text": "La prima cosa che fai è portare gli attrezzi."
+ },
+ {
+  "i": 17,
+  "start": 48.7,
+  "end": 51.66,
+  "text": "Porti la cassetta, passi i raccordi, tieni la torcia."
+ },
+ {
+  "i": 18,
+  "start": 52.42,
+  "end": 52.92,
+  "text": "Sembra poco."
+ },
+ {
+  "i": 19,
+  "start": 53.26,
+  "end": 56.22,
+  "text": "Ma ogni attrezzo ha un nome, e devi impararlo."
+ },
+ {
+  "i": 20,
+  "start": 56.73,
+  "end": 60.62,
+  "text": "Chiave a pappagallo, tagliatubi, saldatore, pinza, guarnizione."
+ },
+ {
+  "i": 21,
+  "start": 61.46,
+  "end": 65.5,
+  "text": "Se sbagli il nome, il capo ti guarda in silenzio, e sai già cosa vuol dire."
+ },
+ {
+  "i": 22,
+  "start": 66.38,
+  "end": 71.5,
+  "text": "Poi impari i materiali: rame, multistrato, polietilene, acciaio."
+ },
+ {
+  "i": 23,
+  "start": 72.02,
+  "end": 75.04,
+  "text": "Impari che un raccordo stretto male non si vede subito."
+ },
+ {
+  "i": 24,
+  "start": 75.54,
+  "end": 78.7,
+  "text": "Può restare nascosto dietro un muro, e perdere per mesi."
+ },
+ {
+  "i": 25,
+  "start": 79.24,
+  "end": 82.44,
+  "text": "Per questo, nei primi mesi, non tocchi quasi mai l'impianto vero."
+ },
+ {
+  "i": 26,
+  "start": 83.02,
+  "end": 85.62,
+  "text": "Guardi, fai domande, e porti pazienza."
+ },
+ {
+  "i": 27,
+  "start": 86.4,
+  "end": 90.28,
+  "text": "Il contratto di un apprendista dipende dal settore e dall'azienda."
+ },
+ {
+  "i": 28,
+  "start": 90.28,
+  "end": 94.68,
+  "text": "Una cifra precisa non esiste: cambia da contratto a contratto, e da regione a regione."
+ },
+ {
+  "i": 29,
+  "start": 95.28,
+  "end": 98.66,
+  "text": "La paga è bassa all'inizio, e cresce con gli anni di formazione."
+ },
+ {
+  "i": 30,
+  "start": 99.7,
+  "end": 104.36,
+  "text": "Il lavoro è fisico: ginocchia a terra, schiena piegata, mani sempre bagnate."
+ },
+ {
+  "i": 31,
+  "start": 104.96,
+  "end": 108.26,
+  "text": "Spazi stretti, sotto i lavandini, dentro i cavedi, nei sottotetti."
+ },
+ {
+  "i": 32,
+  "start": 109.14,
+  "end": 112.58,
+  "text": "Il freddo dell'acqua ti entra nelle ossa, anche d'estate."
+ },
+ {
+  "i": 33,
+  "start": 112.58,
+  "end": 115.24,
+  "text": "E a volte, per rompere un muro, ti tocca la mazza."
+ },
+ {
+  "i": 34,
+  "start": 115.24,
+  "end": 120.14,
+  "text": "Il tuo primo errore è quasi sempre lo stesso: dimenticare di chiudere l'acqua."
+ },
+ {
+  "i": 35,
+  "start": 120.14,
+  "end": 123.6,
+  "text": "Un rubinetto aperto, un tubo tagliato, e il bagno diventa una piscina."
+ },
+ {
+  "i": 36,
+  "start": 124.26,
+  "end": 126.66,
+  "text": "Lo impari una volta sola, e non lo dimentichi più."
+ },
+ {
+  "i": 37,
+  "start": 127.98,
+  "end": 130.2,
+  "text": "Poi arriva il giorno degli scarichi."
+ },
+ {
+  "i": 38,
+  "start": 130.76,
+  "end": 133.92,
+  "text": "Qui l'acqua non va in pressione: scende, per gravità."
+ },
+ {
+  "i": 39,
+  "start": 134.58,
+  "end": 138.38,
+  "text": "Se la pendenza è sbagliata, l'acqua ristagna, e dopo qualche mese puzza."
+ },
+ {
+  "i": 40,
+  "start": 138.98,
+  "end": 142.56,
+  "text": "Impari a usare il teflon, la canapa, la pasta per le filettature."
+ },
+ {
+  "i": 41,
+  "start": 142.56,
+  "end": 147.02,
+  "text": "E impari le prove di tenuta: si carica l'impianto, e si aspetta."
+ },
+ {
+  "i": 42,
+  "start": 147.6,
+  "end": 150.98,
+  "text": "Se la lancetta del manometro scende, c'è una perdita da trovare."
+ },
+ {
+  "i": 43,
+  "start": 151.72,
+  "end": 153.8,
+  "text": "Il capo non si fida mai di un'occhiata."
+ },
+ {
+  "i": 44,
+  "start": 153.8,
+  "end": 154.62,
+  "text": "Vuole la prova."
+ },
+ {
+  "i": 45,
+  "start": 155.2,
+  "end": 159.6,
+  "text": "E tu, la prima volta che la lancetta resta ferma, senti un sollievo strano."
+ },
+ {
+  "i": 46,
+  "start": 160.44,
+  "end": 161.6,
+  "text": "Livello due."
+ },
+ {
+  "i": 47,
+  "start": 161.6,
+  "end": 163.18,
+  "text": "Idraulico qualificato."
+ },
+ {
+  "i": 48,
+  "start": 164.02,
+  "end": 166.84,
+  "text": "Dopo qualche anno, lavori da solo su un impianto semplice."
+ },
+ {
+  "i": 49,
+  "start": 166.84,
+  "end": 170.82,
+  "text": "Cambi un rubinetto, sostituisci uno scarico, monti un sanitario."
+ },
+ {
+  "i": 50,
+  "start": 170.82,
+  "end": 174.5,
+  "text": "Sai tagliare un tubo, filettarlo, e sigillare un raccordo."
+ },
+ {
+  "i": 51,
+  "start": 175.14,
+  "end": 178.36,
+  "text": "Impari a trovare una perdita senza rompere mezzo muro."
+ },
+ {
+  "i": 52,
+  "start": 179.08,
+  "end": 183.08,
+  "text": "Un buon idraulico ascolta, tocca, e capisce dove sta il problema."
+ },
+ {
+  "i": 53,
+  "start": 183.78,
+  "end": 185.16,
+  "text": "Il tuo cliente non vede il tubo."
+ },
+ {
+  "i": 54,
+  "start": 185.46,
+  "end": 187.04,
+  "text": "Vede solo l'acqua che non c'è più."
+ },
+ {
+  "i": 55,
+  "start": 188.06,
+  "end": 192.18,
+  "text": "La paga base sale, ma resta una cifra che cambia da contratto a contratto."
+ },
+ {
+  "i": 56,
+  "start": 192.86,
+  "end": 196.02,
+  "text": "Le trasferte e gli straordinari spesso fanno la differenza."
+ },
+ {
+  "i": 57,
+  "start": 196.02,
+  "end": 200.18,
+  "text": "Le emergenze si pagano di più, ma arrivano sempre nel momento peggiore."
+ },
+ {
+  "i": 58,
+  "start": 200.8,
+  "end": 204.98,
+  "text": "Impari a montare un sifone, un allaccio per la lavatrice, uno scaldabagno."
+ },
+ {
+  "i": 59,
+  "start": 205.5,
+  "end": 210.88,
+  "text": "Impari che il calcare è un nemico lento: ostruisce, consuma, rovina."
+ },
+ {
+  "i": 60,
+  "start": 211.68,
+  "end": 215.56,
+  "text": "Lavori in case abitate, con i bambini che ti guardano e i cani che ti annusano."
+ },
+ {
+  "i": 61,
+  "start": 215.96,
+  "end": 220.08,
+  "text": "Devi proteggere i pavimenti, coprire i mobili, e lasciare tutto pulito."
+ },
+ {
+  "i": 62,
+  "start": 220.86,
+  "end": 224.72,
+  "text": "Un lavoro finito bene, in una casa pulita, vale più di una buona parola."
+ },
+ {
+  "i": 63,
+  "start": 225.2,
+  "end": 229.92,
+  "text": "E a volte, il cliente ti offre un caffè, e quel caffè vale quanto la fattura."
+ },
+ {
+  "i": 64,
+  "start": 231.0,
+  "end": 233.88,
+  "text": "Una tubatura scoppiata a mezzanotte non aspetta il lunedì."
+ },
+ {
+  "i": 65,
+  "start": 234.4,
+  "end": 237.06,
+  "text": "E tu ti alzi, prendi il furgone, e vai."
+ },
+ {
+  "i": 66,
+  "start": 237.64,
+  "end": 239.92,
+  "text": "Nel frattempo, impari anche a parlare con i clienti."
+ },
+ {
+  "i": 67,
+  "start": 240.38,
+  "end": 243.36,
+  "text": "Una persona con la casa allagata non vuole sentire una lezione."
+ },
+ {
+  "i": 68,
+  "start": 243.74,
+  "end": 246.34,
+  "text": "Vuole sapere quanto ci metti, e quanto costa."
+ },
+ {
+  "i": 69,
+  "start": 247.08,
+  "end": 248.33,
+  "text": "Livello tre."
+ },
+ {
+  "i": 70,
+  "start": 248.33,
+  "end": 250.02,
+  "text": "Termoidraulico specializzato."
+ },
+ {
+  "i": 71,
+  "start": 250.76,
+  "end": 255.78,
+  "text": "Qui entri nel mondo del riscaldamento: caldaie, radiatori, pannelli."
+ },
+ {
+  "i": 72,
+  "start": 256.44,
+  "end": 259.94,
+  "text": "Impari a leggere uno schema idraulico, e a trovare un guasto nascosto."
+ },
+ {
+  "i": 73,
+  "start": 260.48,
+  "end": 262.7,
+  "text": "La caldaia non parte, e fuori fa freddo."
+ },
+ {
+  "i": 74,
+  "start": 263.08,
+  "end": 266.22,
+  "text": "Il cliente aspetta al freddo, e tu devi capire subito perché."
+ },
+ {
+  "i": 75,
+  "start": 266.88,
+  "end": 269.96,
+  "text": "Lavori con l'acqua calda, con la pressione, e a volte con il gas."
+ },
+ {
+  "i": 76,
+  "start": 270.48,
+  "end": 273.02,
+  "text": "Con il gas, il margine di errore è zero."
+ },
+ {
+  "i": 77,
+  "start": 273.32,
+  "end": 277.28,
+  "text": "Una fuga di gas non si vede, ma si sente: l'odore ti avvisa prima di tutto."
+ },
+ {
+  "i": 78,
+  "start": 277.92,
+  "end": 281.72,
+  "text": "Ci sono regole precise, formazione specifica e controlli obbligatori."
+ },
+ {
+  "i": 79,
+  "start": 282.24,
+  "end": 285.8,
+  "text": "Un impianto a gas si verifica, si collauda, e si certifica."
+ },
+ {
+  "i": 80,
+  "start": 286.36,
+  "end": 289.52,
+  "text": "Il tuo stipendio sale, ma non esiste una cifra uguale per tutti."
+ },
+ {
+  "i": 81,
+  "start": 290.12,
+  "end": 294.48,
+  "text": "Impari le caldaie a condensazione, le pompe di calore, il riscaldamento a pavimento."
+ },
+ {
+  "i": 82,
+  "start": 294.96,
+  "end": 298.8,
+  "text": "Impari cosa fa un circolatore, un vaso di espansione, una valvola di sicurezza."
+ },
+ {
+  "i": 83,
+  "start": 299.26,
+  "end": 303.34,
+  "text": "Imposti una centralina, regoli le temperature, spieghi al cliente come usarla."
+ },
+ {
+  "i": 84,
+  "start": 303.92,
+  "end": 308.02,
+  "text": "E poi c'è la manutenzione: controlli, pulizie, verifiche, ogni anno."
+ },
+ {
+  "i": 85,
+  "start": 308.48,
+  "end": 311.54,
+  "text": "È un lavoro meno visibile, ma è quello che tiene vivi gli impianti."
+ },
+ {
+  "i": 86,
+  "start": 312.1,
+  "end": 316.36,
+  "text": "Il libretto di impianto racconta la storia di una caldaia, e di chi l'ha toccata."
+ },
+ {
+  "i": 87,
+  "start": 316.84,
+  "end": 320.22,
+  "text": "E se la scrivi male, quella storia, un giorno qualcuno la leggerà."
+ },
+ {
+  "i": 88,
+  "start": 320.62,
+  "end": 323.76,
+  "text": "Dipende dal settore, dalla regione e dai turni di reperibilità."
+ },
+ {
+  "i": 89,
+  "start": 324.24,
+  "end": 327.6,
+  "text": "Nel frattempo, il tuo nome comincia a girare tra un cliente e l'altro."
+ },
+ {
+  "i": 90,
+  "start": 327.6,
+  "end": 329.46,
+  "text": "Il passaparola vale più di un cartello."
+ },
+ {
+  "i": 91,
+  "start": 329.9,
+  "end": 333.66,
+  "text": "Una casa lasciata pulita, e un impianto che funziona, fanno più di mille parole."
+ },
+ {
+  "i": 92,
+  "start": 334.4,
+  "end": 335.44,
+  "text": "Livello quattro."
+ },
+ {
+  "i": 93,
+  "start": 335.44,
+  "end": 337.64,
+  "text": "Caposquadra, responsabile tecnico."
+ },
+ {
+  "i": 94,
+  "start": 338.04,
+  "end": 340.6,
+  "text": "Non basta più saper fare: devi organizzare gli altri."
+ },
+ {
+  "i": 95,
+  "start": 341.18,
+  "end": 343.62,
+  "text": "Decidi chi lavora dove, e controlli il lavoro finito."
+ },
+ {
+  "i": 96,
+  "start": 344.02,
+  "end": 346.24,
+  "text": "Se un tuo collega sbaglia, il problema è anche tuo."
+ },
+ {
+  "i": 97,
+  "start": 346.78,
+  "end": 350.28,
+  "text": "Per firmare un impianto serve un requisito tecnico professionale."
+ },
+ {
+  "i": 98,
+  "start": 350.72,
+  "end": 355.0,
+  "text": "Lo prevede la legge sugli impianti, il decreto numero trentasette del duemilaotto."
+ },
+ {
+  "i": 99,
+  "start": 355.0,
+  "end": 359.48,
+  "text": "Quel decreto riguarda anche gli impianti idrici, sanitari e di riscaldamento, e quelli a gas."
+ },
+ {
+  "i": 100,
+  "start": 360.1,
+  "end": 362.82,
+  "text": "Ogni impianto chiuso ha una dichiarazione di conformità."
+ },
+ {
+  "i": 101,
+  "start": 362.82,
+  "end": 366.24,
+  "text": "È un foglio che dice: l'ho fatto a regola d'arte, e ne rispondo io."
+ },
+ {
+  "i": 102,
+  "start": 366.62,
+  "end": 369.24,
+  "text": "Se qualcosa va storto, quel foglio porta il tuo nome."
+ },
+ {
+  "i": 103,
+  "start": 369.56,
+  "end": 375.48,
+  "text": "Per questo controlli tutto due volte: pressione, tenuta, scarichi, collegamenti."
+ },
+ {
+  "i": 104,
+  "start": 375.48,
+  "end": 379.84,
+  "text": "Coordini i muratori, gli elettricisti, i piastrellisti."
+ },
+ {
+  "i": 105,
+  "start": 379.84,
+  "end": 382.7,
+  "text": "Se l'idraulico arriva tardi, si ferma tutto il cantiere."
+ },
+ {
+  "i": 106,
+  "start": 382.7,
+  "end": 385.58,
+  "text": "Se arriva troppo presto, il muro è ancora da fare."
+ },
+ {
+  "i": 107,
+  "start": 386.18,
+  "end": 389.62,
+  "text": "Ordini i materiali, tieni i conti, e controlli i tempi."
+ },
+ {
+  "i": 108,
+  "start": 389.62,
+  "end": 392.84,
+  "text": "Il direttore dei lavori chiama te, quando c'è un ritardo."
+ },
+ {
+  "i": 109,
+  "start": 393.22,
+  "end": 396.66,
+  "text": "E ogni giorno, devi decidere quale problema affrontare per primo."
+ },
+ {
+  "i": 110,
+  "start": 397.38,
+  "end": 399.54,
+  "text": "Il cantiere è un posto dove tutti hanno fretta."
+ },
+ {
+  "i": 111,
+  "start": 400.18,
+  "end": 403.1,
+  "text": "Tu devi essere quello che rallenta, quando serve."
+ },
+ {
+  "i": 112,
+  "start": 403.84,
+  "end": 408.48,
+  "text": "Se ti sta piacendo, iscriviti: manca l'ultimo livello, il più duro."
+ },
+ {
+  "i": 113,
+  "start": 409.5,
+  "end": 412.56,
+  "text": "Il telefono suona anche di notte, per un guasto che non può aspettare."
+ },
+ {
+  "i": 114,
+  "start": 413.42,
+  "end": 414.8,
+  "text": "Livello cinque."
+ },
+ {
+  "i": 115,
+  "start": 414.8,
+  "end": 416.4,
+  "text": "Titolare, o impresa tua."
+ },
+ {
+  "i": 116,
+  "start": 417.02,
+  "end": 418.86,
+  "text": "Qui non c'è più uno stipendio fisso."
+ },
+ {
+  "i": 117,
+  "start": 418.86,
+  "end": 422.78,
+  "text": "Il guadagno dipende dai clienti, dai prezzi e dai costi."
+ },
+ {
+  "i": 118,
+  "start": 423.34,
+  "end": 429.34,
+  "text": "Furgone, attrezzi, magazzino, assicurazione, contributi, collaboratori."
+ },
+ {
+  "i": 119,
+  "start": 429.94,
+  "end": 433.08,
+  "text": "Ogni mese ci sono spese che arrivano, qualunque cosa succeda."
+ },
+ {
+  "i": 120,
+  "start": 433.84,
+  "end": 437.94,
+  "text": "I clienti pagano a trenta, sessanta, a volte novanta giorni."
+ },
+ {
+  "i": 121,
+  "start": 438.46,
+  "end": 440.42,
+  "text": "E tu, intanto, paghi i materiali e le persone."
+ },
+ {
+  "i": 122,
+  "start": 441.32,
+  "end": 444.2,
+  "text": "Un cliente che non paga può metterti in difficoltà per mesi."
+ },
+ {
+  "i": 123,
+  "start": 444.84,
+  "end": 447.64,
+  "text": "Devi saper fare un preventivo, e saperlo difendere."
+ },
+ {
+  "i": 124,
+  "start": 448.44,
+  "end": 452.72,
+  "text": "Fai il giro dei fornitori, confronti i prezzi, tratti sulle forniture."
+ },
+ {
+  "i": 125,
+  "start": 453.64,
+  "end": 456.94,
+  "text": "Scegli i collaboratori, e ti fidi di chi lavora al tuo posto."
+ },
+ {
+  "i": 126,
+  "start": 457.54,
+  "end": 461.72,
+  "text": "Ogni errore di un tuo dipendente, davanti al cliente, è un tuo errore."
+ },
+ {
+  "i": 127,
+  "start": 462.54,
+  "end": 466.86,
+  "text": "Assumi un ragazzo di diciotto anni, e vedi te stesso, tanti anni prima."
+ },
+ {
+  "i": 128,
+  "start": 467.72,
+  "end": 471.74,
+  "text": "Il tuo commercialista ti parla di scadenze, di tasse, di contributi."
+ },
+ {
+  "i": 129,
+  "start": 472.3,
+  "end": 475.56,
+  "text": "E tu pensi che avresti voluto una chiave inglese, non un foglio di calcolo."
+ },
+ {
+  "i": 130,
+  "start": 476.24,
+  "end": 478.62,
+  "text": "Se è troppo basso, lavori gratis."
+ },
+ {
+  "i": 131,
+  "start": 478.94,
+  "end": 480.34,
+  "text": "Se è troppo alto, perdi il lavoro."
+ },
+ {
+  "i": 132,
+  "start": 481.02,
+  "end": 484.22,
+  "text": "Una trattativa sbagliata ti costa più di una perdita nascosta."
+ },
+ {
+  "i": 133,
+  "start": 485.04,
+  "end": 488.94,
+  "text": "Se lavori nei cantieri, dal duemilaventiquattro serve anche la patente a crediti."
+ },
+ {
+  "i": 134,
+  "start": 489.4,
+  "end": 491.94,
+  "text": "Si parte da trenta crediti, e si possono perdere."
+ },
+ {
+  "i": 135,
+  "start": 492.6,
+  "end": 494.96,
+  "text": "Un cantiere in regola vale più di uno veloce."
+ },
+ {
+  "i": 136,
+  "start": 495.46,
+  "end": 498.52,
+  "text": "Perché un incidente può fermare tutto, per mesi."
+ },
+ {
+  "i": 137,
+  "start": 499.22,
+  "end": 501.9,
+  "text": "E poi ci sono le emergenze: non le puoi programmare."
+ },
+ {
+  "i": 138,
+  "start": 501.9,
+  "end": 508.66,
+  "text": "Un tubo che scoppia di notte, una caldaia ferma a Natale, un allagamento il giorno di festa."
+ },
+ {
+  "i": 139,
+  "start": 509.2,
+  "end": 512.32,
+  "text": "Il tuo telefono è sempre acceso, anche quando sei con la famiglia."
+ },
+ {
+  "i": 140,
+  "start": 513.14,
+  "end": 516.36,
+  "text": "Il costo nascosto non è in busta paga."
+ },
+ {
+  "i": 141,
+  "start": 516.36,
+  "end": 522.18,
+  "text": "È il corpo: schiena, ginocchia, mani, e anni passati in posizioni scomode."
+ },
+ {
+  "i": 142,
+  "start": 522.72,
+  "end": 525.3,
+  "text": "È il freddo, l'umidità, la polvere, i fumi."
+ },
+ {
+  "i": 143,
+  "start": 526.26,
+  "end": 529.26,
+  "text": "È la responsabilità di ogni impianto che hai firmato."
+ },
+ {
+  "i": 144,
+  "start": 529.82,
+  "end": 531.48,
+  "text": "Un impianto fatto bene non si nota."
+ },
+ {
+  "i": 145,
+  "start": 531.88,
+  "end": 534.36,
+  "text": "Uno fatto male può fare danni enormi."
+ },
+ {
+  "i": 146,
+  "start": 535.04,
+  "end": 537.64,
+  "text": "Una famiglia, a casa, sta ad aspettarti la sera."
+ },
+ {
+  "i": 147,
+  "start": 537.64,
+  "end": 539.1,
+  "text": "E il tempo:"
+ },
+ {
+  "i": 148,
+  "start": 540.08,
+  "end": 543.54,
+  "text": "reperibilità, chiamate di notte, domeniche a fare preventivi."
+ },
+ {
+  "i": 149,
+  "start": 544.38,
+  "end": 547.14,
+  "text": "Il tuo nome sul furgone, e il tuo nome sulla dichiarazione."
+ },
+ {
+  "i": 150,
+  "start": 547.88,
+  "end": 551.56,
+  "text": "Ogni lavoro è una firma, e ogni perdita è una piccola ferita."
+ },
+ {
+  "i": 151,
+  "start": 552.26,
+  "end": 554.88,
+  "text": "Torna al bagno allagato, quando avevi diciotto anni."
+ },
+ {
+  "i": 152,
+  "start": 555.5,
+  "end": 557.9,
+  "text": "Il ragazzo in ginocchio non sa ancora tutto questo."
+ },
+ {
+  "i": 153,
+  "start": 558.58,
+  "end": 560.64,
+  "text": "Non sa che il suo lavoro sarà invisibile."
+ },
+ {
+  "i": 154,
+  "start": 560.64,
+  "end": 562.8,
+  "text": "Se l'acqua scorre, nessuno ci pensa."
+ },
+ {
+  "i": 155,
+  "start": 563.44,
+  "end": 566.56,
+  "text": "Se il riscaldamento funziona, nessuno ringrazia chi l'ha installato."
+ },
+ {
+  "i": 156,
+  "start": 567.06,
+  "end": 569.92,
+  "text": "Se qualcosa perde, tutti si ricordano chi l'ha fatto."
+ },
+ {
+  "i": 157,
+  "start": 570.62,
+  "end": 574.1,
+  "text": "Ha scelto un mestiere che porta acqua e calore nelle case degli altri."
+ },
+ {
+  "i": 158,
+  "start": 574.72,
+  "end": 577.14,
+  "text": "E in cambio, passa la vita con le mani nell'acqua fredda."
+ },
+ {
+  "i": 159,
+  "start": 577.78,
+  "end": 580.34,
+  "text": "Se questo video ti è piaciuto, iscriviti al canale."
+ },
+ {
+  "i": 160,
+  "start": 580.34,
+  "end": 584.32,
+  "text": "E scrivi nei commenti: sei idraulico, o sogni di diventarlo?"
+ },
+ {
+  "i": 161,
+  "start": 584.88,
+  "end": 586.92,
+  "text": "Oppure dimmi quale mestiere vuoi vedere dopo."
+ }
+]
