@@ -1,6 +1,7 @@
 import React from 'react';
 export const INK = '#111111';
-export const ACCENT = '#8FD23F';
+import { PROJECT } from './project';
+export const ACCENT = PROJECT === 'pol' ? '#3FA9F5' : '#8FD23F';
 const SK = ['#f0c9a4', '#e0a982', '#c98c63', '#8d5a3b'];
 export type View = 'front' | 'three' | 'side' | 'back';
 export type Expr = 'smile' | 'happy' | 'surprised' | 'concerned' | 'angry' | 'sad' | 'deadpan' | 'panic';
@@ -15,7 +16,16 @@ export const heroAt = (age: number): Outfit => {
   if (age <= 50) return { ...base, torso: '#dfe8f5', trim: '#dfe8f5', pants: '#2a3550', kind: 'shirt', stubble: true, glasses: true, tie: '#a8362f', temples: true };
   return { ...base, hair: '#9a5a3c', torso: '#1f2a3d', trim: '#c33631', pants: '#2a3550', kind: 'jacket', hat: '#c33631', stubble: true, temples: true };
 };
+export const polAt = (age: number): Outfit => {
+  const base = { skin: SK[1], hair: '#2a1c14', hairStyle: 'short' as const, shoes: '#14141a' };
+  if (age <= 26) return { ...base, torso: '#1c3d73', trim: '#3FA9F5', pants: '#16233f', kind: 'jacket', hat: '#1c3d73' };
+  if (age <= 34) return { ...base, torso: '#1c3d73', trim: '#3FA9F5', pants: '#16233f', kind: 'jacket', hat: '#16305c', stubble: true };
+  if (age <= 42) return { ...base, torso: '#2a4f8f', trim: '#e8e2d0', pants: '#16233f', kind: 'vest', hat: '#16305c', stubble: true, temples: true };
+  if (age <= 50) return { ...base, hair: '#5a4a44', torso: '#dfe8f5', trim: '#dfe8f5', pants: '#16233f', kind: 'shirt', stubble: true, glasses: true, tie: '#1c3d73', temples: true };
+  return { ...base, hair: '#b8bcc6', torso: '#23314d', trim: '#3FA9F5', pants: '#16233f', kind: 'blazer', glasses: true, tie: '#3FA9F5', temples: true };
+};
 export const CAST: Record<string, (a?: number) => Outfit> = {
+  pol: (a = 30) => polAt(a),
   rocco: (a = 30) => heroAt(a),
   ciro: () => ({ skin: SK[1], hairStyle: 'bald', torso: '#7a5a3a', trim: '#e8e2d0', pants: '#2a2a30', shoes: '#14141a', kind: 'vest', stache: '#5a4a3a', brow: '#5a4a3a' }),
   marta: () => ({ skin: SK[2], hair: '#2a1a16', hairStyle: 'curly', torso: '#6a4cc0', trim: '#f3efe6', pants: '#22222c', shoes: '#14141a', kind: 'blazer', glasses: true }),

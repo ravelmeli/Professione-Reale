@@ -1,0 +1,854 @@
+[
+ {
+  "i": 0,
+  "start": 0.0,
+  "end": 3.12,
+  "text": "ai 23 anni e sono le due di notte."
+ },
+ {
+  "i": 1,
+  "start": 3.4,
+  "end": 6.74,
+  "text": "Il turno è appena cominciato e la città dorme a metà."
+ },
+ {
+  "i": 2,
+  "start": 7.34,
+  "end": 9.6,
+  "text": "Sul sedile accanto a te, la radio gracchia."
+ },
+ {
+  "i": 3,
+  "start": 9.98,
+  "end": 12.46,
+  "text": "Nessuno sa cosa ti aspetta nella prossima chiamata."
+ },
+ {
+  "i": 4,
+  "start": 12.94,
+  "end": 16.24,
+  "text": "Può essere una lite tra vicini, può essere molto di peggio."
+ },
+ {
+  "i": 5,
+  "start": 16.84,
+  "end": 20.42,
+  "text": "Sul petto hai un distintivo e addosso gli occhi di tutti."
+ },
+ {
+  "i": 6,
+  "start": 21.04,
+  "end": 24.16,
+  "text": "Chi ti ama, chi ti odia, chi ti chiama solo quando ha paura."
+ },
+ {
+  "i": 7,
+  "start": 25.04,
+  "end": 31.52,
+  "text": "Tra vent 'anni potresti dirigere un 'intera questura, oppure potresti ancora girare di notte con la stessa radio."
+ },
+ {
+  "i": 8,
+  "start": 32.12,
+  "end": 35.02,
+  "text": "Questa è la vita di un poliziotto, a ogni livello."
+ },
+ {
+  "i": 9,
+  "start": 35.8,
+  "end": 38.78,
+  "text": "Iscriviti se vuoi sapere cosa c 'è davvero dietro alla divisa."
+ },
+ {
+  "i": 10,
+  "start": 39.84,
+  "end": 40.66,
+  "text": "Livello 1."
+ },
+ {
+  "i": 11,
+  "start": 41.06,
+  "end": 41.82,
+  "text": "Allievo a gente."
+ },
+ {
+  "i": 12,
+  "start": 42.46,
+  "end": 44.82,
+  "text": "Prima della strada c 'è il concorso pubblico."
+ },
+ {
+  "i": 13,
+  "start": 45.28,
+  "end": 49.38,
+  "text": "Prove scritte, prove fisiche, visite mediche, accertamenti psicologici."
+ },
+ {
+  "i": 14,
+  "start": 49.98,
+  "end": 53.84,
+  "text": "Il numero dei posti cambia a ogni bando e i candidati sono sempre molti."
+ },
+ {
+  "i": 15,
+  "start": 54.48,
+  "end": 57.5,
+  "text": "Se lo passi, non vai subito in strada, vai a scuola."
+ },
+ {
+  "i": 16,
+  "start": 57.96,
+  "end": 61.54,
+  "text": "Un corso di formazione, lontano da casa, con orari da caserma."
+ },
+ {
+  "i": 17,
+  "start": 62.2,
+  "end": 65.6,
+  "text": "Studi diritto, procedura, uso della forza, primo soccorso."
+ },
+ {
+  "i": 18,
+  "start": 66.08,
+  "end": 68.86,
+  "text": "Impari a gestire una lite, prima ancora di usare le mani."
+ },
+ {
+  "i": 19,
+  "start": 69.42,
+  "end": 72.88,
+  "text": "Impari che una parola sbagliata può costare più di un errore di tiro."
+ },
+ {
+  "i": 20,
+  "start": 73.54,
+  "end": 76.46,
+  "text": "Ci sono le elezioni di tiro e le prove di difesa personale."
+ },
+ {
+  "i": 21,
+  "start": 76.96,
+  "end": 80.62,
+  "text": "Ci sono le esercitazioni, ripetute finché il gesto diventa automatico."
+ },
+ {
+  "i": 22,
+  "start": 81.24,
+  "end": 85.82,
+  "text": "La divisa va stirata, il saluto va fatto bene, gli orari vanno rispettati."
+ },
+ {
+  "i": 23,
+  "start": 86.5,
+  "end": 89.5,
+  "text": "La disciplina non è un dettaglio, è il centro di tutto."
+ },
+ {
+  "i": 24,
+  "start": 90.32,
+  "end": 96.1,
+  "text": "Alcuni immollano prima della fine e nessuno li giudica, perché questo lavoro non è per tutti, e va bene così."
+ },
+ {
+  "i": 25,
+  "start": 97.18,
+  "end": 99.08,
+  "text": "Quando finisci il corso, giuri."
+ },
+ {
+  "i": 26,
+  "start": 99.62,
+  "end": 102.74,
+  "text": "Poi ti dicono dove andrai e quasi mai e dove vorresti."
+ },
+ {
+  "i": 27,
+  "start": 103.3,
+  "end": 105.98,
+  "text": "Molti iniziano lontano da casa e ci rastano per anni."
+ },
+ {
+  "i": 28,
+  "start": 107.16,
+  "end": 114.2,
+  "text": "Ti ritrovi in una città che non conosci, con colleghi che non conosci, affitti una stanza e conti i giorni prima di tornare a casa."
+ },
+ {
+  "i": 29,
+  "start": 114.82,
+  "end": 117.9,
+  "text": "La famiglia ti aspetta e tu impari a telefonare dopo il turno."
+ },
+ {
+  "i": 30,
+  "start": 118.74,
+  "end": 120.72,
+  "text": "È il prezzo d 'ingresso e lo paghi tu."
+ },
+ {
+  "i": 31,
+  "start": 121.9,
+  "end": 125.36,
+  "text": "Lo stipendio dipende dal grado, dall 'ansianità e dalle indennità."
+ },
+ {
+  "i": 32,
+  "start": 125.96,
+  "end": 129.82,
+  "text": "Una cifra precisa qui non te la diamo, cambia da bando a bando."
+ },
+ {
+  "i": 33,
+  "start": 130.24,
+  "end": 133.04,
+  "text": "Ma una cosa è certa, non entri per diventare ricco."
+ },
+ {
+  "i": 34,
+  "start": 133.32,
+  "end": 135.38,
+  "text": "Entri perché vuoi un lavoro che serva a qualcosa."
+ },
+ {
+  "i": 35,
+  "start": 135.98,
+  "end": 141.28,
+  "text": "E poi arriva il primo turno vero, livello 2, agente in strada."
+ },
+ {
+  "i": 36,
+  "start": 141.94,
+  "end": 143.22,
+  "text": "Ora sei tu, sulla volante."
+ },
+ {
+  "i": 37,
+  "start": 144.08,
+  "end": 147.06,
+  "text": "Il turno può essere di giorno, di sera o di notte."
+ },
+ {
+  "i": 38,
+  "start": 147.46,
+  "end": 150.42,
+  "text": "Si lavora anche nei festivi, e a Natale qualcuno deve esserci."
+ },
+ {
+  "i": 39,
+  "start": 151.26,
+  "end": 153.82,
+  "text": "Le chiamate non arrivano in ordine di importanza."
+ },
+ {
+  "i": 40,
+  "start": 154.24,
+  "end": 157.36,
+  "text": "Primo un furto, poi un incidente, poi una persona che sta male."
+ },
+ {
+  "i": 41,
+  "start": 158.16,
+  "end": 160.58,
+  "text": "Devi decidere in pochi secondi con poche informazioni."
+ },
+ {
+  "i": 42,
+  "start": 161.08,
+  "end": 162.84,
+  "text": "E poi devi scrivere tutto."
+ },
+ {
+  "i": 43,
+  "start": 163.42,
+  "end": 164.9,
+  "text": "Ogni intervento ha il suo verbale."
+ },
+ {
+  "i": 44,
+  "start": 165.5,
+  "end": 169.24,
+  "text": "Chi pensa che il lavoro sia solo in seguimenti non ha mai visto una scrivania."
+ },
+ {
+  "i": 45,
+  "start": 170.26,
+  "end": 173.2,
+  "text": "La carta in questo mestiere pesa quasi quanto la strada."
+ },
+ {
+  "i": 46,
+  "start": 174.0,
+  "end": 177.36,
+  "text": "Una violenza in famiglia, a un posto di blocco, una risa fuori da un locale."
+ },
+ {
+  "i": 47,
+  "start": 177.98,
+  "end": 181.24,
+  "text": "Ogni intervento è diverso e nessuno somiglia al corso."
+ },
+ {
+  "i": 48,
+  "start": 182.2,
+  "end": 184.36,
+  "text": "Con te in macchina c 'è sempre un collega."
+ },
+ {
+  "i": 49,
+  "start": 184.98,
+  "end": 187.6,
+  "text": "Vi fidate l 'uno dell 'altro perché non avete alternativa."
+ },
+ {
+  "i": 50,
+  "start": 188.6,
+  "end": 192.34,
+  "text": "Il pranzo, quando c 'è, lo mangi in fretta, e spesso in piedi."
+ },
+ {
+  "i": 51,
+  "start": 193.04,
+  "end": 196.14,
+  "text": "E certe scene te le porti a casa, anche se non vorresti."
+ },
+ {
+  "i": 52,
+  "start": 196.9,
+  "end": 203.38,
+  "text": "Chiedere aiuto in un ambiente così non è sempre facile, ma imparare a farlo può essere la cosa più intelligente che fai."
+ },
+ {
+  "i": 53,
+  "start": 204.34,
+  "end": 205.66,
+  "text": "Impari a parlare con tutti."
+ },
+ {
+  "i": 54,
+  "start": 206.06,
+  "end": 209.02,
+  "text": "Il ragazzo spaventato, l 'anziano solo, l 'ubriaco aggressivo."
+ },
+ {
+  "i": 55,
+  "start": 209.8,
+  "end": 213.1,
+  "text": "Impari che molte chiamate non sono reati, sono solitudine."
+ },
+ {
+  "i": 56,
+  "start": 213.82,
+  "end": 216.56,
+  "text": "A volte entri in una casa dove nessuno ha più voglia di parlare."
+ },
+ {
+  "i": 57,
+  "start": 217.36,
+  "end": 219.82,
+  "text": "Resti, ascolti e iscrivi quello che serve."
+ },
+ {
+  "i": 58,
+  "start": 220.72,
+  "end": 223.54,
+  "text": "Non risolvi tutto, ma sei lì quando serve."
+ },
+ {
+  "i": 59,
+  "start": 224.5,
+  "end": 226.7,
+  "text": "E impari a stare calmo quando gli altri non lo sono."
+ },
+ {
+  "i": 60,
+  "start": 227.76,
+  "end": 229.28,
+  "text": "Ma impari anche un 'altra cosa."
+ },
+ {
+  "i": 61,
+  "start": 229.9,
+  "end": 231.58,
+  "text": "Non tutti sono felici di vederti."
+ },
+ {
+  "i": 62,
+  "start": 232.26,
+  "end": 234.82,
+  "text": "A volte sei l 'eroe, a volte sei il bersaglio."
+ },
+ {
+  "i": 63,
+  "start": 235.22,
+  "end": 238.74,
+  "text": "Ti insultano, ti filmano, ti giudicano senza conoscere il contesto."
+ },
+ {
+  "i": 64,
+  "start": 239.34,
+  "end": 242.0,
+  "text": "E tu devi restare professionale, anche quando ti costa."
+ },
+ {
+  "i": 65,
+  "start": 242.74,
+  "end": 245.16,
+  "text": "La divisa ti protegge poco e ti spone molto."
+ },
+ {
+  "i": 66,
+  "start": 245.82,
+  "end": 247.08,
+  "text": "E la vita privata?"
+ },
+ {
+  "i": 67,
+  "start": 247.7,
+  "end": 251.16,
+  "text": "Gli orari spezzati e le notti rovinano cene, comple anni, weekend."
+ },
+ {
+  "i": 68,
+  "start": 252.18,
+  "end": 256.0,
+  "text": "Se hai una famiglia, impari a recuperare il tempo in modo diverso."
+ },
+ {
+  "i": 69,
+  "start": 256.34,
+  "end": 260.2,
+  "text": "Se non ce l 'hai ancora, spesso diventa più difficile costruirla."
+ },
+ {
+  "i": 70,
+  "start": 260.62,
+  "end": 263.5,
+  "text": "Dopo qualche anno, però, la strada comincia a stringerti."
+ },
+ {
+  "i": 71,
+  "start": 263.88,
+  "end": 265.0,
+  "text": "Voi capire di più."
+ },
+ {
+  "i": 72,
+  "start": 265.38,
+  "end": 266.54,
+  "text": "Voi arrivare prima."
+ },
+ {
+  "i": 73,
+  "start": 267.36,
+  "end": 268.18,
+  "text": "Livello 3."
+ },
+ {
+  "i": 74,
+  "start": 268.94,
+  "end": 269.52,
+  "text": "Specializzazione."
+ },
+ {
+  "i": 75,
+  "start": 270.12,
+  "end": 272.92,
+  "text": "Dopo l 'esperienza in strada puoi cercare un altro reparto."
+ },
+ {
+  "i": 76,
+  "start": 273.24,
+  "end": 280.3,
+  "text": "Squadra mobile, polizia stradale, polizia di frontiera, polizia scientifica, ognuno ha i suoi compiti e i suoi corsi."
+ },
+ {
+  "i": 77,
+  "start": 280.62,
+  "end": 283.88,
+  "text": "Per entrare in un reparto, spesso devi fare domanda e aspettare."
+ },
+ {
+  "i": 78,
+  "start": 284.34,
+  "end": 287.02,
+  "text": "A volte ti scelgono, a volte resti dove sei."
+ },
+ {
+  "i": 79,
+  "start": 287.64,
+  "end": 291.16,
+  "text": "E se ti scelgono, ricominci da capo, come un novizio."
+ },
+ {
+  "i": 80,
+  "start": 291.94,
+  "end": 296.82,
+  "text": "In squadra mobile esegui le indagini, pedinamenti, intercettazioni, rapporti con la procura."
+ },
+ {
+  "i": 81,
+  "start": 297.28,
+  "end": 300.64,
+  "text": "In polizia stradale controlli gli incidenti e fai respirare le strade."
+ },
+ {
+  "i": 82,
+  "start": 301.1,
+  "end": 308.82,
+  "text": "In polizia scientifica, lavori sulle tracce, impronte, DNA, foto della scena, è un altro mestiere, con un altro ritmo."
+ },
+ {
+  "i": 83,
+  "start": 309.38,
+  "end": 316.58,
+  "text": "Minochiamate improvvise, più pazienza, più dettagli e più responsabilità, anche quando nessuno ti ringrazia."
+ },
+ {
+  "i": 84,
+  "start": 317.16,
+  "end": 325.54,
+  "text": "Poi c 'è il tribunale, puoi essere chiamato a testimoniare su un fatto di anni prima, devi ricordare ogni dettaglio e rispondere solo a ciò che ti chiedono."
+ },
+ {
+  "i": 85,
+  "start": 325.54,
+  "end": 332.36,
+  "text": "L 'avvocato dall 'altra parte non è li per aiutarti e tu devi restare il lucido, preciso, sempre rispettoso."
+ },
+ {
+  "i": 86,
+  "start": 332.8,
+  "end": 335.46,
+  "text": "Un indagine può durare mesi e finire in un fascicolo."
+ },
+ {
+  "i": 87,
+  "start": 335.9,
+  "end": 339.18,
+  "text": "Un errore in un verbale può far cadere tutto davanti al giudice."
+ },
+ {
+  "i": 88,
+  "start": 339.66,
+  "end": 342.22,
+  "text": "Ecco perché si studia ancora, anche dopo anni."
+ },
+ {
+  "i": 89,
+  "start": 342.8,
+  "end": 345.0,
+  "text": "Corsi, aggiornamenti, esami interni."
+ },
+ {
+  "i": 90,
+  "start": 345.66,
+  "end": 348.84,
+  "text": "Le carriere si costruiscono con i concorsi interni e con l 'ansianità."
+ },
+ {
+  "i": 91,
+  "start": 349.34,
+  "end": 352.2,
+  "text": "Passare di qualifica non è un premio, è una selezione."
+ },
+ {
+  "i": 92,
+  "start": 352.2,
+  "end": 356.86,
+  "text": "E non è sempre una questione di merito, a volte è questione di posti disponibili."
+ },
+ {
+  "i": 93,
+  "start": 357.34,
+  "end": 359.8,
+  "text": "E tu lo sai bene, mentre aspetti la graduatoria."
+ },
+ {
+  "i": 94,
+  "start": 360.52,
+  "end": 368.16,
+  "text": "Iscriviti al canale, ogni video racconta un lavoro, un livello alla volta, perché dopo questo livello il ruolo cambia ancora."
+ },
+ {
+  "i": 95,
+  "start": 368.86,
+  "end": 372.02,
+  "text": "Livello quattro, sovrintendente e ispettore."
+ },
+ {
+  "i": 96,
+  "start": 372.48,
+  "end": 375.44,
+  "text": "Dopo molti anni passi dal fare al coordinare."
+ },
+ {
+  "i": 97,
+  "start": 375.94,
+  "end": 380.26,
+  "text": "Ora hai una squadra, la devi organizzare, motivare, proteggere."
+ },
+ {
+  "i": 98,
+  "start": 381.0,
+  "end": 384.88,
+  "text": "Distribuisci i turni, controlli i rapporti, rispondi di chi lavora con te."
+ },
+ {
+  "i": 99,
+  "start": 385.46,
+  "end": 388.08,
+  "text": "Una gente sbaglia e la domanda arriva a te."
+ },
+ {
+  "i": 100,
+  "start": 388.5,
+  "end": 390.24,
+  "text": "Il tuo nome è sotto ogni firma."
+ },
+ {
+  "i": 101,
+  "start": 390.96,
+  "end": 394.72,
+  "text": "Parli con i dirigenti, con i magistrati, con i colleghi di altri corpi."
+ },
+ {
+  "i": 102,
+  "start": 395.32,
+  "end": 397.48,
+  "text": "Non sei più quello che arriva per primo sul posto."
+ },
+ {
+  "i": 103,
+  "start": 398.02,
+  "end": 402.14,
+  "text": "Formi i giovani appena arrivati, come si scrive un verbale, come si tiene la calma."
+ },
+ {
+  "i": 104,
+  "start": 402.88,
+  "end": 406.5,
+  "text": "Tieni i riunioni, scrivi relazioni, rispondi a chi sta sopra di te."
+ },
+ {
+  "i": 105,
+  "start": 407.06,
+  "end": 410.18,
+  "text": "Quando manca personale, gli straordinari sono quasi sempre i tuoi."
+ },
+ {
+  "i": 106,
+  "start": 410.68,
+  "end": 414.42,
+  "text": "E quando una squadra funziona, il merito di solito è di tutti."
+ },
+ {
+  "i": 107,
+  "start": 415.46,
+  "end": 417.98,
+  "text": "Sei quello che deve capire cosa è successo e perché."
+ },
+ {
+  "i": 108,
+  "start": 418.46,
+  "end": 420.5,
+  "text": "Hai meno adrenalina, ma più peso."
+ },
+ {
+  "i": 109,
+  "start": 420.96,
+  "end": 422.36,
+  "text": "E il peso a volte è peggio."
+ },
+ {
+  "i": 110,
+  "start": 422.82,
+  "end": 425.34,
+  "text": "Perché non puoi più dire, lo ha deciso un altro."
+ },
+ {
+  "i": 111,
+  "start": 425.8,
+  "end": 427.84,
+  "text": "Se qualcosa va storto, è la tua firma."
+ },
+ {
+  "i": 112,
+  "start": 428.36,
+  "end": 430.6,
+  "text": "E se va bene, spesso non lo sa nessuno."
+ },
+ {
+  "i": 113,
+  "start": 431.2,
+  "end": 434.26,
+  "text": "Livello cinque, funzionario e dirigente."
+ },
+ {
+  "i": 114,
+  "start": 434.88,
+  "end": 438.56,
+  "text": "Per diventare commissario serve un concorso diverso, con una laurea."
+ },
+ {
+  "i": 115,
+  "start": 439.06,
+  "end": 443.14,
+  "text": "Poi si sale, vice quest 'ore, primo dirigente, fino al quest 'ore."
+ },
+ {
+  "i": 116,
+  "start": 443.7,
+  "end": 447.02,
+  "text": "Non sei più sulla strada, e a volte nemmeno nell 'ufficio operativo."
+ },
+ {
+  "i": 117,
+  "start": 447.78,
+  "end": 451.88,
+  "text": "Decidi come usare uomini, mezzi e risorse di un intero territorio."
+ },
+ {
+  "i": 118,
+  "start": 452.4,
+  "end": 455.02,
+  "text": "Parli con il prefetto, con il sindaco, con la stampa."
+ },
+ {
+  "i": 119,
+  "start": 455.62,
+  "end": 460.24,
+  "text": "Partecipi al comitato per l 'ordine e la sicurezza pubblica, insieme alle altre istituzioni."
+ },
+ {
+  "i": 120,
+  "start": 460.24,
+  "end": 464.9,
+  "text": "Pianifichi i grandi eventi, una partita, un corteo, una visita ufficiale."
+ },
+ {
+  "i": 121,
+  "start": 465.64,
+  "end": 468.32,
+  "text": "Una manifestazione può passare tranquilla, oppure no."
+ },
+ {
+  "i": 122,
+  "start": 468.8,
+  "end": 471.06,
+  "text": "E tu devi aver previsto intrambe le possibilità."
+ },
+ {
+  "i": 123,
+  "start": 472.02,
+  "end": 475.0,
+  "text": "Quando succede qualcosa di grave, la prima domanda è a te."
+ },
+ {
+  "i": 124,
+  "start": 475.6,
+  "end": 477.72,
+  "text": "Ti tocca spiegare agli altri cose successo."
+ },
+ {
+  "i": 125,
+  "start": 478.1,
+  "end": 481.48,
+  "text": "E ti tocca spiegare ai tuoi uomini perché a volte non è andata bene."
+ },
+ {
+  "i": 126,
+  "start": 482.14,
+  "end": 484.72,
+  "text": "Ogni decisione ha un peso politico, oltre che operativo."
+ },
+ {
+  "i": 127,
+  "start": 485.5,
+  "end": 487.44,
+  "text": "Un 'operazione ben riuscita fa bene a tutti."
+ },
+ {
+  "i": 128,
+  "start": 488.15,
+  "end": 493.64,
+  "text": "Chi comanda non è davvero solo, ma la decisione finale resta sua."
+ },
+ {
+  "i": 129,
+  "start": 494.06,
+  "end": 496.24,
+  "text": "E nessuno lo aiuta a portarne il peso a casa."
+ },
+ {
+  "i": 130,
+  "start": 496.9,
+  "end": 499.5,
+  "text": "Un errore finisceommi sui giornali con il tuo nome."
+ },
+ {
+  "i": 131,
+  "start": 500.04,
+  "end": 504.2,
+  "text": "Lo stipendio cresce con il grado, ma la pressione cresce di più."
+ },
+ {
+  "i": 132,
+  "start": 504.76,
+  "end": 508.62,
+  "text": "E il tempo per te, a questo punto, è quasi sempre l 'ultima voce."
+ },
+ {
+  "i": 133,
+  "start": 509.34,
+  "end": 517.7,
+  "text": "Eppure molti dicono di non aver cambiato mestiere nemmeno una volta, perché sanno che, da qualche parte, qualcuno è più al sicuro grazie a loro."
+ },
+ {
+  "i": 134,
+  "start": 518.24,
+  "end": 521.38,
+  "text": "Sanno che la divisa è una promessa fatta sconosciuti."
+ },
+ {
+  "i": 135,
+  "start": 522.02,
+  "end": 525.7,
+  "text": "Sanno che non sempre vincono, ma che provano ogni volta."
+ },
+ {
+  "i": 136,
+  "start": 526.44,
+  "end": 531.26,
+  "text": "Sanno che il rispetto non si pretende, si guadagna, turno dopo turno."
+ },
+ {
+  "i": 137,
+  "start": 531.9,
+  "end": 534.72,
+  "text": "Questa è la vita di un poliziotto, a ogni livello."
+ },
+ {
+  "i": 138,
+  "start": 535.32,
+  "end": 538.48,
+  "text": "Non è un film, non è una serie, non è solo coraggio."
+ },
+ {
+  "i": 139,
+  "start": 538.48,
+  "end": 543.16,
+  "text": "È turni, verbali, attese e poche parole di gratitudine."
+ },
+ {
+  "i": 140,
+  "start": 543.98,
+  "end": 547.38,
+  "text": "Ma per qualcuno è il lavoro che dà un senso a tutto il resto."
+ },
+ {
+  "i": 141,
+  "start": 548.3,
+  "end": 556.84,
+  "text": "Se ti è piaciuto iscriviti al canale, scrivimi nei commenti, ti sentiresti pronto a fare questo lavoro e dimmi quale professione vuoi vedere nel prossimo video."
+ }
+]
