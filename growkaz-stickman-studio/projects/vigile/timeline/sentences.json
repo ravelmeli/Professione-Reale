@@ -1,0 +1,920 @@
+[
+ {
+  "i": 0,
+  "start": 0.0,
+  "end": 3.14,
+  "text": "hai 24 anni e sono le tre di notte."
+ },
+ {
+  "i": 1,
+  "start": 3.54,
+  "end": 6.92,
+  "text": "La sirena suona e in pochi secondi sei già in piedi."
+ },
+ {
+  "i": 2,
+  "start": 7.44,
+  "end": 10.9,
+  "text": "Stivali, giacca, casco li hai preparati prima di dormire."
+ },
+ {
+  "i": 3,
+  "start": 11.48,
+  "end": 14.32,
+  "text": "Nessuno sa dove andrete, finché il camion non esce dal portone."
+ },
+ {
+  "i": 4,
+  "start": 14.86,
+  "end": 16.08,
+  "text": "Può essere un gatto su un albero."
+ },
+ {
+  "i": 5,
+  "start": 16.52,
+  "end": 17.94,
+  "text": "Può essere una casa in fiamme."
+ },
+ {
+  "i": 6,
+  "start": 18.5,
+  "end": 21.28,
+  "text": "Quando gli altri scappano, tu corriverso il problema."
+ },
+ {
+  "i": 7,
+  "start": 22.0,
+  "end": 25.44,
+  "text": "Chi ti chiama non ti conosce, ma ti aspetta come se ti conoscesse da sempre."
+ },
+ {
+  "i": 8,
+  "start": 26.28,
+  "end": 33.18,
+  "text": "Tra vent 'anni potresti comandare un intero comando provinciale, oppure potresti ancora salire sul camion con lo stesso casco."
+ },
+ {
+  "i": 9,
+  "start": 33.78,
+  "end": 36.88,
+  "text": "Questa è la vita di un vigile del fuoco, a ogni livello."
+ },
+ {
+  "i": 10,
+  "start": 37.52,
+  "end": 40.7,
+  "text": "Iscriviti se vuoi sapere cosa c 'è davvero dietro il casco rosso."
+ },
+ {
+  "i": 11,
+  "start": 41.36,
+  "end": 41.94,
+  "text": "Livello 1."
+ },
+ {
+  "i": 12,
+  "start": 42.34,
+  "end": 43.66,
+  "text": "Allievo vigile del fuoco."
+ },
+ {
+  "i": 13,
+  "start": 44.24,
+  "end": 46.3,
+  "text": "Prima del camion c 'è il concorso pubblico."
+ },
+ {
+  "i": 14,
+  "start": 46.64,
+  "end": 50.74,
+  "text": "Prove scritte, prove fisiche, visite mediche, accertamenti attitudinali."
+ },
+ {
+  "i": 15,
+  "start": 51.34,
+  "end": 55.08,
+  "text": "Il numero dei posti cambia ogni bando e i candidati sono sempre molti."
+ },
+ {
+  "i": 16,
+  "start": 55.92,
+  "end": 59.5,
+  "text": "Le prove fisiche non perdonano, o le superi o resti fuori."
+ },
+ {
+  "i": 17,
+  "start": 60.14,
+  "end": 63.44,
+  "text": "Se ce la fai, non vai subito a spegnere incendi, vai a scuola."
+ },
+ {
+  "i": 18,
+  "start": 64.0,
+  "end": 67.16,
+  "text": "Un corso di formazione con orari da caserma e ritmi duri."
+ },
+ {
+  "i": 19,
+  "start": 67.68,
+  "end": 72.02,
+  "text": "Studi tecniche d 'intervento, soccorso, materiali pericolosi, primo soccorso."
+ },
+ {
+  "i": 20,
+  "start": 72.62,
+  "end": 74.9,
+  "text": "Impari a leggere un incendio prima di entrarci."
+ },
+ {
+  "i": 21,
+  "start": 75.24,
+  "end": 77.72,
+  "text": "Impari che il fuoco non si combatte solo con l 'acqua."
+ },
+ {
+  "i": 22,
+  "start": 78.46,
+  "end": 82.06,
+  "text": "Ci sono le esercitazioni con le scale, le corde, i simulatori di fumo."
+ },
+ {
+  "i": 23,
+  "start": 82.52,
+  "end": 86.28,
+  "text": "Ci sono le prove con l 'autorespiratore, quando l 'aria che respiri è contata."
+ },
+ {
+  "i": 24,
+  "start": 87.04,
+  "end": 87.72,
+  "text": "La paura serve."
+ },
+ {
+  "i": 25,
+  "start": 88.22,
+  "end": 89.74,
+  "text": "Ti tieni attento, ti tieni vivo."
+ },
+ {
+  "i": 26,
+  "start": 90.58,
+  "end": 92.64,
+  "text": "La disciplina conta quanto il coraggio."
+ },
+ {
+  "i": 27,
+  "start": 93.1,
+  "end": 99.06,
+  "text": "Ogni attrezzo al suo posto e ogni gesto al suo ordine, perché in un intervento vero non c 'è tempo per cercare."
+ },
+ {
+  "i": 28,
+  "start": 99.84,
+  "end": 104.66,
+  "text": "Alcuni mollano prima della fine e nessuno li giudica, perché questo lavoro non è per tutti."
+ },
+ {
+  "i": 29,
+  "start": 104.96,
+  "end": 105.64,
+  "text": "E va bene così."
+ },
+ {
+  "i": 30,
+  "start": 106.38,
+  "end": 108.22,
+  "text": "Quando finisci il corso, giuri."
+ },
+ {
+  "i": 31,
+  "start": 108.72,
+  "end": 111.66,
+  "text": "Poi ti dicono dove andrai, e quasi mai a dove vorresti."
+ },
+ {
+  "i": 32,
+  "start": 112.32,
+  "end": 115.04,
+  "text": "Molti iniziano lontano da casa e ci restano per anni."
+ },
+ {
+  "i": 33,
+  "start": 115.7,
+  "end": 118.98,
+  "text": "Ti ritrovi in una città nuova, con una squadra che non conosce."
+ },
+ {
+  "i": 34,
+  "start": 119.44,
+  "end": 123.56,
+  "text": "Affitti una stanza e aspetti il giorno in cui potrai chiedere un trasferimento."
+ },
+ {
+  "i": 35,
+  "start": 124.28,
+  "end": 126.58,
+  "text": "È il prezzo d 'ingresso e lo paghi tu."
+ },
+ {
+  "i": 36,
+  "start": 127.7,
+  "end": 130.98,
+  "text": "Lo stipendio dipende dal grado, dall 'ansianità e dalle indenità."
+ },
+ {
+  "i": 37,
+  "start": 131.76,
+  "end": 135.52,
+  "text": "Una cifra precisa qui non te la diamo, cambia da contratto a contratto."
+ },
+ {
+  "i": 38,
+  "start": 136.1,
+  "end": 137.24,
+  "text": "Ma una cosa è certa."
+ },
+ {
+  "i": 39,
+  "start": 137.94,
+  "end": 139.36,
+  "text": "Non entri per diventare ricco."
+ },
+ {
+  "i": 40,
+  "start": 140.1,
+  "end": 142.74,
+  "text": "Entri perché vuoi un lavoro che serva davvero a qualcuno."
+ },
+ {
+  "i": 41,
+  "start": 143.86,
+  "end": 145.86,
+  "text": "E poi arriva il primo turno vero."
+ },
+ {
+  "i": 42,
+  "start": 146.74,
+  "end": 147.32,
+  "text": "Livello 2."
+ },
+ {
+  "i": 43,
+  "start": 148.08,
+  "end": 149.1,
+  "text": "Vigile del fuoco."
+ },
+ {
+  "i": 44,
+  "start": 150.04,
+  "end": 151.78,
+  "text": "Ora sei tu sul camion."
+ },
+ {
+  "i": 45,
+  "start": 152.48,
+  "end": 154.76,
+  "text": "Il turno comincia con il cambio di consegne."
+ },
+ {
+  "i": 46,
+  "start": 155.26,
+  "end": 158.48,
+  "text": "Controlli il mezzo, le bombole, la radio, ogni attrezzo."
+ },
+ {
+  "i": 47,
+  "start": 159.12,
+  "end": 159.92,
+  "text": "Poi aspetti."
+ },
+ {
+  "i": 48,
+  "start": 160.68,
+  "end": 162.8,
+  "text": "Aspettare a una parte enorme del mestiere."
+ },
+ {
+  "i": 49,
+  "start": 163.44,
+  "end": 167.06,
+  "text": "Si pulisce recording il mezzo, si studia, ci si allena, si mangia insieme."
+ },
+ {
+  "i": 50,
+  "start": 167.68,
+  "end": 169.94,
+  "text": "In caserma si crea una famiglia, che ti piaccia o no."
+ },
+ {
+  "i": 51,
+  "start": 170.92,
+  "end": 174.52,
+  "text": "Ma ogni ora può finire in un secondo con una sola sirena."
+ },
+ {
+  "i": 52,
+  "start": 175.3,
+  "end": 178.88,
+  "text": "Il turno non guarda il loro loggio, copre il giorno e copre la notte."
+ },
+ {
+  "i": 53,
+  "start": 179.4,
+  "end": 182.12,
+  "text": "I tuoi amici ti invitano e tu spesso devi dire di no."
+ },
+ {
+  "i": 54,
+  "start": 183.1,
+  "end": 186.26,
+  "text": "Poi la sirena suona ed è sempre un 'altra cosa."
+ },
+ {
+  "i": 55,
+  "start": 187.24,
+  "end": 194.96,
+  "text": "Un incendio, un 'incidente stradale, una fuga di gas, un albero caduto, un allagamento, un crollo, un terremoto,"
+ },
+ {
+  "i": 56,
+  "start": 195.82,
+  "end": 197.62,
+  "text": "una persona rimasta chiusa in ascensore,"
+ },
+ {
+  "i": 57,
+  "start": 198.52,
+  "end": 201.5,
+  "text": "un 'animale in difficoltà e una bambina che piange accanto a lui,"
+ },
+ {
+  "i": 58,
+  "start": 202.44,
+  "end": 205.4,
+  "text": "un 'auto accartocciata e qualcuno ancora dentro,"
+ },
+ {
+  "i": 59,
+  "start": 206.32,
+  "end": 209.18,
+  "text": "un tetto che cede e una famiglia che guarda dalla strada."
+ },
+ {
+  "i": 60,
+  "start": 210.02,
+  "end": 212.58,
+  "text": "Nessuno chiama i vigili del fuoco per una cosa semplice."
+ },
+ {
+  "i": 61,
+  "start": 213.28,
+  "end": 216.44,
+  "text": "Chi ti chiama, di solito, è nel giorno peggiore della sua vita."
+ },
+ {
+  "i": 62,
+  "start": 217.42,
+  "end": 219.84,
+  "text": "Tu arrivi e per un attimo sei l 'unica speranza."
+ },
+ {
+  "i": 63,
+  "start": 220.74,
+  "end": 223.98,
+  "text": "Sul camion, ognuno ha il suo ruolo e nessuno lo sceglie da solo."
+ },
+ {
+  "i": 64,
+  "start": 224.6,
+  "end": 227.66,
+  "text": "Che guida, chi sale per primo, chi tiene la manichetta."
+ },
+ {
+  "i": 65,
+  "start": 228.6,
+  "end": 230.44,
+  "text": "Dentro il fumo non vedi quasi niente."
+ },
+ {
+  "i": 66,
+  "start": 231.22,
+  "end": 234.6,
+  "text": "Il calore ti schiaccia e ogni passo costa più del precedente."
+ },
+ {
+  "i": 67,
+  "start": 235.5,
+  "end": 237.78,
+  "text": "Ti muovi a tastoni lungo un muro che non vedi."
+ },
+ {
+  "i": 68,
+  "start": 238.56,
+  "end": 241.9,
+  "text": "Senti solo il respiro, il calore e la voce del compagno."
+ },
+ {
+  "i": 69,
+  "start": 242.6,
+  "end": 245.64,
+  "text": "Impari presto che il lavoro è di squadra e mai di un eroe."
+ },
+ {
+  "i": 70,
+  "start": 246.6,
+  "end": 248.54,
+  "text": "Dopo l 'intervento si torna in caserma."
+ },
+ {
+  "i": 71,
+  "start": 249.2,
+  "end": 252.34,
+  "text": "Si lavano i mezzi, si ricontrola tutto, si scrive il rapporto."
+ },
+ {
+  "i": 72,
+  "start": 252.76,
+  "end": 256.38,
+  "text": "Non è mai finita finché non è tutto pronto per la prossima volta."
+ },
+ {
+  "i": 73,
+  "start": 257.16,
+  "end": 258.36,
+  "text": "Il corpo si sente."
+ },
+ {
+  "i": 74,
+  "start": 258.66,
+  "end": 260.98,
+  "text": "Dopo anni di peso addosso e di notti spezzate."
+ },
+ {
+  "i": 75,
+  "start": 261.58,
+  "end": 264.14,
+  "text": "La mente si sente di più, dopo certe cose."
+ },
+ {
+  "i": 76,
+  "start": 264.84,
+  "end": 267.88,
+  "text": "Ci sono interventi che non dimentichi, anche se non gli racconti."
+ },
+ {
+  "i": 77,
+  "start": 268.4,
+  "end": 270.16,
+  "text": "Si parla poco, ma si resta vicini."
+ },
+ {
+  "i": 78,
+  "start": 270.68,
+  "end": 277.68,
+  "text": "A volte basta un caffè in cucina alle 5 del mattino, chiedere aiuto non è sempre facile, ma è più umano di quanto sembri."
+ },
+ {
+  "i": 79,
+  "start": 278.3,
+  "end": 281.12,
+  "text": "E poi c 'è l 'altra faccia, quella che ripaga di tutto."
+ },
+ {
+  "i": 80,
+  "start": 281.8,
+  "end": 284.72,
+  "text": "Una persona salvata che ti stringe la mano senza parole."
+ },
+ {
+  "i": 81,
+  "start": 285.4,
+  "end": 288.22,
+  "text": "Una bambina che saluta il camion quando passa per strada."
+ },
+ {
+  "i": 82,
+  "start": 288.78,
+  "end": 291.9,
+  "text": "È quella faccia che ti fa restare, anche quando sei stanco."
+ },
+ {
+  "i": 83,
+  "start": 292.9,
+  "end": 294.88,
+  "text": "Livello 3, specializzazione."
+ },
+ {
+  "i": 84,
+  "start": 295.78,
+  "end": 298.76,
+  "text": "Dopo qualche anno puoi scegliere di non fare solo il generico."
+ },
+ {
+  "i": 85,
+  "start": 299.28,
+  "end": 302.02,
+  "text": "Il corpo ha squadre e nuclei per cose molto particolari."
+ },
+ {
+  "i": 86,
+  "start": 302.82,
+  "end": 306.62,
+  "text": "Ci sono i somozzatori che entrano nell 'acqua dove nessuno vuole entrare."
+ },
+ {
+  "i": 87,
+  "start": 307.16,
+  "end": 310.9,
+  "text": "Ci sono i cinofili, con cani addestrate a cercare persone sotto le macerie."
+ },
+ {
+  "i": 88,
+  "start": 311.52,
+  "end": 316.04,
+  "text": "Ci sono gli specialisti che lavorano con corde di slivelli, su pareti e crolli."
+ },
+ {
+  "i": 89,
+  "start": 316.7,
+  "end": 320.12,
+  "text": "Ci sono le squadre per i materiali pericolosi e per i rischi chimici."
+ },
+ {
+  "i": 90,
+  "start": 320.8,
+  "end": 324.74,
+  "text": "Ci sono gli elicotteristi che salvano dall 'alto, quando la strada non basta."
+ },
+ {
+  "i": 91,
+  "start": 325.52,
+  "end": 329.14,
+  "text": "Ci sono le squadre per i terremoti, che cercano vite sotto i palazzi."
+ },
+ {
+  "i": 92,
+  "start": 329.96,
+  "end": 333.54,
+  "text": "Ogni una richiede corsi, addestramento e una testa particolare."
+ },
+ {
+  "i": 93,
+  "start": 334.14,
+  "end": 335.12,
+  "text": "Non basta il coraggio."
+ },
+ {
+  "i": 94,
+  "start": 335.58,
+  "end": 338.26,
+  "text": "Servono pazienza, preparazione, sangue freddo."
+ },
+ {
+  "i": 95,
+  "start": 339.06,
+  "end": 342.08,
+  "text": "Molte specialità richiedono anni, e non tutti ce la fanno."
+ },
+ {
+  "i": 96,
+  "start": 343.08,
+  "end": 345.74,
+  "text": "Chi ci riesce però cambia il modo di fare questo mestiere."
+ },
+ {
+  "i": 97,
+  "start": 346.34,
+  "end": 348.38,
+  "text": "Interviene dove i mezzi normali non arrivano."
+ },
+ {
+  "i": 98,
+  "start": 348.86,
+  "end": 351.6,
+  "text": "Lavora in luoghi dove un errore costa la vita, anche la sua."
+ },
+ {
+  "i": 99,
+  "start": 352.6,
+  "end": 356.1,
+  "text": "Per questo la specializzazione non è un premio, è una responsabilità."
+ },
+ {
+  "i": 100,
+  "start": 356.68,
+  "end": 361.04,
+  "text": "Si continua ad allenarsi, a studiare, a ripetere, finché il gesto è sicuro."
+ },
+ {
+  "i": 101,
+  "start": 361.64,
+  "end": 364.84,
+  "text": "Perché in questo lavoro ci si prepara ciò che spera di non vedere mai."
+ },
+ {
+  "i": 102,
+  "start": 366.02,
+  "end": 367.04,
+  "text": "Iscriviti al canale."
+ },
+ {
+  "i": 103,
+  "start": 367.46,
+  "end": 370.06,
+  "text": "Ogni video racconta un lavoro, un livello alla volta."
+ },
+ {
+  "i": 104,
+  "start": 371.08,
+  "end": 373.86,
+  "text": "Livello quattro, capo squadra e capo reparto."
+ },
+ {
+  "i": 105,
+  "start": 374.68,
+  "end": 376.9,
+  "text": "Con gli anni la responsabilità cambia peso."
+ },
+ {
+  "i": 106,
+  "start": 377.36,
+  "end": 381.84,
+  "text": "Quando diventi capo squadra o capo reparto non guidi più solo un mezzo o una squadra."
+ },
+ {
+  "i": 107,
+  "start": 382.24,
+  "end": 384.62,
+  "text": "Guidi un pezzo di struttura, una funzione."
+ },
+ {
+  "i": 108,
+  "start": 385.44,
+  "end": 389.3,
+  "text": "Non sei più solo uno che esegue, sei uno che decide."
+ },
+ {
+  "i": 109,
+  "start": 390.0,
+  "end": 394.3,
+  "text": "Il capo squadra arriva sul posto e deve capire in pochi secondi cosa fare."
+ },
+ {
+  "i": 110,
+  "start": 394.74,
+  "end": 397.56,
+  "text": "Che mezzi servono, quante persone e da dove si entra."
+ },
+ {
+  "i": 111,
+  "start": 398.18,
+  "end": 400.94,
+  "text": "Che cosa si salva per primo e cosa si lascia al fuoco."
+ },
+ {
+  "i": 112,
+  "start": 401.6,
+  "end": 404.4,
+  "text": "Una scelta sbagliata qui la pagano i tuoi uomini."
+ },
+ {
+  "i": 113,
+  "start": 404.94,
+  "end": 409.64,
+  "text": "Una scelta giusta a volte non la noterà nessuno, ma tu lo sai e tanto basta."
+ },
+ {
+  "i": 114,
+  "start": 410.5,
+  "end": 413.36,
+  "text": "Guidi una squadra che ti guarda, soprattutto quando non sai cosa fare."
+ },
+ {
+  "i": 115,
+  "start": 413.96,
+  "end": 416.86,
+  "text": "Devi mantenere la calma anche quando dentro non ce l 'hai."
+ },
+ {
+  "i": 116,
+  "start": 417.42,
+  "end": 422.9,
+  "text": "Devi dare ordini chiari, senza alzare la voce e devi ascoltare chi è esperienza, anche se sei tu il capo."
+ },
+ {
+  "i": 117,
+  "start": 423.5,
+  "end": 426.76,
+  "text": "Il rispetto qui si costruisce con l 'esempio, non con il grado."
+ },
+ {
+  "i": 118,
+  "start": 427.6,
+  "end": 429.98,
+  "text": "Poi ti tocca la parte che nessuno racconta."
+ },
+ {
+  "i": 119,
+  "start": 429.98,
+  "end": 431.02,
+  "text": "Le carte."
+ },
+ {
+  "i": 120,
+  "start": 431.56,
+  "end": 435.22,
+  "text": "Rapporti, relazioni, turni da organizzare, verifiche da firmare."
+ },
+ {
+  "i": 121,
+  "start": 435.92,
+  "end": 439.62,
+  "text": "Un capo reparto coordina più squadre e risponde di quello che succede."
+ },
+ {
+  "i": 122,
+  "start": 440.18,
+  "end": 443.72,
+  "text": "Non sempre sei sul camion, a volte sei al telefono a coordinare tutto."
+ },
+ {
+  "i": 123,
+  "start": 444.24,
+  "end": 447.6,
+  "text": "E quando qualcosa va storto, la domanda arriva a te."
+ },
+ {
+  "i": 124,
+  "start": 448.48,
+  "end": 451.84,
+  "text": "Il passaggio di qualifica avviene con concorsi interni e anzianità."
+ },
+ {
+  "i": 125,
+  "start": 452.42,
+  "end": 455.5,
+  "text": "Chi vuole salire deve studiare anche dopo anni di turni."
+ },
+ {
+  "i": 126,
+  "start": 455.58,
+  "end": 459.78,
+  "text": "Ma è il modo per non restare sempre uguale e per scegliere dove andare."
+ },
+ {
+  "i": 127,
+  "start": 460.48,
+  "end": 462.74,
+  "text": "Ci sono capi che ripetono sempre la stessa frase."
+ },
+ {
+  "i": 128,
+  "start": 463.28,
+  "end": 464.86,
+  "text": "Prima si torna a casa tutti."
+ },
+ {
+  "i": 129,
+  "start": 465.48,
+  "end": 468.3,
+  "text": "Non è uno slogan, è la regola che pesa più di tutte."
+ },
+ {
+  "i": 130,
+  "start": 469.26,
+  "end": 469.92,
+  "text": "Livello 5."
+ },
+ {
+  "i": 131,
+  "start": 470.42,
+  "end": 471.82,
+  "text": "Funzionario e comandante."
+ },
+ {
+  "i": 132,
+  "start": 472.66,
+  "end": 475.96,
+  "text": "In cima ci sono i funzionari tecnici, che spesso sono ingegneri."
+ },
+ {
+  "i": 133,
+  "start": 476.46,
+  "end": 479.08,
+  "text": "Ci si arriva con un concorso e con una laurea tecnica."
+ },
+ {
+  "i": 134,
+  "start": 479.6,
+  "end": 482.74,
+  "text": "Poi si cresce fino a dirigere un intero comando provinciale."
+ },
+ {
+  "i": 135,
+  "start": 483.38,
+  "end": 487.48,
+  "text": "Il comandante non sale più sul camion ogni giorno, ma risponde di tutto."
+ },
+ {
+  "i": 136,
+  "start": 487.96,
+  "end": 490.2,
+  "text": "Vomini, mezzi, sedi, emergenze."
+ },
+ {
+  "i": 137,
+  "start": 490.86,
+  "end": 494.38,
+  "text": "Quando c 'è un disastro, è lui a coordinare e lui a decidere."
+ },
+ {
+  "i": 138,
+  "start": 494.96,
+  "end": 497.94,
+  "text": "Lavora con il prefetto, con i sindaci, con la protezione civile."
+ },
+ {
+  "i": 139,
+  "start": 498.68,
+  "end": 501.3,
+  "text": "Si occupa anche di prevenzione e non solo di emergenze."
+ },
+ {
+  "i": 140,
+  "start": 501.8,
+  "end": 508.56,
+  "text": "Controlla che un teatro o una scuola, un albergo siano a norma, perché il miglior incendio è quello che non si accende mai."
+ },
+ {
+  "i": 141,
+  "start": 509.14,
+  "end": 511.86,
+  "text": "E poi risponde davvero a chi ha perso qualcosa."
+ },
+ {
+  "i": 142,
+  "start": 512.86,
+  "end": 516.08,
+  "text": "Il peso della responsabilità si sente nelle ore più normali."
+ },
+ {
+  "i": 143,
+  "start": 516.38,
+  "end": 522.36,
+  "text": "Per esempio, quando il telefono squilla alle quattro del mattino, resta la responsabilità, che non si lascia in ufficio."
+ },
+ {
+  "i": 144,
+  "start": 523.06,
+  "end": 529.28,
+  "text": "Molti ricordano ancora il primo intervento anche dopo trent 'anni, ma quasi nessuno rinuncierebbe a quello che ha imparato."
+ },
+ {
+  "i": 145,
+  "start": 529.92,
+  "end": 537.14,
+  "text": "Eppure molti dicono di non aver cambiato mestiere nemmeno una volta, perché sanno che da qualche parte qualcuno è vivo grazie a loro."
+ },
+ {
+  "i": 146,
+  "start": 537.86,
+  "end": 540.34,
+  "text": "Sanno che il casco è una promessa fatta sconosciuti."
+ },
+ {
+  "i": 147,
+  "start": 540.8,
+  "end": 545.38,
+  "text": "Sanno che il rispetto non si pretende, si guadagna, intervento dopo intervento."
+ },
+ {
+  "i": 148,
+  "start": 545.92,
+  "end": 549.02,
+  "text": "Questa è la vita di un vigile del fuoco, a ogni livello."
+ },
+ {
+  "i": 149,
+  "start": 549.6,
+  "end": 552.74,
+  "text": "Non è un film, non è una serie, non è solo coraggio."
+ },
+ {
+  "i": 150,
+  "start": 553.42,
+  "end": 557.82,
+  "text": "È turni, esercitazioni, attese e poche parole di gratitudine."
+ },
+ {
+  "i": 151,
+  "start": 558.42,
+  "end": 561.52,
+  "text": "Ma per qualcuno è il lavoro che dà un senso a tutto il resto."
+ },
+ {
+  "i": 152,
+  "start": 562.26,
+  "end": 570.58,
+  "text": "Se ti è piaciuto, iscriviti al canale, scrivimi nei commenti, ti sentiresti pronto a fare questo lavoro e dimmi quale professione vuoi vedere nel prossimo video."
+ }
+]

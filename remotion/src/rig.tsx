@@ -1,7 +1,7 @@
 import React from 'react';
 export const INK = '#111111';
 import { PROJECT } from './project';
-export const ACCENT = PROJECT === 'pol' ? '#3FA9F5' : '#8FD23F';
+export const ACCENT = PROJECT === 'pol' ? '#3FA9F5' : PROJECT === 'fire' ? '#FF5A36' : '#8FD23F';
 const SK = ['#f0c9a4', '#e0a982', '#c98c63', '#8d5a3b'];
 export type View = 'front' | 'three' | 'side' | 'back';
 export type Expr = 'smile' | 'happy' | 'surprised' | 'concerned' | 'angry' | 'sad' | 'deadpan' | 'panic';
@@ -24,8 +24,17 @@ export const polAt = (age: number): Outfit => {
   if (age <= 50) return { ...base, hair: '#5a4a44', torso: '#dfe8f5', trim: '#dfe8f5', pants: '#16233f', kind: 'shirt', stubble: true, glasses: true, tie: '#1c3d73', temples: true };
   return { ...base, hair: '#b8bcc6', torso: '#23314d', trim: '#3FA9F5', pants: '#16233f', kind: 'blazer', glasses: true, tie: '#3FA9F5', temples: true };
 };
+export const fireAt = (age: number): Outfit => {
+  const base = { skin: SK[1], hair: '#3a2418', hairStyle: 'short' as const, shoes: '#14141a' };
+  if (age <= 27) return { ...base, torso: '#b3261e', trim: '#ffd23f', pants: '#2a2f3c', kind: 'jacket', hat: '#b3261e' };
+  if (age <= 36) return { ...base, torso: '#b3261e', trim: '#ffd23f', pants: '#2a2f3c', kind: 'hivis', hat: '#8e1c16', stubble: true };
+  if (age <= 46) return { ...base, torso: '#c4301f', trim: '#e8e2d0', pants: '#1f2430', kind: 'vest', hat: '#8e1c16', stubble: true, temples: true };
+  if (age <= 54) return { ...base, hair: '#5a4a44', torso: '#dfe8f5', trim: '#dfe8f5', pants: '#1f2430', kind: 'shirt', stubble: true, glasses: true, tie: '#b3261e', temples: true };
+  return { ...base, hair: '#b8bcc6', torso: '#1f2a3d', trim: '#ff5a36', pants: '#1f2430', kind: 'blazer', glasses: true, tie: '#b3261e', temples: true };
+};
 export const CAST: Record<string, (a?: number) => Outfit> = {
   pol: (a = 30) => polAt(a),
+  fire: (a = 30) => fireAt(a),
   rocco: (a = 30) => heroAt(a),
   ciro: () => ({ skin: SK[1], hairStyle: 'bald', torso: '#7a5a3a', trim: '#e8e2d0', pants: '#2a2a30', shoes: '#14141a', kind: 'vest', stache: '#5a4a3a', brow: '#5a4a3a' }),
   marta: () => ({ skin: SK[2], hair: '#2a1a16', hairStyle: 'curly', torso: '#6a4cc0', trim: '#f3efe6', pants: '#22222c', shoes: '#14141a', kind: 'blazer', glasses: true }),

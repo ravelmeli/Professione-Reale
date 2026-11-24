@@ -3,8 +3,9 @@ import { Cam, L, W as CW, H, FLOOR, S, Poly, Ln, Glow, Clock, Calendar, Sign, Tr
 import { INK, ACCENT } from './rig';
 import wordsCam from './words.json';
 import wordsPol from './words-pol.json';
+import wordsFire from './words-fire.json';
 import { PROJECT } from './project';
-const words: any = PROJECT === 'pol' ? wordsPol : wordsCam;
+const words: any = PROJECT === 'fire' ? wordsFire : PROJECT === 'pol' ? wordsPol : wordsCam;
 
 export const WORDS: { w: string; s: number }[] = (words as any).words.map((x: any) => ({ w: String(x.word || x.text).toLowerCase().replace(/[^\w'àèéìòù]/g, ''), s: x.start }));
 export const wt = (q: string, after = 0): number => { const k = q.toLowerCase(); const r = WORDS.find((x) => x.s >= after - 0.05 && x.w.startsWith(k)); return r ? r.s : after; };
@@ -66,7 +67,24 @@ const KINDS: Record<string, (o: ObjSpec, t: number) => React.ReactNode> = {
   pc: () => <g><S x={-60} y={-46} w={120} h={80} r={8} fill="#2a2f3c" /><S x={-52} y={-38} w={104} h={64} r={4} fill="#9fd0ff" sw={3} /><S x={-24} y={34} w={48} h={14} r={3} fill="#8a8f9c" sw={3} />{[0, 1, 2].map((i) => <Ln key={i} p={[[-40, -24 + i * 16], [10 + i * 8, -24 + i * 16]]} sw={4} c="#1c3d73" />)}</g>,
   bubble: (o) => <g><S x={-110} y={-48} w={220} h={90} r={20} fill="#fff" /><text y={10} textAnchor="middle" fontFamily={SIGN} fontSize={34} fill="#2a2f3c">{o.text}</text></g>,
   tape: () => <g>{[0, 1, 2, 3, 4, 5].map((i) => <rect key={i} x={-120 + i * 40} y={-14} width={40} height={28} fill={i % 2 ? '#111' : '#ffd23f'} />)}<rect x={-120} y={-14} width={240} height={28} fill="none" stroke={INK} strokeWidth={4} /></g>,
-  ladder: () => <g />,
+  fire: (o, t) => <g>{[[-34, 0, 1], [0, -8, 1.3], [34, 4, 0.9]].map(([x, y, s], i) => { const w = Math.sin(t * 9 + i * 2) * 5; return <g key={i} transform={`translate(${x} ${y}) scale(${s})`}><path d={`M 0 56 C -46 40 -40 -6 -8 -30 C -10 -4 6 -10 ${8 + w} -52 C 40 -20 52 30 0 56 Z`} fill="#ff5a36" stroke={INK} strokeWidth={5} /><path d={`M 0 52 C -22 42 -18 16 0 2 C 18 18 22 42 0 52 Z`} fill="#ffd23f" /></g>; })}</g>,
+  hose: () => <g><circle r={50} fill="none" stroke={INK} strokeWidth={26} /><circle r={50} fill="none" stroke="#d9a45c" strokeWidth={16} /><circle r={26} fill="none" stroke={INK} strokeWidth={20} /><circle r={26} fill="none" stroke="#d9a45c" strokeWidth={10} /><S x={44} y={-8} w={56} h={22} r={6} fill="#c9ced6" /></g>,
+  siren: (o, t) => <g><S x={-44} y={14} w={88} h={22} r={6} fill="#2a2f3c" /><path d="M -34 14 Q -34 -42 0 -42 Q 34 -42 34 14 Z" fill={Math.sin(t * 14) > 0 ? '#ff3b30' : '#8e1c16'} stroke={INK} strokeWidth={5} />{Math.sin(t * 14) > 0 && [-1, 1].map((i) => <Ln key={i} p={[[i * 52, -20], [i * 84, -30]]} sw={5} />)}</g>,
+  hydrant: () => <g><S x={-26} y={-30} w={52} h={80} r={10} fill="#d63b2b" /><S x={-34} y={-44} w={68} h={22} r={10} fill="#d63b2b" /><S x={-44} y={-10} w={20} h={24} r={4} fill="#c9ced6" /><S x={24} y={-10} w={20} h={24} r={4} fill="#c9ced6" /></g>,
+  axe: () => <g transform="rotate(-35)"><S x={-6} y={-60} w={12} h={120} r={5} fill="#8a5a2b" /><path d="M -6 -56 Q -52 -60 -50 -22 Q -20 -30 -6 -26 Z" fill="#c9ced6" stroke={INK} strokeWidth={5} /></g>,
+  tank: () => <g><S x={-24} y={-54} w={48} h={108} r={22} fill="#f2c230" /><S x={-10} y={-70} w={20} h={20} r={4} fill="#c9ced6" /><Ln p={[[0, -70], [30, -84], [52, -64]]} sw={6} /><S x={-24} y={-20} w={48} h={14} r={3} fill="#2a2f3c" /></g>,
+  extinguisher: () => <g><S x={-24} y={-40} w={48} h={92} r={16} fill="#d63b2b" /><S x={-10} y={-58} w={20} h={20} r={4} fill="#2a2f3c" /><Ln p={[[8, -52], [34, -52], [38, -20]]} sw={6} /><S x={-16} y={-12} w={32} h={24} r={3} fill="#f4f1ea" /></g>,
+  rope: () => <g><path d="M -60 40 C -60 -20 -10 20 0 -20 C 10 -60 50 -10 60 -48" fill="none" stroke={INK} strokeWidth={16} strokeLinecap="round" /><path d="M -60 40 C -60 -20 -10 20 0 -20 C 10 -60 50 -10 60 -48" fill="none" stroke="#f2c230" strokeWidth={8} strokeLinecap="round" /></g>,
+  fireTruck: () => <g><S x={-110} y={-30} w={150} h={70} r={8} fill="#c4301f" /><S x={40} y={-14} w={70} h={54} r={8} fill="#c4301f" /><S x={52} y={-6} w={44} h={22} r={3} fill="#9fd0e8" /><Ln p={[[-100, -44], [30, -44]]} sw={6} /><Ln p={[[-92, -50], [20, -50]]} sw={3} /><circle cx={-60} cy={42} r={20} fill="#1d1f27" stroke={INK} strokeWidth={5} /><circle cx={70} cy={42} r={20} fill="#1d1f27" stroke={INK} strokeWidth={5} /></g>,
+  cup: () => <g><S x={-26} y={-24} w={52} h={50} r={8} fill="#f4f1ea" /><path d="M 26 -10 q 24 0 24 18 q 0 18 -24 18" fill="none" stroke={INK} strokeWidth={6} />{[-10, 6].map((x) => <path key={x} d={`M ${x} -34 q -8 -12 0 -22`} fill="none" stroke="#c9ced6" strokeWidth={5} strokeLinecap="round" />)}</g>,
+  tree: () => <g><S x={-9} y={0} w={18} h={60} r={4} fill="#8a5a2b" /><circle cy={-24} r={46} fill="#3f9a6a" stroke={INK} strokeWidth={5} /><circle cx={-26} cy={-6} r={28} fill="#3f9a6a" stroke={INK} strokeWidth={5} /><circle cx={28} cy={-8} r={28} fill="#3f9a6a" stroke={INK} strokeWidth={5} /></g>,
+  thermo: () => <g><S x={-14} y={-60} w={28} h={100} r={14} fill="#f4f1ea" /><circle cy={50} r={24} fill="#e5392b" stroke={INK} strokeWidth={5} /><S x={-6} y={-30} w={12} h={80} r={6} fill="#e5392b" />{[0, 1, 2, 3].map((i) => <Ln key={i} p={[[14, -40 + i * 20], [28, -40 + i * 20]]} sw={4} />)}</g>,
+  ladder: () => <g transform="rotate(-18)"><Ln p={[[-14, -80], [-14, 80]]} sw={8} /><Ln p={[[14, -80], [14, 80]]} sw={8} />{[-60, -30, 0, 30, 60].map((y) => <Ln key={y} p={[[-14, y], [14, y]]} sw={6} />)}</g>,
+  water: (o, t) => <g>{Array.from({ length: 5 }).map((_, i) => <circle key={i} cx={-60 + i * 30} cy={20 + Math.sin(t * 6 + i) * 6} r={14} fill="#6cc4ff" stroke={INK} strokeWidth={3} />)}<path d="M -80 30 Q 0 -10 80 30" fill="none" stroke="#6cc4ff" strokeWidth={10} /></g>,
+  paw: () => <g><ellipse cy={14} rx={26} ry={22} fill="#8a5a2b" stroke={INK} strokeWidth={5} />{[-30, -10, 10, 30].map((x, i) => <ellipse key={i} cx={x} cy={-18 - (i % 3 === 0 ? 0 : 8)} rx={9} ry={12} fill="#8a5a2b" stroke={INK} strokeWidth={4} />)}</g>,
+  wave: () => <g>{[0, 1, 2].map((i) => <path key={i} d={`M -70 ${-20 + i * 28} q 17 -18 35 0 t 35 0 t 35 0 t 35 0`} fill="none" stroke="#2a8bd6" strokeWidth={9} strokeLinecap="round" />)}</g>,
+  chem: () => <g><Poly p={[[0, -52], [52, 0], [0, 52], [-52, 0]]} fill="#ffd23f" /><circle r={12} cy={-4} fill={INK} /><path d="M -22 18 Q 0 -30 22 18" fill="none" stroke={INK} strokeWidth={6} /></g>,
+  heli: (o, t) => <g><S x={-50} y={-20} w={90} h={44} r={20} fill="#d63b2b" /><Ln p={[[40, -4], [100, -10]]} sw={6} /><Ln p={[[-90 * Math.cos(t * 30), -34], [90 * Math.cos(t * 30), -34]]} sw={7} /><Ln p={[[-30, 32], [50, 32]]} sw={5} /></g>,
 };
 export const Obj: React.FC<{ o: ObjSpec; t: number; g: number }> = ({ o, t }) => {
   const at = o.at ?? 0; const k = (t - at); const e = o.e ?? 'slide'; if (k < 0) return null;

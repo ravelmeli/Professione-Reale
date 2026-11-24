@@ -23,8 +23,8 @@ export const Cabina: React.FC<SetP & { night?: boolean; speed?: number }> = ({ c
 export const Area: React.FC<SetP> = ({ cam, t, cast, fore }) => (
   <g>
     <L cam={cam} d={0.3}><NightSky t={t} /><Hills col="#10162a" y={470} /></L>
-    <L cam={cam} d={0.55}><S x={1250} y={330} w={520} h={360} r={4} fill="#2a3350" /><Wall kind="brick" col="#2a3350" y0={334} y1={686} /><Sign x={1300} y={360} w={420} text={PROJECT === 'pol' ? 'BAR' : 'AREA DI SERVIZIO'} bg="#2a2f3c" fg={ACCENT} size={38} /><S x={1330} y={470} w={150} h={220} r={3} fill="#f0d58a" /><S x={1520} y={480} w={190} h={110} r={3} fill="#f0d58a" /></L>
-    <L cam={cam} d={0.8}><Floor kind="asphalt" col="#1c2238" /><Lamp x={160} y={170} /><Lamp x={1040} y={170} />{PROJECT !== 'pol' && [0, 1].map((i) => <Truck key={i} x={420 + i * 560} y={FLOOR + 70} s={0.42} lights={false} />)}<Fx kind="mist" t={t} /></L>
+    <L cam={cam} d={0.55}><S x={1250} y={330} w={520} h={360} r={4} fill="#2a3350" /><Wall kind="brick" col="#2a3350" y0={334} y1={686} /><Sign x={1300} y={360} w={420} text={PROJECT !== 'cam' ? 'BAR' : 'AREA DI SERVIZIO'} bg="#2a2f3c" fg={ACCENT} size={38} /><S x={1330} y={470} w={150} h={220} r={3} fill="#f0d58a" /><S x={1520} y={480} w={190} h={110} r={3} fill="#f0d58a" /></L>
+    <L cam={cam} d={0.8}><Floor kind="asphalt" col="#1c2238" /><Lamp x={160} y={170} /><Lamp x={1040} y={170} />{PROJECT === 'cam' && [0, 1].map((i) => <Truck key={i} x={420 + i * 560} y={FLOOR + 70} s={0.42} lights={false} />)}<Fx kind="mist" t={t} /></L>
     <L cam={cam} d={1}>{cast}</L>{fore}
   </g>
 );
