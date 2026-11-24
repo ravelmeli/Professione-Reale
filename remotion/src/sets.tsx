@@ -1,3 +1,4 @@
+import { PROJECT } from './project';
 import React from 'react';
 import { Cam, L, W, H, FLOOR, Wall, Floor, WindowView, Clock, Calendar, Sign, Plant, Desk, Cabinet, Shelf, MapPin, Lamp, Truck, Glow, S, Poly, Ln, Defs, Finish, shade } from './kit';
 import { INK, ACCENT } from './rig';
@@ -12,7 +13,7 @@ export const Piazzale: React.FC<SetP> = ({ cam, t, cast, fore, lit = true, truck
     <L cam={cam} d={0.55}>
       <S x={1180} y={240} w={560} h={450} r={4} fill="#2a3350" /><Wall kind="corr" col="#2a3350" y0={244} y1={686} />
       <S x={1290} y={360} w={340} h={330} r={3} fill={lit ? '#f0d58a' : '#12162a'} />{lit && [1, 2, 3, 4, 5].map((i) => <Ln key={i} p={[[1290, 360 + i * 55], [1630, 360 + i * 55]]} sw={3} c="rgba(0,0,0,.25)" />)}
-      <Sign x={1300} y={262} w={320} text="MAGAZZINO" bg="#2a2f3c" fg="#f4f1ea" size={40} />
+      <Sign x={1300} y={262} w={320} text={PROJECT === 'fire' ? 'CASERMA' : 'MAGAZZINO'} bg="#2a2f3c" fg="#f4f1ea" size={40} />
       {lit && <path d="M 1290 690 L 1630 690 L 1760 900 L 1160 900 Z" fill="#f0d58a" opacity={0.18} />}
     </L>
     <L cam={cam} d={0.8}>
