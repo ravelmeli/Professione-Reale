@@ -4,8 +4,9 @@ import { INK, ACCENT } from './rig';
 import wordsCam from './words.json';
 import wordsPol from './words-pol.json';
 import wordsFire from './words-fire.json';
+import wordsSol from './words-sol.json';
 import { PROJECT } from './project';
-const words: any = PROJECT === 'fire' ? wordsFire : PROJECT === 'pol' ? wordsPol : wordsCam;
+const words: any = PROJECT === 'sol' ? wordsSol : PROJECT === 'fire' ? wordsFire : PROJECT === 'pol' ? wordsPol : wordsCam;
 
 export const WORDS: { w: string; s: number }[] = (words as any).words.map((x: any) => ({ w: String(x.word || x.text).toLowerCase().replace(/[^\w'àèéìòù]/g, ''), s: x.start }));
 export const wt = (q: string, after = 0): number => { const k = q.toLowerCase(); const r = WORDS.find((x) => x.s >= after - 0.05 && x.w.startsWith(k)); return r ? r.s : after; };
@@ -79,6 +80,15 @@ const KINDS: Record<string, (o: ObjSpec, t: number) => React.ReactNode> = {
   cup: () => <g><S x={-26} y={-24} w={52} h={50} r={8} fill="#f4f1ea" /><path d="M 26 -10 q 24 0 24 18 q 0 18 -24 18" fill="none" stroke={INK} strokeWidth={6} />{[-10, 6].map((x) => <path key={x} d={`M ${x} -34 q -8 -12 0 -22`} fill="none" stroke="#c9ced6" strokeWidth={5} strokeLinecap="round" />)}</g>,
   tree: () => <g><S x={-9} y={0} w={18} h={60} r={4} fill="#8a5a2b" /><circle cy={-24} r={46} fill="#3f9a6a" stroke={INK} strokeWidth={5} /><circle cx={-26} cy={-6} r={28} fill="#3f9a6a" stroke={INK} strokeWidth={5} /><circle cx={28} cy={-8} r={28} fill="#3f9a6a" stroke={INK} strokeWidth={5} /></g>,
   thermo: () => <g><S x={-14} y={-60} w={28} h={100} r={14} fill="#f4f1ea" /><circle cy={50} r={24} fill="#e5392b" stroke={INK} strokeWidth={5} /><S x={-6} y={-30} w={12} h={80} r={6} fill="#e5392b" />{[0, 1, 2, 3].map((i) => <Ln key={i} p={[[14, -40 + i * 20], [28, -40 + i * 20]]} sw={4} />)}</g>,
+  milhelm: () => <g><path d="M -52 8 Q -52 -46 0 -46 Q 52 -46 52 8 Z" fill="#4a5530" stroke={INK} strokeWidth={5} /><S x={-60} y={4} w={120} h={14} r={6} fill="#3f4a28" /><Ln p={[[-30, -28], [-8, -40]]} sw={4} /></g>,
+  tent: () => <g><Poly p={[[-80, 50], [0, -56], [80, 50]]} fill="#6b7a45" /><Poly p={[[-22, 50], [0, 0], [22, 50]]} fill="#2a2f3c" /><Ln p={[[0, -56], [0, -78]]} sw={5} /></g>,
+  map: () => <g><S x={-62} y={-44} w={124} h={88} r={4} fill="#e8e0c0" /><Ln p={[[-62, -10], [-20, 10], [20, -14], [62, 6]]} sw={4} /><Ln p={[[-30, -44], [-10, 44]]} sw={3} /><circle cx={20} cy={-14} r={7} fill="#c33631" stroke={INK} strokeWidth={3} /></g>,
+  jeep: () => <g><S x={-90} y={-14} w={180} h={44} r={10} fill="#5b6b3a" /><S x={-30} y={-52} w={90} h={42} r={8} fill="#5b6b3a" /><S x={-20} y={-44} w={64} h={26} r={3} fill="#9fd0e8" /><circle cx={-52} cy={34} r={22} fill="#1d1f27" stroke={INK} strokeWidth={5} /><circle cx={52} cy={34} r={22} fill="#1d1f27" stroke={INK} strokeWidth={5} /></g>,
+  medkit: () => <g><S x={-52} y={-34} w={104} h={72} r={10} fill="#f4f1ea" /><rect x={-8} y={-24} width={16} height={52} fill="#c33631" /><rect x={-26} y={-6} width={52} height={16} fill="#c33631" /></g>,
+  chute: () => <g><path d="M -70 -10 Q -70 -70 0 -70 Q 70 -70 70 -10 Q 35 -24 0 -10 Q -35 -24 -70 -10 Z" fill="#6b7a45" stroke={INK} strokeWidth={5} /><Ln p={[[-60, -8], [0, 56]]} sw={3} /><Ln p={[[60, -8], [0, 56]]} sw={3} /><Ln p={[[0, -10], [0, 56]]} sw={3} /></g>,
+  bridge: () => <g><Ln p={[[-90, 10], [90, 10]]} sw={12} /><path d="M -90 10 Q 0 -50 90 10" fill="none" stroke={INK} strokeWidth={8} />{[-60, -30, 0, 30, 60].map((x) => <Ln key={x} p={[[x, 10], [x, -18 + Math.abs(x) * 0.35]]} sw={4} />)}</g>,
+  backpack: () => <g><S x={-40} y={-50} w={80} h={100} r={22} fill="#5b6b3a" /><S x={-28} y={-8} w={56} h={34} r={8} fill="#4a5530" /><Ln p={[[-40, -30], [-52, 20]]} sw={6} /></g>,
+  mountain: () => <g><Poly p={[[-80, 40], [-24, -50], [6, -10], [30, -56], [86, 40]]} fill="#8a93a6" /><Poly p={[[-24, -50], [-8, -20], [-38, -20]]} fill="#fff" /></g>,
   ladder: () => <g transform="rotate(-18)"><Ln p={[[-14, -80], [-14, 80]]} sw={8} /><Ln p={[[14, -80], [14, 80]]} sw={8} />{[-60, -30, 0, 30, 60].map((y) => <Ln key={y} p={[[-14, y], [14, y]]} sw={6} />)}</g>,
   water: (o, t) => <g>{Array.from({ length: 5 }).map((_, i) => <circle key={i} cx={-60 + i * 30} cy={20 + Math.sin(t * 6 + i) * 6} r={14} fill="#6cc4ff" stroke={INK} strokeWidth={3} />)}<path d="M -80 30 Q 0 -10 80 30" fill="none" stroke="#6cc4ff" strokeWidth={10} /></g>,
   paw: () => <g><ellipse cy={14} rx={26} ry={22} fill="#8a5a2b" stroke={INK} strokeWidth={5} />{[-30, -10, 10, 30].map((x, i) => <ellipse key={i} cx={x} cy={-18 - (i % 3 === 0 ? 0 : 8)} rx={9} ry={12} fill="#8a5a2b" stroke={INK} strokeWidth={4} />)}</g>,

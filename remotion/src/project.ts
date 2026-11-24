@@ -1,1 +1,1 @@
-export const PROJECT: 'cam' | 'pol' | 'fire' = 'fire';
+export const PROJECT: 'cam' | 'pol' | 'fire' | 'sol' = 'sol';

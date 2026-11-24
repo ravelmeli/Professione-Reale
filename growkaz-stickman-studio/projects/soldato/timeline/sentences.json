@@ -1,0 +1,992 @@
+[
+ {
+  "i": 0,
+  "start": 0.0,
+  "end": 3.44,
+  "text": "ai 19 anni, e sono le 5 del mattino."
+ },
+ {
+  "i": 1,
+  "start": 4.04,
+  "end": 7.7,
+  "text": "La sveglia suona in camerata e il letto va rifatto prima di tutto."
+ },
+ {
+  "i": 2,
+  "start": 8.34,
+  "end": 10.38,
+  "text": "Zaino, Anfibi, Giacca."
+ },
+ {
+  "i": 3,
+  "start": 10.78,
+  "end": 12.3,
+  "text": "Tutto deve essere al suo posto."
+ },
+ {
+  "i": 4,
+  "start": 12.86,
+  "end": 15.26,
+  "text": "Fuori ancora buio e il piazzale ti aspetta."
+ },
+ {
+  "i": 5,
+  "start": 15.92,
+  "end": 18.38,
+  "text": "Nessuno ti ha detto quanto sarà lunga questa giornata."
+ },
+ {
+  "i": 6,
+  "start": 19.12,
+  "end": 21.68,
+  "text": "Quando gli altri dormono, tu sei già in fila."
+ },
+ {
+  "i": 7,
+  "start": 22.32,
+  "end": 25.34,
+  "text": "Sulla spalla hai una divisa e addosso gli occhi di tutti."
+ },
+ {
+  "i": 8,
+  "start": 26.06,
+  "end": 28.78,
+  "text": "Tra 20 anni potresti comandare un intero reparto."
+ },
+ {
+  "i": 9,
+  "start": 29.26,
+  "end": 32.54,
+  "text": "Oppure potresti ancora marciare con lo stesso zaino."
+ },
+ {
+  "i": 10,
+  "start": 33.1,
+  "end": 35.66,
+  "text": "Questa è la vita di un soldato, a ogni livello."
+ },
+ {
+  "i": 11,
+  "start": 36.42,
+  "end": 39.78,
+  "text": "Iscriviti, se vuoi sapere cosa c 'è davvero dietro la divisa mimetica."
+ },
+ {
+  "i": 12,
+  "start": 40.44,
+  "end": 42.22,
+  "text": "Livello 1, Aglievo."
+ },
+ {
+  "i": 13,
+  "start": 42.94,
+  "end": 44.84,
+  "text": "Prima della caserma c 'è la selezione."
+ },
+ {
+  "i": 14,
+  "start": 45.38,
+  "end": 49.6,
+  "text": "Prove scritte, prove fisiche, visite mediche, accertamenti psicologici."
+ },
+ {
+  "i": 15,
+  "start": 50.24,
+  "end": 54.1,
+  "text": "Il numero dei posti cambia ogni bando e candidati sono sempre molti."
+ },
+ {
+  "i": 16,
+  "start": 54.8,
+  "end": 58.1,
+  "text": "Le prove fisiche non perdonano, o le superi o resti fuori."
+ },
+ {
+  "i": 17,
+  "start": 58.94,
+  "end": 61.86,
+  "text": "Se ce la fai, non vai subito in missione, vai a scuola."
+ },
+ {
+  "i": 18,
+  "start": 62.6,
+  "end": 66.48,
+  "text": "Un corso di addestramento, con orari rigidi e poco tempo per te."
+ },
+ {
+  "i": 19,
+  "start": 67.12,
+  "end": 70.8,
+  "text": "Impari a marciare, a disporre l 'equipaggiamento, a rispettare un ordine."
+ },
+ {
+  "i": 20,
+  "start": 71.56,
+  "end": 74.14,
+  "text": "Impari a obbedire prima di capire e a capire dopo."
+ },
+ {
+  "i": 21,
+  "start": 74.82,
+  "end": 78.2,
+  "text": "Impari che un errore piccolo in gruppo lo paga tutto il gruppo."
+ },
+ {
+  "i": 22,
+  "start": 78.88,
+  "end": 82.0,
+  "text": "Ci sono le corsi all 'alba e i percorsi con lo zaino in spalla."
+ },
+ {
+  "i": 23,
+  "start": 82.72,
+  "end": 86.22,
+  "text": "Ci sono le esercitazioni sul campo, con il fango e con il freddo."
+ },
+ {
+  "i": 24,
+  "start": 86.92,
+  "end": 90.0,
+  "text": "Ci sono i turni di guardia, quando la notte non finisce SWI."
+ },
+ {
+  "i": 25,
+  "start": 90.62,
+  "end": 93.64,
+  "text": "Alcuni scoprono di avere una resistenza che non conoscevano."
+ },
+ {
+  "i": 26,
+  "start": 94.3,
+  "end": 97.4,
+  "text": "Altri scoprono che il corpo cede, prima della testa."
+ },
+ {
+  "i": 27,
+  "start": 98.24,
+  "end": 99.86,
+  "text": "La disciplina conta quanto la forza."
+ },
+ {
+  "i": 28,
+  "start": 100.46,
+  "end": 103.62,
+  "text": "Ogni gesto ha il suo ordine e ogni ordine ha il suo perché."
+ },
+ {
+  "i": 29,
+  "start": 104.34,
+  "end": 106.8,
+  "text": "Perché in un reparto vero non c 'è tempo per discutere."
+ },
+ {
+  "i": 30,
+  "start": 107.66,
+  "end": 110.42,
+  "text": "Alcuni mollano prima della fine e nessuno li giudica."
+ },
+ {
+  "i": 31,
+  "start": 111.02,
+  "end": 112.58,
+  "text": "Perché questo lavoro non è per tutti."
+ },
+ {
+  "i": 32,
+  "start": 112.96,
+  "end": 113.5,
+  "text": "E va bene così."
+ },
+ {
+  "i": 33,
+  "start": 114.38,
+  "end": 115.94,
+  "text": "Quando finisci il corso, giuri."
+ },
+ {
+  "i": 34,
+  "start": 116.52,
+  "end": 117.62,
+  "text": "Poi ti dicono dove andrai."
+ },
+ {
+  "i": 35,
+  "start": 118.06,
+  "end": 119.5,
+  "text": "E quasi mai a dove vorresti."
+ },
+ {
+  "i": 36,
+  "start": 120.24,
+  "end": 123.26,
+  "text": "Molti iniziano lontano da casa e ci restano per anni."
+ },
+ {
+  "i": 37,
+  "start": 124.12,
+  "end": 127.16,
+  "text": "Ti ritrovi in una città nuova, con un plotone che non conosci."
+ },
+ {
+  "i": 38,
+  "start": 127.78,
+  "end": 130.84,
+  "text": "Dividi la camerata e conti giorni prima di una licenza."
+ },
+ {
+  "i": 39,
+  "start": 131.32,
+  "end": 134.78,
+  "text": "La famiglia ti aspetta e tu impari a telefonare dopo l 'addestramento."
+ },
+ {
+  "i": 40,
+  "start": 135.46,
+  "end": 137.3,
+  "text": "È il prezzo d 'ingresso e lo paghi tu."
+ },
+ {
+  "i": 41,
+  "start": 138.04,
+  "end": 142.36,
+  "text": "Lo stipendio dipende dal grado, dall 'ansianità e dalle indennità."
+ },
+ {
+  "i": 42,
+  "start": 143.02,
+  "end": 145.14,
+  "text": "Una cifra precisa qui non te la diamo."
+ },
+ {
+  "i": 43,
+  "start": 145.36,
+  "end": 146.62,
+  "text": "Cambia da bando a bando."
+ },
+ {
+  "i": 44,
+  "start": 147.02,
+  "end": 148.18,
+  "text": "Ma una cosa è certa."
+ },
+ {
+  "i": 45,
+  "start": 148.74,
+  "end": 150.36,
+  "text": "Non entri per diventare ricco."
+ },
+ {
+  "i": 46,
+  "start": 150.92,
+  "end": 153.06,
+  "text": "Entri perché vuoi un lavoro che serve a qualcosa."
+ },
+ {
+  "i": 47,
+  "start": 154.02,
+  "end": 155.88,
+  "text": "E poi arriva il primo giorno in reparto."
+ },
+ {
+  "i": 48,
+  "start": 156.38,
+  "end": 156.92,
+  "text": "Livello 2."
+ },
+ {
+  "i": 49,
+  "start": 157.4,
+  "end": 158.3,
+  "text": "Soldato in reparto."
+ },
+ {
+  "i": 50,
+  "start": 159.12,
+  "end": 160.56,
+  "text": "Ora sei tu nel plotone."
+ },
+ {
+  "i": 51,
+  "start": 161.22,
+  "end": 162.86,
+  "text": "La giornata comincia con la dunata."
+ },
+ {
+  "i": 52,
+  "start": 163.3,
+  "end": 166.34,
+  "text": "Si controlla l 'equipaggiamento, l 'armamento, i mezzi."
+ },
+ {
+  "i": 53,
+  "start": 166.78,
+  "end": 169.3,
+  "text": "Si ascoltano gli ordini del giorno uno per uno."
+ },
+ {
+  "i": 54,
+  "start": 169.96,
+  "end": 170.88,
+  "text": "Poi si lavora."
+ },
+ {
+  "i": 55,
+  "start": 171.38,
+  "end": 174.28,
+  "text": "Addestramento, manutenzione, servizi di guardia."
+ },
+ {
+  "i": 56,
+  "start": 174.88,
+  "end": 178.7,
+  "text": "Molto del mestiere è ripetizione e la ripetizione è sicurezza."
+ },
+ {
+  "i": 57,
+  "start": 179.34,
+  "end": 183.38,
+  "text": "Si pulisceaminga, si ripara, si prepara, si controlla di nuovo."
+ },
+ {
+  "i": 58,
+  "start": 184.28,
+  "end": 186.9,
+  "text": "In casarmasi crea una famiglia che ti piaccia o no."
+ },
+ {
+  "i": 59,
+  "start": 187.54,
+  "end": 188.5,
+  "text": "Mangi con gli stessi."
+ },
+ {
+  "i": 60,
+  "start": 188.96,
+  "end": 189.98,
+  "text": "Dormi con gli stessi."
+ },
+ {
+  "i": 61,
+  "start": 190.36,
+  "end": 191.66,
+  "text": "Ti alleni con gli stessi."
+ },
+ {
+  "i": 62,
+  "start": 192.34,
+  "end": 195.26,
+  "text": "Impari chi si può chiamare alle 3 di notte e chi no."
+ },
+ {
+  "i": 63,
+  "start": 196.18,
+  "end": 199.4,
+  "text": "Ci sono le esercitazioni, anche lunghe, anche lontane da casa."
+ },
+ {
+  "i": 64,
+  "start": 200.18,
+  "end": 202.2,
+  "text": "Si dorme poco e spesso all 'aperto."
+ },
+ {
+  "i": 65,
+  "start": 202.96,
+  "end": 206.94,
+  "text": "Si impara a montare una tenda, a leggere una mappa, a usare una radio."
+ },
+ {
+  "i": 66,
+  "start": 207.56,
+  "end": 209.98,
+  "text": "Si impara a fare silenzio e a fare squadra."
+ },
+ {
+  "i": 67,
+  "start": 210.88,
+  "end": 216.08,
+  "text": "Ci sono i giorni in cui tutto fila liscio e ci sono quelli in cui niente va come previsto."
+ },
+ {
+  "i": 68,
+  "start": 216.62,
+  "end": 219.62,
+  "text": "Il freddo entra negli stivali e il tempo non passa mai."
+ },
+ {
+  "i": 69,
+  "start": 220.18,
+  "end": 223.24,
+  "text": "Ma qualcuno ti passa un caffè caldo senza chiedere niente."
+ },
+ {
+  "i": 70,
+  "start": 224.28,
+  "end": 226.08,
+  "text": "Ci sono anche le emergenze nel tuo paese."
+ },
+ {
+  "i": 71,
+  "start": 226.8,
+  "end": 229.84,
+  "text": "Un alluvione, un terremoto, una strada da liberare."
+ },
+ {
+  "i": 72,
+  "start": 230.46,
+  "end": 232.82,
+  "text": "I soldati arrivano con i mezzi e con le braccia."
+ },
+ {
+  "i": 73,
+  "start": 233.54,
+  "end": 236.22,
+  "text": "Dormono dove capita e lavorano per chi ha perso tutto."
+ },
+ {
+  "i": 74,
+  "start": 236.9,
+  "end": 239.9,
+  "text": "Non è la parte più famosa del mestiere, ma è la più umana."
+ },
+ {
+  "i": 75,
+  "start": 240.84,
+  "end": 242.74,
+  "text": "Poi c 'è la vita fuori dal servizio."
+ },
+ {
+  "i": 76,
+  "start": 243.4,
+  "end": 245.8,
+  "text": "Gli amici ti invitano e tu spesso devi dire di no."
+ },
+ {
+  "i": 77,
+  "start": 246.38,
+  "end": 250.48,
+  "text": "Un compleanno perso, una cena saltata, un fine settimana in servizio."
+ },
+ {
+  "i": 78,
+  "start": 251.24,
+  "end": 252.34,
+  "text": "Il corpo si sente."
+ },
+ {
+  "i": 79,
+  "start": 252.7,
+  "end": 255.04,
+  "text": "Dopo anni di peso addosso e di svegliall 'alba."
+ },
+ {
+  "i": 80,
+  "start": 255.7,
+  "end": 256.86,
+  "text": "La mente si sente di più."
+ },
+ {
+  "i": 81,
+  "start": 257.24,
+  "end": 258.0,
+  "text": "Dopo certe cose."
+ },
+ {
+  "i": 82,
+  "start": 258.4,
+  "end": 260.76,
+  "text": "Non si parla molto, ma si resta vicini."
+ },
+ {
+  "i": 83,
+  "start": 261.18,
+  "end": 264.6,
+  "text": "Chiedere aiuto non è sempre facile, ma è più umano di quanto sembri."
+ },
+ {
+  "i": 84,
+  "start": 265.34,
+  "end": 268.34,
+  "text": "E poi c 'è l 'altra faccia, quella che ripaga di tutto."
+ },
+ {
+  "i": 85,
+  "start": 268.9,
+  "end": 275.52,
+  "text": "Un gruppo che ti copre le spalle senza che tu lo chieda, un ordine eseguito bene, un compito portato a termine insieme."
+ },
+ {
+  "i": 86,
+  "start": 276.16,
+  "end": 279.36,
+  "text": "È quella faccia che ti fa restare, anche quando sei stanco."
+ },
+ {
+  "i": 87,
+  "start": 280.22,
+  "end": 280.9,
+  "text": "Livello 3."
+ },
+ {
+  "i": 88,
+  "start": 281.52,
+  "end": 283.24,
+  "text": "Specializzazione e missioni."
+ },
+ {
+  "i": 89,
+  "start": 283.66,
+  "end": 286.5,
+  "text": "Dopo qualche anno puoi scegliere di non fare solo il generico."
+ },
+ {
+  "i": 90,
+  "start": 287.04,
+  "end": 290.78,
+  "text": "L 'esercito ha molte specialità e molte richiedono corsi dedicati."
+ },
+ {
+  "i": 91,
+  "start": 291.36,
+  "end": 294.8,
+  "text": "Ci sono i genieri, che costruiscono ponti, strade, campi."
+ },
+ {
+  "i": 92,
+  "start": 295.32,
+  "end": 298.82,
+  "text": "Ci sono i trasmettitori, che tengono in contatto tutti, anche nel nulla."
+ },
+ {
+  "i": 93,
+  "start": 299.28,
+  "end": 302.38,
+  "text": "Ci sono i conduttori di mezzi pesanti e di mezzi corazzati."
+ },
+ {
+  "i": 94,
+  "start": 302.96,
+  "end": 306.46,
+  "text": "Ci sono i sanitari, che curano sul campo quando l 'ospedale è lontano."
+ },
+ {
+  "i": 95,
+  "start": 307.02,
+  "end": 310.1,
+  "text": "Ci sono le truppe alpine, che lavorano tra la neve e le pareti."
+ },
+ {
+  "i": 96,
+  "start": 310.64,
+  "end": 314.1,
+  "text": "Ci sono i paracadutisti, che si lanciano da un aereo in volo."
+ },
+ {
+  "i": 97,
+  "start": 314.84,
+  "end": 319.1,
+  "text": "Ognuna richiede corsi, addestramento e una testa particolare."
+ },
+ {
+  "i": 98,
+  "start": 319.8,
+  "end": 324.16,
+  "text": "Non basta il coraggio, servono pazienza, preparazione, sangue freddo."
+ },
+ {
+  "i": 99,
+  "start": 324.94,
+  "end": 328.42,
+  "text": "Molte specialità richiedono anni e non tutti ce la fanno."
+ },
+ {
+  "i": 100,
+  "start": 329.2,
+  "end": 330.82,
+  "text": "Poi ci sono le missioni all 'estero."
+ },
+ {
+  "i": 101,
+  "start": 331.26,
+  "end": 334.4,
+  "text": "Si parte per mesi, lontano da tutto quello che conosci."
+ },
+ {
+  "i": 102,
+  "start": 334.96,
+  "end": 337.74,
+  "text": "Si lavora in luoghi dove la sicurezza non è mai garantita."
+ },
+ {
+  "i": 103,
+  "start": 338.42,
+  "end": 342.56,
+  "text": "Si aiutano le popolazioni, si proteggono le strutture, si presidiano le zone."
+ },
+ {
+  "i": 104,
+  "start": 343.38,
+  "end": 348.64,
+  "text": "Non è un film, è turni, attese, controlli e tanta responsabilità."
+ },
+ {
+  "i": 105,
+  "start": 349.3,
+  "end": 352.82,
+  "text": "Un 'attenzione costante, anche quando sembrano succedere niente."
+ },
+ {
+  "i": 106,
+  "start": 353.54,
+  "end": 356.36,
+  "text": "Il telefono diventa il filo più importante con casa."
+ },
+ {
+  "i": 107,
+  "start": 356.86,
+  "end": 360.28,
+  "text": "Una videochiamata, una foto, un messaggio che arriva in ritardo."
+ },
+ {
+  "i": 108,
+  "start": 361.38,
+  "end": 364.7,
+  "text": "Quando torni trovi tutto uguale e tu sei cambiato."
+ },
+ {
+  "i": 109,
+  "start": 365.54,
+  "end": 367.96,
+  "text": "Chi ha fatto una missione porta con sé qualcosa che resta."
+ },
+ {
+  "i": 110,
+  "start": 368.58,
+  "end": 371.94,
+  "text": "Per questo la specializzazione non è un premio, è una responsabilità."
+ },
+ {
+  "i": 111,
+  "start": 372.56,
+  "end": 380.9,
+  "text": "Si continua ad allenarsi, a studiare, a ripetere finché il gesto è sicuro, perché in questo lavoro ci si prepara a ciò che si spera di non vedere mai."
+ },
+ {
+  "i": 112,
+  "start": 381.48,
+  "end": 382.76,
+  "text": "Iscriviti al canale."
+ },
+ {
+  "i": 113,
+  "start": 383.04,
+  "end": 385.92,
+  "text": "Ogni video racconta un lavoro, un livello alla volta."
+ },
+ {
+  "i": 114,
+  "start": 386.9,
+  "end": 390.66,
+  "text": "Livello 4 Graduato sergente Mare Schallo."
+ },
+ {
+  "i": 115,
+  "start": 391.12,
+  "end": 393.94,
+  "text": "Con gli anni la responsabilità cambia peso."
+ },
+ {
+  "i": 116,
+  "start": 394.42,
+  "end": 397.52,
+  "text": "Non sei più solo uno che esegue, sei uno che guida."
+ },
+ {
+  "i": 117,
+  "start": 398.36,
+  "end": 401.8,
+  "text": "Il sergente guida una squadra e risponde di ogni persona."
+ },
+ {
+  "i": 118,
+  "start": 402.42,
+  "end": 405.4,
+  "text": "Deve sapere dove sono, cosa fanno e come stanno."
+ },
+ {
+  "i": 119,
+  "start": 406.02,
+  "end": 407.76,
+  "text": "Deve ascoltare prima di decidere."
+ },
+ {
+  "i": 120,
+  "start": 408.28,
+  "end": 411.2,
+  "text": "Una scelta sbagliata qui la pagano i tuoi uomini."
+ },
+ {
+  "i": 121,
+  "start": 411.76,
+  "end": 416.88,
+  "text": "Una scelta giusta a volte non la noterà nessuno, ma tu lo sai e tanto basta."
+ },
+ {
+  "i": 122,
+  "start": 417.74,
+  "end": 421.58,
+  "text": "Guidi persone più giovani che ti guardano, soprattutto quando non sai cosa fare."
+ },
+ {
+  "i": 123,
+  "start": 422.5,
+  "end": 425.3,
+  "text": "Devi mantenere la calma, anche quando dentro non ce l 'hai."
+ },
+ {
+  "i": 124,
+  "start": 426.04,
+  "end": 428.56,
+  "text": "Devi dare ordini chiari, senza alzare la voce."
+ },
+ {
+  "i": 125,
+  "start": 429.14,
+  "end": 432.28,
+  "text": "E devi ascoltare chi ha esperienza, anche se sei tu il capo."
+ },
+ {
+  "i": 126,
+  "start": 432.88,
+  "end": 436.42,
+  "text": "Il rispetto qui si costruisce con l 'esempio, non con il grado."
+ },
+ {
+  "i": 127,
+  "start": 437.16,
+  "end": 439.48,
+  "text": "Poi ti tocca la parte che nessuno racconta."
+ },
+ {
+  "i": 128,
+  "start": 440.0,
+  "end": 444.9,
+  "text": "Le carte, turni, licenze, rapporti, controlli, verifiche da firmare."
+ },
+ {
+  "i": 129,
+  "start": 445.46,
+  "end": 448.96,
+  "text": "Un Mare Schallo coordina più squadre e risponde di quello che succede."
+ },
+ {
+  "i": 130,
+  "start": 449.58,
+  "end": 453.18,
+  "text": "Non sempre sei in campo, a volte sei in ufficio, a organizzare tutto."
+ },
+ {
+  "i": 131,
+  "start": 453.98,
+  "end": 456.78,
+  "text": "Ti manca il campo, ma ti manca soprattutto la squadra."
+ },
+ {
+  "i": 132,
+  "start": 457.5,
+  "end": 460.02,
+  "text": "E quando qualcosa va storto, la domanda arrivate."
+ },
+ {
+  "i": 133,
+  "start": 460.78,
+  "end": 463.88,
+  "text": "Il passaggio di grado avviene con concursi interni e anzianità."
+ },
+ {
+  "i": 134,
+  "start": 463.88,
+  "end": 467.52,
+  "text": "Chi vuole salire deve studiare, anche dopo anni di servizio."
+ },
+ {
+  "i": 135,
+  "start": 468.08,
+  "end": 474.94,
+  "text": "Studiare di sera dopo il lavoro non è facile per nessuno, ma il modo per non restare sempre uguale e per scegliere dove andare."
+ },
+ {
+  "i": 136,
+  "start": 475.74,
+  "end": 478.74,
+  "text": "Non tutti vogliono comandare, e anche questo va rispettato."
+ },
+ {
+  "i": 137,
+  "start": 479.52,
+  "end": 481.84,
+  "text": "Ci sono capi che ripetrono sempre la stessa frase."
+ },
+ {
+  "i": 138,
+  "start": 482.4,
+  "end": 484.14,
+  "text": "Prima si pensa ai propri uomini."
+ },
+ {
+  "i": 139,
+  "start": 484.66,
+  "end": 487.54,
+  "text": "Non è uno slogan, è la regola che pesa più di tutte."
+ },
+ {
+  "i": 140,
+  "start": 488.28,
+  "end": 490.28,
+  "text": "Livello 5, ufficiale."
+ },
+ {
+  "i": 141,
+  "start": 490.92,
+  "end": 494.5,
+  "text": "In cima ci sono gli ufficiali, che guidano reparti sempre più grandi."
+ },
+ {
+  "i": 142,
+  "start": 495.2,
+  "end": 498.92,
+  "text": "Ci si arriva con un Accademia o con un concorso e con anni di studio."
+ },
+ {
+  "i": 143,
+  "start": 499.58,
+  "end": 503.28,
+  "text": "Poi si cresce fino a comandare un battaglione, un reggimento, una brigata."
+ },
+ {
+  "i": 144,
+  "start": 504.02,
+  "end": 508.1,
+  "text": "Il comandante non sta più in prima fila ogni giorno, ma risponde di tutto."
+ },
+ {
+  "i": 145,
+  "start": 508.64,
+  "end": 510.8,
+  "text": "Uomini, mezzi, sedi, missioni."
+ },
+ {
+  "i": 146,
+  "start": 511.52,
+  "end": 515.5,
+  "text": "Pianifica, decide, si coordina con altri comandi e con altre forze."
+ },
+ {
+  "i": 147,
+  "start": 516.06,
+  "end": 519.52,
+  "text": "Quando c 'è un 'emergenza, è lui a coordinare e a decidere."
+ },
+ {
+  "i": 148,
+  "start": 520.28,
+  "end": 522.92,
+  "text": "Si occupa anche di formazione e non solo di operazioni."
+ },
+ {
+  "i": 149,
+  "start": 523.48,
+  "end": 529.68,
+  "text": "Controlla a chi i suoi uomini siano pronti, prima che serva, perché la miglior operazione è quella che non c 'è bisogno di fare."
+ },
+ {
+  "i": 150,
+  "start": 530.58,
+  "end": 537.68,
+  "text": "Firmà documenti, parteci pari unioni, risponde a chi sta sopra e poi risponde davvero a chi gli ha fidato un figlio."
+ },
+ {
+  "i": 151,
+  "start": 538.3,
+  "end": 544.24,
+  "text": "Il peso della responsabilità si sente nelle ore più normali, per esempio quando il telefono squilla alle 4 del mattino."
+ },
+ {
+  "i": 152,
+  "start": 545.08,
+  "end": 549.18,
+  "text": "In cima il lavoro cambia, ma la responsabilità non si lascia in ufficio."
+ },
+ {
+  "i": 153,
+  "start": 549.92,
+  "end": 553.28,
+  "text": "Molti ricordano ancora il primo giorno, anche dopo 30 anni."
+ },
+ {
+  "i": 154,
+  "start": 553.8,
+  "end": 559.94,
+  "text": "Alcuni lo raccontano come una lezione, altri come una ferita, ma quasi nessuno rinuncierebbe a quello che ha imparato."
+ },
+ {
+  "i": 155,
+  "start": 560.4,
+  "end": 563.02,
+  "text": "Quasi nessuno dimentica il plotone con cui è cresciuto."
+ },
+ {
+  "i": 156,
+  "start": 563.78,
+  "end": 571.54,
+  "text": "Eppure molti dicono di non aver cambiato mestiere nemmeno una volta, perché sanno che da qualche parte qualcuno è più al sicuro grazie a loro."
+ },
+ {
+  "i": 157,
+  "start": 572.08,
+  "end": 574.68,
+  "text": "Sanno che la divisa è una promessa fatta sconosciuti."
+ },
+ {
+  "i": 158,
+  "start": 575.16,
+  "end": 576.92,
+  "text": "Sanno che il rispetto non si pretende."
+ },
+ {
+  "i": 159,
+  "start": 577.26,
+  "end": 579.06,
+  "text": "Si guadagna, giorno dopo giorno."
+ },
+ {
+  "i": 160,
+  "start": 579.74,
+  "end": 582.32,
+  "text": "Questa è la vita di un soldato, a ogni livello."
+ },
+ {
+  "i": 161,
+  "start": 582.82,
+  "end": 585.68,
+  "text": "Non è un film, non è una serie, non è solo coraggio."
+ },
+ {
+  "i": 162,
+  "start": 586.28,
+  "end": 590.78,
+  "text": "È sveglia all 'alba, esercitazioni, attese e poche parole di gratitudine."
+ },
+ {
+  "i": 163,
+  "start": 591.44,
+  "end": 593.98,
+  "text": "Ma per qualcuno è il lavoro che dà un senso a tutto il resto."
+ },
+ {
+  "i": 164,
+  "start": 594.84,
+  "end": 603.24,
+  "text": "Se ti è piaciuto iscriviti al canale, scrivimi nei commenti ti sentiresti pronto a fare questo lavoro e dimmi quale professione vuoi vedere nel prossimo video."
+ }
+]
