@@ -126,6 +126,13 @@ export const Tempesta: React.FC<SetP> = ({ cam, t, cast }) => {
     </g>
   );
 };
+export const Sala: React.FC<SetP> = ({ cam, t, cast }) => (
+  <g>
+    <L cam={cam} d={0.4}><rect x={-400} y={-300} width={W + 800} height={FLOOR + 300} fill="#8fd0c8" />{Array.from({ length: 14 }).map((_, i) => <rect key={i} x={-300 + i * 190} y={-300} width={3} height={FLOOR + 300} fill="#6fb8b0" />)}{Array.from({ length: 6 }).map((_, i) => <rect key={i} x={-400} y={i * 130 - 60} width={W + 800} height={3} fill="#6fb8b0" />)}<S x={1380} y={160} w={300} h={220} r={8} fill="#0d1226" /><path d="M 1400 300 L 1450 240 L 1500 290 L 1550 200 L 1600 260 L 1660 220" fill="none" stroke="#3ddc84" strokeWidth={6} strokeLinejoin="round" /><S x={150} y={200} w={160} h={100} r={6} fill="#f4f1ea" /></L>
+    <L cam={cam} d={0.8}><rect x={-400} y={FLOOR - 20} width={W + 800} height={H} fill="#b8c4c8" /><Ln p={[[960, -300], [960, 60]]} sw={8} c="#8a8f98" /><ellipse cx={960} cy={90} rx={170} ry={46} fill="#e8eef0" stroke={INK} strokeWidth={5} /><ellipse cx={960} cy={96} rx={110} ry={26} fill="#fff3c4" /><S x={560} y={FLOOR - 120} w={560} h={46} r={8} fill="#aeb6c4" /><S x={800} y={FLOOR - 74} w={40} h={110} r={4} fill="#8a8f98" /><S x={560} y={FLOOR - 140} w={560} h={24} r={8} fill="#8fd0c8" /></L>
+    <L cam={cam} d={1}>{cast}</L>
+  </g>
+);
 export const AnySet: React.FC<{ spec: any; cam: Cam; t: number; cast: React.ReactNode }> = ({ spec, cam, t, cast }) => {
   const n = typeof spec === 'string' ? spec : spec.n; const o = typeof spec === 'string' ? {} : spec;
   const p = { cam, t, cast, ...o };
@@ -148,6 +155,7 @@ export const AnySet: React.FC<{ spec: any; cam: Cam; t: number; cast: React.Reac
     case 'atrio': return <Atrio {...p} />;
     case 'quadro': return <Quadro {...p} />;
     case 'tempesta': return <Tempesta {...p} />;
+    case 'sala': return <Sala {...p} />;
     case 'tromba': return <Tromba {...p} />;
     case 'cockpit': return <Cockpit {...p} />;
     default: return <Piazzale {...p} />;

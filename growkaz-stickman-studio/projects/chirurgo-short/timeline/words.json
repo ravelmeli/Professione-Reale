@@ -1,0 +1,1035 @@
+{
+ "source": "whisper:small",
+ "words": [
+  {
+   "word": "stipendio",
+   "start": 0.0,
+   "end": 0.9
+  },
+  {
+   "word": "di",
+   "start": 0.9,
+   "end": 1.1
+  },
+  {
+   "word": "un",
+   "start": 1.1,
+   "end": 1.24
+  },
+  {
+   "word": "chirurgo,",
+   "start": 1.24,
+   "end": 1.8
+  },
+  {
+   "word": "specializzando",
+   "start": 2.12,
+   "end": 3.06
+  },
+  {
+   "word": "contro",
+   "start": 3.06,
+   "end": 3.54
+  },
+  {
+   "word": "chirurgo",
+   "start": 3.54,
+   "end": 4.04
+  },
+  {
+   "word": "esperto.",
+   "start": 4.04,
+   "end": 4.58
+  },
+  {
+   "word": "Uno",
+   "start": 5.14,
+   "end": 5.74
+  },
+  {
+   "word": "lo",
+   "start": 5.74,
+   "end": 6.1
+  },
+  {
+   "word": "specializzando.",
+   "start": 6.1,
+   "end": 6.92
+  },
+  {
+   "word": "Hai",
+   "start": 7.42,
+   "end": 7.6
+  },
+  {
+   "word": "già",
+   "start": 7.6,
+   "end": 7.82
+  },
+  {
+   "word": "la",
+   "start": 7.82,
+   "end": 7.96
+  },
+  {
+   "word": "laurea",
+   "start": 7.96,
+   "end": 8.24
+  },
+  {
+   "word": "in",
+   "start": 8.24,
+   "end": 8.34
+  },
+  {
+   "word": "medicina.",
+   "start": 8.34,
+   "end": 8.78
+  },
+  {
+   "word": "Ora",
+   "start": 9.14,
+   "end": 9.34
+  },
+  {
+   "word": "firmi",
+   "start": 9.34,
+   "end": 9.66
+  },
+  {
+   "word": "un",
+   "start": 9.66,
+   "end": 9.8
+  },
+  {
+   "word": "contratto",
+   "start": 9.8,
+   "end": 10.28
+  },
+  {
+   "word": "di",
+   "start": 10.28,
+   "end": 10.36
+  },
+  {
+   "word": "formazione",
+   "start": 10.36,
+   "end": 10.82
+  },
+  {
+   "word": "specialistica.",
+   "start": 10.82,
+   "end": 11.7
+  },
+  {
+   "word": "In",
+   "start": 12.32,
+   "end": 12.48
+  },
+  {
+   "word": "sala",
+   "start": 12.48,
+   "end": 12.68
+  },
+  {
+   "word": "operatoria",
+   "start": 12.68,
+   "end": 13.24
+  },
+  {
+   "word": "in",
+   "start": 13.24,
+   "end": 13.38
+  },
+  {
+   "word": "pari,",
+   "start": 13.38,
+   "end": 13.72
+  },
+  {
+   "word": "ma",
+   "start": 13.82,
+   "end": 13.88
+  },
+  {
+   "word": "sei",
+   "start": 13.88,
+   "end": 14.14
+  },
+  {
+   "word": "pagato",
+   "start": 14.14,
+   "end": 14.58
+  },
+  {
+   "word": "come",
+   "start": 14.58,
+   "end": 14.86
+  },
+  {
+   "word": "specializzando.",
+   "start": 14.86,
+   "end": 15.64
+  },
+  {
+   "word": "La",
+   "start": 16.32,
+   "end": 16.5
+  },
+  {
+   "word": "parte",
+   "start": 16.5,
+   "end": 16.72
+  },
+  {
+   "word": "fissa",
+   "start": 16.72,
+   "end": 17.1
+  },
+  {
+   "word": "è",
+   "start": 17.1,
+   "end": 17.34
+  },
+  {
+   "word": "di",
+   "start": 17.34,
+   "end": 17.44
+  },
+  {
+   "word": "22",
+   "start": 17.44,
+   "end": 17.76
+  },
+  {
+   "word": ".700",
+   "start": 17.76,
+   "end": 18.46
+  },
+  {
+   "word": "euro",
+   "start": 18.46,
+   "end": 18.98
+  },
+  {
+   "word": "l",
+   "start": 18.98,
+   "end": 19.2
+  },
+  {
+   "word": "'ordi",
+   "start": 19.2,
+   "end": 19.44
+  },
+  {
+   "word": "l",
+   "start": 19.44,
+   "end": 19.54
+  },
+  {
+   "word": "'anno,",
+   "start": 19.54,
+   "end": 19.8
+  },
+  {
+   "word": "più",
+   "start": 20.04,
+   "end": 20.24
+  },
+  {
+   "word": "una",
+   "start": 20.24,
+   "end": 20.42
+  },
+  {
+   "word": "parte",
+   "start": 20.42,
+   "end": 20.62
+  },
+  {
+   "word": "variabile,",
+   "start": 20.62,
+   "end": 21.1
+  },
+  {
+   "word": "2",
+   "start": 21.42,
+   "end": 21.66
+  },
+  {
+   "word": ".300",
+   "start": 21.66,
+   "end": 22.18
+  },
+  {
+   "word": "nei",
+   "start": 22.18,
+   "end": 22.46
+  },
+  {
+   "word": "primi",
+   "start": 22.46,
+   "end": 22.74
+  },
+  {
+   "word": "due",
+   "start": 22.74,
+   "end": 22.84
+  },
+  {
+   "word": "anni,",
+   "start": 22.84,
+   "end": 23.14
+  },
+  {
+   "word": "3",
+   "start": 23.46,
+   "end": 23.64
+  },
+  {
+   "word": ".300",
+   "start": 23.64,
+   "end": 24.22
+  },
+  {
+   "word": "dal",
+   "start": 24.22,
+   "end": 24.56
+  },
+  {
+   "word": "terzo",
+   "start": 24.56,
+   "end": 24.84
+  },
+  {
+   "word": "anno,",
+   "start": 24.84,
+   "end": 25.12
+  },
+  {
+   "word": "totale",
+   "start": 25.6,
+   "end": 26.0
+  },
+  {
+   "word": "25",
+   "start": 26.0,
+   "end": 26.42
+  },
+  {
+   "word": ".000",
+   "start": 26.42,
+   "end": 26.82
+  },
+  {
+   "word": "poi",
+   "start": 26.82,
+   "end": 27.18
+  },
+  {
+   "word": "26",
+   "start": 27.18,
+   "end": 27.66
+  },
+  {
+   "word": ".000",
+   "start": 27.66,
+   "end": 27.88
+  },
+  {
+   "word": "euro",
+   "start": 27.88,
+   "end": 28.06
+  },
+  {
+   "word": "l",
+   "start": 28.06,
+   "end": 28.26
+  },
+  {
+   "word": "'ordi.",
+   "start": 28.26,
+   "end": 28.48
+  },
+  {
+   "word": "Sono",
+   "start": 28.94,
+   "end": 29.34
+  },
+  {
+   "word": "gli",
+   "start": 29.34,
+   "end": 29.54
+  },
+  {
+   "word": "importi",
+   "start": 29.54,
+   "end": 29.96
+  },
+  {
+   "word": "fino",
+   "start": 29.96,
+   "end": 30.14
+  },
+  {
+   "word": "al",
+   "start": 30.14,
+   "end": 30.3
+  },
+  {
+   "word": "2024",
+   "start": 30.3,
+   "end": 30.8
+  },
+  {
+   "word": "-25.",
+   "start": 30.8,
+   "end": 31.6
+  },
+  {
+   "word": "Dall",
+   "start": 32.1,
+   "end": 32.42
+  },
+  {
+   "word": "'ora",
+   "start": 32.42,
+   "end": 32.64
+  },
+  {
+   "word": "sono",
+   "start": 32.64,
+   "end": 32.88
+  },
+  {
+   "word": "stati",
+   "start": 32.88,
+   "end": 33.16
+  },
+  {
+   "word": "aumentati",
+   "start": 33.16,
+   "end": 33.62
+  },
+  {
+   "word": "anche",
+   "start": 33.62,
+   "end": 34.08
+  },
+  {
+   "word": "per",
+   "start": 34.08,
+   "end": 34.32
+  },
+  {
+   "word": "chirurgia",
+   "start": 34.32,
+   "end": 34.76
+  },
+  {
+   "word": "generale.",
+   "start": 34.76,
+   "end": 35.24
+  },
+  {
+   "word": "Gli",
+   "start": 36.08,
+   "end": 36.24
+  },
+  {
+   "word": "importi",
+   "start": 36.24,
+   "end": 36.62
+  },
+  {
+   "word": "nuovi",
+   "start": 36.62,
+   "end": 36.94
+  },
+  {
+   "word": "vanno",
+   "start": 36.94,
+   "end": 37.28
+  },
+  {
+   "word": "verificati",
+   "start": 37.28,
+   "end": 37.86
+  },
+  {
+   "word": "sul",
+   "start": 37.86,
+   "end": 38.08
+  },
+  {
+   "word": "bando",
+   "start": 38.08,
+   "end": 38.34
+  },
+  {
+   "word": "dell",
+   "start": 38.34,
+   "end": 38.54
+  },
+  {
+   "word": "'anno.",
+   "start": 38.54,
+   "end": 38.84
+  },
+  {
+   "word": "2.",
+   "start": 39.62,
+   "end": 40.04
+  },
+  {
+   "word": "Il",
+   "start": 40.44,
+   "end": 40.46
+  },
+  {
+   "word": "chirurgo",
+   "start": 40.46,
+   "end": 40.94
+  },
+  {
+   "word": "esperto.",
+   "start": 40.94,
+   "end": 41.48
+  },
+  {
+   "word": "Qui",
+   "start": 42.12,
+   "end": 42.32
+  },
+  {
+   "word": "parliamo",
+   "start": 42.32,
+   "end": 42.72
+  },
+  {
+   "word": "di",
+   "start": 42.72,
+   "end": 42.94
+  },
+  {
+   "word": "un",
+   "start": 42.94,
+   "end": 43.06
+  },
+  {
+   "word": "dirigente",
+   "start": 43.06,
+   "end": 43.56
+  },
+  {
+   "word": "medico",
+   "start": 43.56,
+   "end": 44.0
+  },
+  {
+   "word": "nel",
+   "start": 44.0,
+   "end": 44.18
+  },
+  {
+   "word": "pubblico.",
+   "start": 44.18,
+   "end": 44.68
+  },
+  {
+   "word": "Lo",
+   "start": 45.22,
+   "end": 45.4
+  },
+  {
+   "word": "stipendio",
+   "start": 45.4,
+   "end": 45.78
+  },
+  {
+   "word": "tabellare",
+   "start": 45.78,
+   "end": 46.28
+  },
+  {
+   "word": "è",
+   "start": 46.28,
+   "end": 46.46
+  },
+  {
+   "word": "di",
+   "start": 46.46,
+   "end": 46.56
+  },
+  {
+   "word": "circa",
+   "start": 46.56,
+   "end": 46.78
+  },
+  {
+   "word": "50",
+   "start": 46.78,
+   "end": 47.26
+  },
+  {
+   "word": ".000",
+   "start": 47.26,
+   "end": 47.66
+  },
+  {
+   "word": "euro",
+   "start": 47.66,
+   "end": 47.9
+  },
+  {
+   "word": "l",
+   "start": 47.9,
+   "end": 48.08
+  },
+  {
+   "word": "'ordi",
+   "start": 48.08,
+   "end": 48.26
+  },
+  {
+   "word": "l",
+   "start": 48.26,
+   "end": 48.4
+  },
+  {
+   "word": "'anno,",
+   "start": 48.4,
+   "end": 48.6
+  },
+  {
+   "word": "su",
+   "start": 49.02,
+   "end": 49.28
+  },
+  {
+   "word": "13",
+   "start": 49.28,
+   "end": 49.5
+  },
+  {
+   "word": "mensilità.",
+   "start": 49.5,
+   "end": 50.18
+  },
+  {
+   "word": "Il",
+   "start": 50.86,
+   "end": 51.04
+  },
+  {
+   "word": "dato",
+   "start": 51.04,
+   "end": 51.24
+  },
+  {
+   "word": "viene",
+   "start": 51.24,
+   "end": 51.54
+  },
+  {
+   "word": "dal",
+   "start": 51.54,
+   "end": 51.74
+  },
+  {
+   "word": "contratto",
+   "start": 51.74,
+   "end": 52.24
+  },
+  {
+   "word": "della",
+   "start": 52.24,
+   "end": 52.42
+  },
+  {
+   "word": "sanità",
+   "start": 52.42,
+   "end": 52.74
+  },
+  {
+   "word": "2022",
+   "start": 52.74,
+   "end": 53.34
+  },
+  {
+   "word": "-2024.",
+   "start": 53.34,
+   "end": 54.46
+  },
+  {
+   "word": "Ma",
+   "start": 55.18,
+   "end": 55.42
+  },
+  {
+   "word": "attenzione,",
+   "start": 55.42,
+   "end": 55.98
+  },
+  {
+   "word": "non",
+   "start": 56.18,
+   "end": 56.26
+  },
+  {
+   "word": "è",
+   "start": 56.26,
+   "end": 56.36
+  },
+  {
+   "word": "tutto.",
+   "start": 56.36,
+   "end": 56.6
+  },
+  {
+   "word": "Ci",
+   "start": 56.92,
+   "end": 57.04
+  },
+  {
+   "word": "sono",
+   "start": 57.04,
+   "end": 57.24
+  },
+  {
+   "word": "altre",
+   "start": 57.24,
+   "end": 57.5
+  },
+  {
+   "word": "voci",
+   "start": 57.5,
+   "end": 57.84
+  },
+  {
+   "word": "come",
+   "start": 57.84,
+   "end": 58.1
+  },
+  {
+   "word": "posizione,",
+   "start": 58.1,
+   "end": 58.78
+  },
+  {
+   "word": "guardie",
+   "start": 59.04,
+   "end": 59.52
+  },
+  {
+   "word": "e",
+   "start": 59.52,
+   "end": 59.7
+  },
+  {
+   "word": "indennità.",
+   "start": 59.7,
+   "end": 60.32
+  },
+  {
+   "word": "Non",
+   "start": 60.92,
+   "end": 61.16
+  },
+  {
+   "word": "sono",
+   "start": 61.16,
+   "end": 61.36
+  },
+  {
+   "word": "comprese",
+   "start": 61.36,
+   "end": 61.76
+  },
+  {
+   "word": "in",
+   "start": 61.76,
+   "end": 61.94
+  },
+  {
+   "word": "questa",
+   "start": 61.94,
+   "end": 62.14
+  },
+  {
+   "word": "cifra.",
+   "start": 62.14,
+   "end": 62.5
+  },
+  {
+   "word": "3.",
+   "start": 63.44,
+   "end": 63.6
+  },
+  {
+   "word": "Il",
+   "start": 63.96,
+   "end": 63.98
+  },
+  {
+   "word": "confronto.",
+   "start": 63.98,
+   "end": 64.48
+  },
+  {
+   "word": "La",
+   "start": 65.18,
+   "end": 65.4
+  },
+  {
+   "word": "base",
+   "start": 65.4,
+   "end": 65.7
+  },
+  {
+   "word": "per",
+   "start": 65.7,
+   "end": 65.9
+  },
+  {
+   "word": "un",
+   "start": 65.9,
+   "end": 66.02
+  },
+  {
+   "word": "chirurgo",
+   "start": 66.02,
+   "end": 66.36
+  },
+  {
+   "word": "esperto",
+   "start": 66.36,
+   "end": 66.8
+  },
+  {
+   "word": "è",
+   "start": 66.8,
+   "end": 67.02
+  },
+  {
+   "word": "quasi",
+   "start": 67.02,
+   "end": 67.32
+  },
+  {
+   "word": "il",
+   "start": 67.32,
+   "end": 67.48
+  },
+  {
+   "word": "doppio.",
+   "start": 67.48,
+   "end": 67.84
+  },
+  {
+   "word": "Ma",
+   "start": 68.34,
+   "end": 68.5
+  },
+  {
+   "word": "ci",
+   "start": 68.5,
+   "end": 68.72
+  },
+  {
+   "word": "arrivi",
+   "start": 68.72,
+   "end": 69.0
+  },
+  {
+   "word": "dopo",
+   "start": 69.0,
+   "end": 69.24
+  },
+  {
+   "word": "anni",
+   "start": 69.24,
+   "end": 69.54
+  },
+  {
+   "word": "di",
+   "start": 69.54,
+   "end": 69.7
+  },
+  {
+   "word": "specializzazione,",
+   "start": 69.7,
+   "end": 70.6
+  },
+  {
+   "word": "notti",
+   "start": 70.94,
+   "end": 71.38
+  },
+  {
+   "word": "e",
+   "start": 71.38,
+   "end": 71.62
+  },
+  {
+   "word": "responsabilità.",
+   "start": 71.62,
+   "end": 72.42
+  },
+  {
+   "word": "E",
+   "start": 72.94,
+   "end": 73.12
+  },
+  {
+   "word": "il",
+   "start": 73.12,
+   "end": 73.26
+  },
+  {
+   "word": "privato",
+   "start": 73.26,
+   "end": 73.64
+  },
+  {
+   "word": "è",
+   "start": 73.64,
+   "end": 73.82
+  },
+  {
+   "word": "un",
+   "start": 73.82,
+   "end": 73.94
+  },
+  {
+   "word": "altro",
+   "start": 73.94,
+   "end": 74.12
+  },
+  {
+   "word": "mondo.",
+   "start": 74.12,
+   "end": 74.4
+  },
+  {
+   "word": "Qui",
+   "start": 74.74,
+   "end": 74.86
+  },
+  {
+   "word": "non",
+   "start": 74.86,
+   "end": 75.1
+  },
+  {
+   "word": "lo",
+   "start": 75.1,
+   "end": 75.26
+  },
+  {
+   "word": "contiamo.",
+   "start": 75.26,
+   "end": 75.68
+  },
+  {
+   "word": "L",
+   "start": 76.42,
+   "end": 76.92
+  },
+  {
+   "word": "'ordo",
+   "start": 76.92,
+   "end": 77.08
+  },
+  {
+   "word": "non",
+   "start": 77.08,
+   "end": 77.52
+  },
+  {
+   "word": "è",
+   "start": 77.52,
+   "end": 77.68
+  },
+  {
+   "word": "netto.",
+   "start": 77.68,
+   "end": 78.14
+  },
+  {
+   "word": "Stesso",
+   "start": 78.46,
+   "end": 78.82
+  },
+  {
+   "word": "camice,",
+   "start": 78.82,
+   "end": 79.24
+  },
+  {
+   "word": "due",
+   "start": 79.44,
+   "end": 79.58
+  },
+  {
+   "word": "buste",
+   "start": 79.58,
+   "end": 79.9
+  },
+  {
+   "word": "paga",
+   "start": 79.9,
+   "end": 80.12
+  },
+  {
+   "word": "molto",
+   "start": 80.12,
+   "end": 80.54
+  },
+  {
+   "word": "diverse.",
+   "start": 80.54,
+   "end": 80.94
+  },
+  {
+   "word": "I",
+   "start": 81.82,
+   "end": 81.94
+  },
+  {
+   "word": "scriviti,",
+   "start": 81.94,
+   "end": 82.38
+  },
+  {
+   "word": "se",
+   "start": 82.6,
+   "end": 82.68
+  },
+  {
+   "word": "vuoi",
+   "start": 82.68,
+   "end": 82.94
+  },
+  {
+   "word": "sapere",
+   "start": 82.94,
+   "end": 83.2
+  },
+  {
+   "word": "cosa",
+   "start": 83.2,
+   "end": 83.46
+  },
+  {
+   "word": "serve",
+   "start": 83.46,
+   "end": 83.82
+  },
+  {
+   "word": "davvero.",
+   "start": 83.82,
+   "end": 84.22
+  }
+ ]
+}
