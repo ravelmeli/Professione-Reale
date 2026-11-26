@@ -5,8 +5,9 @@ import wordsCam from './words.json';
 import wordsPol from './words-pol.json';
 import wordsFire from './words-fire.json';
 import wordsSol from './words-sol.json';
+import wordsGru from './words-gru.json';
 import { PROJECT } from './project';
-const words: any = PROJECT === 'sol' ? wordsSol : PROJECT === 'fire' ? wordsFire : PROJECT === 'pol' ? wordsPol : wordsCam;
+const words: any = PROJECT === 'gru' ? wordsGru : PROJECT === 'sol' ? wordsSol : PROJECT === 'fire' ? wordsFire : PROJECT === 'pol' ? wordsPol : wordsCam;
 
 export const WORDS: { w: string; s: number }[] = (words as any).words.map((x: any) => ({ w: String(x.word || x.text).toLowerCase().replace(/[^\w'àèéìòù]/g, ''), s: x.start }));
 export const wt = (q: string, after = 0): number => { const k = q.toLowerCase(); const r = WORDS.find((x) => x.s >= after - 0.05 && x.w.startsWith(k)); return r ? r.s : after; };
@@ -89,6 +90,15 @@ const KINDS: Record<string, (o: ObjSpec, t: number) => React.ReactNode> = {
   bridge: () => <g><Ln p={[[-90, 10], [90, 10]]} sw={12} /><path d="M -90 10 Q 0 -50 90 10" fill="none" stroke={INK} strokeWidth={8} />{[-60, -30, 0, 30, 60].map((x) => <Ln key={x} p={[[x, 10], [x, -18 + Math.abs(x) * 0.35]]} sw={4} />)}</g>,
   backpack: () => <g><S x={-40} y={-50} w={80} h={100} r={22} fill="#5b6b3a" /><S x={-28} y={-8} w={56} h={34} r={8} fill="#4a5530" /><Ln p={[[-40, -30], [-52, 20]]} sw={6} /></g>,
   mountain: () => <g><Poly p={[[-80, 40], [-24, -50], [6, -10], [30, -56], [86, 40]]} fill="#8a93a6" /><Poly p={[[-24, -50], [-8, -20], [-38, -20]]} fill="#fff" /></g>,
+  crane: () => <g><S x={-10} y={-120} w={20} h={170} r={3} fill="#f2b21a" />{[-100, -70, -40, -10, 20].map((y) => <Ln key={y} p={[[-10, y], [10, y + 30]]} sw={3} />)}<S x={-120} y={-136} w={250} h={16} r={3} fill="#f2b21a" /><S x={-130} y={-130} w={30} h={28} r={3} fill="#8a8f98" /><Ln p={[[-10, -150], [90, -136]]} sw={3} /><Ln p={[[90, -126], [90, -40]]} sw={3} /><path d="M 90 -40 q 0 22 -14 22 q -12 0 -10 -12" fill="none" stroke={INK} strokeWidth={6} strokeLinecap="round" /></g>,
+  hook: () => <g><Ln p={[[0, -90], [0, -30]]} sw={5} /><S x={-18} y={-34} w={36} h={22} r={4} fill="#f2b21a" /><path d="M 0 -12 q 0 36 -22 36 q -24 0 -22 -24" fill="none" stroke={INK} strokeWidth={9} strokeLinecap="round" /></g>,
+  beam: () => <g><S x={-90} y={-12} w={180} h={24} r={3} fill="#8a93a6" /><S x={-90} y={-12} w={180} h={5} r={2} fill="#c9ced6" /><Ln p={[[-70, -12], [0, -64], [70, -12]]} sw={4} /></g>,
+  wind: (o, t) => <g>{[0, 1, 2].map((i) => <path key={i} d={`M ${-70 + Math.sin(t * 3 + i) * 8} ${-26 + i * 26} h 100 q 30 0 30 -18 q 0 -14 -16 -12`} fill="none" stroke="#9fb4d0" strokeWidth={7} strokeLinecap="round" />)}</g>,
+  harness: () => <g><circle cy={-34} r={20} fill="none" stroke={INK} strokeWidth={8} /><Ln p={[[-20, -34], [-30, 30], [30, 30], [20, -34]]} sw={7} /><Ln p={[[-30, 30], [30, -10]]} sw={6} /><S x={-8} y={30} w={16} h={22} r={3} fill="#c9ced6" /></g>,
+  hardhat: () => <g><path d="M -48 8 Q -48 -44 0 -44 Q 48 -44 48 8 Z" fill="#ffd23f" stroke={INK} strokeWidth={5} /><S x={-56} y={4} w={112} h={13} r={6} fill="#f2b21a" /><S x={-6} y={-44} w={12} h={26} r={3} fill="#f2b21a" /></g>,
+  boots: () => <g><path d="M -50 40 L -50 -30 L -10 -30 L -10 4 Q 40 6 54 26 L 54 40 Z" fill="#8a5a2b" stroke={INK} strokeWidth={6} strokeLinejoin="round" /><S x={-52} y={34} w={108} h={14} r={4} fill="#2a2f3c" /></g>,
+  hand: () => <g><S x={-26} y={-6} w={52} h={50} r={14} fill="#f0c9a4" />{[-20, -7, 6, 19].map((x) => <S key={x} x={x - 5} y={-52} w={11} h={52} r={5} fill="#f0c9a4" />)}<S x={-46} y={0} w={22} h={14} r={7} fill="#f0c9a4" /></g>,
+  window: () => <g><S x={-56} y={-56} w={112} h={112} r={4} fill="#9fd0e8" /><Ln p={[[0, -56], [0, 56]]} sw={5} /><Ln p={[[-56, 0], [56, 0]]} sw={5} /></g>,
   ladder: () => <g transform="rotate(-18)"><Ln p={[[-14, -80], [-14, 80]]} sw={8} /><Ln p={[[14, -80], [14, 80]]} sw={8} />{[-60, -30, 0, 30, 60].map((y) => <Ln key={y} p={[[-14, y], [14, y]]} sw={6} />)}</g>,
   water: (o, t) => <g>{Array.from({ length: 5 }).map((_, i) => <circle key={i} cx={-60 + i * 30} cy={20 + Math.sin(t * 6 + i) * 6} r={14} fill="#6cc4ff" stroke={INK} strokeWidth={3} />)}<path d="M -80 30 Q 0 -10 80 30" fill="none" stroke="#6cc4ff" strokeWidth={10} /></g>,
   paw: () => <g><ellipse cy={14} rx={26} ry={22} fill="#8a5a2b" stroke={INK} strokeWidth={5} />{[-30, -10, 10, 30].map((x, i) => <ellipse key={i} cx={x} cy={-18 - (i % 3 === 0 ? 0 : 8)} rx={9} ry={12} fill="#8a5a2b" stroke={INK} strokeWidth={4} />)}</g>,

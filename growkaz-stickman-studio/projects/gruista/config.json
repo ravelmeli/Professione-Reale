@@ -1,0 +1,28 @@
+{
+ "title": "La tua vita a ogni livello come gruista",
+ "aspect": "16:9",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "toon",
+ "voiceover": "input/voiceover.wav",
+ "script": "input/script.txt",
+ "duration": 605.050000,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.5,
+ "fadeOut": 0.8,
+ "music": {
+  "enabled": false,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -9
+ },
+ "loudness": -14,
+ "captionStyle": {
+  "y": 960,
+  "size": 64,
+  "max": 4
+ }
+}
