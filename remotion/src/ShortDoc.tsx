@@ -7,6 +7,7 @@ import { SPECS_LIN } from './specs-lin';
 import { SPECS_CHI } from './specs-chi';
 import { SPECS_CHI2 } from './specs-chi2';
 import { SPECS_SUB } from './specs-sub';
+import { SPECS_PVC } from './specs-pvc';
 import { PROJECT } from './project';
 const ASC = PROJECT === 'asc';
 const ELE = PROJECT === 'ele';
@@ -14,12 +15,13 @@ const LIN = PROJECT === 'lin';
 const CHI = PROJECT === 'chi';
 const CHI2 = PROJECT === 'chi2';
 const SUB = PROJECT === 'sub';
-const SPECS = SUB ? SPECS_SUB : CHI2 ? SPECS_CHI2 : CHI ? SPECS_CHI : LIN ? SPECS_LIN : ELE ? SPECS_ELE : ASC ? SPECS_ASC : SPECS_PILS;
+const PVC = PROJECT === 'pvc';
+const SPECS = PVC ? SPECS_PVC : SUB ? SPECS_SUB : CHI2 ? SPECS_CHI2 : CHI ? SPECS_CHI : LIN ? SPECS_LIN : ELE ? SPECS_ELE : ASC ? SPECS_ASC : SPECS_PILS;
 import { drawSpec } from './engine';
 import { Defs, Finish, H, clamp, out3 } from './kit';
 import type { C, Out } from './beats';
 export const FPS = 30;
-export const SEND = SUB ? 80.69 : CHI2 ? 107.39 : CHI ? 84.63 : LIN ? 76.39 : ELE ? 73.22 : ASC ? 77.12 : 77.77;
+export const SEND = PVC ? 83.14 : SUB ? 80.69 : CHI2 ? 107.39 : CHI ? 84.63 : LIN ? 76.39 : ELE ? 73.22 : ASC ? 77.12 : 77.77;
 const VW = 607.5; const VX = 960 - VW / 2;
 type Item = { s: number; id: string; draw: (c: C) => Out; whip?: boolean };
 const build = (): Item[] => {
@@ -40,7 +42,7 @@ const Beat: React.FC<{ i: number }> = ({ i }) => {
 };
 export const ShortDoc: React.FC = () => (
   <AbsoluteFill style={{ background: '#000' }}>
-    <Audio src={staticFile(SUB ? 'voce-sub.wav' : CHI2 ? 'voce-chi2.wav' : CHI ? 'voce-chi.wav' : LIN ? 'voce-lin.wav' : ELE ? 'voce-ele.wav' : ASC ? 'voce-asc.wav' : 'voce-pils.wav')} />
+    <Audio src={staticFile(PVC ? 'voce-pvc.wav' : SUB ? 'voce-sub.wav' : CHI2 ? 'voce-chi2.wav' : CHI ? 'voce-chi.wav' : LIN ? 'voce-lin.wav' : ELE ? 'voce-ele.wav' : ASC ? 'voce-asc.wav' : 'voce-pils.wav')} />
     {ITEMS.map((it, i) => { const end = i + 1 < ITEMS.length ? ITEMS[i + 1].s : SEND; return <Sequence key={it.id} from={Math.round(it.s * FPS)} durationInFrames={Math.max(1, Math.round((end - it.s) * FPS))}><Beat i={i} /></Sequence>; })}
   </AbsoluteFill>
 );

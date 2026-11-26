@@ -8,7 +8,7 @@ const comp = await selectComposition({ serveUrl, id: 'Short', browserExecutable:
 const items = JSON.parse(fs.readFileSync('/tmp/claude-0/items.json'));
 for (let i = from; i < Math.min(items.length, to); i++) {
   if (fs.existsSync(`${out}/i${String(i).padStart(3, '0')}.jpg`)) continue;
-  const a = items[i], b = i + 1 < items.length ? items[i + 1] : 80.69;
+  const a = items[i], b = i + 1 < items.length ? items[i + 1] : 83.14;
   const frame = Math.min(comp.durationInFrames - 1, Math.round((a + (b - a) * 0.55) * 30));
   await renderStill({ composition: comp, serveUrl, output: `${out}/i${String(i).padStart(3, '0')}.jpg`, frame, imageFormat: 'jpeg', jpegQuality: 70, browserExecutable: '/opt/pw-browsers/chromium', chromiumOptions: { gl: 'swangle' }, scale: 0.4 });
 }
