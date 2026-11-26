@@ -1,0 +1,1015 @@
+{
+ "source": "whisper:small",
+ "words": [
+  {
+   "word": "quanto",
+   "start": 0.0,
+   "end": 0.24
+  },
+  {
+   "word": "guadagna",
+   "start": 0.24,
+   "end": 0.86
+  },
+  {
+   "word": "un",
+   "start": 0.86,
+   "end": 1.04
+  },
+  {
+   "word": "tecnico",
+   "start": 1.04,
+   "end": 1.52
+  },
+  {
+   "word": "delle",
+   "start": 1.52,
+   "end": 1.66
+  },
+  {
+   "word": "linee",
+   "start": 1.66,
+   "end": 2.06
+  },
+  {
+   "word": "elettriche",
+   "start": 2.06,
+   "end": 2.52
+  },
+  {
+   "word": "durante",
+   "start": 2.52,
+   "end": 2.78
+  },
+  {
+   "word": "una",
+   "start": 2.78,
+   "end": 2.96
+  },
+  {
+   "word": "tempesta?",
+   "start": 2.96,
+   "end": 3.42
+  },
+  {
+   "word": "Quando",
+   "start": 4.04,
+   "end": 4.24
+  },
+  {
+   "word": "tutti",
+   "start": 4.24,
+   "end": 4.62
+  },
+  {
+   "word": "tornano",
+   "start": 4.62,
+   "end": 5.02
+  },
+  {
+   "word": "a",
+   "start": 5.02,
+   "end": 5.16
+  },
+  {
+   "word": "casa,",
+   "start": 5.16,
+   "end": 5.42
+  },
+  {
+   "word": "lui",
+   "start": 5.72,
+   "end": 5.96
+  },
+  {
+   "word": "sale",
+   "start": 5.96,
+   "end": 6.24
+  },
+  {
+   "word": "sul",
+   "start": 6.24,
+   "end": 6.42
+  },
+  {
+   "word": "palo.",
+   "start": 6.42,
+   "end": 7.32
+  },
+  {
+   "word": "1.",
+   "start": 7.44,
+   "end": 7.7
+  },
+  {
+   "word": "La",
+   "start": 8.18,
+   "end": 8.28
+  },
+  {
+   "word": "base.",
+   "start": 8.28,
+   "end": 8.54
+  },
+  {
+   "word": "Negli",
+   "start": 9.18,
+   "end": 9.38
+  },
+  {
+   "word": "Stati",
+   "start": 9.38,
+   "end": 9.64
+  },
+  {
+   "word": "Uniti,",
+   "start": 9.64,
+   "end": 9.92
+  },
+  {
+   "word": "la",
+   "start": 10.16,
+   "end": 10.22
+  },
+  {
+   "word": "paga",
+   "start": 10.22,
+   "end": 10.38
+  },
+  {
+   "word": "mediana",
+   "start": 10.38,
+   "end": 10.72
+  },
+  {
+   "word": "è",
+   "start": 10.72,
+   "end": 10.86
+  },
+  {
+   "word": "di",
+   "start": 10.86,
+   "end": 10.94
+  },
+  {
+   "word": "circa",
+   "start": 10.94,
+   "end": 11.14
+  },
+  {
+   "word": "95",
+   "start": 11.14,
+   "end": 11.66
+  },
+  {
+   "word": ".000",
+   "start": 11.66,
+   "end": 12.08
+  },
+  {
+   "word": "dollari",
+   "start": 12.08,
+   "end": 12.44
+  },
+  {
+   "word": "l",
+   "start": 12.44,
+   "end": 12.6
+  },
+  {
+   "word": "'anno,",
+   "start": 12.6,
+   "end": 12.76
+  },
+  {
+   "word": "l",
+   "start": 13.22,
+   "end": 13.4
+  },
+  {
+   "word": "'ordi,",
+   "start": 13.4,
+   "end": 13.64
+  },
+  {
+   "word": "cioè",
+   "start": 13.78,
+   "end": 13.94
+  },
+  {
+   "word": "prima",
+   "start": 13.94,
+   "end": 14.24
+  },
+  {
+   "word": "delle",
+   "start": 14.24,
+   "end": 14.42
+  },
+  {
+   "word": "tasse.",
+   "start": 14.42,
+   "end": 14.8
+  },
+  {
+   "word": "Il",
+   "start": 15.62,
+   "end": 15.82
+  },
+  {
+   "word": "10",
+   "start": 15.82,
+   "end": 16.06
+  },
+  {
+   "word": "%",
+   "start": 16.06,
+   "end": 16.36
+  },
+  {
+   "word": "più",
+   "start": 16.36,
+   "end": 16.6
+  },
+  {
+   "word": "basso",
+   "start": 16.6,
+   "end": 16.96
+  },
+  {
+   "word": "sta",
+   "start": 16.96,
+   "end": 17.18
+  },
+  {
+   "word": "sotto",
+   "start": 17.18,
+   "end": 17.36
+  },
+  {
+   "word": "i",
+   "start": 17.36,
+   "end": 17.54
+  },
+  {
+   "word": "51",
+   "start": 17.54,
+   "end": 17.82
+  },
+  {
+   "word": ".000,",
+   "start": 17.82,
+   "end": 18.18
+  },
+  {
+   "word": "il",
+   "start": 18.5,
+   "end": 18.72
+  },
+  {
+   "word": "10",
+   "start": 18.72,
+   "end": 18.92
+  },
+  {
+   "word": "%",
+   "start": 18.92,
+   "end": 19.24
+  },
+  {
+   "word": "più",
+   "start": 19.24,
+   "end": 19.5
+  },
+  {
+   "word": "alto",
+   "start": 19.5,
+   "end": 19.8
+  },
+  {
+   "word": "supera",
+   "start": 19.8,
+   "end": 20.24
+  },
+  {
+   "word": "i",
+   "start": 20.24,
+   "end": 20.34
+  },
+  {
+   "word": "128",
+   "start": 20.34,
+   "end": 20.7
+  },
+  {
+   "word": ".000.",
+   "start": 20.7,
+   "end": 21.2
+  },
+  {
+   "word": "I",
+   "start": 21.66,
+   "end": 21.86
+  },
+  {
+   "word": "dati",
+   "start": 21.86,
+   "end": 22.12
+  },
+  {
+   "word": "sono",
+   "start": 22.12,
+   "end": 22.38
+  },
+  {
+   "word": "del",
+   "start": 22.38,
+   "end": 22.56
+  },
+  {
+   "word": "viewer",
+   "start": 22.56,
+   "end": 22.78
+  },
+  {
+   "word": "of",
+   "start": 22.78,
+   "end": 23.02
+  },
+  {
+   "word": "labor",
+   "start": 23.02,
+   "end": 23.24
+  },
+  {
+   "word": "statistics",
+   "start": 23.24,
+   "end": 23.58
+  },
+  {
+   "word": "2025.",
+   "start": 23.58,
+   "end": 24.16
+  },
+  {
+   "word": "2.",
+   "start": 25.12,
+   "end": 25.78
+  },
+  {
+   "word": "La",
+   "start": 26.18,
+   "end": 26.26
+  },
+  {
+   "word": "tempesta.",
+   "start": 26.26,
+   "end": 26.78
+  },
+  {
+   "word": "Il",
+   "start": 27.48,
+   "end": 27.58
+  },
+  {
+   "word": "manuale",
+   "start": 27.58,
+   "end": 27.94
+  },
+  {
+   "word": "americano",
+   "start": 27.94,
+   "end": 28.3
+  },
+  {
+   "word": "non",
+   "start": 28.3,
+   "end": 28.52
+  },
+  {
+   "word": "indica",
+   "start": 28.52,
+   "end": 28.86
+  },
+  {
+   "word": "una",
+   "start": 28.86,
+   "end": 29.0
+  },
+  {
+   "word": "paga",
+   "start": 29.0,
+   "end": 29.18
+  },
+  {
+   "word": "speciale",
+   "start": 29.18,
+   "end": 29.66
+  },
+  {
+   "word": "per",
+   "start": 29.66,
+   "end": 29.8
+  },
+  {
+   "word": "le",
+   "start": 29.8,
+   "end": 29.9
+  },
+  {
+   "word": "tempeste.",
+   "start": 29.9,
+   "end": 30.4
+  },
+  {
+   "word": "Dice",
+   "start": 30.76,
+   "end": 30.96
+  },
+  {
+   "word": "un",
+   "start": 30.96,
+   "end": 31.1
+  },
+  {
+   "word": "'altra",
+   "start": 31.1,
+   "end": 31.22
+  },
+  {
+   "word": "cosa.",
+   "start": 31.22,
+   "end": 31.54
+  },
+  {
+   "word": "Dopo",
+   "start": 32.28,
+   "end": 32.56
+  },
+  {
+   "word": "una",
+   "start": 32.56,
+   "end": 32.68
+  },
+  {
+   "word": "tempesta",
+   "start": 32.68,
+   "end": 33.18
+  },
+  {
+   "word": "si",
+   "start": 33.18,
+   "end": 33.48
+  },
+  {
+   "word": "può",
+   "start": 33.48,
+   "end": 33.64
+  },
+  {
+   "word": "viaggiare",
+   "start": 33.64,
+   "end": 34.2
+  },
+  {
+   "word": "lontano",
+   "start": 34.2,
+   "end": 34.66
+  },
+  {
+   "word": "da",
+   "start": 34.66,
+   "end": 34.82
+  },
+  {
+   "word": "casa",
+   "start": 34.82,
+   "end": 35.12
+  },
+  {
+   "word": "e",
+   "start": 35.12,
+   "end": 35.92
+  },
+  {
+   "word": "lavorare",
+   "start": 35.92,
+   "end": 36.3
+  },
+  {
+   "word": "molte",
+   "start": 36.3,
+   "end": 36.74
+  },
+  {
+   "word": "ore",
+   "start": 36.74,
+   "end": 36.96
+  },
+  {
+   "word": "per",
+   "start": 36.96,
+   "end": 37.3
+  },
+  {
+   "word": "più",
+   "start": 37.3,
+   "end": 37.5
+  },
+  {
+   "word": "giorni",
+   "start": 37.5,
+   "end": 37.82
+  },
+  {
+   "word": "di",
+   "start": 37.82,
+   "end": 37.94
+  },
+  {
+   "word": "fila.",
+   "start": 37.94,
+   "end": 38.22
+  },
+  {
+   "word": "3.",
+   "start": 38.66,
+   "end": 39.02
+  },
+  {
+   "word": "Le",
+   "start": 39.44,
+   "end": 39.44
+  },
+  {
+   "word": "ore",
+   "start": 39.44,
+   "end": 39.62
+  },
+  {
+   "word": "extra.",
+   "start": 39.62,
+   "end": 39.92
+  },
+  {
+   "word": "Più",
+   "start": 40.64,
+   "end": 40.82
+  },
+  {
+   "word": "ore",
+   "start": 40.82,
+   "end": 41.0
+  },
+  {
+   "word": "spesso",
+   "start": 41.0,
+   "end": 41.52
+  },
+  {
+   "word": "vogliono",
+   "start": 41.52,
+   "end": 41.88
+  },
+  {
+   "word": "dire",
+   "start": 41.88,
+   "end": 42.08
+  },
+  {
+   "word": "più",
+   "start": 42.08,
+   "end": 42.3
+  },
+  {
+   "word": "soldi.",
+   "start": 42.3,
+   "end": 42.76
+  },
+  {
+   "word": "Ma",
+   "start": 43.04,
+   "end": 43.26
+  },
+  {
+   "word": "quanto",
+   "start": 43.26,
+   "end": 43.68
+  },
+  {
+   "word": "dipende",
+   "start": 43.68,
+   "end": 44.14
+  },
+  {
+   "word": "dal",
+   "start": 44.14,
+   "end": 44.32
+  },
+  {
+   "word": "contratto?",
+   "start": 44.32,
+   "end": 44.84
+  },
+  {
+   "word": "4.",
+   "start": 45.2,
+   "end": 45.78
+  },
+  {
+   "word": "In",
+   "start": 46.22,
+   "end": 46.28
+  },
+  {
+   "word": "Italia.",
+   "start": 46.28,
+   "end": 46.54
+  },
+  {
+   "word": "Il",
+   "start": 47.16,
+   "end": 47.32
+  },
+  {
+   "word": "contratto",
+   "start": 47.32,
+   "end": 47.74
+  },
+  {
+   "word": "del",
+   "start": 47.74,
+   "end": 47.88
+  },
+  {
+   "word": "settore",
+   "start": 47.88,
+   "end": 48.24
+  },
+  {
+   "word": "elettrico",
+   "start": 48.24,
+   "end": 48.7
+  },
+  {
+   "word": "prevede",
+   "start": 48.7,
+   "end": 49.06
+  },
+  {
+   "word": "maggiorazioni",
+   "start": 49.06,
+   "end": 49.58
+  },
+  {
+   "word": "per",
+   "start": 49.58,
+   "end": 49.78
+  },
+  {
+   "word": "notte",
+   "start": 49.78,
+   "end": 50.1
+  },
+  {
+   "word": "e",
+   "start": 50.1,
+   "end": 50.36
+  },
+  {
+   "word": "festivi",
+   "start": 50.36,
+   "end": 50.8
+  },
+  {
+   "word": "e",
+   "start": 50.8,
+   "end": 51.18
+  },
+  {
+   "word": "un",
+   "start": 51.18,
+   "end": 51.48
+  },
+  {
+   "word": "'indenità",
+   "start": 51.48,
+   "end": 51.9
+  },
+  {
+   "word": "di",
+   "start": 51.9,
+   "end": 52.04
+  },
+  {
+   "word": "reperibilità.",
+   "start": 52.04,
+   "end": 52.7
+  },
+  {
+   "word": "Gli",
+   "start": 53.32,
+   "end": 53.46
+  },
+  {
+   "word": "importi",
+   "start": 53.46,
+   "end": 53.84
+  },
+  {
+   "word": "sono",
+   "start": 53.84,
+   "end": 54.0
+  },
+  {
+   "word": "nel",
+   "start": 54.0,
+   "end": 54.18
+  },
+  {
+   "word": "contratto,",
+   "start": 54.18,
+   "end": 54.7
+  },
+  {
+   "word": "controlla",
+   "start": 54.84,
+   "end": 55.24
+  },
+  {
+   "word": "sempre",
+   "start": 55.24,
+   "end": 55.64
+  },
+  {
+   "word": "quello",
+   "start": 55.64,
+   "end": 55.88
+  },
+  {
+   "word": "applicato.",
+   "start": 55.88,
+   "end": 56.38
+  },
+  {
+   "word": "5.",
+   "start": 56.96,
+   "end": 57.3
+  },
+  {
+   "word": "In",
+   "start": 57.62,
+   "end": 57.72
+  },
+  {
+   "word": "rischio.",
+   "start": 57.72,
+   "end": 58.12
+  },
+  {
+   "word": "Alta",
+   "start": 58.74,
+   "end": 58.92
+  },
+  {
+   "word": "tensione,",
+   "start": 58.92,
+   "end": 59.48
+  },
+  {
+   "word": "altezza,",
+   "start": 59.68,
+   "end": 60.2
+  },
+  {
+   "word": "tutte",
+   "start": 60.5,
+   "end": 60.6
+  },
+  {
+   "word": "le",
+   "start": 60.6,
+   "end": 60.78
+  },
+  {
+   "word": "intemperie.",
+   "start": 60.78,
+   "end": 61.42
+  },
+  {
+   "word": "Lavori",
+   "start": 61.94,
+   "end": 62.28
+  },
+  {
+   "word": "fuori,",
+   "start": 62.28,
+   "end": 62.56
+  },
+  {
+   "word": "con",
+   "start": 62.76,
+   "end": 62.84
+  },
+  {
+   "word": "la",
+   "start": 62.84,
+   "end": 62.96
+  },
+  {
+   "word": "pioggia",
+   "start": 62.96,
+   "end": 63.22
+  },
+  {
+   "word": "e",
+   "start": 63.22,
+   "end": 63.3
+  },
+  {
+   "word": "il",
+   "start": 63.3,
+   "end": 63.34
+  },
+  {
+   "word": "vento.",
+   "start": 63.34,
+   "end": 63.7
+  },
+  {
+   "word": "Perché",
+   "start": 64.28,
+   "end": 64.4
+  },
+  {
+   "word": "è",
+   "start": 64.4,
+   "end": 64.6
+  },
+  {
+   "word": "proprio",
+   "start": 64.6,
+   "end": 64.9
+  },
+  {
+   "word": "lì",
+   "start": 64.9,
+   "end": 65.2
+  },
+  {
+   "word": "che",
+   "start": 65.2,
+   "end": 65.46
+  },
+  {
+   "word": "la",
+   "start": 65.46,
+   "end": 65.6
+  },
+  {
+   "word": "luce",
+   "start": 65.6,
+   "end": 65.82
+  },
+  {
+   "word": "si",
+   "start": 65.82,
+   "end": 65.96
+  },
+  {
+   "word": "spegne.",
+   "start": 65.96,
+   "end": 66.34
+  },
+  {
+   "word": "Quindi,",
+   "start": 66.94,
+   "end": 67.44
+  },
+  {
+   "word": "quanto",
+   "start": 67.6,
+   "end": 67.8
+  },
+  {
+   "word": "guadagna",
+   "start": 67.8,
+   "end": 68.3
+  },
+  {
+   "word": "durante",
+   "start": 68.3,
+   "end": 68.5
+  },
+  {
+   "word": "una",
+   "start": 68.5,
+   "end": 68.76
+  },
+  {
+   "word": "tempesta?",
+   "start": 68.76,
+   "end": 69.2
+  },
+  {
+   "word": "Non",
+   "start": 69.82,
+   "end": 69.96
+  },
+  {
+   "word": "c",
+   "start": 69.96,
+   "end": 70.14
+  },
+  {
+   "word": "'è",
+   "start": 70.14,
+   "end": 70.2
+  },
+  {
+   "word": "una",
+   "start": 70.2,
+   "end": 70.34
+  },
+  {
+   "word": "cifra",
+   "start": 70.34,
+   "end": 70.64
+  },
+  {
+   "word": "magica.",
+   "start": 70.64,
+   "end": 71.0
+  },
+  {
+   "word": "Ci",
+   "start": 71.38,
+   "end": 71.48
+  },
+  {
+   "word": "sono",
+   "start": 71.48,
+   "end": 71.7
+  },
+  {
+   "word": "ore,",
+   "start": 71.7,
+   "end": 72.06
+  },
+  {
+   "word": "rischio",
+   "start": 72.4,
+   "end": 72.76
+  },
+  {
+   "word": "e",
+   "start": 72.76,
+   "end": 73.06
+  },
+  {
+   "word": "un",
+   "start": 73.06,
+   "end": 73.16
+  },
+  {
+   "word": "contratto.",
+   "start": 73.16,
+   "end": 73.68
+  },
+  {
+   "word": "Iscriviti",
+   "start": 74.16,
+   "end": 74.64
+  },
+  {
+   "word": "se",
+   "start": 74.64,
+   "end": 74.76
+  },
+  {
+   "word": "vuoi",
+   "start": 74.76,
+   "end": 74.9
+  },
+  {
+   "word": "sapere",
+   "start": 74.9,
+   "end": 75.16
+  },
+  {
+   "word": "cosa",
+   "start": 75.16,
+   "end": 75.34
+  },
+  {
+   "word": "serve",
+   "start": 75.34,
+   "end": 75.7
+  },
+  {
+   "word": "davvero.",
+   "start": 75.7,
+   "end": 76.08
+  }
+ ]
+}

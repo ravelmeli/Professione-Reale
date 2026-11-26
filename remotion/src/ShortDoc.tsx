@@ -3,15 +3,17 @@ import { AbsoluteFill, Sequence, useCurrentFrame, Audio, staticFile } from 'remo
 import { SPECS_PILS } from './specs-pils';
 import { SPECS_ASC } from './specs-asc';
 import { SPECS_ELE } from './specs-ele';
+import { SPECS_LIN } from './specs-lin';
 import { PROJECT } from './project';
 const ASC = PROJECT === 'asc';
 const ELE = PROJECT === 'ele';
-const SPECS = ELE ? SPECS_ELE : ASC ? SPECS_ASC : SPECS_PILS;
+const LIN = PROJECT === 'lin';
+const SPECS = LIN ? SPECS_LIN : ELE ? SPECS_ELE : ASC ? SPECS_ASC : SPECS_PILS;
 import { drawSpec } from './engine';
 import { Defs, Finish, H, clamp, out3 } from './kit';
 import type { C, Out } from './beats';
 export const FPS = 30;
-export const SEND = ELE ? 73.22 : ASC ? 77.12 : 77.77;
+export const SEND = LIN ? 76.39 : ELE ? 73.22 : ASC ? 77.12 : 77.77;
 const VW = 607.5; const VX = 960 - VW / 2;
 type Item = { s: number; id: string; draw: (c: C) => Out; whip?: boolean };
 const build = (): Item[] => {
@@ -32,7 +34,7 @@ const Beat: React.FC<{ i: number }> = ({ i }) => {
 };
 export const ShortDoc: React.FC = () => (
   <AbsoluteFill style={{ background: '#000' }}>
-    <Audio src={staticFile(ELE ? 'voce-ele.wav' : ASC ? 'voce-asc.wav' : 'voce-pils.wav')} />
+    <Audio src={staticFile(LIN ? 'voce-lin.wav' : ELE ? 'voce-ele.wav' : ASC ? 'voce-asc.wav' : 'voce-pils.wav')} />
     {ITEMS.map((it, i) => { const end = i + 1 < ITEMS.length ? ITEMS[i + 1].s : SEND; return <Sequence key={it.id} from={Math.round(it.s * FPS)} durationInFrames={Math.max(1, Math.round((end - it.s) * FPS))}><Beat i={i} /></Sequence>; })}
   </AbsoluteFill>
 );

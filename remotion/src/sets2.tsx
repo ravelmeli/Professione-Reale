@@ -114,6 +114,18 @@ export const Quadro: React.FC<SetP> = ({ cam, t, cast }) => (
     <L cam={cam} d={1}>{cast}</L>
   </g>
 );
+export const Tempesta: React.FC<SetP> = ({ cam, t, cast }) => {
+  const fl = Math.sin(t * 5.3) > 0.93;
+  return (
+    <g>
+      <L cam={cam} d={0.3}><defs><linearGradient id="tp" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#1b2238" /><stop offset="1" stopColor="#4a5470" /></linearGradient></defs><rect x={-400} y={-300} width={W + 800} height={FLOOR + 300} fill="url(#tp)" />{[0, 1, 2, 3].map((i) => <ellipse key={i} cx={(i * 620 + t * 40) % 2400 - 200} cy={120 + (i % 2) * 90} rx={260} ry={60} fill="#2a3048" />)}{fl && <Poly p={[[1100, 0], [1040, 150], [1090, 150], [1020, 340], [1150, 120], [1100, 120], [1160, 0]]} fill="#fff3c4" />}</L>
+      <L cam={cam} d={0.55}><rect x={-400} y={FLOOR - 120} width={W + 800} height={H} fill="#2a3a30" />{[0, 1, 2].map((i) => <g key={i}><S x={300 + i * 700} y={FLOOR - 560} w={26} h={560} r={3} fill="#5a4636" /><S x={230 + i * 700} y={FLOOR - 540} w={166} h={14} r={3} fill="#5a4636" /></g>)}<path d={`M -100 ${FLOOR - 540} Q 300 ${FLOOR - 470} 530 ${FLOOR - 540} Q 960 ${FLOOR - 470} 1230 ${FLOOR - 540} Q 1660 ${FLOOR - 470} 1930 ${FLOOR - 540}`} fill="none" stroke={INK} strokeWidth={4} /></L>
+      <L cam={cam} d={0.8}><rect x={-400} y={FLOOR - 20} width={W + 800} height={H} fill="#3a4a3a" /></L>
+      <L cam={cam} d={1}>{cast}</L>
+      <rect x={-400} y={-300} width={W + 800} height={H + 600} fill="#fff" opacity={fl ? 0.12 : 0} />
+    </g>
+  );
+};
 export const AnySet: React.FC<{ spec: any; cam: Cam; t: number; cast: React.ReactNode }> = ({ spec, cam, t, cast }) => {
   const n = typeof spec === 'string' ? spec : spec.n; const o = typeof spec === 'string' ? {} : spec;
   const p = { cam, t, cast, ...o };
@@ -135,6 +147,7 @@ export const AnySet: React.FC<{ spec: any; cam: Cam; t: number; cast: React.Reac
     case 'pista': return <Pista {...p} />;
     case 'atrio': return <Atrio {...p} />;
     case 'quadro': return <Quadro {...p} />;
+    case 'tempesta': return <Tempesta {...p} />;
     case 'tromba': return <Tromba {...p} />;
     case 'cockpit': return <Cockpit {...p} />;
     default: return <Piazzale {...p} />;
