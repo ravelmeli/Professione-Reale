@@ -1,0 +1,935 @@
+{
+ "source": "whisper:small",
+ "words": [
+  {
+   "word": "Il",
+   "start": 0.0,
+   "end": 0.24
+  },
+  {
+   "word": "tuo",
+   "start": 0.24,
+   "end": 0.46
+  },
+  {
+   "word": "primo",
+   "start": 0.46,
+   "end": 0.92
+  },
+  {
+   "word": "stipendio",
+   "start": 0.92,
+   "end": 1.66
+  },
+  {
+   "word": "da",
+   "start": 1.66,
+   "end": 1.88
+  },
+  {
+   "word": "elettricista",
+   "start": 1.88,
+   "end": 2.82
+  },
+  {
+   "word": "Non",
+   "start": 2.82,
+   "end": 3.62
+  },
+  {
+   "word": "è",
+   "start": 3.62,
+   "end": 3.78
+  },
+  {
+   "word": "la",
+   "start": 3.78,
+   "end": 3.9
+  },
+  {
+   "word": "cifra",
+   "start": 3.9,
+   "end": 4.16
+  },
+  {
+   "word": "che",
+   "start": 4.16,
+   "end": 4.28
+  },
+  {
+   "word": "pensi?",
+   "start": 4.28,
+   "end": 4.74
+  },
+  {
+   "word": "1.",
+   "start": 5.32,
+   "end": 5.58
+  },
+  {
+   "word": "Non",
+   "start": 6.36,
+   "end": 6.44
+  },
+  {
+   "word": "esiste",
+   "start": 6.44,
+   "end": 6.94
+  },
+  {
+   "word": "una",
+   "start": 6.94,
+   "end": 7.16
+  },
+  {
+   "word": "cifra",
+   "start": 7.16,
+   "end": 7.54
+  },
+  {
+   "word": "unica",
+   "start": 7.54,
+   "end": 7.96
+  },
+  {
+   "word": "Dipende",
+   "start": 7.96,
+   "end": 8.7
+  },
+  {
+   "word": "dal",
+   "start": 8.7,
+   "end": 8.9
+  },
+  {
+   "word": "contratto",
+   "start": 8.9,
+   "end": 9.42
+  },
+  {
+   "word": "che",
+   "start": 9.42,
+   "end": 9.52
+  },
+  {
+   "word": "ti",
+   "start": 9.52,
+   "end": 9.68
+  },
+  {
+   "word": "applicano,",
+   "start": 9.68,
+   "end": 10.14
+  },
+  {
+   "word": "impiantisti",
+   "start": 10.8,
+   "end": 11.32
+  },
+  {
+   "word": "ed",
+   "start": 11.32,
+   "end": 11.64
+  },
+  {
+   "word": "ilizia,",
+   "start": 11.64,
+   "end": 12.16
+  },
+  {
+   "word": "artigianato,",
+   "start": 12.32,
+   "end": 12.88
+  },
+  {
+   "word": "industria,",
+   "start": 13.12,
+   "end": 13.64
+  },
+  {
+   "word": "ogni",
+   "start": 13.86,
+   "end": 14.12
+  },
+  {
+   "word": "contratto",
+   "start": 14.12,
+   "end": 14.68
+  },
+  {
+   "word": "alle",
+   "start": 14.68,
+   "end": 14.84
+  },
+  {
+   "word": "sue",
+   "start": 14.84,
+   "end": 15.02
+  },
+  {
+   "word": "tabelle.",
+   "start": 15.02,
+   "end": 15.44
+  },
+  {
+   "word": "2.",
+   "start": 15.8,
+   "end": 16.32
+  },
+  {
+   "word": "Se",
+   "start": 17.1,
+   "end": 17.1
+  },
+  {
+   "word": "parti",
+   "start": 17.1,
+   "end": 17.36
+  },
+  {
+   "word": "da",
+   "start": 17.36,
+   "end": 17.54
+  },
+  {
+   "word": "apprendista,",
+   "start": 17.54,
+   "end": 18.1
+  },
+  {
+   "word": "parti",
+   "start": 18.36,
+   "end": 18.5
+  },
+  {
+   "word": "più",
+   "start": 18.5,
+   "end": 18.68
+  },
+  {
+   "word": "in",
+   "start": 18.68,
+   "end": 18.78
+  },
+  {
+   "word": "basso.",
+   "start": 18.78,
+   "end": 19.16
+  },
+  {
+   "word": "La",
+   "start": 19.52,
+   "end": 19.62
+  },
+  {
+   "word": "paga",
+   "start": 19.62,
+   "end": 19.8
+  },
+  {
+   "word": "è",
+   "start": 19.8,
+   "end": 19.92
+  },
+  {
+   "word": "una",
+   "start": 19.92,
+   "end": 20.04
+  },
+  {
+   "word": "percentuale",
+   "start": 20.04,
+   "end": 20.88
+  },
+  {
+   "word": "di",
+   "start": 20.88,
+   "end": 20.96
+  },
+  {
+   "word": "quella",
+   "start": 20.96,
+   "end": 21.16
+  },
+  {
+   "word": "di",
+   "start": 21.16,
+   "end": 21.28
+  },
+  {
+   "word": "un",
+   "start": 21.28,
+   "end": 21.36
+  },
+  {
+   "word": "lavoratore",
+   "start": 21.36,
+   "end": 21.72
+  },
+  {
+   "word": "qualificato.",
+   "start": 21.72,
+   "end": 22.38
+  },
+  {
+   "word": "In",
+   "start": 22.66,
+   "end": 22.86
+  },
+  {
+   "word": "alcuni",
+   "start": 22.86,
+   "end": 23.14
+  },
+  {
+   "word": "contratti",
+   "start": 23.14,
+   "end": 23.56
+  },
+  {
+   "word": "si",
+   "start": 23.56,
+   "end": 23.7
+  },
+  {
+   "word": "parte",
+   "start": 23.7,
+   "end": 23.94
+  },
+  {
+   "word": "da",
+   "start": 23.94,
+   "end": 24.2
+  },
+  {
+   "word": "meno",
+   "start": 24.2,
+   "end": 24.5
+  },
+  {
+   "word": "della",
+   "start": 24.5,
+   "end": 24.76
+  },
+  {
+   "word": "metà",
+   "start": 24.76,
+   "end": 25.06
+  },
+  {
+   "word": "e",
+   "start": 25.06,
+   "end": 25.78
+  },
+  {
+   "word": "sale,",
+   "start": 25.78,
+   "end": 26.06
+  },
+  {
+   "word": "anno",
+   "start": 26.32,
+   "end": 26.5
+  },
+  {
+   "word": "dopo",
+   "start": 26.5,
+   "end": 26.72
+  },
+  {
+   "word": "anno,",
+   "start": 26.72,
+   "end": 27.02
+  },
+  {
+   "word": "fino",
+   "start": 27.24,
+   "end": 27.32
+  },
+  {
+   "word": "alla",
+   "start": 27.32,
+   "end": 27.54
+  },
+  {
+   "word": "fine",
+   "start": 27.54,
+   "end": 27.7
+  },
+  {
+   "word": "dell",
+   "start": 27.7,
+   "end": 27.92
+  },
+  {
+   "word": "'apprendistato.",
+   "start": 27.92,
+   "end": 28.56
+  },
+  {
+   "word": "3.",
+   "start": 28.92,
+   "end": 29.44
+  },
+  {
+   "word": "Perché",
+   "start": 29.44,
+   "end": 29.52
+  },
+  {
+   "word": "l",
+   "start": 29.52,
+   "end": 30.24
+  },
+  {
+   "word": "'ordo",
+   "start": 30.24,
+   "end": 30.4
+  },
+  {
+   "word": "non",
+   "start": 30.4,
+   "end": 30.88
+  },
+  {
+   "word": "è",
+   "start": 30.88,
+   "end": 31.04
+  },
+  {
+   "word": "netto.",
+   "start": 31.04,
+   "end": 31.48
+  },
+  {
+   "word": "Il",
+   "start": 31.98,
+   "end": 32.18
+  },
+  {
+   "word": "lordo",
+   "start": 32.18,
+   "end": 32.42
+  },
+  {
+   "word": "è",
+   "start": 32.42,
+   "end": 32.52
+  },
+  {
+   "word": "la",
+   "start": 32.52,
+   "end": 32.62
+  },
+  {
+   "word": "cifra",
+   "start": 32.62,
+   "end": 32.88
+  },
+  {
+   "word": "scritta",
+   "start": 32.88,
+   "end": 33.22
+  },
+  {
+   "word": "sul",
+   "start": 33.22,
+   "end": 33.38
+  },
+  {
+   "word": "contratto,",
+   "start": 33.38,
+   "end": 33.98
+  },
+  {
+   "word": "il",
+   "start": 34.32,
+   "end": 34.48
+  },
+  {
+   "word": "netto",
+   "start": 34.48,
+   "end": 34.88
+  },
+  {
+   "word": "è",
+   "start": 34.88,
+   "end": 34.96
+  },
+  {
+   "word": "quello",
+   "start": 34.96,
+   "end": 35.2
+  },
+  {
+   "word": "che",
+   "start": 35.2,
+   "end": 35.36
+  },
+  {
+   "word": "arriva",
+   "start": 35.36,
+   "end": 35.56
+  },
+  {
+   "word": "sul",
+   "start": 35.56,
+   "end": 35.74
+  },
+  {
+   "word": "conto.",
+   "start": 35.74,
+   "end": 36.2
+  },
+  {
+   "word": "4.",
+   "start": 36.88,
+   "end": 37.18
+  },
+  {
+   "word": "La",
+   "start": 37.78,
+   "end": 38.0
+  },
+  {
+   "word": "base",
+   "start": 38.0,
+   "end": 38.34
+  },
+  {
+   "word": "non",
+   "start": 38.34,
+   "end": 38.72
+  },
+  {
+   "word": "è",
+   "start": 38.72,
+   "end": 38.9
+  },
+  {
+   "word": "tutto.",
+   "start": 38.9,
+   "end": 39.24
+  },
+  {
+   "word": "Straordinari,",
+   "start": 39.92,
+   "end": 40.52
+  },
+  {
+   "word": "trasferte",
+   "start": 40.74,
+   "end": 41.3
+  },
+  {
+   "word": "e",
+   "start": 41.3,
+   "end": 41.48
+  },
+  {
+   "word": "in",
+   "start": 41.48,
+   "end": 41.64
+  },
+  {
+   "word": "denità",
+   "start": 41.64,
+   "end": 42.0
+  },
+  {
+   "word": "possono",
+   "start": 42.0,
+   "end": 42.36
+  },
+  {
+   "word": "cambiare",
+   "start": 42.36,
+   "end": 42.84
+  },
+  {
+   "word": "la",
+   "start": 42.84,
+   "end": 42.98
+  },
+  {
+   "word": "busta",
+   "start": 42.98,
+   "end": 43.22
+  },
+  {
+   "word": "paga,",
+   "start": 43.22,
+   "end": 43.52
+  },
+  {
+   "word": "spesso",
+   "start": 43.9,
+   "end": 44.24
+  },
+  {
+   "word": "fanno",
+   "start": 44.24,
+   "end": 44.5
+  },
+  {
+   "word": "la",
+   "start": 44.5,
+   "end": 44.64
+  },
+  {
+   "word": "differenza.",
+   "start": 44.64,
+   "end": 45.18
+  },
+  {
+   "word": "5.",
+   "start": 45.6,
+   "end": 46.18
+  },
+  {
+   "word": "Il",
+   "start": 46.9,
+   "end": 47.06
+  },
+  {
+   "word": "primo",
+   "start": 47.06,
+   "end": 47.28
+  },
+  {
+   "word": "stipendio",
+   "start": 47.28,
+   "end": 47.84
+  },
+  {
+   "word": "non",
+   "start": 47.84,
+   "end": 48.12
+  },
+  {
+   "word": "resta",
+   "start": 48.12,
+   "end": 48.52
+  },
+  {
+   "word": "il",
+   "start": 48.52,
+   "end": 48.62
+  },
+  {
+   "word": "primo.",
+   "start": 48.62,
+   "end": 48.86
+  },
+  {
+   "word": "Con",
+   "start": 49.28,
+   "end": 49.42
+  },
+  {
+   "word": "gli",
+   "start": 49.42,
+   "end": 49.56
+  },
+  {
+   "word": "anni",
+   "start": 49.56,
+   "end": 49.7
+  },
+  {
+   "word": "diventi",
+   "start": 49.7,
+   "end": 50.0
+  },
+  {
+   "word": "qualificato,",
+   "start": 50.0,
+   "end": 50.66
+  },
+  {
+   "word": "poi",
+   "start": 50.96,
+   "end": 51.08
+  },
+  {
+   "word": "specializzato,",
+   "start": 51.08,
+   "end": 51.9
+  },
+  {
+   "word": "poi",
+   "start": 52.08,
+   "end": 52.18
+  },
+  {
+   "word": "responsabile",
+   "start": 52.18,
+   "end": 52.82
+  },
+  {
+   "word": "tecnico.",
+   "start": 52.82,
+   "end": 53.36
+  },
+  {
+   "word": "E",
+   "start": 53.88,
+   "end": 53.9
+  },
+  {
+   "word": "per",
+   "start": 53.9,
+   "end": 54.1
+  },
+  {
+   "word": "firmare",
+   "start": 54.1,
+   "end": 54.44
+  },
+  {
+   "word": "un",
+   "start": 54.44,
+   "end": 54.54
+  },
+  {
+   "word": "impianto",
+   "start": 54.54,
+   "end": 55.0
+  },
+  {
+   "word": "serve",
+   "start": 55.0,
+   "end": 55.26
+  },
+  {
+   "word": "un",
+   "start": 55.26,
+   "end": 55.48
+  },
+  {
+   "word": "requisito",
+   "start": 55.48,
+   "end": 56.04
+  },
+  {
+   "word": "tecnico",
+   "start": 56.04,
+   "end": 56.54
+  },
+  {
+   "word": "professionale.",
+   "start": 56.54,
+   "end": 57.2
+  },
+  {
+   "word": "Lo",
+   "start": 57.2,
+   "end": 57.72
+  },
+  {
+   "word": "prevede",
+   "start": 57.72,
+   "end": 58.06
+  },
+  {
+   "word": "il",
+   "start": 58.06,
+   "end": 58.16
+  },
+  {
+   "word": "Decreto",
+   "start": 58.16,
+   "end": 58.42
+  },
+  {
+   "word": "37",
+   "start": 58.42,
+   "end": 58.92
+  },
+  {
+   "word": "del",
+   "start": 58.92,
+   "end": 59.16
+  },
+  {
+   "word": "2008.",
+   "start": 59.16,
+   "end": 59.6
+  },
+  {
+   "word": "Il",
+   "start": 60.58,
+   "end": 60.94
+  },
+  {
+   "word": "tuo",
+   "start": 60.94,
+   "end": 61.06
+  },
+  {
+   "word": "primo",
+   "start": 61.06,
+   "end": 61.26
+  },
+  {
+   "word": "stipendio",
+   "start": 61.26,
+   "end": 61.82
+  },
+  {
+   "word": "è",
+   "start": 61.82,
+   "end": 62.04
+  },
+  {
+   "word": "il",
+   "start": 62.04,
+   "end": 62.18
+  },
+  {
+   "word": "punto",
+   "start": 62.18,
+   "end": 62.44
+  },
+  {
+   "word": "di",
+   "start": 62.44,
+   "end": 62.6
+  },
+  {
+   "word": "partenza,",
+   "start": 62.6,
+   "end": 63.14
+  },
+  {
+   "word": "non",
+   "start": 63.5,
+   "end": 63.68
+  },
+  {
+   "word": "il",
+   "start": 63.68,
+   "end": 63.84
+  },
+  {
+   "word": "valore",
+   "start": 63.84,
+   "end": 64.12
+  },
+  {
+   "word": "del",
+   "start": 64.12,
+   "end": 64.28
+  },
+  {
+   "word": "tuo",
+   "start": 64.28,
+   "end": 64.42
+  },
+  {
+   "word": "mestiere,",
+   "start": 64.42,
+   "end": 64.8
+  },
+  {
+   "word": "che",
+   "start": 65.18,
+   "end": 65.36
+  },
+  {
+   "word": "ha",
+   "start": 65.36,
+   "end": 65.42
+  },
+  {
+   "word": "di",
+   "start": 65.42,
+   "end": 65.5
+  },
+  {
+   "word": "sempre",
+   "start": 65.5,
+   "end": 65.7
+  },
+  {
+   "word": "contratto,",
+   "start": 65.7,
+   "end": 66.34
+  },
+  {
+   "word": "livello",
+   "start": 66.48,
+   "end": 66.86
+  },
+  {
+   "word": "e",
+   "start": 66.86,
+   "end": 66.92
+  },
+  {
+   "word": "percentuale.",
+   "start": 66.92,
+   "end": 67.68
+  },
+  {
+   "word": "Prima",
+   "start": 68.04,
+   "end": 68.5
+  },
+  {
+   "word": "di",
+   "start": 68.5,
+   "end": 68.64
+  },
+  {
+   "word": "firmare,",
+   "start": 68.64,
+   "end": 69.08
+  },
+  {
+   "word": "non",
+   "start": 69.44,
+   "end": 69.52
+  },
+  {
+   "word": "dopo.",
+   "start": 69.52,
+   "end": 69.8
+  },
+  {
+   "word": "Iscriviti",
+   "start": 70.64,
+   "end": 71.18
+  },
+  {
+   "word": "se",
+   "start": 71.18,
+   "end": 71.5
+  },
+  {
+   "word": "vuoi",
+   "start": 71.5,
+   "end": 71.68
+  },
+  {
+   "word": "sapere",
+   "start": 71.68,
+   "end": 71.96
+  },
+  {
+   "word": "cosa",
+   "start": 71.96,
+   "end": 72.12
+  },
+  {
+   "word": "serve",
+   "start": 72.12,
+   "end": 72.46
+  },
+  {
+   "word": "davvero.",
+   "start": 72.46,
+   "end": 72.82
+  }
+ ]
+}

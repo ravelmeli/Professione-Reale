@@ -1,7 +1,7 @@
 import React from 'react';
 export const INK = '#111111';
 import { PROJECT } from './project';
-export const ACCENT = PROJECT === 'pol' ? '#3FA9F5' : PROJECT === 'fire' ? '#FF5A36' : PROJECT === 'sol' ? '#C9B458' : PROJECT === 'gru' ? '#FF8A1F' : PROJECT === 'pils' ? '#2CC4E8' : PROJECT === 'asc' ? '#9B6BFF' : '#8FD23F';
+export const ACCENT = PROJECT === 'pol' ? '#3FA9F5' : PROJECT === 'fire' ? '#FF5A36' : PROJECT === 'sol' ? '#C9B458' : PROJECT === 'gru' ? '#FF8A1F' : PROJECT === 'pils' ? '#2CC4E8' : PROJECT === 'asc' ? '#9B6BFF' : PROJECT === 'ele' ? '#FFD400' : '#8FD23F';
 const SK = ['#f0c9a4', '#e0a982', '#c98c63', '#8d5a3b'];
 export type View = 'front' | 'three' | 'side' | 'back';
 export type Expr = 'smile' | 'happy' | 'surprised' | 'concerned' | 'angry' | 'sad' | 'deadpan' | 'panic';
@@ -62,6 +62,13 @@ export const ascAt = (age: number): Outfit => {
   if (age <= 50) return { ...base, torso: '#5a5f78', trim: '#e8e2d0', pants: '#2a2f3c', kind: 'vest', hat: '#f4f6fa', stubble: true, temples: true };
   return { ...base, hair: '#b8bcc6', torso: '#2d3250', trim: '#9B6BFF', pants: '#2a2f3c', kind: 'blazer', glasses: true, tie: '#9B6BFF', temples: true };
 };
+export const eleAt = (age: number): Outfit => {
+  const base = { skin: SK[0], hair: '#6a3a20', hairStyle: 'short' as const, shoes: '#2a2218' };
+  if (age <= 22) return { ...base, torso: '#2a6fb0', trim: '#FFD400', pants: '#2a2f3c', kind: 'hoodie' };
+  if (age <= 34) return { ...base, torso: '#2a6fb0', trim: '#FFD400', pants: '#2a2f3c', kind: 'jacket', hat: '#FFD400', stubble: true };
+  if (age <= 46) return { ...base, torso: '#2a6fb0', trim: '#e8e2d0', pants: '#2a2f3c', kind: 'vest', hat: '#FFD400', stubble: true, temples: true };
+  return { ...base, hair: '#b8bcc6', torso: '#dfe8f5', trim: '#dfe8f5', pants: '#2a2f3c', kind: 'shirt', stubble: true, glasses: true, tie: '#2a6fb0', temples: true };
+};
 export const CAST: Record<string, (a?: number) => Outfit> = {
   pol: (a = 30) => polAt(a),
   fire: (a = 30) => fireAt(a),
@@ -69,6 +76,7 @@ export const CAST: Record<string, (a?: number) => Outfit> = {
   gru: (a = 30) => gruAt(a),
   pil: (a = 30) => pilAt(a),
   asc: (a = 30) => ascAt(a),
+  ele: (a = 30) => eleAt(a),
   rocco: (a = 30) => heroAt(a),
   ciro: () => ({ skin: SK[1], hairStyle: 'bald', torso: '#7a5a3a', trim: '#e8e2d0', pants: '#2a2a30', shoes: '#14141a', kind: 'vest', stache: '#5a4a3a', brow: '#5a4a3a' }),
   marta: () => ({ skin: SK[2], hair: '#2a1a16', hairStyle: 'curly', torso: '#6a4cc0', trim: '#f3efe6', pants: '#22222c', shoes: '#14141a', kind: 'blazer', glasses: true }),

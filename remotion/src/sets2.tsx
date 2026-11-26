@@ -107,6 +107,13 @@ export const Tromba: React.FC<SetP> = ({ cam, t, cast }) => (
     <L cam={cam} d={1}>{cast}</L>
   </g>
 );
+export const Quadro: React.FC<SetP> = ({ cam, t, cast }) => (
+  <g>
+    <L cam={cam} d={0.4}><Wall kind="brick" col="#8a8f98" y0={-300} y1={FLOOR} /><S x={640} y={120} w={640} h={470} r={8} fill="#c9ced6" /><S x={664} y={144} w={592} h={422} r={4} fill="#aeb6c4" />{[0, 1, 2].map((r) => [0, 1, 2, 3, 4, 5].map((c) => <g key={`${r}${c}`}><S x={690 + c * 92} y={180 + r * 120} w={64} h={86} r={4} fill="#2a2f3c" /><S x={704 + c * 92} y={196 + r * 120} w={36} h={26} r={3} fill={(c + r) % 3 === 0 ? '#FFD400' : '#e8e2d0'} /></g>))}<Ln p={[[640, 80], [640, 120]]} sw={5} /><path d="M 1280 300 q 90 20 80 120 q -10 90 60 140" fill="none" stroke="#3b6ae0" strokeWidth={9} /><path d="M 1280 330 q 60 30 60 100 q 0 70 40 110" fill="none" stroke="#c33631" strokeWidth={9} /></L>
+    <L cam={cam} d={0.8}><rect x={-400} y={FLOOR - 20} width={W + 800} height={H} fill="#5a5f6a" />{[0, 1, 2, 3, 4, 5, 6, 7, 8].map((i) => <rect key={i} x={i * 260 - 120} y={FLOOR - 20} width={4} height={H} fill="#454a55" />)}</L>
+    <L cam={cam} d={1}>{cast}</L>
+  </g>
+);
 export const AnySet: React.FC<{ spec: any; cam: Cam; t: number; cast: React.ReactNode }> = ({ spec, cam, t, cast }) => {
   const n = typeof spec === 'string' ? spec : spec.n; const o = typeof spec === 'string' ? {} : spec;
   const p = { cam, t, cast, ...o };
@@ -127,6 +134,7 @@ export const AnySet: React.FC<{ spec: any; cam: Cam; t: number; cast: React.Reac
     case 'notte': return <StradaNight {...p} />;
     case 'pista': return <Pista {...p} />;
     case 'atrio': return <Atrio {...p} />;
+    case 'quadro': return <Quadro {...p} />;
     case 'tromba': return <Tromba {...p} />;
     case 'cockpit': return <Cockpit {...p} />;
     default: return <Piazzale {...p} />;
