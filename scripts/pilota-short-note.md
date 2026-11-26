@@ -7,5 +7,5 @@ Cifre usate (tutte stime, come nel long `pilota-5min.txt`):
 - Nessuna cifra di stipendio: il long ne ha (lordi, stime): se la vuoi nello short, dimmi quale.
 - Type rating a carico dell'allievo: vale per molte compagnie, non per tutte (alcune lo pagano o lo recuperano con il contratto).
 
-Durata stimata: circa 50-55 secondi di voce (200 parole circa), ritmo da short.
+Durata stimata: circa 55-60 secondi di voce (176 parole), ritmo da short.
 Hero object suggerito: cuffie da pilota / yoke. Accento suggerito: ciano cielo (da distinguere da blu poliziotto, rosso pompiere, verde camionista, arancio gruista, sabbia soldato).
