@@ -1,0 +1,935 @@
+{
+ "source": "whisper:small",
+ "words": [
+  {
+   "word": "Vuoi",
+   "start": 0.0,
+   "end": 0.24
+  },
+  {
+   "word": "fare",
+   "start": 0.24,
+   "end": 0.42
+  },
+  {
+   "word": "il",
+   "start": 0.42,
+   "end": 0.6
+  },
+  {
+   "word": "pilota",
+   "start": 0.6,
+   "end": 0.9
+  },
+  {
+   "word": "di",
+   "start": 0.9,
+   "end": 1.06
+  },
+  {
+   "word": "linea?",
+   "start": 1.06,
+   "end": 1.38
+  },
+  {
+   "word": "Ecco",
+   "start": 1.84,
+   "end": 2.26
+  },
+  {
+   "word": "cosa",
+   "start": 2.26,
+   "end": 2.54
+  },
+  {
+   "word": "nessuno",
+   "start": 2.54,
+   "end": 3.2
+  },
+  {
+   "word": "ti",
+   "start": 3.2,
+   "end": 3.38
+  },
+  {
+   "word": "dice!",
+   "start": 3.38,
+   "end": 3.66
+  },
+  {
+   "word": "Uno,",
+   "start": 4.58,
+   "end": 4.78
+  },
+  {
+   "word": "il",
+   "start": 5.18,
+   "end": 5.32
+  },
+  {
+   "word": "primo",
+   "start": 5.32,
+   "end": 5.52
+  },
+  {
+   "word": "esame",
+   "start": 5.52,
+   "end": 5.88
+  },
+  {
+   "word": "non",
+   "start": 5.88,
+   "end": 6.2
+  },
+  {
+   "word": "è",
+   "start": 6.2,
+   "end": 6.4
+  },
+  {
+   "word": "in",
+   "start": 6.4,
+   "end": 6.58
+  },
+  {
+   "word": "aula,",
+   "start": 6.58,
+   "end": 6.8
+  },
+  {
+   "word": "è",
+   "start": 7.22,
+   "end": 7.46
+  },
+  {
+   "word": "la",
+   "start": 7.46,
+   "end": 7.58
+  },
+  {
+   "word": "visita",
+   "start": 7.58,
+   "end": 7.94
+  },
+  {
+   "word": "medica",
+   "start": 7.94,
+   "end": 8.28
+  },
+  {
+   "word": "di",
+   "start": 8.28,
+   "end": 8.4
+  },
+  {
+   "word": "prima",
+   "start": 8.4,
+   "end": 8.62
+  },
+  {
+   "word": "classe,",
+   "start": 8.62,
+   "end": 9.02
+  },
+  {
+   "word": "se",
+   "start": 9.54,
+   "end": 9.76
+  },
+  {
+   "word": "un",
+   "start": 9.76,
+   "end": 9.92
+  },
+  {
+   "word": "valore",
+   "start": 9.92,
+   "end": 10.2
+  },
+  {
+   "word": "non",
+   "start": 10.2,
+   "end": 10.36
+  },
+  {
+   "word": "va,",
+   "start": 10.36,
+   "end": 10.58
+  },
+  {
+   "word": "il",
+   "start": 10.98,
+   "end": 11.1
+  },
+  {
+   "word": "sogno",
+   "start": 11.1,
+   "end": 11.4
+  },
+  {
+   "word": "finisce",
+   "start": 11.4,
+   "end": 11.84
+  },
+  {
+   "word": "matte",
+   "start": 11.84,
+   "end": 11.84
+  },
+  {
+   "word": "subito",
+   "start": 11.84,
+   "end": 12.46
+  },
+  {
+   "word": "e",
+   "start": 12.46,
+   "end": 13.18
+  },
+  {
+   "word": "si",
+   "start": 13.18,
+   "end": 13.36
+  },
+  {
+   "word": "ripete",
+   "start": 13.36,
+   "end": 13.66
+  },
+  {
+   "word": "ogni",
+   "start": 13.66,
+   "end": 13.88
+  },
+  {
+   "word": "anno",
+   "start": 13.88,
+   "end": 14.24
+  },
+  {
+   "word": "per",
+   "start": 14.24,
+   "end": 14.62
+  },
+  {
+   "word": "tutta",
+   "start": 14.62,
+   "end": 15.02
+  },
+  {
+   "word": "la",
+   "start": 15.02,
+   "end": 15.12
+  },
+  {
+   "word": "carriera.",
+   "start": 15.12,
+   "end": 15.52
+  },
+  {
+   "word": "Due,",
+   "start": 16.2,
+   "end": 16.54
+  },
+  {
+   "word": "il",
+   "start": 17.02,
+   "end": 17.16
+  },
+  {
+   "word": "costo.",
+   "start": 17.16,
+   "end": 17.7
+  },
+  {
+   "word": "Una",
+   "start": 18.2,
+   "end": 18.38
+  },
+  {
+   "word": "stima",
+   "start": 18.38,
+   "end": 18.66
+  },
+  {
+   "word": "parla",
+   "start": 18.66,
+   "end": 19.0
+  },
+  {
+   "word": "di",
+   "start": 19.0,
+   "end": 19.12
+  },
+  {
+   "word": "90",
+   "start": 19.12,
+   "end": 19.62
+  },
+  {
+   "word": ".000",
+   "start": 19.62,
+   "end": 19.98
+  },
+  {
+   "word": "a",
+   "start": 19.98,
+   "end": 20.32
+  },
+  {
+   "word": "160",
+   "start": 20.32,
+   "end": 20.96
+  },
+  {
+   "word": ".000",
+   "start": 20.96,
+   "end": 21.48
+  },
+  {
+   "word": "euro.",
+   "start": 21.48,
+   "end": 21.78
+  },
+  {
+   "word": "Sono",
+   "start": 22.38,
+   "end": 22.68
+  },
+  {
+   "word": "stime,",
+   "start": 22.68,
+   "end": 23.08
+  },
+  {
+   "word": "non",
+   "start": 23.36,
+   "end": 23.48
+  },
+  {
+   "word": "cifre",
+   "start": 23.48,
+   "end": 23.82
+  },
+  {
+   "word": "fisse,",
+   "start": 23.82,
+   "end": 24.18
+  },
+  {
+   "word": "dipendono",
+   "start": 24.34,
+   "end": 24.7
+  },
+  {
+   "word": "dalla",
+   "start": 24.7,
+   "end": 24.9
+  },
+  {
+   "word": "scuola.",
+   "start": 24.9,
+   "end": 25.36
+  },
+  {
+   "word": "Spesso",
+   "start": 25.82,
+   "end": 26.1
+  },
+  {
+   "word": "è",
+   "start": 26.1,
+   "end": 26.24
+  },
+  {
+   "word": "un",
+   "start": 26.24,
+   "end": 26.38
+  },
+  {
+   "word": "debito,",
+   "start": 26.38,
+   "end": 26.84
+  },
+  {
+   "word": "non",
+   "start": 27.1,
+   "end": 27.3
+  },
+  {
+   "word": "un",
+   "start": 27.3,
+   "end": 27.5
+  },
+  {
+   "word": "risparmio.",
+   "start": 27.5,
+   "end": 28.02
+  },
+  {
+   "word": "Tre,",
+   "start": 28.75,
+   "end": 29.08
+  },
+  {
+   "word": "la",
+   "start": 29.54,
+   "end": 29.68
+  },
+  {
+   "word": "licenza",
+   "start": 29.68,
+   "end": 30.16
+  },
+  {
+   "word": "non",
+   "start": 30.16,
+   "end": 30.44
+  },
+  {
+   "word": "basta.",
+   "start": 30.44,
+   "end": 30.84
+  },
+  {
+   "word": "Dopogli",
+   "start": 31.48,
+   "end": 31.88
+  },
+  {
+   "word": "esami",
+   "start": 31.88,
+   "end": 32.18
+  },
+  {
+   "word": "hai",
+   "start": 32.18,
+   "end": 32.52
+  },
+  {
+   "word": "le",
+   "start": 32.52,
+   "end": 32.66
+  },
+  {
+   "word": "ore",
+   "start": 32.66,
+   "end": 32.84
+  },
+  {
+   "word": "minime,",
+   "start": 32.84,
+   "end": 33.42
+  },
+  {
+   "word": "non",
+   "start": 33.58,
+   "end": 33.76
+  },
+  {
+   "word": "quelle",
+   "start": 33.76,
+   "end": 34.06
+  },
+  {
+   "word": "che",
+   "start": 34.06,
+   "end": 34.22
+  },
+  {
+   "word": "cercano",
+   "start": 34.22,
+   "end": 34.58
+  },
+  {
+   "word": "le",
+   "start": 34.58,
+   "end": 34.72
+  },
+  {
+   "word": "compagnie.",
+   "start": 34.72,
+   "end": 35.18
+  },
+  {
+   "word": "Per",
+   "start": 35.72,
+   "end": 35.92
+  },
+  {
+   "word": "la",
+   "start": 35.92,
+   "end": 36.1
+  },
+  {
+   "word": "TPL",
+   "start": 36.1,
+   "end": 36.56
+  },
+  {
+   "word": "ne",
+   "start": 36.56,
+   "end": 36.96
+  },
+  {
+   "word": "servono",
+   "start": 36.96,
+   "end": 37.32
+  },
+  {
+   "word": "1",
+   "start": 37.32,
+   "end": 37.54
+  },
+  {
+   "word": ".500.",
+   "start": 37.54,
+   "end": 38.1
+  },
+  {
+   "word": "Quelle",
+   "start": 38.98,
+   "end": 39.26
+  },
+  {
+   "word": "ore",
+   "start": 39.26,
+   "end": 39.44
+  },
+  {
+   "word": "non",
+   "start": 39.44,
+   "end": 39.66
+  },
+  {
+   "word": "si",
+   "start": 39.66,
+   "end": 39.88
+  },
+  {
+   "word": "comprano,",
+   "start": 39.88,
+   "end": 40.38
+  },
+  {
+   "word": "si",
+   "start": 40.68,
+   "end": 40.8
+  },
+  {
+   "word": "accumulano.",
+   "start": 40.8,
+   "end": 41.38
+  },
+  {
+   "word": "Quattro,",
+   "start": 41.92,
+   "end": 42.56
+  },
+  {
+   "word": "il",
+   "start": 42.96,
+   "end": 43.1
+  },
+  {
+   "word": "type",
+   "start": 43.1,
+   "end": 43.34
+  },
+  {
+   "word": "rating.",
+   "start": 43.34,
+   "end": 43.74
+  },
+  {
+   "word": "Per",
+   "start": 44.46,
+   "end": 44.64
+  },
+  {
+   "word": "volare",
+   "start": 44.64,
+   "end": 44.96
+  },
+  {
+   "word": "su",
+   "start": 44.96,
+   "end": 45.16
+  },
+  {
+   "word": "un",
+   "start": 45.16,
+   "end": 45.3
+  },
+  {
+   "word": "aereo",
+   "start": 45.3,
+   "end": 45.68
+  },
+  {
+   "word": "serve",
+   "start": 45.68,
+   "end": 45.96
+  },
+  {
+   "word": "l",
+   "start": 45.96,
+   "end": 46.18
+  },
+  {
+   "word": "'abilitazione",
+   "start": 46.18,
+   "end": 46.74
+  },
+  {
+   "word": "a",
+   "start": 46.74,
+   "end": 46.98
+  },
+  {
+   "word": "quel",
+   "start": 46.98,
+   "end": 47.26
+  },
+  {
+   "word": "modello.",
+   "start": 47.26,
+   "end": 47.74
+  },
+  {
+   "word": "Il",
+   "start": 48.28,
+   "end": 48.48
+  },
+  {
+   "word": "simulatore",
+   "start": 48.48,
+   "end": 48.92
+  },
+  {
+   "word": "costa",
+   "start": 48.92,
+   "end": 49.5
+  },
+  {
+   "word": "e",
+   "start": 49.5,
+   "end": 49.86
+  },
+  {
+   "word": "spesso",
+   "start": 49.86,
+   "end": 50.14
+  },
+  {
+   "word": "lo",
+   "start": 50.14,
+   "end": 50.34
+  },
+  {
+   "word": "paghi",
+   "start": 50.34,
+   "end": 50.56
+  },
+  {
+   "word": "tu.",
+   "start": 50.56,
+   "end": 50.68
+  },
+  {
+   "word": "Cinque,",
+   "start": 51.34,
+   "end": 51.88
+  },
+  {
+   "word": "nessuno",
+   "start": 52.3,
+   "end": 52.68
+  },
+  {
+   "word": "ti",
+   "start": 52.68,
+   "end": 52.84
+  },
+  {
+   "word": "paga",
+   "start": 52.84,
+   "end": 53.08
+  },
+  {
+   "word": "per",
+   "start": 53.08,
+   "end": 53.3
+  },
+  {
+   "word": "volare.",
+   "start": 53.3,
+   "end": 53.88
+  },
+  {
+   "word": "Ti",
+   "start": 54.44,
+   "end": 54.56
+  },
+  {
+   "word": "pagano",
+   "start": 54.56,
+   "end": 54.9
+  },
+  {
+   "word": "per",
+   "start": 54.9,
+   "end": 55.1
+  },
+  {
+   "word": "decidere.",
+   "start": 55.1,
+   "end": 55.8
+  },
+  {
+   "word": "Partire,",
+   "start": 55.8,
+   "end": 56.94
+  },
+  {
+   "word": "ritardare,",
+   "start": 57.3,
+   "end": 57.9
+  },
+  {
+   "word": "tornare",
+   "start": 58.22,
+   "end": 58.6
+  },
+  {
+   "word": "indietro,",
+   "start": 58.6,
+   "end": 59.1
+  },
+  {
+   "word": "il",
+   "start": 59.72,
+   "end": 59.82
+  },
+  {
+   "word": "carburante,",
+   "start": 59.82,
+   "end": 60.52
+  },
+  {
+   "word": "il",
+   "start": 60.66,
+   "end": 60.74
+  },
+  {
+   "word": "meteo,",
+   "start": 60.74,
+   "end": 61.24
+  },
+  {
+   "word": "il",
+   "start": 61.32,
+   "end": 61.38
+  },
+  {
+   "word": "peso,",
+   "start": 61.38,
+   "end": 61.68
+  },
+  {
+   "word": "tutto",
+   "start": 62.14,
+   "end": 62.36
+  },
+  {
+   "word": "passa",
+   "start": 62.36,
+   "end": 62.8
+  },
+  {
+   "word": "da",
+   "start": 62.8,
+   "end": 63.02
+  },
+  {
+   "word": "te.",
+   "start": 63.02,
+   "end": 63.16
+  },
+  {
+   "word": "E",
+   "start": 63.74,
+   "end": 64.04
+  },
+  {
+   "word": "il",
+   "start": 64.04,
+   "end": 64.16
+  },
+  {
+   "word": "prezzo",
+   "start": 64.16,
+   "end": 64.5
+  },
+  {
+   "word": "è",
+   "start": 64.5,
+   "end": 64.62
+  },
+  {
+   "word": "il",
+   "start": 64.62,
+   "end": 64.74
+  },
+  {
+   "word": "tempo,",
+   "start": 64.74,
+   "end": 65.12
+  },
+  {
+   "word": "con",
+   "start": 65.58,
+   "end": 65.78
+  },
+  {
+   "word": "pleanni,",
+   "start": 65.78,
+   "end": 66.32
+  },
+  {
+   "word": "cene,",
+   "start": 66.72,
+   "end": 67.04
+  },
+  {
+   "word": "feste,",
+   "start": 67.46,
+   "end": 67.92
+  },
+  {
+   "word": "lontano",
+   "start": 68.38,
+   "end": 68.8
+  },
+  {
+   "word": "da",
+   "start": 68.8,
+   "end": 68.96
+  },
+  {
+   "word": "casa,",
+   "start": 68.96,
+   "end": 69.26
+  },
+  {
+   "word": "un",
+   "start": 70.02,
+   "end": 70.2
+  },
+  {
+   "word": "mestiere",
+   "start": 70.2,
+   "end": 70.5
+  },
+  {
+   "word": "che",
+   "start": 70.5,
+   "end": 70.68
+  },
+  {
+   "word": "porta",
+   "start": 70.68,
+   "end": 70.88
+  },
+  {
+   "word": "le",
+   "start": 70.88,
+   "end": 71.06
+  },
+  {
+   "word": "persone",
+   "start": 71.06,
+   "end": 71.5
+  },
+  {
+   "word": "a",
+   "start": 71.5,
+   "end": 71.74
+  },
+  {
+   "word": "casa",
+   "start": 71.74,
+   "end": 72.08
+  },
+  {
+   "word": "e",
+   "start": 72.08,
+   "end": 72.84
+  },
+  {
+   "word": "spesso",
+   "start": 72.84,
+   "end": 73.22
+  },
+  {
+   "word": "la",
+   "start": 73.22,
+   "end": 73.5
+  },
+  {
+   "word": "tua",
+   "start": 73.5,
+   "end": 73.74
+  },
+  {
+   "word": "la",
+   "start": 73.74,
+   "end": 74.14
+  },
+  {
+   "word": "vedi",
+   "start": 74.14,
+   "end": 74.3
+  },
+  {
+   "word": "poco.",
+   "start": 74.3,
+   "end": 74.56
+  },
+  {
+   "word": "Iscriviti",
+   "start": 75.18,
+   "end": 75.82
+  },
+  {
+   "word": "se",
+   "start": 75.82,
+   "end": 76.18
+  },
+  {
+   "word": "vuoi",
+   "start": 76.18,
+   "end": 76.34
+  },
+  {
+   "word": "sapere",
+   "start": 76.34,
+   "end": 76.6
+  },
+  {
+   "word": "cosa",
+   "start": 76.6,
+   "end": 76.76
+  },
+  {
+   "word": "serve",
+   "start": 76.76,
+   "end": 77.08
+  },
+  {
+   "word": "davvero.",
+   "start": 77.08,
+   "end": 77.44
+  }
+ ]
+}

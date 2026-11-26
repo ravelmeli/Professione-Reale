@@ -1,7 +1,7 @@
 import React from 'react';
 export const INK = '#111111';
 import { PROJECT } from './project';
-export const ACCENT = PROJECT === 'pol' ? '#3FA9F5' : PROJECT === 'fire' ? '#FF5A36' : PROJECT === 'sol' ? '#C9B458' : PROJECT === 'gru' ? '#FF8A1F' : '#8FD23F';
+export const ACCENT = PROJECT === 'pol' ? '#3FA9F5' : PROJECT === 'fire' ? '#FF5A36' : PROJECT === 'sol' ? '#C9B458' : PROJECT === 'gru' ? '#FF8A1F' : PROJECT === 'pils' ? '#2CC4E8' : '#8FD23F';
 const SK = ['#f0c9a4', '#e0a982', '#c98c63', '#8d5a3b'];
 export type View = 'front' | 'three' | 'side' | 'back';
 export type Expr = 'smile' | 'happy' | 'surprised' | 'concerned' | 'angry' | 'sad' | 'deadpan' | 'panic';
@@ -48,11 +48,19 @@ export const gruAt = (age: number): Outfit => {
   if (age <= 54) return { ...base, hair: '#5a4a44', torso: '#dfe8f5', trim: '#dfe8f5', pants: '#2a2f3c', kind: 'shirt', stubble: true, glasses: true, tie: '#e87a1a', temples: true };
   return { ...base, hair: '#b8bcc6', torso: '#2d3a52', trim: '#ff8a1f', pants: '#2a2f3c', kind: 'blazer', glasses: true, tie: '#ff8a1f', temples: true };
 };
+export const pilAt = (age: number): Outfit => {
+  const base = { skin: SK[1], hair: '#2a1c14', hairStyle: 'short' as const, shoes: '#14141a' };
+  if (age <= 21) return { ...base, torso: '#f4f6fa', trim: '#2CC4E8', pants: '#14213d', kind: 'shirt', tie: '#14213d' };
+  if (age <= 30) return { ...base, torso: '#f4f6fa', trim: '#d9b04a', pants: '#14213d', kind: 'shirt', tie: '#14213d', hat: '#14213d' };
+  if (age <= 42) return { ...base, torso: '#f4f6fa', trim: '#d9b04a', pants: '#14213d', kind: 'shirt', tie: '#14213d', hat: '#14213d', stubble: true };
+  return { ...base, hair: '#b8bcc6', torso: '#14213d', trim: '#d9b04a', pants: '#14213d', kind: 'blazer', tie: '#d9b04a', hat: '#14213d', glasses: true, temples: true };
+};
 export const CAST: Record<string, (a?: number) => Outfit> = {
   pol: (a = 30) => polAt(a),
   fire: (a = 30) => fireAt(a),
   sol: (a = 30) => solAt(a),
   gru: (a = 30) => gruAt(a),
+  pil: (a = 30) => pilAt(a),
   rocco: (a = 30) => heroAt(a),
   ciro: () => ({ skin: SK[1], hairStyle: 'bald', torso: '#7a5a3a', trim: '#e8e2d0', pants: '#2a2a30', shoes: '#14141a', kind: 'vest', stache: '#5a4a3a', brow: '#5a4a3a' }),
   marta: () => ({ skin: SK[2], hair: '#2a1a16', hairStyle: 'curly', torso: '#6a4cc0', trim: '#f3efe6', pants: '#22222c', shoes: '#14141a', kind: 'blazer', glasses: true }),

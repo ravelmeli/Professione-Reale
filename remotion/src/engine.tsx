@@ -36,7 +36,7 @@ export const drawSpec = (sp: Spec, s0: number): ((c: C) => Out) => (c) => {
   }
   if (sp.top) return { grade, node: <g><TopMap route={1}>{null}</TopMap><L cam={cam} d={1}>{objs}</L></g> };
   if (sp.ins) return { grade, node: <g><Insert cam={cam} wall={sp.ins[0] as any} col={sp.ins[1]} glow={sp.glow}>{objs}</Insert>{fx}</g> };
-  const hy = (typeof sp.set === 'object' && sp.set.n === 'cabina') || sp.set === 'cabina' ? 940 : FLOOR + 160;
+  const hy = (typeof sp.set === 'object' && sp.set.n === 'cabina') || sp.set === 'cabina' || (typeof sp.set === 'object' && sp.set.n === 'cockpit') || sp.set === 'cockpit' ? 940 : FLOOR + 160;
   const cast = <g>{(sp.cast || []).map(([who, x, pose, expr, ex = {}], i) => <Char key={i} who={who} x={x} y={ex.y ?? hy} s={ex.s ?? 1.9} pose={(pose as any) || 'idle'} expr={(expr as any) || 'smile'} flip={!!ex.flip} view={ex.view} age={ex.age} />)}</g>;
   return { grade, node: <g><AnySet spec={sp.set || 'piazzale'} cam={cam} t={c.g} cast={cast} /><L cam={cam} d={1.05}>{objs}</L>{fx}</g> };
 };

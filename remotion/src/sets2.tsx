@@ -78,6 +78,21 @@ export const StradaNight: React.FC<SetP> = ({ cam, t, cast, truck = true, truckX
     </g>
   );
 };
+export const Pista: React.FC<SetP> = ({ cam, t, cast }) => (
+  <g>
+    <L cam={cam} d={0.3}><defs><linearGradient id="pk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#4f9fe0" /><stop offset="1" stopColor="#dff0ff" /></linearGradient></defs><rect x={-400} y={-300} width={W + 800} height={FLOOR + 300} fill="url(#pk)" />{[0, 1, 2].map((i) => <ellipse key={i} cx={(i * 760 + t * 12) % 2300 - 200} cy={150 + i * 70} rx={180} ry={40} fill="#fff" opacity={0.85} />)}</L>
+    <L cam={cam} d={0.5}><Hills col="#8aaec0" y={520} /><S x={1180} y={330} w={110} h={260} r={4} fill="#c9ced6" /><S x={1140} y={290} w={190} h={60} r={8} fill="#2a2f3c" /><S x={1160} y={300} w={150} h={34} r={4} fill="#9fd0e8" /><S x={500} y={470} w={560} h={130} r={6} fill="#aeb6c4" /><S x={520} y={490} w={520} h={46} r={3} fill="#9fd0e8" /></L>
+    <L cam={cam} d={0.8}><rect x={-400} y={FLOOR - 20} width={W + 800} height={H} fill="#4a4f5c" />{[0, 1, 2, 3, 4, 5, 6, 7].map((i) => <rect key={i} x={i * 300 - 100} y={FLOOR + 130} width={170} height={14} fill="#f4f1ea" />)}<g transform={`translate(${1130 - (t * 20) % 40} ${FLOOR - 40}) scale(0.5)`}><Poly p={[[-190, 0], [-170, -60], [150, -60], [220, -20], [220, 20], [-190, 20]]} fill="#f4f6fa" /><Poly p={[[-190, -60], [-250, -150], [-210, -150], [-130, -60]]} fill="#2CC4E8" /><Poly p={[[-20, -10], [60, -10], [-80, 90], [-120, 90]]} fill="#dfe8f5" /><circle cx={-60} cy={-30} r={9} fill="#9fd0e8" stroke={INK} strokeWidth={3} /><circle cx={0} cy={-30} r={9} fill="#9fd0e8" stroke={INK} strokeWidth={3} /><circle cx={60} cy={-30} r={9} fill="#9fd0e8" stroke={INK} strokeWidth={3} /></g></L>
+    <L cam={cam} d={1}>{cast}</L>
+  </g>
+);
+export const Cockpit: React.FC<SetP & { night?: boolean }> = ({ cam, t, cast, night }) => (
+  <g>
+    <L cam={cam} d={0.3}><defs><linearGradient id="ck" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={night ? '#0d1226' : '#2f86d6'} /><stop offset="1" stopColor={night ? '#1d2a44' : '#cfe8ff'} /></linearGradient></defs><rect x={-400} y={-300} width={W + 800} height={H + 600} fill="url(#ck)" />{[0, 1, 2, 3].map((i) => <ellipse key={i} cx={(i * 640 - t * 120 * (1 + i * 0.3) + 4000) % 2600 - 300} cy={220 + i * 110} rx={210} ry={46} fill="#fff" opacity={night ? 0.2 : 0.9} />)}</L>
+    <L cam={cam} d={1}>{cast}</L>
+    <L cam={cam} d={1.2}><rect x={-400} y={760} width={W + 800} height={500} fill="#262b3a" stroke={INK} strokeWidth={4.5} /><rect x={-400} y={740} width={W + 800} height={40} fill="#171b27" />{[0, 1, 2, 3, 4].map((i) => <g key={i}><circle cx={520 + i * 220} cy={880} r={64} fill="#0d1226" stroke={INK} strokeWidth={5} /><circle cx={520 + i * 220} cy={880} r={52} fill="#10223a" /><Ln p={[[520 + i * 220, 880], [520 + i * 220 + 40 * Math.cos(t * (1 + i * 0.3)), 880 + 40 * Math.sin(t * (1 + i * 0.3))]]} sw={5} c="#2CC4E8" /></g>)}<rect x={0} y={0} width={110} height={H} fill="#171b27" /><rect x={W - 110} y={0} width={110} height={H} fill="#171b27" /></L>
+  </g>
+);
 export const AnySet: React.FC<{ spec: any; cam: Cam; t: number; cast: React.ReactNode }> = ({ spec, cam, t, cast }) => {
   const n = typeof spec === 'string' ? spec : spec.n; const o = typeof spec === 'string' ? {} : spec;
   const p = { cam, t, cast, ...o };
@@ -96,6 +111,8 @@ export const AnySet: React.FC<{ spec: any; cam: Cam; t: number; cast: React.Reac
     case 'casa': return <Casa {...p} />;
     case 'bunk': return <Bunk {...p} />;
     case 'notte': return <StradaNight {...p} />;
+    case 'pista': return <Pista {...p} />;
+    case 'cockpit': return <Cockpit {...p} />;
     default: return <Piazzale {...p} />;
   }
 };
