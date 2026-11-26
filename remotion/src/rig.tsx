@@ -1,7 +1,7 @@
 import React from 'react';
 export const INK = '#111111';
 import { PROJECT } from './project';
-export const ACCENT = PROJECT === 'pol' ? '#3FA9F5' : PROJECT === 'fire' ? '#FF5A36' : PROJECT === 'sol' ? '#C9B458' : PROJECT === 'gru' ? '#FF8A1F' : PROJECT === 'pils' ? '#2CC4E8' : PROJECT === 'asc' ? '#9B6BFF' : PROJECT === 'ele' ? '#FFD400' : PROJECT === 'lin' ? '#FF4FA3' : PROJECT === 'chi' ? '#17C3B2' : '#8FD23F';
+export const ACCENT = PROJECT === 'pol' ? '#3FA9F5' : PROJECT === 'fire' ? '#FF5A36' : PROJECT === 'sol' ? '#C9B458' : PROJECT === 'gru' ? '#FF8A1F' : PROJECT === 'pils' ? '#2CC4E8' : PROJECT === 'asc' ? '#9B6BFF' : PROJECT === 'ele' ? '#FFD400' : PROJECT === 'lin' ? '#FF4FA3' : (PROJECT === 'chi' || PROJECT === 'chi2') ? '#17C3B2' : '#8FD23F';
 const SK = ['#f0c9a4', '#e0a982', '#c98c63', '#8d5a3b'];
 export type View = 'front' | 'three' | 'side' | 'back';
 export type Expr = 'smile' | 'happy' | 'surprised' | 'concerned' | 'angry' | 'sad' | 'deadpan' | 'panic';
@@ -77,6 +77,7 @@ export const linAt = (age: number): Outfit => {
 };
 export const chiAt = (age: number): Outfit => {
   const base = { skin: SK[1], hair: '#2a1c14', hairStyle: 'short' as const, shoes: '#e8e2d0' };
+  if (age <= 22) return { ...base, torso: '#e8e2d0', trim: '#17c3b2', pants: '#2a3550', kind: 'hoodie', shoes: '#f4f1ea' };
   if (age <= 32) return { ...base, torso: '#17a8a0', trim: '#e8e2d0', pants: '#17a8a0', kind: 'jacket', hat: '#17a8a0' };
   if (age <= 45) return { ...base, torso: '#17a8a0', trim: '#e8e2d0', pants: '#17a8a0', kind: 'jacket', hat: '#17a8a0', stubble: true, glasses: true };
   return { ...base, hair: '#b8bcc6', torso: '#f4f6fa', trim: '#17c3b2', pants: '#2a3550', kind: 'blazer', glasses: true, tie: '#17c3b2', temples: true };
