@@ -1,16 +1,20 @@
 import React from 'react';
 import { AbsoluteFill, Sequence, useCurrentFrame, Audio, staticFile } from 'remotion';
 import { SPECS_PILS } from './specs-pils';
+import { SPECS_ASC } from './specs-asc';
+import { PROJECT } from './project';
+const ASC = PROJECT === 'asc';
+const SPECS = ASC ? SPECS_ASC : SPECS_PILS;
 import { drawSpec } from './engine';
 import { Defs, Finish, H, clamp, out3 } from './kit';
 import type { C, Out } from './beats';
 export const FPS = 30;
-export const SEND = 77.77;
+export const SEND = ASC ? 77.12 : 77.77;
 const VW = 607.5; const VX = 960 - VW / 2;
 type Item = { s: number; id: string; draw: (c: C) => Out; whip?: boolean };
 const build = (): Item[] => {
   const items: Item[] = []; let prev = -0.9;
-  SPECS_PILS.forEach((sp, i) => { const s = Math.max(sp.a as number, prev + 0.9); items.push({ s, id: `S${i + 1}`, draw: drawSpec(sp, s), whip: sp.whip }); prev = s; });
+  SPECS.forEach((sp, i) => { const s = Math.max(sp.a as number, prev + 0.9); items.push({ s, id: `S${i + 1}`, draw: drawSpec(sp, s), whip: sp.whip }); prev = s; });
   return items;
 };
 const ITEMS = build();
@@ -26,7 +30,7 @@ const Beat: React.FC<{ i: number }> = ({ i }) => {
 };
 export const ShortDoc: React.FC = () => (
   <AbsoluteFill style={{ background: '#000' }}>
-    <Audio src={staticFile('voce-pils.wav')} />
+    <Audio src={staticFile(ASC ? 'voce-asc.wav' : 'voce-pils.wav')} />
     {ITEMS.map((it, i) => { const end = i + 1 < ITEMS.length ? ITEMS[i + 1].s : SEND; return <Sequence key={it.id} from={Math.round(it.s * FPS)} durationInFrames={Math.max(1, Math.round((end - it.s) * FPS))}><Beat i={i} /></Sequence>; })}
   </AbsoluteFill>
 );

@@ -93,6 +93,20 @@ export const Cockpit: React.FC<SetP & { night?: boolean }> = ({ cam, t, cast, ni
     <L cam={cam} d={1.2}><rect x={-400} y={760} width={W + 800} height={500} fill="#262b3a" stroke={INK} strokeWidth={4.5} /><rect x={-400} y={740} width={W + 800} height={40} fill="#171b27" />{[0, 1, 2, 3, 4].map((i) => <g key={i}><circle cx={520 + i * 220} cy={880} r={64} fill="#0d1226" stroke={INK} strokeWidth={5} /><circle cx={520 + i * 220} cy={880} r={52} fill="#10223a" /><Ln p={[[520 + i * 220, 880], [520 + i * 220 + 40 * Math.cos(t * (1 + i * 0.3)), 880 + 40 * Math.sin(t * (1 + i * 0.3))]]} sw={5} c="#2CC4E8" /></g>)}<rect x={0} y={0} width={110} height={H} fill="#171b27" /><rect x={W - 110} y={0} width={110} height={H} fill="#171b27" /></L>
   </g>
 );
+export const Atrio: React.FC<SetP> = ({ cam, t, cast }) => (
+  <g>
+    <L cam={cam} d={0.4}><Wall kind="panels" col="#cfd3dc" y0={-300} y1={FLOOR} /><S x={600} y={150} w={720} h={540} r={6} fill="#aeb6c4" /><S x={630} y={180} w={330} h={510} r={3} fill="#d9dee8" /><S x={960} y={180} w={330} h={510} r={3} fill="#d9dee8" /><Ln p={[[960, 180], [960, 690]]} sw={5} /><S x={800} y={96} w={320} h={44} r={8} fill="#0d1226" /><text x={960} y={130} textAnchor="middle" fontFamily="Anton, Impact, sans-serif" fontSize={34} fill="#9B6BFF">{String(1 + Math.floor((t * 0.6) % 9))}</text><S x={1370} y={380} w={34} h={80} r={6} fill="#2a2f3c" /><circle cx={1387} cy={405} r={7} fill="#9B6BFF" /></L>
+    <L cam={cam} d={0.8}><rect x={-400} y={FLOOR - 20} width={W + 800} height={H} fill="#8a8f98" />{[0, 1, 2, 3, 4, 5, 6, 7, 8].map((i) => <rect key={i} x={i * 260 - 120} y={FLOOR - 20} width={4} height={H} fill="#6a6f78" />)}</L>
+    <L cam={cam} d={1}>{cast}</L>
+  </g>
+);
+export const Tromba: React.FC<SetP> = ({ cam, t, cast }) => (
+  <g>
+    <L cam={cam} d={0.4}><rect x={-400} y={-300} width={W + 800} height={H + 600} fill="#1b1f2c" />{[700, 1220].map((x) => <g key={x}><S x={x - 14} y={-300} w={28} h={H + 600} r={2} fill="#3a3f4d" />{Array.from({ length: 12 }).map((_, i) => <rect key={i} x={x - 22} y={i * 110 - 40} width={44} height={10} fill="#5a6070" />)}</g>)}<Ln p={[[960, -300], [960, 500]]} sw={6} c="#8a8f98" /><S x={900} y={470} w={120} h={90} r={6} fill="#aeb6c4" /></L>
+    <L cam={cam} d={0.8}>{[0, 1, 2, 3].map((i) => <rect key={i} x={-300 + i * 700} y={0} width={14} height={H} fill="#2a2f3c" />)}<rect x={-400} y={FLOOR - 20} width={W + 800} height={H} fill="#3a3f4d" /></L>
+    <L cam={cam} d={1}>{cast}</L>
+  </g>
+);
 export const AnySet: React.FC<{ spec: any; cam: Cam; t: number; cast: React.ReactNode }> = ({ spec, cam, t, cast }) => {
   const n = typeof spec === 'string' ? spec : spec.n; const o = typeof spec === 'string' ? {} : spec;
   const p = { cam, t, cast, ...o };
@@ -112,6 +126,8 @@ export const AnySet: React.FC<{ spec: any; cam: Cam; t: number; cast: React.Reac
     case 'bunk': return <Bunk {...p} />;
     case 'notte': return <StradaNight {...p} />;
     case 'pista': return <Pista {...p} />;
+    case 'atrio': return <Atrio {...p} />;
+    case 'tromba': return <Tromba {...p} />;
     case 'cockpit': return <Cockpit {...p} />;
     default: return <Piazzale {...p} />;
   }

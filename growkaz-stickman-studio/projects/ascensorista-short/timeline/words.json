@@ -1,0 +1,960 @@
+{
+ "source": "whisper:small",
+ "words": [
+  {
+   "word": "Questo",
+   "start": 0.0,
+   "end": 0.26
+  },
+  {
+   "word": "lavoro",
+   "start": 0.26,
+   "end": 0.74
+  },
+  {
+   "word": "paga",
+   "start": 0.74,
+   "end": 1.2
+  },
+  {
+   "word": "oltre",
+   "start": 1.2,
+   "end": 1.64
+  },
+  {
+   "word": "100",
+   "start": 1.64,
+   "end": 2.16
+  },
+  {
+   "word": "mila",
+   "start": 2.16,
+   "end": 2.74
+  },
+  {
+   "word": "dollari,",
+   "start": 2.74,
+   "end": 3.18
+  },
+  {
+   "word": "senza",
+   "start": 3.42,
+   "end": 3.78
+  },
+  {
+   "word": "laurea.",
+   "start": 3.78,
+   "end": 4.36
+  },
+  {
+   "word": "Non",
+   "start": 4.88,
+   "end": 5.06
+  },
+  {
+   "word": "è",
+   "start": 5.06,
+   "end": 5.16
+  },
+  {
+   "word": "informatica,",
+   "start": 5.16,
+   "end": 5.8
+  },
+  {
+   "word": "non",
+   "start": 6.04,
+   "end": 6.14
+  },
+  {
+   "word": "è",
+   "start": 6.14,
+   "end": 6.28
+  },
+  {
+   "word": "finanza,",
+   "start": 6.28,
+   "end": 6.82
+  },
+  {
+   "word": "è",
+   "start": 7.3,
+   "end": 7.5
+  },
+  {
+   "word": "montare",
+   "start": 7.5,
+   "end": 8.3
+  },
+  {
+   "word": "e",
+   "start": 8.3,
+   "end": 8.6
+  },
+  {
+   "word": "riparare",
+   "start": 8.6,
+   "end": 9.16
+  },
+  {
+   "word": "ascensori.",
+   "start": 9.16,
+   "end": 9.8
+  },
+  {
+   "word": "Negli",
+   "start": 10.54,
+   "end": 10.84
+  },
+  {
+   "word": "Stati",
+   "start": 10.84,
+   "end": 11.08
+  },
+  {
+   "word": "Uniti",
+   "start": 11.08,
+   "end": 11.38
+  },
+  {
+   "word": "la",
+   "start": 11.38,
+   "end": 11.74
+  },
+  {
+   "word": "paga",
+   "start": 11.74,
+   "end": 11.98
+  },
+  {
+   "word": "mediana",
+   "start": 11.98,
+   "end": 12.42
+  },
+  {
+   "word": "è",
+   "start": 12.42,
+   "end": 12.6
+  },
+  {
+   "word": "di",
+   "start": 12.6,
+   "end": 12.68
+  },
+  {
+   "word": "circa",
+   "start": 12.68,
+   "end": 12.92
+  },
+  {
+   "word": "110",
+   "start": 12.92,
+   "end": 13.44
+  },
+  {
+   "word": "mila",
+   "start": 13.44,
+   "end": 14.12
+  },
+  {
+   "word": "dollari",
+   "start": 14.12,
+   "end": 14.42
+  },
+  {
+   "word": "l",
+   "start": 14.42,
+   "end": 14.58
+  },
+  {
+   "word": "'anno,",
+   "start": 14.58,
+   "end": 14.74
+  },
+  {
+   "word": "l",
+   "start": 15.32,
+   "end": 15.46
+  },
+  {
+   "word": "'ordi,",
+   "start": 15.46,
+   "end": 15.7
+  },
+  {
+   "word": "cioè",
+   "start": 15.9,
+   "end": 16.04
+  },
+  {
+   "word": "prima",
+   "start": 16.04,
+   "end": 16.42
+  },
+  {
+   "word": "delle",
+   "start": 16.42,
+   "end": 16.6
+  },
+  {
+   "word": "tasse.",
+   "start": 16.6,
+   "end": 16.98
+  },
+  {
+   "word": "I",
+   "start": 17.46,
+   "end": 17.58
+  },
+  {
+   "word": "dati",
+   "start": 17.58,
+   "end": 17.9
+  },
+  {
+   "word": "sono",
+   "start": 17.9,
+   "end": 18.1
+  },
+  {
+   "word": "del",
+   "start": 18.1,
+   "end": 18.28
+  },
+  {
+   "word": "Bureau",
+   "start": 18.28,
+   "end": 18.48
+  },
+  {
+   "word": "of",
+   "start": 18.48,
+   "end": 18.74
+  },
+  {
+   "word": "Labor",
+   "start": 18.74,
+   "end": 18.92
+  },
+  {
+   "word": "Statistics",
+   "start": 18.92,
+   "end": 19.5
+  },
+  {
+   "word": "2025,",
+   "start": 19.5,
+   "end": 20.32
+  },
+  {
+   "word": "ma",
+   "start": 21.14,
+   "end": 21.44
+  },
+  {
+   "word": "attenzione",
+   "start": 21.44,
+   "end": 22.36
+  },
+  {
+   "word": "a",
+   "start": 22.36,
+   "end": 22.46
+  },
+  {
+   "word": "una",
+   "start": 22.46,
+   "end": 22.56
+  },
+  {
+   "word": "parola",
+   "start": 22.56,
+   "end": 22.94
+  },
+  {
+   "word": "mediana,",
+   "start": 22.94,
+   "end": 24.04
+  },
+  {
+   "word": "vuol",
+   "start": 24.42,
+   "end": 24.7
+  },
+  {
+   "word": "dire",
+   "start": 24.7,
+   "end": 24.84
+  },
+  {
+   "word": "che",
+   "start": 24.84,
+   "end": 25.02
+  },
+  {
+   "word": "metà",
+   "start": 25.02,
+   "end": 25.38
+  },
+  {
+   "word": "delle",
+   "start": 25.38,
+   "end": 25.52
+  },
+  {
+   "word": "persone",
+   "start": 25.52,
+   "end": 25.9
+  },
+  {
+   "word": "guadagna",
+   "start": 25.9,
+   "end": 26.32
+  },
+  {
+   "word": "meno.",
+   "start": 26.32,
+   "end": 26.58
+  },
+  {
+   "word": "Il",
+   "start": 27.26,
+   "end": 27.56
+  },
+  {
+   "word": "10",
+   "start": 27.56,
+   "end": 27.94
+  },
+  {
+   "word": "%",
+   "start": 27.94,
+   "end": 28.28
+  },
+  {
+   "word": "più",
+   "start": 28.28,
+   "end": 28.62
+  },
+  {
+   "word": "basso",
+   "start": 28.62,
+   "end": 29.02
+  },
+  {
+   "word": "sta",
+   "start": 29.02,
+   "end": 29.2
+  },
+  {
+   "word": "sotto",
+   "start": 29.2,
+   "end": 29.44
+  },
+  {
+   "word": "i",
+   "start": 29.44,
+   "end": 29.56
+  },
+  {
+   "word": "60",
+   "start": 29.56,
+   "end": 29.86
+  },
+  {
+   "word": "mila",
+   "start": 29.86,
+   "end": 30.22
+  },
+  {
+   "word": "dollari,",
+   "start": 30.22,
+   "end": 30.58
+  },
+  {
+   "word": "il",
+   "start": 30.84,
+   "end": 31.2
+  },
+  {
+   "word": "10",
+   "start": 31.2,
+   "end": 31.4
+  },
+  {
+   "word": "%",
+   "start": 31.4,
+   "end": 31.76
+  },
+  {
+   "word": "più",
+   "start": 31.76,
+   "end": 32.02
+  },
+  {
+   "word": "alto",
+   "start": 32.02,
+   "end": 32.28
+  },
+  {
+   "word": "supera",
+   "start": 32.28,
+   "end": 32.76
+  },
+  {
+   "word": "i",
+   "start": 32.76,
+   "end": 32.86
+  },
+  {
+   "word": "158",
+   "start": 32.86,
+   "end": 33.74
+  },
+  {
+   "word": "mila.",
+   "start": 33.74,
+   "end": 34.1
+  },
+  {
+   "word": "Come",
+   "start": 34.78,
+   "end": 35.06
+  },
+  {
+   "word": "si",
+   "start": 35.06,
+   "end": 35.2
+  },
+  {
+   "word": "entra?",
+   "start": 35.2,
+   "end": 35.42
+  },
+  {
+   "word": "Basta",
+   "start": 36.02,
+   "end": 36.32
+  },
+  {
+   "word": "il",
+   "start": 36.32,
+   "end": 36.46
+  },
+  {
+   "word": "diploma,",
+   "start": 36.46,
+   "end": 36.68
+  },
+  {
+   "word": "poi",
+   "start": 37.24,
+   "end": 37.46
+  },
+  {
+   "word": "serve",
+   "start": 37.46,
+   "end": 37.72
+  },
+  {
+   "word": "a",
+   "start": 37.72,
+   "end": 37.86
+  },
+  {
+   "word": "un",
+   "start": 37.86,
+   "end": 37.9
+  },
+  {
+   "word": "apprendi",
+   "start": 37.9,
+   "end": 38.2
+  },
+  {
+   "word": "stato,",
+   "start": 38.2,
+   "end": 38.48
+  },
+  {
+   "word": "si",
+   "start": 38.94,
+   "end": 39.08
+  },
+  {
+   "word": "impara",
+   "start": 39.08,
+   "end": 39.34
+  },
+  {
+   "word": "lavorando,",
+   "start": 39.34,
+   "end": 39.98
+  },
+  {
+   "word": "accanto",
+   "start": 40.24,
+   "end": 40.58
+  },
+  {
+   "word": "a",
+   "start": 40.58,
+   "end": 40.68
+  },
+  {
+   "word": "chilo",
+   "start": 40.68,
+   "end": 40.82
+  },
+  {
+   "word": "fa",
+   "start": 40.82,
+   "end": 40.98
+  },
+  {
+   "word": "da",
+   "start": 40.98,
+   "end": 41.1
+  },
+  {
+   "word": "anni.",
+   "start": 41.1,
+   "end": 41.38
+  },
+  {
+   "word": "Il",
+   "start": 42.14,
+   "end": 42.28
+  },
+  {
+   "word": "lavoro",
+   "start": 42.28,
+   "end": 42.44
+  },
+  {
+   "word": "è",
+   "start": 42.44,
+   "end": 42.68
+  },
+  {
+   "word": "installare,",
+   "start": 42.68,
+   "end": 43.36
+  },
+  {
+   "word": "controllare",
+   "start": 43.84,
+   "end": 44.38
+  },
+  {
+   "word": "e",
+   "start": 44.38,
+   "end": 44.76
+  },
+  {
+   "word": "riparare.",
+   "start": 44.76,
+   "end": 45.22
+  },
+  {
+   "word": "Ascensori,",
+   "start": 45.88,
+   "end": 46.48
+  },
+  {
+   "word": "scale",
+   "start": 46.64,
+   "end": 46.8
+  },
+  {
+   "word": "mobili,",
+   "start": 46.8,
+   "end": 47.32
+  },
+  {
+   "word": "tapirulan,",
+   "start": 47.52,
+   "end": 48.0
+  },
+  {
+   "word": "spesso",
+   "start": 48.58,
+   "end": 49.1
+  },
+  {
+   "word": "in",
+   "start": 49.1,
+   "end": 49.24
+  },
+  {
+   "word": "altezza",
+   "start": 49.24,
+   "end": 49.78
+  },
+  {
+   "word": "e",
+   "start": 49.78,
+   "end": 50.06
+  },
+  {
+   "word": "in",
+   "start": 50.06,
+   "end": 50.16
+  },
+  {
+   "word": "spazi",
+   "start": 50.16,
+   "end": 50.48
+  },
+  {
+   "word": "stretti.",
+   "start": 50.48,
+   "end": 50.96
+  },
+  {
+   "word": "La",
+   "start": 51.66,
+   "end": 51.98
+  },
+  {
+   "word": "domanda",
+   "start": 51.98,
+   "end": 52.32
+  },
+  {
+   "word": "per",
+   "start": 52.32,
+   "end": 52.7
+  },
+  {
+   "word": "le",
+   "start": 52.7,
+   "end": 52.82
+  },
+  {
+   "word": "stime",
+   "start": 52.82,
+   "end": 53.06
+  },
+  {
+   "word": "americane",
+   "start": 53.06,
+   "end": 53.56
+  },
+  {
+   "word": "cresce",
+   "start": 53.56,
+   "end": 54.0
+  },
+  {
+   "word": "più",
+   "start": 54.0,
+   "end": 54.18
+  },
+  {
+   "word": "della",
+   "start": 54.18,
+   "end": 54.38
+  },
+  {
+   "word": "media,",
+   "start": 54.38,
+   "end": 54.68
+  },
+  {
+   "word": "circa",
+   "start": 54.94,
+   "end": 55.28
+  },
+  {
+   "word": "il",
+   "start": 55.28,
+   "end": 55.54
+  },
+  {
+   "word": "6",
+   "start": 55.54,
+   "end": 55.76
+  },
+  {
+   "word": "%",
+   "start": 55.76,
+   "end": 56.32
+  },
+  {
+   "word": "fino",
+   "start": 56.32,
+   "end": 56.56
+  },
+  {
+   "word": "a",
+   "start": 56.56,
+   "end": 56.56
+  },
+  {
+   "word": "il",
+   "start": 56.56,
+   "end": 56.7
+  },
+  {
+   "word": "2035,",
+   "start": 56.7,
+   "end": 57.36
+  },
+  {
+   "word": "ma",
+   "start": 58.04,
+   "end": 58.7
+  },
+  {
+   "word": "sono",
+   "start": 58.7,
+   "end": 58.96
+  },
+  {
+   "word": "dati",
+   "start": 58.96,
+   "end": 59.24
+  },
+  {
+   "word": "americani.",
+   "start": 59.24,
+   "end": 59.72
+  },
+  {
+   "word": "In",
+   "start": 60.34,
+   "end": 60.48
+  },
+  {
+   "word": "Italia,",
+   "start": 60.48,
+   "end": 60.78
+  },
+  {
+   "word": "il",
+   "start": 61.06,
+   "end": 61.18
+  },
+  {
+   "word": "mestiere",
+   "start": 61.18,
+   "end": 61.48
+  },
+  {
+   "word": "esiste",
+   "start": 61.48,
+   "end": 61.96
+  },
+  {
+   "word": "e",
+   "start": 61.96,
+   "end": 62.3
+  },
+  {
+   "word": "le",
+   "start": 62.3,
+   "end": 62.4
+  },
+  {
+   "word": "cifre",
+   "start": 62.4,
+   "end": 62.7
+  },
+  {
+   "word": "sono",
+   "start": 62.7,
+   "end": 62.9
+  },
+  {
+   "word": "diverse.",
+   "start": 62.9,
+   "end": 63.24
+  },
+  {
+   "word": "100",
+   "start": 64.12,
+   "end": 64.36
+  },
+  {
+   "word": "mila",
+   "start": 64.36,
+   "end": 64.76
+  },
+  {
+   "word": "dollari",
+   "start": 64.76,
+   "end": 65.06
+  },
+  {
+   "word": "non",
+   "start": 65.06,
+   "end": 65.22
+  },
+  {
+   "word": "ti",
+   "start": 65.22,
+   "end": 65.38
+  },
+  {
+   "word": "arrivano",
+   "start": 65.38,
+   "end": 65.74
+  },
+  {
+   "word": "il",
+   "start": 65.74,
+   "end": 65.84
+  },
+  {
+   "word": "primo",
+   "start": 65.84,
+   "end": 66.0
+  },
+  {
+   "word": "giorno,",
+   "start": 66.0,
+   "end": 66.34
+  },
+  {
+   "word": "ti",
+   "start": 66.66,
+   "end": 66.78
+  },
+  {
+   "word": "arrivano",
+   "start": 66.78,
+   "end": 67.12
+  },
+  {
+   "word": "con",
+   "start": 67.12,
+   "end": 67.28
+  },
+  {
+   "word": "gli",
+   "start": 67.28,
+   "end": 67.42
+  },
+  {
+   "word": "anni,",
+   "start": 67.42,
+   "end": 67.64
+  },
+  {
+   "word": "la",
+   "start": 67.9,
+   "end": 67.98
+  },
+  {
+   "word": "formazione",
+   "start": 67.98,
+   "end": 68.5
+  },
+  {
+   "word": "e",
+   "start": 68.5,
+   "end": 68.88
+  },
+  {
+   "word": "la",
+   "start": 68.88,
+   "end": 68.96
+  },
+  {
+   "word": "responsabilità.",
+   "start": 68.96,
+   "end": 69.7
+  },
+  {
+   "word": "Un",
+   "start": 70.48,
+   "end": 70.62
+  },
+  {
+   "word": "lavoro",
+   "start": 70.62,
+   "end": 70.86
+  },
+  {
+   "word": "che",
+   "start": 70.86,
+   "end": 71.08
+  },
+  {
+   "word": "nessuno",
+   "start": 71.08,
+   "end": 71.68
+  },
+  {
+   "word": "guarda",
+   "start": 71.68,
+   "end": 72.18
+  },
+  {
+   "word": "finché",
+   "start": 72.18,
+   "end": 72.54
+  },
+  {
+   "word": "l",
+   "start": 72.54,
+   "end": 72.64
+  },
+  {
+   "word": "'ascensore",
+   "start": 72.64,
+   "end": 73.08
+  },
+  {
+   "word": "non",
+   "start": 73.08,
+   "end": 73.32
+  },
+  {
+   "word": "si",
+   "start": 73.32,
+   "end": 73.52
+  },
+  {
+   "word": "ferma.",
+   "start": 73.52,
+   "end": 73.96
+  },
+  {
+   "word": "Iscriviti,",
+   "start": 74.64,
+   "end": 75.14
+  },
+  {
+   "word": "se",
+   "start": 75.42,
+   "end": 75.5
+  },
+  {
+   "word": "vuoi",
+   "start": 75.5,
+   "end": 75.66
+  },
+  {
+   "word": "sapere",
+   "start": 75.66,
+   "end": 75.94
+  },
+  {
+   "word": "cosa",
+   "start": 75.94,
+   "end": 76.08
+  },
+  {
+   "word": "serve",
+   "start": 76.08,
+   "end": 76.4
+  },
+  {
+   "word": "davvero.",
+   "start": 76.4,
+   "end": 76.76
+  }
+ ]
+}
