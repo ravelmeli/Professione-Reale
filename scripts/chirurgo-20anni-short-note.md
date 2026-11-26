@@ -19,5 +19,5 @@ Da verificare / attenzione:
 - Privato e libera professione: esclusi di proposito.
 - L'ultima frase ("a cinquanta... un po' più stanco") è narrativa.
 
-Durata stimata: circa 75-85 secondi di voce (190 parole circa).
+Durata stimata: circa 90-100 secondi di voce (236 parole).
 Visual: stessi set e personaggi del short precedente sul chirurgo (sala operatoria, scrub verde, camice bianco). Accento: verde acqua chirurgico.
