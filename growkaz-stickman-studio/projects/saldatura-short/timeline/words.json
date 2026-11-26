@@ -1,0 +1,965 @@
+{
+ "source": "whisper:small",
+ "words": [
+  {
+   "word": "la",
+   "start": 0.0,
+   "end": 0.26
+  },
+  {
+   "word": "parte",
+   "start": 0.26,
+   "end": 0.58
+  },
+  {
+   "word": "più",
+   "start": 0.58,
+   "end": 0.9
+  },
+  {
+   "word": "pericolosa",
+   "start": 0.9,
+   "end": 1.84
+  },
+  {
+   "word": "della",
+   "start": 1.84,
+   "end": 2.14
+  },
+  {
+   "word": "saldatura",
+   "start": 2.14,
+   "end": 2.64
+  },
+  {
+   "word": "subacquea.",
+   "start": 2.64,
+   "end": 3.34
+  },
+  {
+   "word": "Non",
+   "start": 3.8,
+   "end": 4.36
+  },
+  {
+   "word": "sono",
+   "start": 4.36,
+   "end": 4.74
+  },
+  {
+   "word": "gli",
+   "start": 4.74,
+   "end": 4.96
+  },
+  {
+   "word": "squali,",
+   "start": 4.96,
+   "end": 5.38
+  },
+  {
+   "word": "non",
+   "start": 5.84,
+   "end": 6.18
+  },
+  {
+   "word": "è",
+   "start": 6.18,
+   "end": 6.42
+  },
+  {
+   "word": "il",
+   "start": 6.42,
+   "end": 6.6
+  },
+  {
+   "word": "buio.",
+   "start": 6.6,
+   "end": 6.96
+  },
+  {
+   "word": "1.",
+   "start": 8.04,
+   "end": 8.3
+  },
+  {
+   "word": "L",
+   "start": 8.86,
+   "end": 8.9
+  },
+  {
+   "word": "'elettricità.",
+   "start": 8.9,
+   "end": 9.74
+  },
+  {
+   "word": "Si",
+   "start": 10.22,
+   "end": 10.48
+  },
+  {
+   "word": "salda",
+   "start": 10.48,
+   "end": 10.78
+  },
+  {
+   "word": "con",
+   "start": 10.78,
+   "end": 11.0
+  },
+  {
+   "word": "un",
+   "start": 11.0,
+   "end": 11.12
+  },
+  {
+   "word": "arco",
+   "start": 11.12,
+   "end": 11.3
+  },
+  {
+   "word": "elettrico",
+   "start": 11.3,
+   "end": 11.76
+  },
+  {
+   "word": "in",
+   "start": 11.76,
+   "end": 12.14
+  },
+  {
+   "word": "acqua.",
+   "start": 12.14,
+   "end": 12.5
+  },
+  {
+   "word": "Le",
+   "start": 13.14,
+   "end": 13.24
+  },
+  {
+   "word": "fonti",
+   "start": 13.24,
+   "end": 13.52
+  },
+  {
+   "word": "tecniche",
+   "start": 13.52,
+   "end": 13.86
+  },
+  {
+   "word": "lo",
+   "start": 13.86,
+   "end": 14.0
+  },
+  {
+   "word": "indicano",
+   "start": 14.0,
+   "end": 14.38
+  },
+  {
+   "word": "tra",
+   "start": 14.38,
+   "end": 14.56
+  },
+  {
+   "word": "i",
+   "start": 14.56,
+   "end": 14.68
+  },
+  {
+   "word": "rischi",
+   "start": 14.68,
+   "end": 15.0
+  },
+  {
+   "word": "principali,",
+   "start": 15.0,
+   "end": 15.64
+  },
+  {
+   "word": "la",
+   "start": 15.92,
+   "end": 16.04
+  },
+  {
+   "word": "scossa",
+   "start": 16.04,
+   "end": 16.4
+  },
+  {
+   "word": "elettrica,",
+   "start": 16.4,
+   "end": 17.02
+  },
+  {
+   "word": "per",
+   "start": 17.8,
+   "end": 17.9
+  },
+  {
+   "word": "questo",
+   "start": 17.9,
+   "end": 18.14
+  },
+  {
+   "word": "si",
+   "start": 18.14,
+   "end": 18.42
+  },
+  {
+   "word": "isolano",
+   "start": 18.42,
+   "end": 18.78
+  },
+  {
+   "word": "le",
+   "start": 18.78,
+   "end": 18.92
+  },
+  {
+   "word": "attrezzature",
+   "start": 18.92,
+   "end": 19.46
+  },
+  {
+   "word": "e",
+   "start": 19.46,
+   "end": 20.18
+  },
+  {
+   "word": "si",
+   "start": 20.18,
+   "end": 20.32
+  },
+  {
+   "word": "spegne",
+   "start": 20.32,
+   "end": 20.62
+  },
+  {
+   "word": "la",
+   "start": 20.62,
+   "end": 20.76
+  },
+  {
+   "word": "corrente",
+   "start": 20.76,
+   "end": 21.12
+  },
+  {
+   "word": "appena",
+   "start": 21.12,
+   "end": 21.72
+  },
+  {
+   "word": "l",
+   "start": 21.72,
+   "end": 21.86
+  },
+  {
+   "word": "'arco",
+   "start": 21.86,
+   "end": 22.04
+  },
+  {
+   "word": "si",
+   "start": 22.04,
+   "end": 22.2
+  },
+  {
+   "word": "spegne.",
+   "start": 22.2,
+   "end": 22.58
+  },
+  {
+   "word": "2.",
+   "start": 23.16,
+   "end": 23.84
+  },
+  {
+   "word": "Il",
+   "start": 24.34,
+   "end": 24.44
+  },
+  {
+   "word": "gas.",
+   "start": 24.44,
+   "end": 24.76
+  },
+  {
+   "word": "L",
+   "start": 25.62,
+   "end": 25.82
+  },
+  {
+   "word": "'arco",
+   "start": 25.82,
+   "end": 26.04
+  },
+  {
+   "word": "sott",
+   "start": 26.04,
+   "end": 26.38
+  },
+  {
+   "word": "'acqua",
+   "start": 26.38,
+   "end": 26.7
+  },
+  {
+   "word": "produce",
+   "start": 26.7,
+   "end": 27.16
+  },
+  {
+   "word": "idrogeno",
+   "start": 27.16,
+   "end": 27.82
+  },
+  {
+   "word": "e",
+   "start": 27.82,
+   "end": 27.96
+  },
+  {
+   "word": "ossigeno.",
+   "start": 27.96,
+   "end": 28.54
+  },
+  {
+   "word": "Se",
+   "start": 28.54,
+   "end": 29.12
+  },
+  {
+   "word": "si",
+   "start": 29.12,
+   "end": 29.28
+  },
+  {
+   "word": "formano",
+   "start": 29.28,
+   "end": 29.56
+  },
+  {
+   "word": "sacche",
+   "start": 29.56,
+   "end": 29.86
+  },
+  {
+   "word": "di",
+   "start": 29.86,
+   "end": 29.94
+  },
+  {
+   "word": "gas",
+   "start": 29.94,
+   "end": 30.18
+  },
+  {
+   "word": "possono",
+   "start": 30.18,
+   "end": 30.62
+  },
+  {
+   "word": "essere",
+   "start": 30.62,
+   "end": 30.92
+  },
+  {
+   "word": "esplosive.",
+   "start": 30.92,
+   "end": 31.52
+  },
+  {
+   "word": "Per",
+   "start": 32.04,
+   "end": 32.38
+  },
+  {
+   "word": "questo",
+   "start": 32.38,
+   "end": 32.62
+  },
+  {
+   "word": "si",
+   "start": 32.62,
+   "end": 32.82
+  },
+  {
+   "word": "prendono",
+   "start": 32.82,
+   "end": 33.16
+  },
+  {
+   "word": "precauzioni",
+   "start": 33.16,
+   "end": 33.8
+  },
+  {
+   "word": "per",
+   "start": 33.8,
+   "end": 34.08
+  },
+  {
+   "word": "evitarle.",
+   "start": 34.08,
+   "end": 34.58
+  },
+  {
+   "word": "3.",
+   "start": 35.42,
+   "end": 35.68
+  },
+  {
+   "word": "La",
+   "start": 36.18,
+   "end": 36.26
+  },
+  {
+   "word": "decompressione.",
+   "start": 36.26,
+   "end": 37.74
+  },
+  {
+   "word": "Risalire",
+   "start": 38.06,
+   "end": 38.44
+  },
+  {
+   "word": "troppo",
+   "start": 38.44,
+   "end": 38.78
+  },
+  {
+   "word": "in",
+   "start": 38.78,
+   "end": 38.92
+  },
+  {
+   "word": "fretta",
+   "start": 38.92,
+   "end": 39.3
+  },
+  {
+   "word": "è",
+   "start": 39.3,
+   "end": 39.52
+  },
+  {
+   "word": "un",
+   "start": 39.52,
+   "end": 39.66
+  },
+  {
+   "word": "pericolo",
+   "start": 39.66,
+   "end": 40.04
+  },
+  {
+   "word": "a",
+   "start": 40.04,
+   "end": 40.16
+  },
+  {
+   "word": "parte.",
+   "start": 40.16,
+   "end": 40.42
+  },
+  {
+   "word": "Si",
+   "start": 41.08,
+   "end": 41.26
+  },
+  {
+   "word": "gestisce",
+   "start": 41.26,
+   "end": 41.74
+  },
+  {
+   "word": "dyed",
+   "start": 41.74,
+   "end": 41.74
+  },
+  {
+   "word": "con",
+   "start": 41.74,
+   "end": 41.8
+  },
+  {
+   "word": "soste",
+   "start": 41.8,
+   "end": 42.36
+  },
+  {
+   "word": "di",
+   "start": 42.36,
+   "end": 42.44
+  },
+  {
+   "word": "decompressione",
+   "start": 42.44,
+   "end": 43.54
+  },
+  {
+   "word": "oppure",
+   "start": 43.54,
+   "end": 43.92
+  },
+  {
+   "word": "con",
+   "start": 43.92,
+   "end": 44.14
+  },
+  {
+   "word": "camere",
+   "start": 44.14,
+   "end": 44.56
+  },
+  {
+   "word": "iperbariche",
+   "start": 44.56,
+   "end": 45.08
+  },
+  {
+   "word": "in",
+   "start": 45.08,
+   "end": 45.2
+  },
+  {
+   "word": "superficie.",
+   "start": 45.2,
+   "end": 45.82
+  },
+  {
+   "word": "Quindi,",
+   "start": 46.46,
+   "end": 47.1
+  },
+  {
+   "word": "qual",
+   "start": 47.3,
+   "end": 47.54
+  },
+  {
+   "word": "è",
+   "start": 47.54,
+   "end": 47.72
+  },
+  {
+   "word": "la",
+   "start": 47.72,
+   "end": 47.86
+  },
+  {
+   "word": "parte",
+   "start": 47.86,
+   "end": 48.1
+  },
+  {
+   "word": "più",
+   "start": 48.1,
+   "end": 48.42
+  },
+  {
+   "word": "pericolosa?",
+   "start": 48.42,
+   "end": 49.1
+  },
+  {
+   "word": "Le",
+   "start": 49.96,
+   "end": 50.14
+  },
+  {
+   "word": "fonti",
+   "start": 50.14,
+   "end": 50.42
+  },
+  {
+   "word": "che",
+   "start": 50.42,
+   "end": 50.52
+  },
+  {
+   "word": "ho",
+   "start": 50.52,
+   "end": 50.6
+  },
+  {
+   "word": "trovato",
+   "start": 50.6,
+   "end": 50.94
+  },
+  {
+   "word": "non",
+   "start": 50.94,
+   "end": 51.3
+  },
+  {
+   "word": "fanno",
+   "start": 51.3,
+   "end": 51.58
+  },
+  {
+   "word": "una",
+   "start": 51.58,
+   "end": 51.8
+  },
+  {
+   "word": "classifica.",
+   "start": 51.8,
+   "end": 52.34
+  },
+  {
+   "word": "Il",
+   "start": 52.78,
+   "end": 53.02
+  },
+  {
+   "word": "pericolo",
+   "start": 53.02,
+   "end": 53.34
+  },
+  {
+   "word": "vero",
+   "start": 53.34,
+   "end": 53.66
+  },
+  {
+   "word": "è",
+   "start": 53.66,
+   "end": 53.82
+  },
+  {
+   "word": "la",
+   "start": 53.82,
+   "end": 53.94
+  },
+  {
+   "word": "somma.",
+   "start": 53.94,
+   "end": 54.38
+  },
+  {
+   "word": "Elettricità,",
+   "start": 55.26,
+   "end": 55.78
+  },
+  {
+   "word": "gas",
+   "start": 56.06,
+   "end": 56.44
+  },
+  {
+   "word": "e",
+   "start": 56.44,
+   "end": 56.78
+  },
+  {
+   "word": "pressione",
+   "start": 56.78,
+   "end": 57.44
+  },
+  {
+   "word": "nello",
+   "start": 57.44,
+   "end": 58.04
+  },
+  {
+   "word": "stesso",
+   "start": 58.04,
+   "end": 58.28
+  },
+  {
+   "word": "posto.",
+   "start": 58.28,
+   "end": 58.98
+  },
+  {
+   "word": "Online",
+   "start": 59.78,
+   "end": 60.3
+  },
+  {
+   "word": "circola",
+   "start": 60.3,
+   "end": 60.82
+  },
+  {
+   "word": "una",
+   "start": 60.82,
+   "end": 61.0
+  },
+  {
+   "word": "percentuale",
+   "start": 61.0,
+   "end": 61.52
+  },
+  {
+   "word": "di",
+   "start": 61.52,
+   "end": 61.62
+  },
+  {
+   "word": "mortalità",
+   "start": 61.62,
+   "end": 62.06
+  },
+  {
+   "word": "altissima.",
+   "start": 62.06,
+   "end": 62.84
+  },
+  {
+   "word": "Non",
+   "start": 63.28,
+   "end": 63.52
+  },
+  {
+   "word": "ho",
+   "start": 63.52,
+   "end": 63.64
+  },
+  {
+   "word": "trovato",
+   "start": 63.64,
+   "end": 63.96
+  },
+  {
+   "word": "una",
+   "start": 63.96,
+   "end": 64.1
+  },
+  {
+   "word": "fonte",
+   "start": 64.1,
+   "end": 64.32
+  },
+  {
+   "word": "affidabile.",
+   "start": 64.32,
+   "end": 64.8
+  },
+  {
+   "word": "Per",
+   "start": 65.12,
+   "end": 65.2
+  },
+  {
+   "word": "questo",
+   "start": 65.2,
+   "end": 65.42
+  },
+  {
+   "word": "non",
+   "start": 65.42,
+   "end": 65.6
+  },
+  {
+   "word": "la",
+   "start": 65.6,
+   "end": 65.72
+  },
+  {
+   "word": "dico.",
+   "start": 65.72,
+   "end": 65.94
+  },
+  {
+   "word": "Questa",
+   "start": 66.94,
+   "end": 67.28
+  },
+  {
+   "word": "è",
+   "start": 67.28,
+   "end": 67.5
+  },
+  {
+   "word": "la",
+   "start": 67.5,
+   "end": 67.62
+  },
+  {
+   "word": "saldatura",
+   "start": 67.62,
+   "end": 68.08
+  },
+  {
+   "word": "a",
+   "start": 68.08,
+   "end": 68.24
+  },
+  {
+   "word": "dumido,",
+   "start": 68.24,
+   "end": 68.5
+  },
+  {
+   "word": "la",
+   "start": 68.72,
+   "end": 68.84
+  },
+  {
+   "word": "più",
+   "start": 68.84,
+   "end": 68.96
+  },
+  {
+   "word": "discussa.",
+   "start": 68.96,
+   "end": 69.44
+  },
+  {
+   "word": "Esiste",
+   "start": 70.14,
+   "end": 70.52
+  },
+  {
+   "word": "anche",
+   "start": 70.52,
+   "end": 70.7
+  },
+  {
+   "word": "la",
+   "start": 70.7,
+   "end": 70.88
+  },
+  {
+   "word": "saldatura",
+   "start": 70.88,
+   "end": 71.28
+  },
+  {
+   "word": "in",
+   "start": 71.28,
+   "end": 71.44
+  },
+  {
+   "word": "camera",
+   "start": 71.44,
+   "end": 71.64
+  },
+  {
+   "word": "secca,",
+   "start": 71.64,
+   "end": 72.06
+  },
+  {
+   "word": "con",
+   "start": 72.26,
+   "end": 72.4
+  },
+  {
+   "word": "regole",
+   "start": 72.4,
+   "end": 72.66
+  },
+  {
+   "word": "diverse.",
+   "start": 72.66,
+   "end": 72.98
+  },
+  {
+   "word": "Un",
+   "start": 73.96,
+   "end": 74.14
+  },
+  {
+   "word": "mestiere",
+   "start": 74.14,
+   "end": 74.44
+  },
+  {
+   "word": "che",
+   "start": 74.44,
+   "end": 74.66
+  },
+  {
+   "word": "nessuno",
+   "start": 74.66,
+   "end": 75.3
+  },
+  {
+   "word": "vede",
+   "start": 75.3,
+   "end": 75.66
+  },
+  {
+   "word": "e",
+   "start": 75.66,
+   "end": 75.9
+  },
+  {
+   "word": "che",
+   "start": 75.9,
+   "end": 76.0
+  },
+  {
+   "word": "tiene",
+   "start": 76.0,
+   "end": 76.22
+  },
+  {
+   "word": "in",
+   "start": 76.22,
+   "end": 76.38
+  },
+  {
+   "word": "piedi",
+   "start": 76.38,
+   "end": 76.62
+  },
+  {
+   "word": "ponti",
+   "start": 76.62,
+   "end": 77.2
+  },
+  {
+   "word": "e",
+   "start": 77.2,
+   "end": 77.42
+  },
+  {
+   "word": "navi.",
+   "start": 77.42,
+   "end": 77.92
+  },
+  {
+   "word": "Iscriviti",
+   "start": 78.52,
+   "end": 79.04
+  },
+  {
+   "word": "se",
+   "start": 79.04,
+   "end": 79.16
+  },
+  {
+   "word": "vuoi",
+   "start": 79.16,
+   "end": 79.34
+  },
+  {
+   "word": "sapere",
+   "start": 79.34,
+   "end": 79.54
+  },
+  {
+   "word": "cosa",
+   "start": 79.54,
+   "end": 79.7
+  },
+  {
+   "word": "serve",
+   "start": 79.7,
+   "end": 80.0
+  },
+  {
+   "word": "davvero.",
+   "start": 80.0,
+   "end": 80.36
+  }
+ ]
+}

@@ -22,7 +22,7 @@ export const Defs: React.FC = () => (
     <style>{`.c *{vector-effect:non-scaling-stroke}`}</style>
   </defs>
 );
-const GR: Record<string, [string, number, number]> = { day: ['#d4d0bf', 0.0, 0.3], night: ['#13192b', 0.35, 0.62], warm: ['#45221d', 0.18, 0.4], dusk: ['#48296a', 0.14, 0.4], sepia: ['#5a4a38', 0.2, 0.4] };
+const GR: Record<string, [string, number, number]> = { day: ['#d4d0bf', 0.0, 0.3], night: ['#13192b', 0.35, 0.62], warm: ['#45221d', 0.18, 0.4], dusk: ['#48296a', 0.14, 0.4], sepia: ['#5a4a38', 0.2, 0.4], sea: ['#0b4a7a', 0.38, 0.5] };
 export const Finish: React.FC<{ grade: string }> = ({ grade }) => {
   const [col, a, v] = GR[grade] || GR.day;
   return (

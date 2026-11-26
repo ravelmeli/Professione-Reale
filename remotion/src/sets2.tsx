@@ -133,6 +133,15 @@ export const Sala: React.FC<SetP> = ({ cam, t, cast }) => (
     <L cam={cam} d={1}>{cast}</L>
   </g>
 );
+export const Fondale: React.FC<SetP> = ({ cam, t, cast }) => (
+  <g>
+    <L cam={cam} d={0.3}><defs><linearGradient id="fd" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#3aa0d8" /><stop offset="1" stopColor="#0b2f55" /></linearGradient></defs><rect x={-400} y={-300} width={W + 800} height={H + 600} fill="url(#fd)" />{[0, 1, 2, 3].map((i) => <Poly key={i} p={[[500 + i * 280, -300], [560 + i * 280, -300], [820 + i * 280 + Math.sin(t + i) * 30, FLOOR + 100], [640 + i * 280 + Math.sin(t + i) * 30, FLOOR + 100]]} fill="rgba(255,255,255,0.07)" sw={0} />)}</L>
+    <L cam={cam} d={0.55}><S x={1120} y={120} w={320} h={500} r={8} fill="#2a3a52" /><Ln p={[[1120, 260], [1440, 260]]} sw={5} c="#1b2638" /><Ln p={[[1120, 400], [1440, 400]]} sw={5} c="#1b2638" />{[0, 1, 2, 3, 4, 5].map((i) => <circle key={i} cx={1150 + i * 52} cy={190 + (i % 2) * 140} r={7} fill="#5a6a82" />)}</L>
+    <L cam={cam} d={0.8}><rect x={-400} y={FLOOR - 20} width={W + 800} height={H} fill="#4a5a58" />{[0, 1, 2, 3, 4, 5, 6].map((i) => <ellipse key={i} cx={i * 330 - 50} cy={FLOOR + 50} rx={70} ry={20} fill="#3a4a48" />)}</L>
+    <L cam={cam} d={1}>{cast}</L>
+    <g>{Array.from({ length: 14 }).map((_, i) => { const k = ((t * 0.35 + i / 14) % 1); return <circle key={i} cx={(i * 197) % 1900 + Math.sin(t * 2 + i) * 14} cy={FLOOR + 100 - k * (FLOOR + 200)} r={4 + (i % 4) * 2} fill="none" stroke="#bfe6ff" strokeWidth={2.5} opacity={0.7} />; })}</g>
+  </g>
+);
 export const AnySet: React.FC<{ spec: any; cam: Cam; t: number; cast: React.ReactNode }> = ({ spec, cam, t, cast }) => {
   const n = typeof spec === 'string' ? spec : spec.n; const o = typeof spec === 'string' ? {} : spec;
   const p = { cam, t, cast, ...o };
@@ -156,6 +165,7 @@ export const AnySet: React.FC<{ spec: any; cam: Cam; t: number; cast: React.Reac
     case 'quadro': return <Quadro {...p} />;
     case 'tempesta': return <Tempesta {...p} />;
     case 'sala': return <Sala {...p} />;
+    case 'fondale': return <Fondale {...p} />;
     case 'tromba': return <Tromba {...p} />;
     case 'cockpit': return <Cockpit {...p} />;
     default: return <Piazzale {...p} />;
